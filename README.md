@@ -17,7 +17,7 @@ Goal: turn the current single-page site into a fast, mobile-first, multi-page st
 
 ## Folders
 
-- `docs/` planning notes: keyword research, rate card, design and contact notes, tracking plan
+- `docs/` planning notes: keyword research, sitemap, schema, rate card, design and contact notes, tracking plan
 - `brand/` logo files supplied by the owner
 - `CHANGELOG.md` every change to the website is recorded here
 

@@ -4,6 +4,7 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Added `docs/schema.md`: JSON-LD templates (Plumber, WebSite, WebPage, Service, OfferCatalog, FAQPage, BreadcrumbList) with keywords mapped for all 23 pages.
 - Sitemap doc: kept Damana and Saheed Nagar mentions, "all of Bhubaneswar" wording on every page, Google Maps listing embed plan, and the per-page SEO/AEO/GEO checklist.
 - Sitemap: KIIT and Infocity get their own area pages, so the new site keeps every area listed on the current site (8 area pages, 23 pages total).
 - Removed Madanpur everywhere: keyword matrix row, Ubersuggest tracking, research notes. Not mentioned on the homepage either.
