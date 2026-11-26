@@ -4,6 +4,7 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Water tank cleaning: no price shown anywhere (owner). Ubersuggest business summary updated to current rate card, services and areas (Madanpur and old prices removed).
 - Removed stale Justdial references from 5 written pages' Facts to confirm, tracking-plan outbound_click and design doc sameAs (Justdial skipped).
 - Ubersuggest rank tracking: 68 → 84 keywords (water tank cleaning, borewell, motor, leakage, price list, washing machine drain). Sheet: 19 keyword rows + 2 sitemap rows added.
 - Owner answers on research: added /services/water-tank-cleaning/ and /services/borewell-pump-and-pipe-repair/ (26 pages), washing machine fitting section on fittings page; solar heater, gas piping, borewell drilling, per-point rate and Rasulgarh/Baramunda excluded. Updated sitemap, page-specs, schema keywords, rate card, content brief.

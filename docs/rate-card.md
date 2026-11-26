@@ -18,7 +18,7 @@ Single source of truth for /pricing/ and every service page. Labour charges; par
 | Concealed pipeline repair / reroute | Quote after free site visit + written estimate |
 | Bathroom / kitchen renovation | Quote after inspection (free site visit + written estimate) |
 | New house / bathroom plumbing | Quote after inspection (free site visit + written estimate) |
-| Water tank / sump cleaning | Price on call or WhatsApp (depends on tank size, number of tanks, access) — owner to confirm a starting price |
+| Water tank / sump cleaning | No price on the website (owner decision 27 Nov 2026). Copy says "Call or WhatsApp us for a quote." |
 | Borewell pump & pipe repair | Quote after inspection; part price shared before fitting |
 | Sewerage & drainage works | Quote after inspection (free site visit + written estimate) |
 | Warranty | 90 days on workmanship for installation and repair jobs (not cleaning); parts follow brand warranty |
