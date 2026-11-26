@@ -18,7 +18,7 @@ Goal: know exactly which page, which button and which service brings every call 
 | `service_card_click` | A service card is clicked | service, cta_location | No |
 | `nav_click` | Header / footer / locality link clicked | link_text, cta_location | No |
 | `scroll_depth` | 25 / 50 / 75 / 90% scrolled (GA4 enhanced measurement) | percent | No |
-| `outbound_click` | Justdial / Google review / social links | link_domain | No |
+| `outbound_click` | Google review / Google Maps / social links | link_domain | No |
 
 ## 2. Attributes on every clickable element
 

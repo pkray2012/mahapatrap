@@ -30,7 +30,7 @@ plumber near me 720 · plumber in bhubaneswar 320 · clean septic tank 320 · dr
 Others: Lokanath Home Services 4.7★ (166), Saroj Sai 4.9★ (263), Pk plumbing 4.9★ (94), Nigam 5.0★ (211), GaneshDurga 4.9★ (92), Dp Solution 4.6★ (91), Barik Plumbing Engineering 5.0★ (49)
 
 ## Decisions
-- Business hours: Mon–Sun 8:00 AM – 10:00 PM. Website wording: "Open daily 8 AM – 10 PM. Late-night and early-morning visits on request, subject to availability (extra charge may apply)." Same hours on schema, GBP and Justdial.
+- Business hours: Mon–Sun 8:00 AM – 10:00 PM. Website wording: "Open daily 8 AM – 10 PM. Late-night and early-morning visits on request, subject to availability (extra charge may apply)." Same hours on schema and GBP.
 - Mahapatra does septic tank cleaning → septic/sewage is a priority page (~460 searches/month)
 - Service area: the site states "entire Bhubaneswar" for all work
 - SEO focus: big and new works (bathroom & kitchen renovation, new bathroom & house plumbing, sewerage & drainage, septic tank cleaning) target city-wide keywords; small repair works target nearby-locality keywords around Chandrasekharpur (e.g. "plumber in chandrasekharpur", "plumber in patia", "plumber near kiit")

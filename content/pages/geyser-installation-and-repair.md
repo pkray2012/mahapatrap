@@ -402,5 +402,4 @@ Tell us your geyser problem and your area. Call or WhatsApp +91 9668875352, or s
 - What exactly is included in the ₹499 geyser service: is draining, flushing and descaling included, and for which geyser types (storage vs instant)? Copy says "where the model allows".
 - Does the "from ₹699" installation price include wall drilling and mounting, and does it cover both storage and instant geysers? Are connection pipes and the pressure release valve always charged as extra parts?
 - Confirm the team installs geysers bought online or from shops (FAQ says yes).
-- Justdial listing URL for schema `sameAs` (left out of the JSON-LD until supplied). The project brief also mentions 4.9★ from 45+ Justdial reviews; this page uses only the fixed 5.0★ from 45 Google reviews.
 - Real job photos needed for the 3 image slots (geyser installation in a bathroom, inlet/outlet and PRV close-up, descaling during service).

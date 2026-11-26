@@ -387,5 +387,4 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
 - How is the leak test done (method/equipment)? Page now says only "leak test"; no pressure gauge claimed.
 - Geyser points: does the team also do the electrical point for the geyser, or only plumbing?
 - Optional typical starting price for bathroom re-plumbing, to add to the rate card and this page.
-- Justdial listing URL to add to Plumber `sameAs` (left out because schema.md has only a placeholder).
 - Real job photos for the 4 image slots (CPVC lines before tiling, GI pipe replaced, leak test, finished bathroom).

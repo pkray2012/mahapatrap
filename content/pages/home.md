@@ -277,7 +277,6 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
 ```
 
 ## Facts to confirm
-- Justdial listing URL, to add to `sameAs` in the Plumber schema (left out so the JSON stays valid). Also confirm the Justdial rating and review count: the project description says 4.9★ from 45+ Justdial reviews, while the brief's proof is 5.0★ from 45 Google reviews. This page uses only the Google figure.
 - Whether a typical starting price for bathroom re-plumbing or new house plumbing can be shown (rate card lists them as quote-only).
 - Real job photos needed for the 3 image slots (kitchen tap repair, bathroom renovation, flush tank repair).
 - Real review excerpts (with the reviewer's permission) for the "What our customers say" section.

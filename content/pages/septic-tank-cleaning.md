@@ -376,5 +376,4 @@ Clear the area above the tank lid. Move pots, vehicles or stored items. If tiles
 - That the work is done from outside the tank, with no one going in. The FAQ advises customers to book a service that works this way; confirm it matches how the owner works.
 - Typical time for one septic tank cleaning job, by tank size (useful for AI answers).
 - Whether soak pit cleaning is offered as a separate job, and its price. "Soak pit cleaning" was removed from the Service alternateName until confirmed.
-- Justdial listing URL for the Plumber `sameAs` field (left out rather than using a placeholder). Note: the project description mentions 4.9★ from 45+ Justdial reviews; this page uses only the brief's Google figure (5.0★ from 45 reviews).
 - Note for the owner: the project description says visit charge ₹149–₹299, while the approved rate card and content brief say ₹199–₹349. This page does not state a visit charge; /pricing/ uses ₹199–₹349.

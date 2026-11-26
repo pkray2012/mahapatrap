@@ -476,4 +476,3 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
 - What decides the visit charge within ₹199–₹349 (distance, job type, time)? The copy only says "ask for the exact visit charge when you call".
 - Does the 90-day workmanship warranty apply to cleaning jobs (drain unclogging, toilet blockage, septic tank cleaning)? The page limits it to repair and installation jobs until confirmed.
 - What the AMC check-up (from ₹999 per quarter) covers: number of visits, what is checked, and whether labour or parts discounts are included.
-- Justdial listing URL for the schema `sameAs` field (left out of the JSON-LD until supplied).

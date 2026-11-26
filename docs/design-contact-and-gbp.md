@@ -48,7 +48,7 @@
   }],
   "areaServed": { "@type": "City", "name": "Bhubaneswar" },
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "45" },
-  "sameAs": ["https://www.google.com/maps?cid=4373818382391816251", "[Justdial listing URL]"]
+  "sameAs": ["https://www.google.com/maps?cid=4373818382391816251"]
 }
 ```
 
