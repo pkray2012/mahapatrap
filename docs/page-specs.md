@@ -1,4 +1,4 @@
-# Page specs for the remaining 19 pages (Phase 2)
+# Page specs for the remaining 21 pages (Phase 2)
 
 Each writer reads `content-brief.md` first, then its own entry here. Already written (use as style reference, do not duplicate their questions): `content/pages/home.md`, `pricing.md`, `septic-tank-cleaning.md`, `bathroom-plumbing-renovation.md`, `geyser-installation-and-repair.md`.
 
@@ -58,12 +58,12 @@ Title rule: ≤60 characters, ends "| Mahapatra Plumbing" (or "| Mahapatra Plumb
 
 ### bathroom-and-kitchen-fittings
 - url /services/bathroom-and-kitchen-fittings/ · page_tag Fittings
-- primary: bathroom fitting plumber near me (once naturally; H1 "Bathroom & Kitchen Fittings Installation in Bhubaneswar") · secondary: bathroom fitters, tap installation, kitchen sink repair near me
-- Scope: single-item installs: taps, mixers, showers, jet spray, wash basin, western/Indian WC, flush tank, sink, RO inlet/outlet, washing machine inlet, angle valves. Price: ₹299–₹799 + parts for tap/jet spray/flush kit; others quote at visit. We supply parts or fit yours. Questions: "How much does tap installation cost in Bhubaneswar?", "Can you fit bathroom fittings I bought online?", "Do you install wash basins and western toilets?". Links: renovation (whole bathroom), leak repair, geyser, pricing, areas/infocity.
+- primary: bathroom fitting plumber near me (once naturally; H1 "Bathroom & Kitchen Fittings Installation in Bhubaneswar") · secondary: bathroom fitters, tap installation, kitchen sink repair near me, toilet installation, sink installation, washing machine inlet and drain fitting
+- Scope: single-item installs: taps, mixers, showers, jet spray, wash basin, western/Indian WC, flush tank, sink, RO inlet/outlet, washing machine inlet and drain (outlet) fitting, angle valves. Give washing machine fitting its own short H3 section (research: 'washer drain plumbing' 90/mo): water inlet point + tap, drain pipe to floor trap or sink waste, fixing water spilling from the drain hose. No gas pipe work. Price: ₹299–₹799 + parts for tap/jet spray/flush kit; others quote at visit. We supply parts or fit yours. Questions: "How much does tap installation cost in Bhubaneswar?", "Can you fit bathroom fittings I bought online?", "Do you install wash basins and western toilets?". Links: renovation (whole bathroom), leak repair, geyser, pricing, areas/infocity.
 
 ### water-tank-and-motor-repair
 - url /services/water-tank-and-motor-repair/ · page_tag Motor
-- primary: water motor repair near me (once naturally; H1 "Water Motor, Pump & Tank Repair in Bhubaneswar") · secondary: water pump repair near me, water tank repair near me, sump pump repair
+- primary: water motor repair near me (once naturally; H1 "Water Motor, Pump & Tank Repair in Bhubaneswar") · secondary: motor repair near me, water pump repair near me, submersible pump repair near me, water tank repair near me, sump pump repair. Borewell work has its own page: link to it, do not cover borewell here. Tank cleaning has its own page: link to it.
 - Scope: plumbing side of pumps and tanks: motor/pump line leaks, foot valve, non-return valve, float valve/ball valve, overflow, tank inlet/outlet, sump to overhead tank line, pressure line. Motor rewinding/electrical repair: NOT confirmed — say we check and tell you if it needs a motor mechanic or electrician; add to Facts to confirm. Price: water motor / pump repair from ₹399. Questions: "How much does water motor repair cost in Bhubaneswar?", "Why is my motor running but not filling the tank?", "Why does my overhead tank overflow?". Links: pipeline, new-house plumbing, leak repair, pricing, areas/niladri-vihar.
 
 ### pipeline-and-concealed-plumbing
@@ -71,6 +71,22 @@ Title rule: ≤60 characters, ends "| Mahapatra Plumbing" (or "| Mahapatra Plumb
 - primary: concealed pipe leakage repair · secondary: internal pipe leak repair, cpvc pipe fitting, pipeline repair bhubaneswar
 - H1: Concealed Pipeline Repair & CPVC Plumbing in Bhubaneswar
 - Scope: leaks inside walls/floors, damp patches, rerouting, replacing old GI with CPVC/UPVC/PPR, new lines. Free site visit + written estimate. No leak-detection equipment claims. Questions: "How much does concealed pipe leakage repair cost in Bhubaneswar?", "How do I know a pipe is leaking inside the wall?", "Should I replace GI pipes with CPVC?" (renovation page already asks a similar question — phrase this one about leaking/old lines in an existing house, not renovation). Links: renovation, leak repair, new-house plumbing, pricing, areas/sailashree-vihar.
+
+### water-tank-cleaning (NEW page, added 27 Nov 2026 after keyword research)
+- url /services/water-tank-cleaning/ · page_tag TankClean · page_type service · Big work + repair: all of Bhubaneswar, homes, apartments and businesses
+- primary: water tank cleaning bhubaneswar · secondary: water tank cleaning services near me (once), water tank cleaning services, sump cleaning, overhead tank cleaning, underground sump cleaning, apartment water tank cleaning
+- H1: Water Tank & Sump Cleaning in Bhubaneswar
+- Research: 'water tank cleaning' 140/mo, 'water tank cleaning services near me' 90/mo, Google autocomplete 'water tank cleaning services in bhubaneswar price list' and '...near patia bhubaneswar'. Low competition (SD 9–32).
+- Scope: overhead tanks (plastic/Sintex-type and concrete), underground sumps, apartment tanks. Price: NOT on the rate card. Say the price depends on tank size, number of tanks and access, and is shared on call or WhatsApp before we come. Do not invent a price. Do not describe the cleaning method, chemicals, machines or disposal; do not say who does the work. No warranty (cleaning job). Add to Facts to confirm: price per tank, whether the owner wants the method described.
+- Questions: "How much does water tank cleaning cost in Bhubaneswar?", "How often should a water tank be cleaned?", "Can you clean the underground sump and overhead tank in one visit?" (answer without promising a time; say both can be booked together). Links: water-tank-and-motor-repair, septic-tank-cleaning, commercial-plumbing, pricing, areas/patia.
+
+### borewell-pump-and-pipe-repair (NEW page, added 27 Nov 2026 after keyword research)
+- url /services/borewell-pump-and-pipe-repair/ · page_tag Borewell · page_type service · all of Bhubaneswar
+- primary: borewell service near me (once naturally) · secondary: borewell repair bhubaneswar, borewell submersible pump, borewell motor repair, submersible pump repair near me, borewell pipe fitting
+- H1: Borewell Pump & Pipe Repair in Bhubaneswar
+- Research: 'borewell service near me' 260/mo (SD 9), 'borewell submersible pump' 40/mo, 'submersible pump repair near me' 30/mo.
+- Scope: plumbing side of existing borewells only: lifting and lowering the submersible pump, column/riser pipe replacement, pipe joint and connection leaks, non-return valve, borewell line to sump or overhead tank, low water flow checks. We do NOT drill new borewells. Say clearly: "We do not drill new borewells." Motor rewinding/electrical faults: say we check and tell you if a motor mechanic or electrician is needed (same rule as motor page). Price: NOT on the rate card. Say quote after inspection, part prices shared before fitting. Warranty 90 days on repair/installation workmanship.
+- Questions: "How much does borewell pump repair cost in Bhubaneswar?", "Why is my borewell giving less water?", "Do you drill new borewells?" (answer: no, we work on existing borewells). Links: water-tank-and-motor-repair, pipeline-and-concealed-plumbing, new-bathroom-and-house-plumbing, pricing, areas/nayapalli.
 
 ## Area pages (small repairs nearby; mention big works anywhere in Bhubaneswar)
 

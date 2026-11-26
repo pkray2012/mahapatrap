@@ -16,6 +16,8 @@ Read before writing any page. For the remaining pages, also read `page-specs.md`
 
 ## Owner answers (27 Nov 2026) — now fixed facts
 - Septic tank cleaning is done with partners. Do NOT mention method, equipment, partners or disposal. Just say we arrange septic tank cleaning anywhere in Bhubaneswar.
+- Also offered (added 27 Nov 2026): water tank / sump cleaning (no method, chemicals or partner mention; price on call), borewell pump and pipe repair on existing borewells (we do NOT drill), washing machine inlet and drain fitting.
+- NOT offered, never mention as a service: solar water heater installation, gas pipeline work, borewell drilling. No per-point plumbing rate anywhere. No area pages or area mentions for Rasulgarh or Baramunda.
 - Geyser: we do NOT repair or replace heating elements, thermostats or wiring. We fix plumbing-side faults (inlet/outlet leaks, valves, scaling, tank-joint leaks, installation) and tell the customer if an electrician or the brand's service centre is needed.
 - Warranty: 90-day workmanship warranty on installation and repair jobs only. Not on cleaning jobs (drain, toilet blockage, septic, sewer jetting).
 - Concealed pipeline repair / reroute: free site visit and written estimate.

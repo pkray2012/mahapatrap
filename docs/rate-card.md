@@ -18,6 +18,8 @@ Single source of truth for /pricing/ and every service page. Labour charges; par
 | Concealed pipeline repair / reroute | Quote after free site visit + written estimate |
 | Bathroom / kitchen renovation | Quote after inspection (free site visit + written estimate) |
 | New house / bathroom plumbing | Quote after inspection (free site visit + written estimate) |
+| Water tank / sump cleaning | Price on call or WhatsApp (depends on tank size, number of tanks, access) — owner to confirm a starting price |
+| Borewell pump & pipe repair | Quote after inspection; part price shared before fitting |
 | Sewerage & drainage works | Quote after inspection (free site visit + written estimate) |
 | Warranty | 90 days on workmanship for installation and repair jobs (not cleaning); parts follow brand warranty |
 
@@ -29,3 +31,5 @@ Notes
 - Job times depend on the work; not stated on the website.
 - Competitor reference (27 Nov 2026): HomeTriangle septic tank cleaning Bhubaneswar from ₹3,499; Urban Company toilet pot blockage ₹1,299, drainage pipe blockage ₹409.
 - Optional later: add typical starting price for bathroom re-plumbing / new house plumbing if the owner provides one.
+- Never shown on the website: plumbing rate per point (owner decision 27 Nov 2026).
+- Not offered: solar water heater installation, gas pipeline work, borewell drilling.

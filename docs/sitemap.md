@@ -20,6 +20,8 @@ Full keyword matrix (76 keywords, one primary keyword per page): https://claude.
 | /services/bathroom-and-kitchen-fittings/ | Bathroom & Kitchen Fittings | Repair | bathroom fitting plumber near me | Medium |
 | /services/water-tank-and-motor-repair/ | Water Tank & Motor Repair | Repair | water motor repair near me | Medium |
 | /services/pipeline-and-concealed-plumbing/ | Pipeline & Concealed Plumbing | Repair | concealed pipe leakage repair | Medium |
+| /services/water-tank-cleaning/ | Water Tank & Sump Cleaning | Big work (all Bhubaneswar) | water tank cleaning bhubaneswar | High |
+| /services/borewell-pump-and-pipe-repair/ | Borewell Pump & Pipe Repair | All Bhubaneswar | borewell service near me | High |
 | /areas/chandrasekharpur/ | Chandrasekharpur (+ Damana) | Locality | plumber in chandrasekharpur | High |
 | /areas/patia/ | Patia | Locality | plumber in patia | High |
 | /areas/niladri-vihar/ | Niladri Vihar | Locality | plumber in niladri vihar | Medium |
@@ -36,7 +38,7 @@ Rules
 - Fittings = single-item installs; renovation = whole bathroom/kitchen re-plumb; new bathroom & house = fresh construction.
 - Locality pages target "plumber in {area}" for small repair works near Chandrasekharpur and link to service pages. Big-work pages say "all of Bhubaneswar".
 - Areas = exactly the areas listed on the current website (Chandrasekharpur, Patia, Niladri Vihar, Sailashree Vihar, KIIT, Infocity, Jayadev Vihar, Nayapalli) + "Entire Bhubaneswar" for big works. Madanpur is not used.
-- Commercial Plumbing added 27 Nov 2026 (India: 'commercial plumbing' 140/mo, 'commercial plumbing services' 50/mo; Bhubaneswar volume not measurable). New-house page also targets 'house plumbing work' (India 590/mo) and 'plumbing contractor' (India 590/mo). 24 pages total.
+- Commercial Plumbing added 27 Nov 2026 (India: 'commercial plumbing' 140/mo, 'commercial plumbing services' 50/mo; Bhubaneswar volume not measurable). New-house page also targets 'house plumbing work' (India 590/mo) and 'plumbing contractor' (India 590/mo). 26 pages total after 27 Nov keyword research (water tank cleaning + borewell added).
 - Septic tank cleaning was added as a 10th service page after research (~490 searches/month, low difficulty).
 
 ## Service area wording (confirmed 27 Nov 2026)
@@ -64,3 +66,4 @@ GEO (generative engines: ChatGPT, Gemini, Perplexity)
 - Concrete proof: prices, warranty, materials (CPVC/UPVC/PPR), areas, typical job times; no vague claims
 - Plumber + Service + FAQPage + BreadcrumbList JSON-LD; crawlable HTML tables (no images of text)
 - Before deploy: keyword volume check + independent sub-agent audit of SEO, AEO and GEO for every page
+- 27 Nov 2026 keyword research (`docs/research/2026-11-27-keyword-universe.md`), owner answers: water tank/sump cleaning YES (own page), borewell pump and pipe work YES (own page, no drilling), washing machine inlet/drain fitting YES (section on fittings page), solar water heater NO, gas pipeline NO, Rasulgarh/Baramunda area pages NO, plumbing rate per point NO price shown.

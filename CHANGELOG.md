@@ -4,6 +4,8 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Ubersuggest rank tracking: 68 → 84 keywords (water tank cleaning, borewell, motor, leakage, price list, washing machine drain). Sheet: 19 keyword rows + 2 sitemap rows added.
+- Owner answers on research: added /services/water-tank-cleaning/ and /services/borewell-pump-and-pipe-repair/ (26 pages), washing machine fitting section on fittings page; solar heater, gas piping, borewell drilling, per-point rate and Rasulgarh/Baramunda excluded. Updated sitemap, page-specs, schema keywords, rate card, content brief.
 - Keyword universe research: 1,635 service-intent Bhubaneswar keywords grouped by page (`docs/research/`, Sheet tab "All Keywords (research)").
 - Keywords: added new-house plumbing and commercial plumbing keywords (Sheet, Ubersuggest tracking now 68). New page /services/commercial-plumbing/ (24 pages total).
 - Owner: skip Justdial entirely; never show a price for bathroom re-plumbing / new house plumbing. Added `docs/page-specs.md` for the remaining 18 pages.
