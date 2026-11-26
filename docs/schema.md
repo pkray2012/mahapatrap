@@ -69,8 +69,7 @@ Rules: keywords must also appear in visible page text (natural variants such as 
   ],
   "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
   "sameAs": [
-    "https://www.google.com/maps?cid=4373818382391816251",
-    "[Justdial listing URL]"
+    "https://www.google.com/maps?cid=4373818382391816251"
   ]
 }
 ```

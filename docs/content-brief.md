@@ -1,6 +1,6 @@
 # Content brief for every page (Phase 2) — mahapatraplumbing.in
 
-Read before writing any page. Also read the latest audit in `docs/audits/` and follow its decisions. Source docs in this folder: `rate-card.md`, `schema.md`, `sitemap.md`, `design-contact-and-gbp.md`, `tracking-plan.md`, `keyword-and-competitor-research.md`.
+Read before writing any page. For the remaining pages, also read `page-specs.md`. Also read the latest audit in `docs/audits/` and follow its decisions. Source docs in this folder: `rate-card.md`, `schema.md`, `sitemap.md`, `design-contact-and-gbp.md`, `tracking-plan.md`, `keyword-and-competitor-research.md`.
 
 ## Fixed facts (use exactly; never contradict)
 - Name: Mahapatra Plumbing Services
@@ -21,7 +21,8 @@ Read before writing any page. Also read the latest audit in `docs/audits/` and f
 - Concealed pipeline repair / reroute: free site visit and written estimate.
 - Job times: depend on the work. Never state durations; say "depends on the job; we tell you the expected time with the estimate".
 - Parts and fittings: we supply fittings and parts; customers may also bring their own; the part price is shared before fitting (this is now allowed: "Part price shared before fitting").
-- Bathroom re-plumbing: a typical starting price exists (amount awaited from owner; do not invent).
+- Bathroom re-plumbing and new house plumbing: never show a price; always "quote after free site visit and written estimate".
+- Justdial: skip. Do not mention Justdial or link to it anywhere.
 
 ## Do NOT invent
 Years in business, owner or staff names, team size, number of jobs done, certifications, brands stocked, equipment (e.g. suction tankers, CCTV cameras), response times in minutes, guarantees beyond the 90-day warranty, or specific customer stories. If a sentence needs such a fact, leave it out and add it to the "Facts to confirm" list at the end of the file. Never put placeholder text in the visible copy.
