@@ -16,7 +16,7 @@ All schema is JSON-LD in `<script type="application/ld+json">`, generated from o
 | `areaServed` | Bhubaneswar (City) + the 8 areas (Place) | Local relevance |
 | `FAQPage` questions | Real customer questions that include the keyword naturally | AEO / AI Overviews |
 
-Rules: keywords must also appear in visible page text; no stuffing (max ~8 per field); no fake reviews; `aggregateRating` only where the page shows the same rating; prices must match the rate card.
+Rules: keywords must also appear in visible page text (natural variants such as "in Bhubaneswar" are fine); no stuffing (max ~8 per field); no `aggregateRating` (the 5.0★ comes from Google Maps, a third-party site — show it as visible text only); prices must match the rate card.
 
 ## 1. Sitewide entity (on every page)
 
@@ -68,7 +68,6 @@ Rules: keywords must also appear in visible page text; no stuffing (max ~8 per f
     "New house and bathroom plumbing", "Sewerage and drainage works"
   ],
   "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "45", "bestRating": "5" },
   "sameAs": [
     "https://www.google.com/maps?cid=4373818382391816251",
     "[Justdial listing URL]"
@@ -215,14 +214,15 @@ FAQ text must be identical to the visible FAQ on the page.
 
 ## 6. BreadcrumbList
 
+Two levels (Home > Page) until a /services/ hub page exists. Home page has no BreadcrumbList.
+
 ```json
 {
   "@type": "BreadcrumbList",
   "@id": "https://mahapatraplumbing.in/services/septic-tank-cleaning/#breadcrumb",
   "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mahapatraplumbing.in/" },
-    { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://mahapatraplumbing.in/#services" },
-    { "@type": "ListItem", "position": 3, "name": "Septic Tank Cleaning", "item": "https://mahapatraplumbing.in/services/septic-tank-cleaning/" }
+    { "@type": "ListItem", "position": 2, "name": "Septic Tank Cleaning", "item": "https://mahapatraplumbing.in/services/septic-tank-cleaning/" }
   ]
 }
 ```

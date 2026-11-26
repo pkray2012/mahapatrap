@@ -28,13 +28,13 @@ Every CTA is a real `<a>` tag (no JavaScript-only buttons), so GTM "Just Links" 
 <a href="tel:+919668875352"
    data-track="call_click"
    data-cta-location="hero"
-   data-service="geyser-installation"
+   data-service="geyser-installation-and-repair"
    data-page-type="service">Call Now</a>
 
 <a href="https://wa.me/919668875352?text=Hi%2C%20I%20need%20a%20quote%20for%20Geyser%20Installation%20in%20Bhubaneswar%20%5BPage%3A%20Geyser%5D"
    data-track="whatsapp_click"
    data-cta-location="sticky_mobile_bar"
-   data-service="geyser-installation"
+   data-service="geyser-installation-and-repair"
    data-page-type="service">WhatsApp</a>
 ```
 
@@ -122,7 +122,7 @@ Advanced Matching helps Meta match a website lead to a Facebook/Instagram user, 
 - Values are lower-cased, trimmed and SHA-256 hashed in the browser before sending (Meta Pixel does this automatically for manual Advanced Matching; the code passes plain values only to `fbq('init', PIXEL_ID, {...})` / `fbq('track','Lead', {}, {...})` and never to dataLayer, GA4 or Clarity).
 - Automatic Advanced Matching in Events Manager: keep OFF; only the explicit form fields above are sent.
 - Call and WhatsApp button taps send no personal data (there is none to send).
-- Consent and notice (India DPDP Act 2023): each form shows a short line under the submit button: "By sending, you agree we may use your number to reply on WhatsApp and to show you relevant ads. See our Privacy Policy." A `/privacy-policy/` page explains what is collected, why, which services receive it (WhatsApp, Meta, Google), and how to ask for deletion (email).
+- Consent and notice (India DPDP Act 2023): each form shows a short line under the submit button: "By sending, you agree we may use your number to reply on WhatsApp. See our Privacy Policy." (ad use depends only on the separate optional checkbox) A `/privacy-policy/` page explains what is collected, why, which services receive it (WhatsApp, Meta, Google), and how to ask for deletion (email).
 - An optional "Use my details to improve ads" box is UNTICKED by default (DPDP Act 2023 needs a clear, active choice; pre-ticked boxes do not count). Advanced Matching runs only when the visitor ticks it. Standard Lead/Contact events still fire without personal data.
 - Not legal advice: have the privacy policy wording reviewed before ads start.
 
