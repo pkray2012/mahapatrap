@@ -67,4 +67,17 @@ Every page: Plumber + BreadcrumbList. Service pages: + Service (with Offer from 
 - Font: system sans-serif (no web font)
 - Layout: dark top bar (phone, hours, WhatsApp pill) → sticky white header (nav + "Get a Quote") → hero (headline with accent locality word, Call Now + Book a Visit, trust row, Quick Quote card) → Services cards → Why Choose + Pricing → pricing tiers → Areas + map + Hours → Reviews → FAQ cards → Book a Visit form + map → footer
 - Rebuild: same layout, Tailwind compiled at build time (no CDN), inline SVG icons, one rate-card table, sticky mobile bar, remove "Search term" line
-- Open decision: switch colours from emerald green to the logo's navy / blue / orange (recommended)
+- Decision (27 Nov 2026): switch colours to the new logo palette. Layout stays the same.
+
+## Colour palette (approved 27 Nov 2026)
+| Role | Colour | Use |
+|---|---|---|
+| Navy (brand primary) | #0A2A5C | Top bar, headings, footer, dark sections, logo |
+| Blue (action) | #0A7CC4 (hover #0866A3) | Call Now, Get a Quote, links, active states |
+| Orange (accent) | #F7901E | Small highlights only: locality word in hero headline, "Most booked" label, icons |
+| Light tint | #EAF2FA | Section backgrounds, table header rows |
+| Page background | #F8FAFC | Body background |
+| Body text | #1E293B | Paragraphs |
+| WhatsApp green | #25D366 (hover #1EBE5A) | WhatsApp buttons only, so they are instantly recognisable |
+
+Contrast: white text on #0A7CC4 and #0A2A5C passes WCAG AA; orange is never used for body text or as a button background with white text.
