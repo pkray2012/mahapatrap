@@ -4,6 +4,7 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Tracking plan: Meta Advanced Matching approved for form leads (hashed phone, first name, city/state/country), with form notice, optional opt-out box and a new /privacy-policy/ page.
 - Tracking plan: added ad pixels for future ads (Meta Pixel, Google Ads, Microsoft Ads UET), all optional via environment variables or GTM, no personal data sent.
 - Decided: website colours switch from emerald green to the new logo palette (navy #0A2A5C, blue #0A7CC4, orange #F7901E accent, WhatsApp buttons stay green). Layout unchanged.
 - Added `docs/tracking-plan.md`: click tracking for calls, WhatsApp, forms and other actions (events, data attributes, WhatsApp source tags, dataLayer helper, GTM/GA4/Clarity setup, privacy rules).

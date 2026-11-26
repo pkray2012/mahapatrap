@@ -101,7 +101,7 @@ The same click events feed ad platforms, so ads can optimise for real calls and 
 | Platform | Env variable (or GTM tag) | Events sent | Notes |
 |---|---|---|---|
 | Google Ads | `NEXT_PUBLIC_GADS_ID` + conversion labels | `generate_lead` as the conversion; optional separate labels for call / WhatsApp / form | Also enables call tracking for Google Ads call extensions later |
-| Meta Pixel (Facebook / Instagram ads) | `NEXT_PUBLIC_META_PIXEL_ID` | `PageView` (all pages), `ViewContent` (service and locality pages, with content_name = service), `Contact` (call_click, whatsapp_click), `Lead` (whatsapp_form_submit) | Advanced Matching OFF (no phone/email sent). Conversions API can be added later through a Netlify function if needed |
+| Meta Pixel (Facebook / Instagram ads) | `NEXT_PUBLIC_META_PIXEL_ID` | `PageView` (all pages), `ViewContent` (service and locality pages, with content_name = service), `Contact` (call_click, whatsapp_click), `Lead` (whatsapp_form_submit) | Advanced Matching ON for form leads (see 5c). Conversions API can be added later through a Netlify function |
 | Microsoft Ads (Bing) UET | `NEXT_PUBLIC_MS_UET_ID` | `generate_lead` as a goal | Optional, cheap clicks in India |
 | Microsoft Clarity | `NEXT_PUBLIC_CLARITY_ID` | Heatmaps and recordings | Form fields masked |
 | Others later (e.g. LinkedIn Insight, Google Ads remarketing audiences) | Added as GTM tags | Reuse the same dataLayer events | No code change needed |
@@ -110,8 +110,21 @@ Rules:
 - Preferred: load every pixel through GTM, triggered by the dataLayer events in section 1, so new platforms need no code change.
 - Fallback without GTM: `AnalyticsScripts` renders each pixel only when its variable is set.
 - Pixels load after the page is interactive so mobile speed stays 95+.
-- Never send names, phone numbers, emails, addresses or form text to any ad platform.
+- Never send names, phone numbers, emails, addresses or form text to GA4, GTM data layer, Google Ads, Microsoft Ads or Clarity. The only exception is Meta Advanced Matching (5c), which sends hashed values directly to Meta.
 - When ads start in a market with consent rules (e.g. EU), add a consent banner and Google Consent Mode before loading pixels.
+
+## 5c. Meta Advanced Matching (approved 27 Nov 2026)
+
+Advanced Matching helps Meta match a website lead to a Facebook/Instagram user, so ads optimise better and audiences are larger.
+
+- Used only on the two WhatsApp forms (Quick Quote, Book a Visit), at the moment the visitor submits.
+- Fields sent: phone (`ph`, normalised to 91XXXXXXXXXX), first name (`fn`), city `bhubaneswar` (`ct`), state `od` (`st`), country `in` (`country`). No address line, no problem text, no email (the forms do not collect it).
+- Values are lower-cased, trimmed and SHA-256 hashed in the browser before sending (Meta Pixel does this automatically for manual Advanced Matching; the code passes plain values only to `fbq('init', PIXEL_ID, {...})` / `fbq('track','Lead', {}, {...})` and never to dataLayer, GA4 or Clarity).
+- Automatic Advanced Matching in Events Manager: keep OFF; only the explicit form fields above are sent.
+- Call and WhatsApp button taps send no personal data (there is none to send).
+- Consent and notice (India DPDP Act 2023): each form shows a short line under the submit button: "By sending, you agree we may use your number to reply on WhatsApp and to show you relevant ads. See our Privacy Policy." A `/privacy-policy/` page explains what is collected, why, which services receive it (WhatsApp, Meta, Google), and how to ask for deletion (email).
+- If the visitor unticks an optional "Use my details to improve ads" box (default ticked in India only), Advanced Matching is skipped for that submission.
+- Not legal advice: have the privacy policy wording reviewed before ads start.
 
 ## 6. GTM container setup (done later, ~5 minutes)
 
@@ -131,6 +144,7 @@ Rules:
 
 ## 8. Privacy rules
 
-- Never send names, phone numbers, addresses, emails or form text to GA4, GTM, Google Ads or Clarity.
+- Never send names, phone numbers, addresses, emails or form text to GA4, GTM, Google Ads, Microsoft Ads or Clarity.
+- Meta Advanced Matching is the only exception: hashed phone, first name and city/state/country from form submissions, with the notice and privacy policy described in 5c.
 - Clarity: mask all form fields (default masking on).
 - No cookie wall needed for India today; revisit if the site targets the EU.
