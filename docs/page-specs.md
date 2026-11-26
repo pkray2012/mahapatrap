@@ -1,4 +1,4 @@
-# Page specs for the remaining 18 pages (Phase 2)
+# Page specs for the remaining 19 pages (Phase 2)
 
 Each writer reads `content-brief.md` first, then its own entry here. Already written (use as style reference, do not duplicate their questions): `content/pages/home.md`, `pricing.md`, `septic-tank-cleaning.md`, `bathroom-plumbing-renovation.md`, `geyser-installation-and-repair.md`.
 
@@ -27,7 +27,7 @@ Title rule: ≤60 characters, ends "| Mahapatra Plumbing" (or "| Mahapatra Plumb
 
 ### new-bathroom-and-house-plumbing
 - url /services/new-bathroom-and-house-plumbing/ · page_tag NewHouse
-- primary: new house plumbing work · secondary: plumbing contractors in bhubaneswar, plumbing work in construction, new bathroom plumbing
+- primary: new house plumbing work · secondary: house plumbing work, plumbing contractor (in Bhubaneswar), plumbing contractors in bhubaneswar, plumbing contractor near me (once), plumbing work in house construction, new building plumbing work, bathroom house plumbing work, new bathroom plumbing, residential plumbing contractor; AEO: house plumbing work cost (answer what decides the cost, no number)
 - H1: New House & Bathroom Plumbing Work in Bhubaneswar
 - Scope: full plumbing for new houses, new floors, new bathrooms and kitchens: water supply lines (CPVC/UPVC/PPR), drainage lines, overhead tank and sump connections, motor line, fitting points, leak test before tiling/plaster; for homeowners and builders. Quote after free site visit; no price. Do not claim civil work or drawings. Questions: "How much does plumbing cost for a new house in Bhubaneswar?" (no number; what decides it), "When should the plumber start in a new construction?", "Which pipes are better for a new house: CPVC, UPVC or PPR?". Links: renovation, pipeline-and-concealed-plumbing, water-tank-and-motor-repair, sewerage-and-drainage-works, contact.
 
@@ -36,6 +36,12 @@ Title rule: ≤60 characters, ends "| Mahapatra Plumbing" (or "| Mahapatra Plumb
 - primary: sewerage work contractor bhubaneswar · secondary: sewerage work, sewer line repair near me, drainage cleaner company in odisha (use "drainage work in Bhubaneswar" variant; do not claim Odisha-wide service)
 - H1: Sewerage & Drainage Works in Bhubaneswar
 - Scope: project work — new sewer/drain lines from house to main line or septic tank, inspection chambers/manholes connections, re-laying broken or sagging lines, slope correction, line diversion. Different from drain cleaning visits (link) and septic tank cleaning (link). Quote after free site visit. No municipal-approval claims (add to Facts to confirm). Questions: "How much does sewer line work cost in Bhubaneswar?", "How do I know my sewer line is broken?", "Do I need permission to connect to the main sewer line?" (answer generally: check with the local authority; add to Facts).
+
+### commercial-plumbing (NEW page, added 27 Nov 2026)
+- url /services/commercial-plumbing/ · page_tag Commercial · file content/pages/commercial-plumbing.md
+- primary: commercial plumbing bhubaneswar · secondary: commercial plumbing services, commercial plumbing near me (once), commercial plumbing work, plumbing maintenance contract, hotel plumbing services, office plumbing services, hostel and PG plumbing, apartment plumbing maintenance; AEO: how much does commercial plumbing cost (no number; what decides it)
+- H1: Commercial Plumbing in Bhubaneswar: Hotels, Offices, Hostels & Shops
+- Scope: plumbing for businesses anywhere in Bhubaneswar — hotels and guest houses, offices (Infocity), hostels and PGs (KIIT/Patia), shops, restaurants and cafes, apartment societies, small commercial buildings. Work: urgent repairs (leaks, blocked toilets and drains, flush and tap faults across many washrooms), overhead tank/sump and motor lines, geyser fitting in rooms, pantry and kitchen lines, new lines and washroom fit-outs, regular maintenance visits. AMC: homes from ₹999 per quarter (rate card); commercial AMC quoted after a free site visit based on number of washrooms/floors. GST invoice on request. Work timed around business hours where possible; late-night visits on request (+₹300) — link to /pricing/ rather than restating. Do not claim client names, numbers of buildings, response times or dedicated teams. Questions: "How much does commercial plumbing cost in Bhubaneswar?", "Do you offer plumbing maintenance contracts (AMC) for hotels and offices?", "Can you work around our business hours?". Links: drain-cleaning, new-bathroom-and-house-plumbing, water-tank-and-motor-repair, areas/infocity, areas/kiit, pricing, contact.
 
 ## Service pages — repairs (nearby areas around Chandrasekharpur + all of Bhubaneswar)
 

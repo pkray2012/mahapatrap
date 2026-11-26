@@ -13,6 +13,7 @@ Full keyword matrix (76 keywords, one primary keyword per page): https://claude.
 | /services/bathroom-plumbing-renovation/ | Bathroom & Kitchen Plumbing Renovation | Big work | bathroom renovation bhubaneswar | High |
 | /services/new-bathroom-and-house-plumbing/ | New Bathroom & House Plumbing | Big work | new house plumbing work | High |
 | /services/sewerage-and-drainage-works/ | Sewerage & Drainage Works | Big work | sewerage work contractor bhubaneswar | Medium |
+| /services/commercial-plumbing/ | Commercial Plumbing (hotels, offices, hostels, shops) | Big work | commercial plumbing bhubaneswar | High |
 | /services/geyser-installation-and-repair/ | Geyser Installation & Repair | Repair | geyser repair near me | High |
 | /services/drain-cleaning-and-sewer-jetting/ | Drain Cleaning & Sewer Jetting | Repair | drain cleaning bhubaneswar | High |
 | /services/leak-and-blockage-repair/ | Leak & Blockage Repair | Repair | pipe leakage repair near me | High |
@@ -35,6 +36,7 @@ Rules
 - Fittings = single-item installs; renovation = whole bathroom/kitchen re-plumb; new bathroom & house = fresh construction.
 - Locality pages target "plumber in {area}" for small repair works near Chandrasekharpur and link to service pages. Big-work pages say "all of Bhubaneswar".
 - Areas = exactly the areas listed on the current website (Chandrasekharpur, Patia, Niladri Vihar, Sailashree Vihar, KIIT, Infocity, Jayadev Vihar, Nayapalli) + "Entire Bhubaneswar" for big works. Madanpur is not used.
+- Commercial Plumbing added 27 Nov 2026 (India: 'commercial plumbing' 140/mo, 'commercial plumbing services' 50/mo; Bhubaneswar volume not measurable). New-house page also targets 'house plumbing work' (India 590/mo) and 'plumbing contractor' (India 590/mo). 24 pages total.
 - Septic tank cleaning was added as a 10th service page after research (~490 searches/month, low difficulty).
 
 ## Service area wording (confirmed 27 Nov 2026)

@@ -4,6 +4,7 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Keywords: added new-house plumbing and commercial plumbing keywords (Sheet, Ubersuggest tracking now 68). New page /services/commercial-plumbing/ (24 pages total).
 - Owner: skip Justdial entirely; never show a price for bathroom re-plumbing / new house plumbing. Added `docs/page-specs.md` for the remaining 18 pages.
 - Audit fixes applied to the first 5 pages (question ownership, no aggregateRating, 2-level breadcrumbs, de-stuffed keywords, unconfirmed claims removed).
 - Owner answers applied: septic method not mentioned (partners); geyser electrical parts not repaired; warranty on installation and repair only; free site visit for concealed pipeline; job times not stated; parts supplied or customer's own, price shared before fitting. Geyser title now "Geyser Repair & Fitting in Bhubaneswar | Mahapatra Plumbing".

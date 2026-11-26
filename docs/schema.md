@@ -65,7 +65,7 @@ Rules: keywords must also appear in visible page text (natural variants such as 
     "Leak and tap repair", "Bathroom and kitchen fittings", "Geyser installation and repair",
     "Water tank and motor repair", "Concealed pipeline and CPVC plumbing", "Drain cleaning and sewer jetting",
     "Septic tank cleaning", "Bathroom and kitchen plumbing renovation",
-    "New house and bathroom plumbing", "Sewerage and drainage works"
+    "New house and bathroom plumbing", "Sewerage and drainage works", "Commercial plumbing and maintenance contracts"
   ],
   "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
   "sameAs": [
@@ -236,7 +236,8 @@ Two levels (Home > Page) until a /services/ hub page exists. Home page has no Br
 | /contact/ | plumber bhubaneswar contact number, plumber near me contact number, mahapatra plumbing contact | — |
 | /services/septic-tank-cleaning/ | septic tank cleaning bhubaneswar, clean septic tank, sewage tank cleaning services near me, septic tank cleaning services near me | Sewage tank cleaning; Septic tank emptying; Soak pit cleaning |
 | /services/bathroom-plumbing-renovation/ | bathroom renovation bhubaneswar, bathroom renovation, bathroom renovation cost, bathroom renovation contractors near me, kitchen renovation bhubaneswar | Bathroom remodelling; Bathroom re-plumbing; Kitchen plumbing renovation |
-| /services/new-bathroom-and-house-plumbing/ | new house plumbing work, plumbing contractors in bhubaneswar, plumbing work in construction, new bathroom plumbing | New construction plumbing; House plumbing contractor |
+| /services/new-bathroom-and-house-plumbing/ | new house plumbing work, house plumbing work, plumbing contractor, plumbing contractors in bhubaneswar, plumbing work in house construction, new building plumbing work, new bathroom plumbing | New construction plumbing; House plumbing contractor; Residential plumbing contractor |
+| /services/commercial-plumbing/ | commercial plumbing bhubaneswar, commercial plumbing services, commercial plumbing work, plumbing maintenance contract, hotel plumbing services, office plumbing services | Commercial plumbing services; Plumbing AMC for businesses; Hotel and office plumbing |
 | /services/sewerage-and-drainage-works/ | sewerage work contractor bhubaneswar, sewerage work, sewer line repair near me, drainage work bhubaneswar | Sewer line installation; Drainage line work; Manhole work |
 | /services/geyser-installation-and-repair/ | geyser repair near me, geyser installation bhubaneswar, geyser repair, geyser servicing near me, water heater repair near me | Water heater repair; Geyser service; Geyser fitting |
 | /services/drain-cleaning-and-sewer-jetting/ | drain cleaning bhubaneswar, drain cleaning, drain blockage removal near me, drain pipe cleaning, toilet blockage removal | Drain unclogging; Blocked drain cleaning; Sewer jetting |
