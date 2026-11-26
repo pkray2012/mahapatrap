@@ -4,6 +4,7 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Sitemap: KIIT and Infocity get their own area pages, so the new site keeps every area listed on the current site (8 area pages, 23 pages total).
 - Removed Madanpur everywhere: keyword matrix row, Ubersuggest tracking, research notes. Not mentioned on the homepage either.
 - Phase 1 draft: keyword matrix (76 keywords) and sitemap (21 pages incl. new septic tank cleaning page) — `docs/sitemap.md`.
 - Tracking plan: Meta Advanced Matching approved for form leads (hashed phone, first name, city/state/country), with form notice, optional opt-out box and a new /privacy-policy/ page.

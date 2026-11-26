@@ -19,12 +19,14 @@ Full keyword matrix (76 keywords, one primary keyword per page): https://claude.
 | /services/bathroom-and-kitchen-fittings/ | Bathroom & Kitchen Fittings | Repair | bathroom fitting plumber near me | Medium |
 | /services/water-tank-and-motor-repair/ | Water Tank & Motor Repair | Repair | water motor repair near me | Medium |
 | /services/pipeline-and-concealed-plumbing/ | Pipeline & Concealed Plumbing | Repair | concealed pipe leakage repair | Medium |
-| /areas/chandrasekharpur/ | Chandrasekharpur (+ Infocity, Damana) | Locality | plumber in chandrasekharpur | High |
-| /areas/patia/ | Patia (+ KIIT) | Locality | plumber in patia | High |
+| /areas/chandrasekharpur/ | Chandrasekharpur (+ Damana) | Locality | plumber in chandrasekharpur | High |
+| /areas/patia/ | Patia | Locality | plumber in patia | High |
 | /areas/niladri-vihar/ | Niladri Vihar | Locality | plumber in niladri vihar | Medium |
 | /areas/sailashree-vihar/ | Sailashree Vihar | Locality | plumber in sailashree vihar | Medium |
 | /areas/jayadev-vihar/ | Jayadev Vihar (+ Saheed Nagar) | Locality | plumber in jayadev vihar | Medium |
 | /areas/nayapalli/ | Nayapalli (+ IRC Village) | Locality | plumber in nayapalli | Medium |
+| /areas/kiit/ | KIIT (hostels, PGs, homes) | Locality | plumber near kiit | High |
+| /areas/infocity/ | Infocity (offices, apartments) | Locality | plumber in infocity bhubaneswar | Medium |
 | /sitemap.xml, /robots.txt | Technical | — | — | High |
 
 Rules
@@ -32,4 +34,5 @@ Rules
 - Drain cleaning = repair visits; sewerage & drainage works = new lines / project work; septic tank cleaning = its own page.
 - Fittings = single-item installs; renovation = whole bathroom/kitchen re-plumb; new bathroom & house = fresh construction.
 - Locality pages target "plumber in {area}" for small repair works near Chandrasekharpur and link to service pages. Big-work pages say "all of Bhubaneswar".
+- Areas = exactly the areas listed on the current website (Chandrasekharpur, Patia, Niladri Vihar, Sailashree Vihar, KIIT, Infocity, Jayadev Vihar, Nayapalli) + "Entire Bhubaneswar" for big works. Madanpur is not used.
 - Septic tank cleaning was added as a 10th service page after research (~490 searches/month, low difficulty).
