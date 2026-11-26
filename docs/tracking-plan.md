@@ -88,11 +88,30 @@ document.addEventListener('click', (e) => {
 
 ## 5. Analytics loading (`AnalyticsScripts`)
 
-- Controlled only by environment variables: `NEXT_PUBLIC_GTM_ID`, `NEXT_PUBLIC_GA4_ID`, `NEXT_PUBLIC_CLARITY_ID` (+ optional `NEXT_PUBLIC_GADS_ID`).
+- Controlled only by environment variables: `NEXT_PUBLIC_GTM_ID`, `NEXT_PUBLIC_GA4_ID`, `NEXT_PUBLIC_CLARITY_ID`, plus ad pixels `NEXT_PUBLIC_GADS_ID`, `NEXT_PUBLIC_META_PIXEL_ID`, `NEXT_PUBLIC_MS_UET_ID` (see 5b).
 - If a variable is empty, nothing is rendered: no placeholder IDs, no console errors.
 - Preferred setup: GTM only on the page; GA4, Google Ads and Clarity tags are added inside GTM. Direct GA4/Clarity tags are a fallback when GTM is not used.
 - Scripts load after the page is interactive so Core Web Vitals stay at 95+ on mobile.
 - Set in Netlify → Site configuration → Environment variables. Nothing secret goes into the public repo.
+
+## 5b. Ad platform pixels (for future ads, agreed 27 Nov 2026)
+
+The same click events feed ad platforms, so ads can optimise for real calls and WhatsApp chats. All are optional and controlled by environment variables or GTM; empty = not loaded.
+
+| Platform | Env variable (or GTM tag) | Events sent | Notes |
+|---|---|---|---|
+| Google Ads | `NEXT_PUBLIC_GADS_ID` + conversion labels | `generate_lead` as the conversion; optional separate labels for call / WhatsApp / form | Also enables call tracking for Google Ads call extensions later |
+| Meta Pixel (Facebook / Instagram ads) | `NEXT_PUBLIC_META_PIXEL_ID` | `PageView` (all pages), `ViewContent` (service and locality pages, with content_name = service), `Contact` (call_click, whatsapp_click), `Lead` (whatsapp_form_submit) | Advanced Matching OFF (no phone/email sent). Conversions API can be added later through a Netlify function if needed |
+| Microsoft Ads (Bing) UET | `NEXT_PUBLIC_MS_UET_ID` | `generate_lead` as a goal | Optional, cheap clicks in India |
+| Microsoft Clarity | `NEXT_PUBLIC_CLARITY_ID` | Heatmaps and recordings | Form fields masked |
+| Others later (e.g. LinkedIn Insight, Google Ads remarketing audiences) | Added as GTM tags | Reuse the same dataLayer events | No code change needed |
+
+Rules:
+- Preferred: load every pixel through GTM, triggered by the dataLayer events in section 1, so new platforms need no code change.
+- Fallback without GTM: `AnalyticsScripts` renders each pixel only when its variable is set.
+- Pixels load after the page is interactive so mobile speed stays 95+.
+- Never send names, phone numbers, emails, addresses or form text to any ad platform.
+- When ads start in a market with consent rules (e.g. EU), add a consent banner and Google Consent Mode before loading pixels.
 
 ## 6. GTM container setup (done later, ~5 minutes)
 
