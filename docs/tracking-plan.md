@@ -123,7 +123,7 @@ Advanced Matching helps Meta match a website lead to a Facebook/Instagram user, 
 - Automatic Advanced Matching in Events Manager: keep OFF; only the explicit form fields above are sent.
 - Call and WhatsApp button taps send no personal data (there is none to send).
 - Consent and notice (India DPDP Act 2023): each form shows a short line under the submit button: "By sending, you agree we may use your number to reply on WhatsApp and to show you relevant ads. See our Privacy Policy." A `/privacy-policy/` page explains what is collected, why, which services receive it (WhatsApp, Meta, Google), and how to ask for deletion (email).
-- If the visitor unticks an optional "Use my details to improve ads" box (default ticked in India only), Advanced Matching is skipped for that submission.
+- An optional "Use my details to improve ads" box is UNTICKED by default (DPDP Act 2023 needs a clear, active choice; pre-ticked boxes do not count). Advanced Matching runs only when the visitor ticks it. Standard Lead/Contact events still fire without personal data.
 - Not legal advice: have the privacy policy wording reviewed before ads start.
 
 ## 6. GTM container setup (done later, ~5 minutes)
