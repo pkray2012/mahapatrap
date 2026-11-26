@@ -10,15 +10,24 @@ Read before writing any page. Also read the latest audit in `docs/audits/` and f
 - Hours: Open daily 8 AM – 10 PM. "Late-night and early-morning visits on request, subject to availability (extra charge may apply)." Late-night extra: +₹300.
 - Service area: all of Bhubaneswar. Named areas: Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar, Nayapalli (+ nearby Damana, Saheed Nagar, IRC Village). Never mention Madanpur.
 - Big works (renovation, new house plumbing, sewerage, septic tank cleaning): pitch as "anywhere in Bhubaneswar". Small repairs: lean on the nearby areas around Chandrasekharpur, but never say "only".
-- Proof: 5.0★ from 45 Google reviews (43 five-star) — visible text only, never `aggregateRating` in JSON-LD. Review themes customers mention: fair pricing, quality work, timely, kitchen and bathroom fixes. 90-day workmanship warranty on repair and installation jobs (cleaning jobs: not confirmed, do not claim); parts follow brand warranty. Written estimate before work starts. Visit charge ₹199–₹349, adjusted in the final bill if work goes ahead. Payment: cash, UPI, bank transfer; GST invoice on request. Materials: CPVC, UPVC, PPR pipes.
+- Proof: 5.0★ from 45 Google reviews (43 five-star) — visible text only, never `aggregateRating` in JSON-LD. Review themes customers mention: fair pricing, quality work, timely, kitchen and bathroom fixes. 90-day workmanship warranty on installation and repair jobs only (not cleaning jobs); parts follow brand warranty. Written estimate before work starts. Visit charge ₹199–₹349, adjusted in the final bill if work goes ahead. Payment: cash, UPI, bank transfer; GST invoice on request. Materials: CPVC, UPVC, PPR pipes.
 - Customers: homes, flats, hostels and PGs (KIIT/Patia), shops, offices (Infocity), builders.
 - Prices: only from `rate-card.md`. Do not invent any other price. Quote-only services say "Free site visit and written estimate".
+
+## Owner answers (27 Nov 2026) — now fixed facts
+- Septic tank cleaning is done with partners. Do NOT mention method, equipment, partners or disposal. Just say we arrange septic tank cleaning anywhere in Bhubaneswar.
+- Geyser: we do NOT repair or replace heating elements, thermostats or wiring. We fix plumbing-side faults (inlet/outlet leaks, valves, scaling, tank-joint leaks, installation) and tell the customer if an electrician or the brand's service centre is needed.
+- Warranty: 90-day workmanship warranty on installation and repair jobs only. Not on cleaning jobs (drain, toilet blockage, septic, sewer jetting).
+- Concealed pipeline repair / reroute: free site visit and written estimate.
+- Job times: depend on the work. Never state durations; say "depends on the job; we tell you the expected time with the estimate".
+- Parts and fittings: we supply fittings and parts; customers may also bring their own; the part price is shared before fitting (this is now allowed: "Part price shared before fitting").
+- Bathroom re-plumbing: a typical starting price exists (amount awaited from owner; do not invent).
 
 ## Do NOT invent
 Years in business, owner or staff names, team size, number of jobs done, certifications, brands stocked, equipment (e.g. suction tankers, CCTV cameras), response times in minutes, guarantees beyond the 90-day warranty, or specific customer stories. If a sentence needs such a fact, leave it out and add it to the "Facts to confirm" list at the end of the file. Never put placeholder text in the visible copy.
 
 ## Banned words and claims
-"best", "No.1", "guaranteed", "no hidden charges", "no surprises", "trained", "certified", "full service", "24/7", "time plan", "quoted before fitting", "in one visit", and any generalisation about what "many owners/customers" do. "near me" only once in body copy, in a natural sentence.
+"best", "No.1", "guaranteed", "no hidden charges", "no surprises", "trained", "certified", "full service", "24/7", "time plan", "in one visit", and any generalisation about what "many owners/customers" do. "near me" only once in body copy, in a natural sentence.
 
 ## Question ownership (no two pages answer the same question)
 - /pricing/ owns: visit charge, late-night charge, parts, payment and GST, warranty terms.

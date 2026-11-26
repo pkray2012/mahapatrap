@@ -4,6 +4,8 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Audit fixes applied to the first 5 pages (question ownership, no aggregateRating, 2-level breadcrumbs, de-stuffed keywords, unconfirmed claims removed).
+- Owner answers applied: septic method not mentioned (partners); geyser electrical parts not repaired; warranty on installation and repair only; free site visit for concealed pipeline; job times not stated; parts supplied or customer's own, price shared before fitting. Geyser title now "Geyser Repair & Fitting in Bhubaneswar | Mahapatra Plumbing".
 - Titles: brand suffix is always "Mahapatra Plumbing" (fixed Pricing and Septic titles; rule added to content brief).
 - Phase 2 drafts: Home, Pricing, Septic Tank Cleaning, Bathroom & Kitchen Plumbing Renovation, Geyser Installation & Repair (`content/pages/`). Reviewed: consent checkbox made opt-in (unticked), geyser H1 made natural, renovation wording smoothed.
 - Tracking plan: "Use my details to improve ads" box is now unticked by default (DPDP Act needs an active choice).

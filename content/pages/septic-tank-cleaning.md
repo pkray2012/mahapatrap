@@ -1,18 +1,19 @@
 ---
 url: /services/septic-tank-cleaning/
 page_type: service
+whatsapp_prefill: "Hi, I need a quote for Septic Tank Cleaning in Bhubaneswar [Page: Septic]"
 page_tag: Septic
 meta_title: Septic Tank Cleaning in Bhubaneswar | Mahapatra Plumbing
-meta_description: Septic tank cleaning in Bhubaneswar from ₹2,999. Emptying, sludge removal and soak pit check for homes, PGs and apartments. Call or WhatsApp 9668875352.
+meta_description: Septic tank cleaning in Bhubaneswar from ₹2,999. Emptying, sludge removal and soak pit check for homes, PGs and apartments. Call +91 9668875352.
 primary_keyword: septic tank cleaning bhubaneswar
 secondary_keywords: [clean septic tank, sewage tank cleaning services near me, septic tank cleaning services near me, septic tank cleaning services, how often should a septic tank be cleaned]
 h1: Septic Tank Cleaning in Bhubaneswar
-word_count: 1298
+word_count: 1207
 ---
 
-WhatsApp prefill for every CTA on this page: `Hi, I need a quote for Septic Tank Cleaning in Bhubaneswar [Page: Septic]`
-
 # Septic Tank Cleaning in Bhubaneswar
+
+[BREADCRUMB: Home > Septic Tank Cleaning]
 
 Mahapatra Plumbing Services offers septic tank cleaning anywhere in Bhubaneswar, starting at ₹2,999. We empty the tank, remove the settled sludge and check the inlet, outlet and soak pit. The final price depends on tank size and access. Call or WhatsApp +91 9668875352. We are open daily, 8 AM to 10 PM.
 
@@ -22,23 +23,20 @@ Mahapatra Plumbing Services offers septic tank cleaning anywhere in Bhubaneswar,
 
 ## How much does septic tank cleaning cost in Bhubaneswar?
 
-Septic tank cleaning with Mahapatra Plumbing Services starts at ₹2,999. The final price depends on the size of your tank and how easy it is to reach the lid. We tell you the price before any work starts. A late-night or early-morning visit costs ₹300 extra, subject to availability.
+Septic tank cleaning with Mahapatra Plumbing Services starts at ₹2,999. The final price depends on the size of your tank and how easy it is to reach the lid. You get a written estimate before any work starts. Share a photo of the tank on WhatsApp for a closer figure.
 
-A large tank, or a lid buried under tiles, takes more time and costs more. Share a photo of the tank on WhatsApp for a closer figure.
+A large tank, or a lid buried under tiles, takes more time and costs more.
 
-Septic tank cleaning Bhubaneswar rates (labour, from our approved rate card):
+Septic tank cleaning rates in Bhubaneswar (labour charges):
 
 | Service | Price (₹) |
 |---|---|
 | Septic tank cleaning | from 2,999 |
-| Visit / inspection (adjusted in final bill if work goes ahead) | 199–349 |
 | Toilet blockage removal | from 999 |
 | Drain unclogging (sink / floor trap) | from 349 |
 | Sewerage & drainage works | Quote after inspection (free site visit + written estimate) |
-| Late-night / early-morning visit | +300 extra |
-| Warranty | 90 days on workmanship; parts follow brand warranty |
 
-See the full rate card on our [plumbing charges in Bhubaneswar](/pricing/) page.
+Visit charges, late-night visits, parts and payment are explained on our [plumbing charges in Bhubaneswar](/pricing/) page.
 
 [CTA: call+whatsapp | location=pricing_table]
 
@@ -51,19 +49,19 @@ The common signs of a full septic tank are slow flushing toilets, a bad smell ne
 - **Gurgling.** Drains and the toilet pan make bubbling sounds when water runs.
 - **Overflow near the soak pit.** Wet ground, puddles or dirty water near the tank or soak pit.
 
-A slow drain is not always a septic problem. Sometimes the pipe to the tank is blocked. We check this first. For pipe blockages, see our [drain cleaning and blockage removal](/services/drain-cleaning-and-sewer-jetting/) service.
+A slow drain is not always a septic problem. Sometimes the pipe to the tank is blocked. For pipe blockages, see our [drain cleaning and blockage removal](/services/drain-cleaning-and-sewer-jetting/) service.
 
 ## How often should a septic tank be cleaned?
 
 Most family homes in Bhubaneswar need septic tank cleaning every 2 to 3 years. Hostels, PGs and apartments use the tank much more, so they need it more often. Clean it sooner if toilets drain slowly, the tank smells, or water collects around the soak pit.
 
-How often you should clean septic tank systems depends on three things:
+How often you need to clean a septic tank depends on three things:
 
 - **Number of people.** More people means the tank fills faster.
 - **Tank size.** A small tank fills sooner than a large one.
 - **What goes down the toilet.** Wipes, pads and cooking oil fill the tank faster.
 
-Hostel and PG owners near KIIT and Patia often keep a fixed cleaning schedule. See our pages for [plumbers near KIIT hostels](/areas/kiit/) and [plumbing services in Patia](/areas/patia/).
+Hostels and PGs near KIIT and Patia fill tanks faster, so a fixed cleaning schedule helps. See our pages for [plumbers near KIIT hostels](/areas/kiit/) and [plumbing services in Patia](/areas/patia/).
 
 ## What the septic tank cleaning job involves
 
@@ -79,15 +77,9 @@ If we find a broken pipe or a choked soak pit, we tell you first. Any repair is 
 
 [CTA: call+whatsapp | location=inline_content]
 
-## How to prepare for septic tank cleaning
-
-- **Clear access to the lid.** Move pots, vehicles or stored items from above the tank.
-- **Tell us if the lid is covered.** If tiles or concrete cover it, say so when you book.
-- **Keep the path clear.** We need a clear way from the gate to the tank.
-
 ## Safety: never enter a septic tank
 
-Never enter a septic tank or lean into an open one, even for a minute. Septic tanks hold toxic gases like hydrogen sulphide and methane. These gases can make a person faint within seconds. Keep children and pets away from an open lid.
+Never enter a septic tank or lean into an open one, even for a minute. Septic tanks hold toxic gases like hydrogen sulphide and methane. These gases can make a person faint within seconds.
 
 Do not ask a mistri or helper to go inside. If someone feels dizzy near an open tank, move them to fresh air and get medical help.
 
@@ -96,17 +88,15 @@ Do not ask a mistri or helper to go inside. If someone feels dizzy near an open 
 [IMAGE: septic-tank-inspection-chandrasekharpur.webp | alt="Plumber checking the septic tank outlet and soak pit at a home in Chandrasekharpur, Bhubaneswar" | why-us section]
 
 - **5.0★ from 45 Google reviews**, with 43 five-star ratings. Customers mention fair pricing, quality work and timely service.
-- **Written estimate before work starts.** No surprises in the final bill.
-- **90-day workmanship warranty.** Parts follow the brand warranty.
+- **Written estimate before work starts.** The price depends on tank size and access, and you know it first.
+- **Outlet and soak pit checked.** We check the pipes and soak pit as part of the job and tell you before any repair.
+- **Any size of building.** Homes, flats, hostels, PGs, shops, offices and builders, anywhere in Bhubaneswar.
 - **Open daily, 8 AM to 10 PM.** Late-night and early-morning visits on request, subject to availability (extra charge may apply).
 - **Easy payment.** Cash, UPI or bank transfer. GST invoice on request.
-- **For every kind of property.** Homes, flats, hostels, PGs, shops, offices and builders.
 
-Need septic tank cleaning services with a clear price? Call us before the tank overflows.
+## Areas we cover for septic tank cleaning
 
-## Septic tank cleaning services near me: areas we cover
-
-If you are searching for septic tank cleaning services near me or sewage tank cleaning services near me in Bhubaneswar, we can help. We serve Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli. We also cover Damana, Saheed Nagar, IRC Village and all of Bhubaneswar.
+We clean septic tanks anywhere in Bhubaneswar, including Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli. We also cover Damana, Saheed Nagar and IRC Village. Searching for septic tank cleaning services near me, or a sewage tank cleaning service in Bhubaneswar? Call us before the tank overflows.
 
 ## Related services
 
@@ -118,7 +108,7 @@ If you are searching for septic tank cleaning services near me or sewage tank cl
 
 ### How much does septic tank cleaning cost in Bhubaneswar?
 
-Septic tank cleaning by Mahapatra Plumbing Services starts at ₹2,999. The final price depends on tank size and how easy the tank is to reach. You get the price before work starts. A late-night or early-morning visit costs ₹300 extra. Send a photo of the tank on WhatsApp for a closer estimate.
+Septic tank cleaning by Mahapatra Plumbing Services starts at ₹2,999. The final price depends on tank size and how easy the tank is to reach. A large tank or a lid under tiles costs more. You get a written estimate before work starts. Send a photo of the tank on WhatsApp for a closer estimate.
 
 ### How often should a septic tank be cleaned?
 
@@ -128,17 +118,17 @@ Most family homes in Bhubaneswar need septic tank cleaning every 2 to 3 years. H
 
 The main signs are slow flushing toilets, a sewage smell near the tank or bathroom, gurgling drains, and dirty water around the soak pit. Backflow through the floor trap is a late sign. If you see any of these, call Mahapatra Plumbing Services on +91 9668875352 to check the tank.
 
-### Is it safe to clean a septic tank myself?
+### Is it safe to enter a septic tank?
 
-No. Never enter a septic tank or lean into an open one. Septic tanks hold toxic gases like hydrogen sulphide and methane, which can make a person faint within seconds. Do not send a helper inside either. Book trained people who clean the tank from outside and keep children away from the open lid.
+No. Never enter a septic tank or lean into an open one. Septic tanks hold toxic gases like hydrogen sulphide and methane, which can make a person faint within seconds. Do not send a helper inside either. Book a service that cleans the tank from outside, with no one going in.
 
-### Do you clean septic tanks for hostels, PGs and apartments?
+### Can you clean a septic tank in an apartment or hostel?
 
-Yes. We clean septic tanks for homes, flats, hostels, PGs, apartments, shops and offices anywhere in Bhubaneswar. Larger buildings fill their tanks faster, so many owners book cleaning on a fixed schedule. Share the building size and tank location on WhatsApp, and we will give you a written estimate before work starts.
+Yes. We clean septic tanks for apartments, hostels, PGs, homes, shops and offices anywhere in Bhubaneswar. Larger buildings fill their tanks faster, so a fixed cleaning schedule helps. Share the number of flats or rooms and where the tank lid is on WhatsApp. You get a written estimate before work starts.
 
-### How do I book septic tank cleaning in Bhubaneswar?
+### What should I do before the cleaning team arrives?
 
-Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352. We are open daily from 8 AM to 10 PM. Tell us your area, the type of building and where the tank lid is. A photo helps. Late-night and early-morning visits are possible on request, subject to availability, for ₹300 extra.
+Clear the area above the tank lid. Move pots, vehicles or stored items. If tiles or concrete cover the lid, tell us when you book. Keep a clear path from the gate to the tank. Keep children and pets indoors while the lid is open, and do not open the lid yourself.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -169,26 +159,65 @@ Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352. We are open dail
         "postalCode": "751016",
         "addressCountry": "IN"
       },
-      "geo": { "@type": "GeoCoordinates", "latitude": 20.3248238, "longitude": 85.8196582 },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 20.3248238,
+        "longitude": 85.8196582
+      },
       "hasMap": "https://www.google.com/maps?cid=4373818382391816251",
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
           "opens": "08:00",
           "closes": "22:00"
         }
       ],
       "areaServed": [
-        { "@type": "City", "name": "Bhubaneswar" },
-        { "@type": "Place", "name": "Chandrasekharpur, Bhubaneswar" },
-        { "@type": "Place", "name": "Patia, Bhubaneswar" },
-        { "@type": "Place", "name": "KIIT, Bhubaneswar" },
-        { "@type": "Place", "name": "Infocity, Bhubaneswar" },
-        { "@type": "Place", "name": "Niladri Vihar, Bhubaneswar" },
-        { "@type": "Place", "name": "Sailashree Vihar, Bhubaneswar" },
-        { "@type": "Place", "name": "Jayadev Vihar, Bhubaneswar" },
-        { "@type": "Place", "name": "Nayapalli, Bhubaneswar" }
+        {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Chandrasekharpur, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Patia, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "KIIT, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Infocity, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Niladri Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Sailashree Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Jayadev Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Nayapalli, Bhubaneswar"
+        }
       ],
       "knowsAbout": [
         "Leak and tap repair",
@@ -203,7 +232,6 @@ Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352. We are open dail
         "Sewerage and drainage works"
       ],
       "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "45", "bestRating": "5" },
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -214,7 +242,9 @@ Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352. We are open dail
       "url": "https://mahapatraplumbing.in/",
       "name": "Mahapatra Plumbing Services",
       "inLanguage": "en-IN",
-      "publisher": { "@id": "https://mahapatraplumbing.in/#business" }
+      "publisher": {
+        "@id": "https://mahapatraplumbing.in/#business"
+      }
     },
     {
       "@type": "WebPage",
@@ -222,26 +252,44 @@ Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352. We are open dail
       "url": "https://mahapatraplumbing.in/services/septic-tank-cleaning/",
       "name": "Septic Tank Cleaning in Bhubaneswar | Mahapatra Plumbing",
       "headline": "Septic Tank Cleaning in Bhubaneswar",
-      "description": "Septic tank cleaning in Bhubaneswar from ₹2,999. Emptying, sludge removal and soak pit check for homes, PGs and apartments. Call or WhatsApp 9668875352.",
-      "keywords": "septic tank cleaning bhubaneswar, clean septic tank, sewage tank cleaning services near me, septic tank cleaning services near me, septic tank cleaning services, how often should a septic tank be cleaned",
-      "isPartOf": { "@id": "https://mahapatraplumbing.in/#website" },
-      "about": { "@id": "https://mahapatraplumbing.in/services/septic-tank-cleaning/#service" },
-      "breadcrumb": { "@id": "https://mahapatraplumbing.in/services/septic-tank-cleaning/#breadcrumb" },
+      "description": "Septic tank cleaning in Bhubaneswar from ₹2,999. Emptying, sludge removal and soak pit check for homes, PGs and apartments. Call +91 9668875352.",
+      "keywords": "septic tank cleaning bhubaneswar, clean septic tank, sewage tank cleaning services near me, septic tank cleaning services near me, septic tank cleaning services",
+      "isPartOf": {
+        "@id": "https://mahapatraplumbing.in/#website"
+      },
+      "about": {
+        "@id": "https://mahapatraplumbing.in/services/septic-tank-cleaning/#service"
+      },
+      "breadcrumb": {
+        "@id": "https://mahapatraplumbing.in/services/septic-tank-cleaning/#breadcrumb"
+      },
       "inLanguage": "en-IN"
     },
     {
       "@type": "Service",
       "@id": "https://mahapatraplumbing.in/services/septic-tank-cleaning/#service",
       "name": "Septic Tank Cleaning in Bhubaneswar",
-      "alternateName": ["Sewage tank cleaning", "Septic tank emptying", "Soak pit cleaning"],
+      "alternateName": [
+        "Sewage tank cleaning",
+        "Septic tank emptying"
+      ],
       "serviceType": "Septic tank cleaning",
       "description": "Septic and sewage tank cleaning anywhere in Bhubaneswar by Mahapatra Plumbing Services, Chandrasekharpur. Tank emptying, sludge removal and outlet check, from ₹2,999 depending on tank size. Book by call or WhatsApp on +91 9668875352, open daily 8 AM to 10 PM.",
-      "provider": { "@id": "https://mahapatraplumbing.in/#business" },
-      "areaServed": { "@type": "City", "name": "Bhubaneswar" },
+      "provider": {
+        "@id": "https://mahapatraplumbing.in/#business"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Bhubaneswar"
+      },
       "offers": {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "priceSpecification": { "@type": "PriceSpecification", "minPrice": 2999, "priceCurrency": "INR" },
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 2999,
+          "priceCurrency": "INR"
+        },
         "description": "Septic tank cleaning from ₹2,999; final price depends on tank size and access."
       }
     },
@@ -252,32 +300,50 @@ Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352. We are open dail
         {
           "@type": "Question",
           "name": "How much does septic tank cleaning cost in Bhubaneswar?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Septic tank cleaning by Mahapatra Plumbing Services starts at ₹2,999. The final price depends on tank size and how easy the tank is to reach. You get the price before work starts. A late-night or early-morning visit costs ₹300 extra. Send a photo of the tank on WhatsApp for a closer estimate." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Septic tank cleaning by Mahapatra Plumbing Services starts at ₹2,999. The final price depends on tank size and how easy the tank is to reach. A large tank or a lid under tiles costs more. You get a written estimate before work starts. Send a photo of the tank on WhatsApp for a closer estimate."
+          }
         },
         {
           "@type": "Question",
           "name": "How often should a septic tank be cleaned?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Most family homes in Bhubaneswar need septic tank cleaning every 2 to 3 years. Hostels, PGs and apartments need it more often because more people use the tank. Clean it sooner if toilets drain slowly, there is a bad smell near the tank, or water collects around the soak pit." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most family homes in Bhubaneswar need septic tank cleaning every 2 to 3 years. Hostels, PGs and apartments need it more often because more people use the tank. Clean it sooner if toilets drain slowly, there is a bad smell near the tank, or water collects around the soak pit."
+          }
         },
         {
           "@type": "Question",
           "name": "What are the signs that my septic tank is full?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The main signs are slow flushing toilets, a sewage smell near the tank or bathroom, gurgling drains, and dirty water around the soak pit. Backflow through the floor trap is a late sign. If you see any of these, call Mahapatra Plumbing Services on +91 9668875352 to check the tank." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The main signs are slow flushing toilets, a sewage smell near the tank or bathroom, gurgling drains, and dirty water around the soak pit. Backflow through the floor trap is a late sign. If you see any of these, call Mahapatra Plumbing Services on +91 9668875352 to check the tank."
+          }
         },
         {
           "@type": "Question",
-          "name": "Is it safe to clean a septic tank myself?",
-          "acceptedAnswer": { "@type": "Answer", "text": "No. Never enter a septic tank or lean into an open one. Septic tanks hold toxic gases like hydrogen sulphide and methane, which can make a person faint within seconds. Do not send a helper inside either. Book trained people who clean the tank from outside and keep children away from the open lid." }
+          "name": "Is it safe to enter a septic tank?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Never enter a septic tank or lean into an open one. Septic tanks hold toxic gases like hydrogen sulphide and methane, which can make a person faint within seconds. Do not send a helper inside either. Book a service that cleans the tank from outside, with no one going in."
+          }
         },
         {
           "@type": "Question",
-          "name": "Do you clean septic tanks for hostels, PGs and apartments?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. We clean septic tanks for homes, flats, hostels, PGs, apartments, shops and offices anywhere in Bhubaneswar. Larger buildings fill their tanks faster, so many owners book cleaning on a fixed schedule. Share the building size and tank location on WhatsApp, and we will give you a written estimate before work starts." }
+          "name": "Can you clean a septic tank in an apartment or hostel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We clean septic tanks for apartments, hostels, PGs, homes, shops and offices anywhere in Bhubaneswar. Larger buildings fill their tanks faster, so a fixed cleaning schedule helps. Share the number of flats or rooms and where the tank lid is on WhatsApp. You get a written estimate before work starts."
+          }
         },
         {
           "@type": "Question",
-          "name": "How do I book septic tank cleaning in Bhubaneswar?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352. We are open daily from 8 AM to 10 PM. Tell us your area, the type of building and where the tank lid is. A photo helps. Late-night and early-morning visits are possible on request, subject to availability, for ₹300 extra." }
+          "name": "What should I do before the cleaning team arrives?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Clear the area above the tank lid. Move pots, vehicles or stored items. If tiles or concrete cover the lid, tell us when you book. Keep a clear path from the gate to the tank. Keep children and pets indoors while the lid is open, and do not open the lid yourself."
+          }
         }
       ]
     },
@@ -285,9 +351,18 @@ Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352. We are open dail
       "@type": "BreadcrumbList",
       "@id": "https://mahapatraplumbing.in/services/septic-tank-cleaning/#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mahapatraplumbing.in/" },
-        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://mahapatraplumbing.in/#services" },
-        { "@type": "ListItem", "position": 3, "name": "Septic Tank Cleaning", "item": "https://mahapatraplumbing.in/services/septic-tank-cleaning/" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mahapatraplumbing.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Septic Tank Cleaning",
+          "item": "https://mahapatraplumbing.in/services/septic-tank-cleaning/"
+        }
       ]
     }
   ]
@@ -295,12 +370,11 @@ Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352. We are open dail
 ```
 
 ## Facts to confirm
-- Whether the ₹199–₹349 visit / inspection charge applies to septic tank cleaning, or whether the septic inspection is free (the page lists the visit charge row as on the rate card).
-- How the tank is emptied and where the waste is disposed of (owner's own vehicle, a hired tanker, or a municipal service). The page deliberately makes no equipment or disposal claim.
-- Whether the team cleans fully from outside the tank. The FAQ says to book "trained people who clean the tank from outside"; confirm this matches how the owner works.
-- Typical time for one septic tank cleaning job, by tank size, so it can be added for GEO "typical job times".
-- Whether the 90-day workmanship warranty applies to cleaning jobs or only to repair and fitting work.
-- Whether soak pit cleaning (listed in Service schema alternateName) is offered as a separate job, and its price.
-- Whether the "Damana, Saheed Nagar, IRC Village" mention is fine on a service page (the brief allows them as nearby areas).
-- Justdial listing URL for the Plumber `sameAs` field (left out of the JSON-LD rather than using a placeholder). Note: the brief's proof is 5.0★ from 45 Google reviews; the project description mentions 4.9★ from 45+ Justdial reviews. This page uses only the Google figure.
-- Note for the owner: the project description says visit charge ₹149–₹299, while the approved rate card and content brief say ₹199–₹349. This page uses ₹199–₹349.
+- Whether the ₹199–₹349 visit / inspection charge applies to septic tank cleaning, or whether the septic inspection is free. The visit-charge row is left out of this page's table until confirmed.
+- Whether the 90-day workmanship warranty applies to cleaning jobs. The warranty row and bullet are left out until confirmed.
+- How the tank is emptied and where the waste is disposed of (own vehicle, hired tanker or municipal service). The page makes no method, equipment or disposal claim.
+- That the work is done from outside the tank, with no one going in. The FAQ advises customers to book a service that works this way; confirm it matches how the owner works.
+- Typical time for one septic tank cleaning job, by tank size (useful for AI answers).
+- Whether soak pit cleaning is offered as a separate job, and its price. "Soak pit cleaning" was removed from the Service alternateName until confirmed.
+- Justdial listing URL for the Plumber `sameAs` field (left out rather than using a placeholder). Note: the project description mentions 4.9★ from 45+ Justdial reviews; this page uses only the brief's Google figure (5.0★ from 45 reviews).
+- Note for the owner: the project description says visit charge ₹149–₹299, while the approved rate card and content brief say ₹199–₹349. This page does not state a visit charge; /pricing/ uses ₹199–₹349.
