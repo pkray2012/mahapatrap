@@ -4,6 +4,7 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Phase 1 draft: keyword matrix (76 keywords) and sitemap (21 pages incl. new septic tank cleaning page) — `docs/sitemap.md`.
 - Tracking plan: Meta Advanced Matching approved for form leads (hashed phone, first name, city/state/country), with form notice, optional opt-out box and a new /privacy-policy/ page.
 - Tracking plan: added ad pixels for future ads (Meta Pixel, Google Ads, Microsoft Ads UET), all optional via environment variables or GTM, no personal data sent.
 - Decided: website colours switch from emerald green to the new logo palette (navy #0A2A5C, blue #0A7CC4, orange #F7901E accent, WhatsApp buttons stay green). Layout unchanged.

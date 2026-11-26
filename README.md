@@ -10,7 +10,7 @@ Goal: turn the current single-page site into a fast, mobile-first, multi-page st
 - [x] Ubersuggest project set up (56 keywords, 8 competitors, 15 AI-visibility prompts)
 - [x] Rate card, hours, service area, contact methods and schema plan agreed
 - [x] New logo received (`brand/`)
-- [ ] Phase 1: keyword matrix + final sitemap
+- [x] Phase 1 draft: keyword matrix + sitemap (`docs/sitemap.md`, awaiting approval)
 - [ ] Phase 2: page copy + JSON-LD
 - [ ] Phase 3: static site build (Next.js static export + Tailwind), deploy on Netlify
 - [ ] Phase 4: tracking-ready (GTM / GA4 / Clarity via environment variables)
