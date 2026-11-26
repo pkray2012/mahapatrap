@@ -4,6 +4,7 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Keyword universe research: 1,635 service-intent Bhubaneswar keywords grouped by page (`docs/research/`, Sheet tab "All Keywords (research)").
 - Keywords: added new-house plumbing and commercial plumbing keywords (Sheet, Ubersuggest tracking now 68). New page /services/commercial-plumbing/ (24 pages total).
 - Owner: skip Justdial entirely; never show a price for bathroom re-plumbing / new house plumbing. Added `docs/page-specs.md` for the remaining 18 pages.
 - Audit fixes applied to the first 5 pages (question ownership, no aggregateRating, 2-level breadcrumbs, de-stuffed keywords, unconfirmed claims removed).
