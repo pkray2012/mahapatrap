@@ -2,7 +2,7 @@
 url: /pricing/
 page_type: pricing
 page_tag: Pricing
-meta_title: Plumber Charges in Bhubaneswar: 2026 Rate Card | Mahapatra
+meta_title: Plumber Charges in Bhubaneswar 2026 | Mahapatra Plumbing
 meta_description: Plumber charges in Bhubaneswar: visit ₹199–₹349 adjusted in your bill, minor fixes from ₹249, written estimate before work, 90-day warranty.
 primary_keyword: plumber charges in bhubaneswar
 secondary_keywords: [plumber visit charge bhubaneswar, plumbing rate list bhubaneswar, how much does a plumber charge per visit in bhubaneswar]
@@ -361,7 +361,7 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
       "@type": "WebPage",
       "@id": "https://mahapatraplumbing.in/pricing/#webpage",
       "url": "https://mahapatraplumbing.in/pricing/",
-      "name": "Plumber Charges in Bhubaneswar: 2026 Rate Card | Mahapatra",
+      "name": "Plumber Charges in Bhubaneswar 2026 | Mahapatra Plumbing",
       "headline": "Plumber Charges in Bhubaneswar: 2026 Rate Card",
       "description": "Plumber charges in Bhubaneswar: visit ₹199–₹349 adjusted in your bill, minor fixes from ₹249, written estimate before work, 90-day warranty.",
       "keywords": "plumber charges in bhubaneswar, plumber visit charge bhubaneswar, plumbing rate list bhubaneswar, how much does a plumber charge per visit in bhubaneswar",

@@ -21,6 +21,7 @@ Years in business, owner or staff names, team size, number of jobs done, certifi
 Plain, friendly Indian English for homeowners in Bhubaneswar. Short sentences (under 20 words), short paragraphs (2–3 sentences). Concrete, no hype ("best", "No.1", "guaranteed" are banned). Use ₹ and Indian terms people use: geyser, flush tank, jet spray, overhead tank, sump, soak pit, mistri. Second person ("you").
 
 ## SEO + AEO + GEO rules (every page)
+- Meta title ends with "| Mahapatra Plumbing" or "| Mahapatra Plumbing Services", never "| Mahapatra" alone.
 - Primary keyword in: meta title (≤60 chars), meta description (≤155 chars), H1, first 100 words, URL (already set). Secondary keywords used naturally once each; no stuffing.
 - Structure: H1 → intro (answer-first, 40–60 words, names the business, area and phone) → H2 sections. At least 3 H2s are questions a customer asks, each followed immediately by a 40–60 word answer-first paragraph, then detail.
 - One ₹ price table (markdown table, crawlable) with the rows relevant to the page, copied from the rate card.

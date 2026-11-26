@@ -4,6 +4,7 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Titles: brand suffix is always "Mahapatra Plumbing" (fixed Pricing and Septic titles; rule added to content brief).
 - Phase 2 drafts: Home, Pricing, Septic Tank Cleaning, Bathroom & Kitchen Plumbing Renovation, Geyser Installation & Repair (`content/pages/`). Reviewed: consent checkbox made opt-in (unticked), geyser H1 made natural, renovation wording smoothed.
 - Tracking plan: "Use my details to improve ads" box is now unticked by default (DPDP Act needs an active choice).
 - Added `docs/schema.md`: JSON-LD templates (Plumber, WebSite, WebPage, Service, OfferCatalog, FAQPage, BreadcrumbList) with keywords mapped for all 23 pages.

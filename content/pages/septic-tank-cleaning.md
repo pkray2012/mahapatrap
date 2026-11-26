@@ -2,7 +2,7 @@
 url: /services/septic-tank-cleaning/
 page_type: service
 page_tag: Septic
-meta_title: Septic Tank Cleaning in Bhubaneswar from ₹2,999 | Mahapatra
+meta_title: Septic Tank Cleaning in Bhubaneswar | Mahapatra Plumbing
 meta_description: Septic tank cleaning in Bhubaneswar from ₹2,999. Emptying, sludge removal and soak pit check for homes, PGs and apartments. Call or WhatsApp 9668875352.
 primary_keyword: septic tank cleaning bhubaneswar
 secondary_keywords: [clean septic tank, sewage tank cleaning services near me, septic tank cleaning services near me, septic tank cleaning services, how often should a septic tank be cleaned]
@@ -220,7 +220,7 @@ Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352. We are open dail
       "@type": "WebPage",
       "@id": "https://mahapatraplumbing.in/services/septic-tank-cleaning/#webpage",
       "url": "https://mahapatraplumbing.in/services/septic-tank-cleaning/",
-      "name": "Septic Tank Cleaning in Bhubaneswar from ₹2,999 | Mahapatra",
+      "name": "Septic Tank Cleaning in Bhubaneswar | Mahapatra Plumbing",
       "headline": "Septic Tank Cleaning in Bhubaneswar",
       "description": "Septic tank cleaning in Bhubaneswar from ₹2,999. Emptying, sludge removal and soak pit check for homes, PGs and apartments. Call or WhatsApp 9668875352.",
       "keywords": "septic tank cleaning bhubaneswar, clean septic tank, sewage tank cleaning services near me, septic tank cleaning services near me, septic tank cleaning services, how often should a septic tank be cleaned",
