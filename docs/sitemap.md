@@ -36,3 +36,29 @@ Rules
 - Locality pages target "plumber in {area}" for small repair works near Chandrasekharpur and link to service pages. Big-work pages say "all of Bhubaneswar".
 - Areas = exactly the areas listed on the current website (Chandrasekharpur, Patia, Niladri Vihar, Sailashree Vihar, KIIT, Infocity, Jayadev Vihar, Nayapalli) + "Entire Bhubaneswar" for big works. Madanpur is not used.
 - Septic tank cleaning was added as a 10th service page after research (~490 searches/month, low difficulty).
+
+## Service area wording (confirmed 27 Nov 2026)
+- Every page states: "Serving all of Bhubaneswar". Area pages and the home areas list name the 8 areas above, then "and all of Bhubaneswar".
+- Nearby mentions kept: Damana (on Chandrasekharpur page), Saheed Nagar (on Jayadev Vihar page), IRC Village (on Nayapalli page).
+
+## Google Map (for local SEO)
+- Embed the business's own Google Maps listing (CID 4373818382391816251, District Center, Chandrasekharpur 751016), not the generic "Chandrasekharpur" area map used today.
+- Where: Contact page (full map), Home page (map in the areas section), every area page (small map + "Get directions" link).
+- Speed: the map loads as a static preview image with a "View on Google Maps" button; the live map loads only when tapped, so mobile speed stays 95+.
+- Footer on every page: address + "Get directions" link to the listing (`https://www.google.com/maps?cid=4373818382391816251`), tracked as `directions_click`.
+- Schema `hasMap` on the Plumber entity points to the same listing URL.
+
+## Every page must pass (SEO + AEO + GEO checklist)
+SEO
+- One primary keyword (Keyword Matrix), in title (≤60 chars), meta description (≤155), H1, first paragraph and URL
+- Clean H1 → H2 → H3; 3–6 internal links (related services, matching area pages, pricing, contact); breadcrumb
+- Canonical, Open Graph, WebP images with width/height and local alt text; in sitemap.xml
+AEO (answer engines, Google AI Overviews)
+- Question-style H2s with a 40–60 word answer-first paragraph under each
+- ₹ price table for that service from the rate card
+- 5–6 FAQs per page + FAQPage schema
+GEO (generative engines: ChatGPT, Gemini, Perplexity)
+- Same entity facts on every page: Mahapatra Plumbing Services · District Center, Chandrasekharpur, Bhubaneswar 751016 · +91 9668875352 · Mon–Sun 8 AM–10 PM · 5.0★ (45 Google reviews) · 90-day workmanship warranty
+- Concrete proof: prices, warranty, materials (CPVC/UPVC/PPR), areas, typical job times; no vague claims
+- Plumber + Service + FAQPage + BreadcrumbList JSON-LD; crawlable HTML tables (no images of text)
+- Before deploy: keyword volume check + independent sub-agent audit of SEO, AEO and GEO for every page
