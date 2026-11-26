@@ -4,6 +4,7 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Removed Madanpur everywhere: keyword matrix row, Ubersuggest tracking, research notes. Not mentioned on the homepage either.
 - Phase 1 draft: keyword matrix (76 keywords) and sitemap (21 pages incl. new septic tank cleaning page) — `docs/sitemap.md`.
 - Tracking plan: Meta Advanced Matching approved for form leads (hashed phone, first name, city/state/country), with form notice, optional opt-out box and a new /privacy-policy/ page.
 - Tracking plan: added ad pixels for future ads (Meta Pixel, Google Ads, Microsoft Ads UET), all optional via environment variables or GTM, no personal data sent.
