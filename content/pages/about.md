@@ -80,8 +80,6 @@ All rates, late-night charges and warranty terms are on our [plumbing charges in
 
 [IMAGE: plumber-written-estimate-bhubaneswar.webp | alt="Plumber explaining a written estimate to a homeowner before starting a repair in Bhubaneswar" | inline, beside the "How do we work" list]
 
-[CTA: call+whatsapp | location=inline_content]
-
 ## Who do we work for?
 
 We work for homes, flats, hostels, PGs, shops, offices and builders across Bhubaneswar.

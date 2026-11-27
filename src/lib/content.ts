@@ -132,7 +132,9 @@ function renderCta(ctx: Ctx, mk: ReturnType<typeof parseMarker>) {
   const loc = mk.attrs.location || ctx.loc;
   const p = ctx.page;
   if (mk.head === 'call+whatsapp') {
-    return `<div class="cta-row">${callButton(p, loc)}${waButton(p, loc)}</div>`;
+    // cta-cw: the plain Call + WhatsApp pair (same as the sticky mobile bar); renderPage marks all but the last one
+    // on a page as cta-mid, hidden below 768 px where the bar is always on screen.
+    return `<div class="cta-row cta-cw">${callButton(p, loc)}${waButton(p, loc)}</div>`;
   }
   if (mk.head === 'call+book_visit') {
     const href = mk.extra.book_visit || '#book-a-visit';
@@ -259,6 +261,29 @@ function linkPhones(ctx: Ctx, html: string) {
   }).join('');
 }
 
+/** Line-break hygiene on visible text only (never inside tags, <script> or <select>): keep place names, times,
+ *  phone numbers and price amounts on one line. NBSP = U+00A0, WJ = U+2060 (no break after the en dash). */
+export function typo(html: string) {
+  let skip = 0;
+  return html.split(/(<[^>]+>)/).map((part) => {
+    if (part.startsWith('<')) {
+      if (/^<(script|select)[\s>]/i.test(part)) skip++;
+      else if (/^<\/(script|select)>/i.test(part)) skip = Math.max(0, skip - 1);
+      return part;
+    }
+    if (skip || !part.trim()) return part;
+    return part
+      .replace(/\b([A-Z][a-z]+|[A-Z]{2,}) (Vihar|Nagar|Village|Square|Center)\b/g, '$1 $2')
+      .replace(/\b(\d{1,2}) (AM|PM)\b/g, '$1 $2')
+      .replace(/\b(AM|PM) – /g, '$1 – ')
+      .replace(/\+91 (\d{10})/g, '+91 $1')
+      .replace(/\b(from|From|up to|Up to) ₹/g, '$1 ₹')
+      .replace(/₹([\d,]+)\s?[–-]\s?₹/g, '₹$1–⁠₹')
+      .replace(/ \+ parts\b/g, ' + parts')
+      .replace(/(\d) five-star\b/g, '$1 five-star');
+  }).join('');
+}
+
 function postProcess(ctx: Ctx, html: string) {
   html = html.replace(/<a href="([^"]+)">([\s\S]*?)<\/a>/g, (_m, href, text) => `<a href="${href}"${linkAttrs(ctx, href.replace(/&amp;/g, '&'), text)}>${text}</a>`);
   html = html.replace(/<table>([\s\S]*?)<\/table>/g, (_m, inner: string) => {
@@ -272,6 +297,15 @@ function postProcess(ctx: Ctx, html: string) {
       t = t.replace(/<th(?=[\s>])(?![^>]*scope)/g, '<th scope="col"');
     }
     const pricing = /<th[^>]*>\s*Price/.test(t) ? ' data-pricing' : '';
+    // Text tables (not rate tables): every cell carries its column header, shown as a label when rows stack on phones.
+    if (!keyValue && !pricing) {
+      const heads = [...(t.match(/<thead>[\s\S]*?<\/thead>/)?.[0] || '').matchAll(/<th[^>]*>([\s\S]*?)<\/th>/g)].map((m) => esc(cleanInline(m[1].replace(/<[^>]+>/g, ''))));
+      t = t.replace(/<tbody>([\s\S]*?)<\/tbody>/, (_b, rows: string) =>
+        `<tbody>${rows.replace(/<tr>([\s\S]*?)<\/tr>/g, (_r, cells: string) => {
+          let n = 0;
+          return `<tr>${cells.replace(/<td(?=[\s>])/g, () => `<td data-label="${heads[n++] || ''}"`)}</tr>`;
+        })}</tbody>`);
+    }
     const label = ctx.label ? esc(cleanInline(ctx.label)) : 'Table';
     const cols = (t.match(/<tr>([\s\S]*?)<\/tr>/)?.[1].match(/<t[hd][\s>]/g) || []).length;
     return `<div class="tbl${keyValue ? ' tbl-kv' : ''}${cols > 2 ? ' tbl-3' : ''}" role="region" aria-label="${label}" tabindex="0"${pricing}><table>${t}</table></div>`;
@@ -430,7 +464,7 @@ export interface Rendered {
   heroBlocks: string;
   heroCard: string;
   heroImage: string;
-  sections: { id: string; title: string; html: string }[];
+  sections: { id: string; title: string; html: string; card: string }[];
   faqCount: number;
 }
 
@@ -473,10 +507,16 @@ async function renderSegs(ctx: Ctx, segs: Seg[], level: 'h2' | 'h3', heroMode = 
       ctx.loc = prevLoc;
     } else if (s.t === 'marker') {
       const { kind } = s.mk;
-      if (kind === 'CTA') push(renderCta(ctx, s.mk));
-      else if (kind === 'IMAGE') {
+      if (kind === 'CTA') {
+        // Two CTA rows in a row (e.g. an [IMAGE] between them that has no photo yet renders nothing): keep the first.
+        const list = card || out;
+        if (!/^<div class="cta-row/.test(list[list.length - 1] || '')) push(renderCta(ctx, s.mk));
+      } else if (kind === 'IMAGE') {
         if (heroMode && !firstImage) firstImage = await renderImage(ctx, s.mk, true);
-        else push(await renderImage(ctx, s.mk));
+        else {
+          const img = await renderImage(ctx, s.mk);
+          if (img) push(img);
+        }
       } else if (kind === 'MAP') push(renderMap(ctx.page, { button: s.mk.attrs.button, loc: s.mk.attrs.cta_location }));
       else if (kind === 'CARD LABEL') {
         if (card) out.push(...wrapCard(card, level));
@@ -506,7 +546,11 @@ async function renderSegs(ctx: Ctx, segs: Seg[], level: 'h2' | 'h3', heroMode = 
 }
 
 function wrapCard(parts: string[], _level: string) {
-  return [`<div class="card form-card">${parts.join('')}</div>`];
+  // The in-page anchor (#book-a-visit) sits on the card, so a jump lands on the card title, not the first field.
+  let html = parts.join('');
+  let id = '';
+  html = html.replace(/<form id="(book-a-visit)"/, (_m, a) => { id = a; return '<form id="book_visit"'; });
+  return [`<div class="card form-card"${id ? ` id="${id}"` : ''}>${html}</div>`];
 }
 
 export async function renderPage(page: Page): Promise<Rendered> {
@@ -529,7 +573,8 @@ export async function renderPage(page: Page): Promise<Rendered> {
   const hero = await renderSegs(ctx, heroSegs, 'h2', true);
   let heroCard = hero.cardHtml;
   let heroBlocks = hero.html.filter((h) => h !== heroCard).join('\n');
-  if (!heroCard && page.fm.page_type === 'service') heroCard = quickQuoteCard(page);
+  // Service and area pages: Quick Quote card beside the hero text (no empty right half on desktop).
+  if (!heroCard && (page.fm.page_type === 'service' || page.fm.page_type === 'locality')) heroCard = quickQuoteCard(page);
 
   const sections: Rendered['sections'] = [];
   if (firstH2 >= 0) {
@@ -542,10 +587,28 @@ export async function renderPage(page: Page): Promise<Rendered> {
       ctx.loc = 'inline_content';
       ctx.label = g.title;
       const r = await renderSegs(ctx, g.segs, 'h3');
-      sections.push({ id: slugify(cleanInline(g.title)), title: marked.parseInline(g.title) as string, html: r.html.join('\n') });
+      const id = slugify(cleanInline(g.title));
+      // A section that holds a form card (Book a Visit) renders as intro + card (two columns on desktop).
+      const card = r.cardHtml && r.html.includes(r.cardHtml) ? r.cardHtml : '';
+      let parts = card ? r.html.filter((h) => h !== card) : r.html;
+      // "Book …" sections and form sections always end with Call / WhatsApp buttons.
+      if ((id.startsWith('book-') || card) && !parts.some((h) => h.startsWith('<div class="cta-row'))) {
+        parts = [...parts, `<div class="cta-row cta-cw">${callButton(page, 'inline_content')}${waButton(page, 'inline_content')}</div>`];
+      }
+      sections.push({ id, title: typo(marked.parseInline(g.title) as string), html: typo(parts.join('\n')), card: card ? typo(card) : '' });
     }
   }
-  const all = [breadcrumb, heroBlocks, heroCard, ...sections.map((s) => s.html)].join('\n');
+  // On phones the sticky bar already shows Call + WhatsApp: keep only the last plain Call + WhatsApp row of the page
+  // visible there (cta-mid rows are hidden below 768 px by global.css).
+  const cwCount = sections.reduce((n, s) => n + (s.html.match(/class="cta-row cta-cw"/g) || []).length, 0);
+  let cwSeen = 0;
+  for (const s of sections) {
+    s.html = s.html.replace(/class="cta-row cta-cw"/g, (m) => (++cwSeen < cwCount ? 'class="cta-row cta-cw cta-mid"' : m));
+  }
+  heroBlocks = typo(heroBlocks);
+  heroCard = typo(heroCard);
+  h1 = typo(h1);
+  const all = [breadcrumb, heroBlocks, heroCard, ...sections.map((s) => s.html + s.card)].join('\n');
   const leak = all.replace(/<script[\s\S]*?<\/script>/g, '').match(/\[(CTA|IMAGE|MAP|FORM|BREADCRUMB|CARD LABEL|WHY PRICING|PRICING TIERS)\b[^\]]*/);
   if (leak) throw new Error(`${page.file}: raw marker leaked into HTML: ${leak[0].slice(0, 60)}`);
   const faqCount = (all.match(/<details class="faq"/g) || []).length;

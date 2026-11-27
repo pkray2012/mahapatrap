@@ -28,7 +28,15 @@
 }
 
 @layer base {
+  /* One text measure for body copy, FAQ answers and 2-column tables; a wide measure for 3-column tables and the map. */
+  :root { --measure: 68ch; --measure-wide: 56rem; }
   html { -webkit-text-size-adjust: 100%; scroll-padding-top: 5rem; }
+  @media (min-width: 768px) { html { scroll-padding-top: 6rem; } }
+  /* No one-word last lines in headings; fewer orphans in paragraphs. */
+  h1, h2, h3, .card-title, .faq > summary h3 { text-wrap: balance; }
+  p, li, td, figcaption, blockquote { text-wrap: pretty; }
+  /* A phone number never breaks after "+91". */
+  a[href^="tel:"] { white-space: nowrap; }
   body { background: var(--color-page); color: var(--color-ink); font-family: var(--font-sans); line-height: 1.6; }
   h1, h2, h3 { color: var(--color-navy); line-height: 1.25; font-weight: 800; }
   a { color: var(--color-blue-dark); }
@@ -40,7 +48,8 @@
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
   }
-  @media (max-width: 767px) { body { padding-bottom: calc(4.5rem + env(safe-area-inset-bottom)); } }
+  /* Room for the sticky mobile bar: on the footer (navy under the bar, no light strip between them). */
+  @media (max-width: 767px) { .site-footer { padding-bottom: calc(4.5rem + env(safe-area-inset-bottom)); } }
 }
 
 @layer components {
@@ -69,6 +78,9 @@
   .btn-block { width: 100%; }
   .cta-row { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1.25rem 0; }
   @media (max-width: 479px) { .cta-row > .btn { flex: 1 1 100%; } }
+  /* Phones: the sticky bar already shows Call + WhatsApp, so repeated mid-page Call + WhatsApp rows are hidden
+     (the last one on the page stays). */
+  @media (max-width: 767px) { .cta-mid { display: none; } }
 
   /* Header / nav */
   .topbar { background: var(--color-navy); color: #fff; font-size: .875rem; }
@@ -90,7 +102,7 @@
   .dd { position: relative; }
   .dd[open] > summary .ico { transform: rotate(180deg); }
   .dd > summary::-webkit-details-marker, .mnav > summary::-webkit-details-marker, .faq > summary::-webkit-details-marker { display: none; }
-  .dd-panel a { display: flex; align-items: center; min-height: 44px; padding: 0 .75rem; border-radius: .5rem; color: var(--color-ink); text-decoration: none; }
+  .dd-panel a { display: flex; align-items: center; min-height: 44px; padding: .375rem .75rem; line-height: 1.3; border-radius: .5rem; color: var(--color-ink); text-decoration: none; }
   .dd-panel a:hover { background: var(--color-tint); color: var(--color-navy); }
   .dd-ico { width: 1.125rem; height: 1.125rem; margin-right: .625rem; color: var(--color-blue); }
   .mnav > summary { display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: .75rem; color: var(--color-navy); cursor: pointer; list-style: none; }
@@ -103,13 +115,14 @@
       max-height: 75vh; overflow-y: auto; padding: .5rem 1rem 1rem; box-shadow: 0 12px 24px rgb(10 42 92 / .12); }
     .mnav[open] ~ .nav-main { display: block; }
     .dd-panel { padding: 0 0 .5rem .75rem; display: grid; }
-    @media (min-width: 640px) { .dd-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (min-width: 640px) { .dd-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: repeat(7, auto); grid-auto-flow: column; column-gap: .5rem; } }
   }
   @media (min-width: 1024px) {
     .mnav { display: none; }
     .nav-list { display: flex; align-items: center; gap: .25rem; }
     .dd-panel { position: absolute; left: 0; top: 100%; min-width: 18rem; background: #fff; border: 1px solid var(--color-line); border-radius: 1rem; box-shadow: 0 10px 30px rgb(10 42 92 / .12); padding: .5rem; }
-    .dd-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); min-width: 34rem; }
+    /* 13 services: two columns filled top to bottom (7 + 6), so no lone link on a last row. */
+    .dd-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: repeat(7, auto); grid-auto-flow: column; column-gap: .25rem; min-width: 38rem; }
   }
 
   /* Breadcrumb */
@@ -117,41 +130,65 @@
   .crumbs li + li::before { content: "/"; margin-right: .25rem; color: #94a3b8; }
   /* 44 px tall tap target without pushing the H1 down (the negative list margin absorbs it). */
   .crumb-home { width: 1rem; height: 1rem; margin-right: .3125rem; }
-  .crumbs a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 .25rem; margin-left: -.25rem; }
+  .crumbs a, .md .crumbs li a:not(.btn) { white-space: nowrap; display: inline-flex; align-items: center; min-height: 44px; padding: 0 .25rem; margin-left: -.25rem; }
 
   /* Hero */
   .hero { background: linear-gradient(180deg, #fff 0%, var(--color-tint) 100%); border-bottom: 1px solid var(--color-line); }
-  .hero-grid { display: grid; gap: 1.5rem; padding-block: 1.5rem 2rem; grid-template-areas: "text" "card" "img"; }
+  /* Below 900 px the hero follows source order (no empty named rows adding gaps under the text). */
+  .hero-grid { display: grid; gap: 1.5rem; padding-block: 1.5rem 2rem; }
   @media (min-width: 900px) {
     .hero-grid { grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); grid-template-areas: "text card" "img card"; gap: 2rem 3rem; padding-block: 3rem; align-items: start; }
+    .hero-text { grid-area: text; }
+    .hero-aside { grid-area: card; }
+    .hero-img { grid-area: img; }
     .hero-grid.no-card { grid-template-areas: "text img"; }
+    /* No card and no photo (pricing, about, contact, privacy): one column, no empty right half. */
+    .hero-grid.no-card:not(:has(.hero-img)) { grid-template-columns: minmax(0, 1fr); grid-template-areas: "text"; }
+    .hero-grid.no-card:not(:has(.hero-img)) h1 { max-width: 24ch; }
   }
-  .hero-text { grid-area: text; }
-  .hero-aside { grid-area: card; }
-  .hero-img { grid-area: img; }
+  .hero-text > :last-child { margin-bottom: 0; }
   .hero h1 { font-size: clamp(1.75rem, 5.5vw, 2.75rem); letter-spacing: -.01em; margin-bottom: .75rem; }
+  @media (min-width: 900px) and (max-width: 1199px) { .hero h1 { font-size: 2.25rem; } }
   .hero-text > p { font-size: 1.0625rem; max-width: 40rem; }
-  .accent { text-decoration: underline; text-decoration-color: var(--color-orange); text-decoration-thickness: .18em; text-underline-offset: .14em; }
+  .accent { text-decoration-skip-ink: none; text-decoration: underline; text-decoration-color: var(--color-orange); text-decoration-thickness: .18em; text-underline-offset: .14em; }
 
-  .trust { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0; }
-  .trust li { display: inline-flex; align-items: center; gap: .5rem; background: #fff; border: 1px solid var(--color-line); border-radius: var(--radius-ctl); padding: .4375rem .75rem .4375rem .5rem; font-size: 1rem; font-weight: 600; line-height: 1.4; color: var(--color-navy); box-shadow: var(--shadow-card); }
+  /* Trust chips: an even grid (1 column on phones, 2 from 640 px, 4 across in a one-column desktop hero). */
+  .trust { display: grid; grid-template-columns: minmax(0, 1fr); gap: .5rem; margin: 1rem 0; }
+  @media (min-width: 640px) {
+    .trust { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .trust > li:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  }
+  @media (min-width: 1100px) {
+    .no-card:not(:has(.hero-img)) .trust:has(> li:nth-child(4):last-child) { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .no-card:not(:has(.hero-img)) .trust:has(> li:nth-child(3):last-child) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .no-card:not(:has(.hero-img)) .trust > li:last-child { grid-column: auto; }
+  }
+  .trust li { display: flex; align-items: center; gap: .5rem; background: #fff; border: 1px solid var(--color-line); border-radius: var(--radius-ctl); padding: .4375rem .75rem .4375rem .5rem; font-size: 1rem; font-weight: 600; line-height: 1.4; color: var(--color-navy); box-shadow: var(--shadow-card); }
   .trust .ico { width: 1.625rem; height: 1.625rem; padding: .3125rem; border-radius: 999px; background: var(--color-tint); color: var(--color-blue-dark); }
 
   /* Cards */
   .card { background: #fff; border: 1px solid var(--color-line); border-radius: var(--radius-card); padding: 1.25rem; box-shadow: var(--shadow-card); }
   .form-card { max-width: 32rem; border-top: 4px solid var(--color-blue); box-shadow: var(--shadow-raise); }
   @media (min-width: 640px) { .form-card { padding: 1.5rem; } }
+  /* Tablet: the card uses the full column (no empty strip beside it); Name + Phone share a row. */
+  @media (min-width: 640px) and (max-width: 899px) { .hero-aside .form-card { max-width: none; } }
+  @media (min-width: 640px) and (max-width: 1023px) { .bv > .form-card { max-width: none; } }
+  @media (min-width: 640px) and (max-width: 899px) { .hero-aside .wa-form { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (min-width: 1100px) { .hero-aside .wa-form { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (min-width: 640px) { .bv .wa-form { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .wa-form > :nth-child(n+3) { grid-column: 1 / -1; }
   .card-title, .sec .card-title { font-size: 1.25rem; font-weight: 800; color: var(--color-navy); line-height: 1.25; margin: 0 0 .25rem; }
   .consent, .consent p { font-size: .9375rem; color: var(--color-muted); margin-top: .75rem; }
   .noscript { margin-top: .75rem; font-weight: 600; }
 
   /* Form */
-  /* Desktop: a content section that holds a form card (Book a Visit) becomes two columns: heading, intro, CTAs
-     and address on the left, the form card on the right (no half-empty row). */
+  /* Desktop: a content section that holds a form card (Book a Visit) is two columns: heading, intro, CTAs and
+     address on the left, centred against the form card on the right. */
+  .bv-intro > :last-child { margin-bottom: 0; }
+  @media (max-width: 1023px) { .bv-intro { margin-bottom: 1.5rem; } }
   @media (min-width: 1024px) {
-    .sec .wrap.md:has(> .form-card) { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 30rem); column-gap: 4rem; align-items: start; }
-    .sec .wrap.md:has(> .form-card) > * { grid-column: 1; }
-    .sec .wrap.md:has(> .form-card) > .form-card { grid-column: 2; grid-row: 1 / span 12; max-width: none; margin: 0; }
+    .bv { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 30rem); column-gap: 4rem; align-items: center; }
+    .bv > .form-card { max-width: none; margin: 0; }
   }
   .wa-form { display: grid; gap: .75rem; margin-top: .75rem; }
   .fld label { display: block; font-weight: 600; font-size: 1rem; margin-bottom: .25rem; color: var(--color-navy); }
@@ -167,11 +204,16 @@
   .sec { padding-block: 2.5rem; background: #fff; }
   main > section.sec:nth-of-type(odd) { background: var(--color-tint); border-block: 1px solid var(--color-line); }
   @media (min-width: 768px) { .sec { padding-block: 3.5rem; } }
+  /* Thin sections (heading + one paragraph) get less padding. */
+  .sec:has(> .wrap > h2:first-child + p:last-child) { padding-block: 2rem; }
+  @media (min-width: 768px) { .sec:has(> .wrap > h2:first-child + p:last-child) { padding-block: 2.5rem; } }
+  .sec .wrap > :last-child { margin-bottom: 0; }
+  .sec .wrap > * + h2 { margin-top: 2.5rem; }
   .sec h2 { font-size: clamp(1.5rem, 4vw, 2rem); margin-bottom: 1.25rem; max-width: 48rem; letter-spacing: -.01em; }
   /* Thin orange accent under each section heading (orange = small accents only). */
   .sec .wrap > h2::after { content: ""; display: block; width: 2.5rem; height: 3px; margin-top: .625rem; border-radius: 2px; background: var(--color-orange); }
   .sec h3 { font-size: 1.1875rem; margin: 1.5rem 0 .5rem; }
-  .md p, .md > ul:not(.cards):not(.chips):not(.trust):not(.contact-list), .md > ol { max-width: 48rem; margin-bottom: 1rem; }
+  .md p, .md > ul:not(.cards):not(.chips):not(.trust):not(.contact-list), .md > ol { max-width: var(--measure); margin-bottom: 1rem; }
   .md > ul:not(.cards):not(.chips):not(.trust):not(.contact-list) { padding-left: 0; }
   .md > ul:not(.cards):not(.chips):not(.trust):not(.contact-list) > li { position: relative; padding-left: 1.75rem; margin-bottom: .5rem; }
   .md > ul:not(.cards):not(.chips):not(.trust):not(.contact-list) > li::before { content: ""; position: absolute; left: .25rem; top: .45em; width: 1rem; height: 1rem; border-radius: 999px;
@@ -191,11 +233,22 @@
   .md p a:not(.btn), .md li a:not(.btn) { display: inline; padding-block: .3rem; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 
   .cards { display: grid; gap: 1rem; margin: 1rem 0 1.5rem; }
-  @media (min-width: 640px) { .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-  @media (min-width: 1024px) { .cards { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  /* Card grids never leave a lone card on the last row: 2 columns (640–1023) span an odd last card across the
+     row; 3 columns (6-track grid from 1024) widen a short last row to fill it, and 4 cards sit 2 × 2. */
+  @media (min-width: 640px) and (max-width: 1023px) {
+    .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .cards > li:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  }
+  @media (min-width: 1024px) {
+    .cards { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+    .cards > li { grid-column: span 2; }
+    .cards > li:last-child:nth-child(3n+1) { grid-column: 1 / -1; }
+    .cards > li:nth-last-child(2):nth-child(3n+1), .cards > li:last-child:nth-child(3n+2) { grid-column: span 3; }
+    .cards:has(> li:nth-child(4):last-child) > li { grid-column: span 3; }
+  }
   /* Service cards (old-site look): white card, brand-blue line icon + bold navy title on one line, short
      description under it. The whole card is the link (::after overlay on the title link). */
-  .svc-card { position: relative; background: #fff; border: 1px solid var(--color-line); border-radius: var(--radius-card); padding: 1.125rem 1.25rem; box-shadow: var(--shadow-card); transition: border-color .15s, box-shadow .15s, transform .15s; }
+  .svc-card { position: relative; display: flex; flex-direction: column; background: #fff; border: 1px solid var(--color-line); border-radius: var(--radius-card); padding: 1.125rem 1.25rem; box-shadow: var(--shadow-card); transition: border-color .15s, box-shadow .15s, transform .15s; }
   .svc-card:hover { border-color: var(--color-blue); box-shadow: var(--shadow-raise); transform: translateY(-2px); }
   .svc-card:focus-within { border-color: var(--color-blue-dark); }
   .svc-head { display: flex; align-items: center; gap: .625rem; }
@@ -218,12 +271,15 @@
      keeps the link's tap area at 44 px. */
   .chips li { display: block; background: #fff; border: 1px solid var(--color-line); border-radius: var(--radius-ctl); padding: .6rem .875rem; line-height: 1.5; font-size: 1rem; color: var(--color-muted); box-shadow: var(--shadow-card); transition: border-color .15s; }
   .chips li:hover { border-color: var(--color-blue); }
+  @media (max-width: 479px) { .chips li { flex: 1 1 100%; } }
+  /* Three chips: one even row from 768 px (no lone chip on a second row). */
+  @media (min-width: 768px) { .chips:has(> li:nth-child(3):last-child) { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); } }
   .chip-ico { display: inline-block; width: 1.125rem; height: 1.125rem; margin-right: .375rem; vertical-align: -.2em; color: var(--color-blue); }
   .chips a { display: inline; font-weight: 700; color: var(--color-navy); text-decoration: none; padding-block: .6rem; }
   .chips a:hover { color: var(--color-blue-dark); text-decoration: underline; }
 
   /* Contact details list: one icon per line */
-  .contact-list { display: grid; gap: .625rem; max-width: 48rem; margin: 1rem 0 1.25rem; }
+  .contact-list { display: grid; gap: .625rem; max-width: var(--measure); margin: 1rem 0 1.25rem; }
   .contact-list li { display: flex; align-items: flex-start; gap: .75rem; }
   .contact-ico { width: 2.25rem; height: 2.25rem; padding: .5rem; border-radius: .75rem; background: var(--color-tint); color: var(--color-blue); }
   .contact-list li > span { padding-top: .375rem; }
@@ -261,38 +317,53 @@
   .tier-btn { margin-top: auto; }
   .md .tier-note { margin: 1rem 0 0; font-size: .9375rem; color: var(--color-muted); max-width: 56rem; }
 
-  /* Tables scroll sideways on small screens */
-  .tbl { overflow-x: auto; margin: 1rem 0 1.5rem; border: 1px solid var(--color-line); border-radius: var(--radius-card); background: #fff; max-width: 56rem; box-shadow: var(--shadow-card); }
-  .tbl tbody tr:nth-child(even) > * { background-color: var(--color-zebra); }
-  /* 2-column rate tables: prices line up on the right edge (desktop scanning). */
-  .tbl:not(.tbl-kv):not(.tbl-3) :is(th, td):nth-child(2) { text-align: right; }
+  /* Tables. Rate tables carry data-pricing (a "Price" column); text tables (privacy) and key-value tables do not. */
+  .tbl { overflow-x: auto; margin: 1rem 0 1.5rem; border: 1px solid var(--color-line); border-radius: var(--radius-card); background: #fff; max-width: var(--measure-wide); box-shadow: var(--shadow-card); }
+  .tbl:not(.tbl-3) { max-width: var(--measure); }
+  .tbl tbody tr:nth-child(even) { background-color: var(--color-zebra); }
   .tbl table { width: 100%; border-collapse: collapse; font-size: 1rem; }
   .tbl th, .tbl td { text-align: left; padding: .75rem 1rem; border-bottom: 1px solid var(--color-line); vertical-align: top; }
   .tbl tr:last-child > * { border-bottom: 0; }
-  .tbl thead th { background: var(--color-tint); color: var(--color-navy); font-weight: 800; white-space: nowrap; border-bottom: 2px solid var(--color-line); font-size: .9375rem; letter-spacing: .01em; }
+  .tbl thead th { background: var(--color-tint); color: var(--color-navy); font-weight: 800; border-bottom: 2px solid var(--color-line); font-size: .9375rem; letter-spacing: .01em; }
   .tbl tbody th { color: var(--color-navy); font-weight: 700; }
-  .tbl-kv tbody th { background: var(--color-page); width: 34%; }
-  .tbl td:nth-child(2) { font-weight: 600; white-space: nowrap; color: var(--color-navy); }
-  .tbl-kv td:nth-child(2) { white-space: normal; font-weight: 400; color: var(--color-ink); }
-  /* Phones: tables fit the screen; prices wrap instead of being clipped or scrolled out of view. */
+  .tbl-kv tbody th { width: 34%; }
+  /* Rate tables: bold navy prices; in 2-column tables they line up on the right edge. Amounts never split
+     (no-break spaces from the renderer); long text prices wrap. */
+  .tbl[data-pricing] td:nth-child(2) { font-weight: 600; color: var(--color-navy); }
+  .tbl[data-pricing]:not(.tbl-3) :is(th, td):nth-child(2) { text-align: right; min-width: 8rem; }
+  /* 3-column rate tables: fixed columns, so prices and notes line up from table to table (/pricing/). */
+  @media (min-width: 600px) {
+    .tbl-3[data-pricing] table { table-layout: fixed; }
+    .tbl-3[data-pricing] :is(th, td):nth-child(1) { width: 44%; }
+    .tbl-3[data-pricing] :is(th, td):nth-child(2) { width: 24%; }
+  }
+  /* Text tables: fixed, readable columns. */
+  .tbl:not([data-pricing]):not(.tbl-kv) table { table-layout: fixed; }
+  .tbl-3:not([data-pricing]) :is(th, td):nth-child(1) { width: 26%; }
+  .tbl-3:not([data-pricing]) :is(th, td):nth-child(2) { width: 44%; }
+  .tbl-3:not([data-pricing]) tbody td:first-child { font-weight: 700; color: var(--color-navy); }
   @media (max-width: 599px) {
     .tbl th, .tbl td { padding: .625rem .75rem; }
-    .tbl td:nth-child(2) { white-space: normal; min-width: 6.5rem; }
-    .tbl thead th { white-space: normal; }
-    .tbl-kv tbody th { width: 38%; }
-    /* 3-column rate tables: the Notes cell drops under the row as a full-width line. */
-    .tbl-3 table, .tbl-3 tbody { display: block; }
-    .tbl-3 thead { display: block; }
-    .tbl-3 thead tr { display: grid; grid-template-columns: minmax(0, 1fr) 7.5rem; }
-    .tbl-3 thead th:nth-child(3) { display: none; }
-    .tbl-3 tbody tr { display: grid; grid-template-columns: minmax(0, 1fr) 7.5rem; border-bottom: 1px solid var(--color-line); }
-    .tbl-3 tbody tr:last-child { border-bottom: 0; }
-    .tbl-3 th, .tbl-3 td { border-bottom: 0; }
-    .tbl-3 tbody td:nth-child(3) { grid-column: 1 / -1; padding-top: 0; color: var(--color-muted); }
+    .tbl-kv tbody th { width: 7.5rem; }
+    /* Phones: every rate-table row stacks: service, then price, then notes (left-aligned, full width). */
+    .tbl[data-pricing] :is(table, tbody, tr, td) { display: block; }
+    .tbl[data-pricing] thead, .tbl:not([data-pricing]):not(.tbl-kv) thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    .tbl[data-pricing] tbody tr { padding: .625rem .875rem; border-bottom: 1px solid var(--color-line); }
+    .tbl[data-pricing] tbody tr:last-child { border-bottom: 0; }
+    .tbl[data-pricing] tbody td { padding: 0; border: 0; min-width: 0; text-align: left; }
+    .tbl[data-pricing] tbody td:nth-child(2) { margin-top: .125rem; font-weight: 700; }
+    .tbl[data-pricing] tbody td:nth-child(3) { margin-top: .125rem; font-size: .9375rem; color: var(--color-muted); }
+    /* Text tables: one block per row, each value under its column label. */
+    .tbl:not([data-pricing]):not(.tbl-kv) :is(table, tbody, tr, td) { display: block; width: auto; }
+    .tbl:not([data-pricing]):not(.tbl-kv) tbody tr { padding: .5rem 0; border-bottom: 1px solid var(--color-line); }
+    .tbl:not([data-pricing]):not(.tbl-kv) tbody tr:last-child { border-bottom: 0; }
+    .tbl:not([data-pricing]):not(.tbl-kv) tbody td { border: 0; padding: .25rem .875rem; }
+    .tbl:not([data-pricing]):not(.tbl-kv) tbody td:not(:first-child)::before { content: attr(data-label) ": "; font-weight: 700; color: var(--color-navy); }
   }
 
   /* FAQs */
-  .faqs { display: grid; gap: .75rem; max-width: 52rem; margin: 1rem 0; }
+  /* FAQ boxes: the text measure plus the box padding, so answers run at the same ~68ch as body copy. */
+  .faqs { display: grid; gap: .75rem; max-width: calc(var(--measure) + 2.25rem + 2px); margin: 1rem 0; }
   .faq { background: #fff; border: 1px solid var(--color-line); border-radius: var(--radius-card); box-shadow: var(--shadow-card); transition: border-color .15s; }
   .faq:hover { border-color: var(--color-blue); }
   .faq[open] { border-color: var(--color-blue); box-shadow: inset 4px 0 0 var(--color-blue), var(--shadow-card); }
@@ -311,7 +382,7 @@
   .hero-grid:not(.no-card) .hero-img { max-width: 34rem; }
 
   /* Map facade */
-  .map { border: 1px solid var(--color-line); border-radius: var(--radius-card); overflow: hidden; background: #fff; max-width: 56rem; margin: 1rem 0 1.5rem; box-shadow: var(--shadow-card); }
+  .map { border: 1px solid var(--color-line); border-radius: var(--radius-card); overflow: hidden; background: #fff; max-width: var(--measure-wide); margin: 1rem 0 1.5rem; box-shadow: var(--shadow-card); }
   .map-canvas { position: relative; aspect-ratio: 16 / 7; display: grid; place-items: center;
     background: linear-gradient(28deg, transparent 47%, #fff 47% 51%, transparent 51%), linear-gradient(-62deg, transparent 58%, #fff 58% 61%, transparent 61%),
       linear-gradient(90deg, transparent 30%, #f7e7cf 30% 32%, transparent 32%), radial-gradient(circle at 75% 30%, #cfe8d6 0 12%, transparent 12.5%), #e4edf6; }
@@ -326,7 +397,9 @@
     .map { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); }
     .map-canvas { aspect-ratio: auto; min-height: 16rem; }
     .map-info { align-self: center; padding: 1.5rem; }
+    .map-info .cta-row { flex-direction: column; align-items: stretch; }
   }
+  @media (max-width: 899px) { .map-canvas { aspect-ratio: 3 / 1; } }
 
   /* Reviews */
   .revs-scroll { overflow-x: auto; scroll-snap-type: x mandatory; margin: 1rem 0 0; padding: .25rem .125rem 1rem; border-radius: 1rem; }
@@ -342,7 +415,7 @@
   .rev-score { font-size: 2.75rem; font-weight: 800; line-height: 1; color: var(--color-navy); margin: 0; }
   .rev-score span { color: var(--color-orange); margin-left: .125rem; }
   .rev-count { font-weight: 600; color: var(--color-navy); margin: 0; }
-  .rev-cta .btn { align-self: center; }
+  .rev-cta .btn { align-self: center; white-space: nowrap; }
   .rev-write { font-weight: 600; color: var(--color-blue-dark); text-decoration: underline; text-underline-offset: 3px; display: inline-flex; align-items: center; min-height: 44px; justify-content: center; }
   .rev { scroll-snap-align: start; display: flex; flex-direction: column; gap: .5rem; }
   .stars { display: flex; gap: .125rem; color: var(--color-orange); }
@@ -358,15 +431,30 @@
   .site-footer h2 { color: var(--color-on-navy); font-size: .9375rem; text-transform: uppercase; letter-spacing: .06em; margin-bottom: .5rem; }
   .site-footer h2::after { content: ""; display: block; width: 1.75rem; height: 2px; margin-top: .5rem; background: var(--color-orange); border-radius: 2px; }
   .site-footer a { color: var(--color-on-navy); text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; transition: color .15s; }
+  .site-footer li a { padding-block: .25rem; line-height: 1.35; }
+  .site-footer address > p { display: flex; align-items: center; min-height: 44px; margin: 0; }
+  .site-footer address > p:first-child { align-items: flex-start; }
   .site-footer a:hover, .site-footer a.underline { text-decoration: underline; text-underline-offset: 3px; }
   .site-footer a:hover { color: #fff; }
   .site-footer .ico { color: var(--color-orange); }
   .ft-ico { width: 1rem; height: 1rem; margin-right: .5rem; vertical-align: -.125em; display: inline-block; }
+  /* Footer: phones one column; 640–1023 brand and Services (2 lists) full width, then Areas | Company;
+     from 1024 three even columns: brand | Services | Areas + Company. */
   .ft-grid { display: grid; gap: 2rem; padding-block: 3rem; }
-  .ft-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 1rem; }
-  @media (min-width: 640px) { .ft-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  .ft-col { display: contents; }
+  .ft-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 1.5rem; align-items: start; }
+  @media (min-width: 640px) {
+    .ft-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .ft-brand, .ft-svc { grid-column: 1 / -1; }
+    .ft-svc ul { columns: 2; column-gap: 1.5rem; }
+    .ft-svc li { break-inside: avoid; }
+    .ft-co .ft-2 { grid-template-columns: 1fr; }
+  }
   @media (min-width: 1024px) {
-    .ft-grid { grid-template-columns: minmax(0, 1.35fr) minmax(0, 1.25fr) minmax(0, 1fr) minmax(0, .7fr); gap: 2.5rem; }
+    .ft-grid { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1.25fr) minmax(0, 1fr); gap: 2.5rem; }
+    .ft-brand, .ft-svc { grid-column: auto; }
+    .ft-svc ul { columns: auto; }
+    .ft-col { display: flex; flex-direction: column; gap: 2rem; }
     .ft-2 { grid-template-columns: 1fr; }
     .site-footer ul a { min-height: 2.25rem; }
   }

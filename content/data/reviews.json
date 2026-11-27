@@ -22,7 +22,15 @@
     "/services/bathroom-and-kitchen-fittings/",
     "/services/bathroom-plumbing-renovation/",
     "/services/new-bathroom-and-house-plumbing/",
-    "/services/commercial-plumbing/"
+    "/services/commercial-plumbing/",
+    "/areas/chandrasekharpur/",
+    "/areas/patia/",
+    "/areas/kiit/",
+    "/areas/infocity/",
+    "/areas/niladri-vihar/",
+    "/areas/sailashree-vihar/",
+    "/areas/jayadev-vihar/",
+    "/areas/nayapalli/"
   ],
   "reviews": [
     {

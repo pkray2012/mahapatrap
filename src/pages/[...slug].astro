@@ -32,11 +32,21 @@ const hasImg = Boolean(r.heroImage);
   </section>
   {r.sections.map((s, i) => (
     <section id={s.id} class:list={['sec', { 'sec-tint': i % 2 === 0 }]}>
-      <div class="wrap md">
-        <h2 set:html={s.title} />
-        <Fragment set:html={s.html} />
-        {i === reviewsAt && <Reviews page={page} inline />}
-      </div>
+      {s.card ? (
+        <div class="wrap md bv">
+          <div class="bv-intro">
+            <h2 set:html={s.title} />
+            <Fragment set:html={s.html} />
+          </div>
+          <Fragment set:html={s.card} />
+        </div>
+      ) : (
+        <div class="wrap md">
+          <h2 set:html={s.title} />
+          <Fragment set:html={s.html} />
+          {i === reviewsAt && <Reviews page={page} inline />}
+        </div>
+      )}
     </section>
   ))}
   {showReviews && reviewsAt < 0 && <Reviews page={page} />}

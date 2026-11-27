@@ -156,7 +156,7 @@ Yes. Besides homes and flats, we work for shops, Infocity offices, hostels and P
 
 ## How do I book a plumber in Bhubaneswar?
 
-Call or WhatsApp +91 9668875352 between 8 AM and 10 PM, any day. To book a plumber online, fill in the form below. It opens WhatsApp with your name, area and problem ready to send. We reply on WhatsApp to fix a time.
+Call or WhatsApp +91 9668875352 between 8 AM and 10 PM, any day. To book a plumber online, fill in the booking form. It opens WhatsApp with your name, area and problem ready to send. We reply on WhatsApp to fix a time.
 
 [CARD LABEL: Book a Visit]
 

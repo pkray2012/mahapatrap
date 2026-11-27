@@ -11,12 +11,12 @@ const stars = (n: number) => Array.from({ length: n }, () => icon('star')).join(
 const five = data.breakdown['5'];
 // Mobile: a horizontal scroller. The scroll container is focusable (keyboard users scroll it with the arrow keys)
 // and labelled; a visible hint tells touch users to swipe. From 768 px the cards sit in a grid.
-const cards = reviews.map((r) => `<li class="card rev"><figure class="flex flex-col gap-2 h-full"><div class="stars" role="img" aria-label="${r.stars} out of 5 stars">${stars(r.stars)}</div><blockquote><p>“${esc(r.excerpt)}”</p></blockquote><figcaption><strong>${esc(r.name)}</strong>${r.label ? `, ${esc(r.label)}` : ''} · Google review</figcaption></figure></li>`).join('');
+const cards = reviews.map((r) => `<li class="card rev"><figure class="flex flex-col gap-2 h-full"><div class="stars" role="img" aria-label="${r.stars} out of 5 stars">${stars(r.stars)}</div><blockquote><p>“${esc(r.excerpt)}”</p></blockquote><figcaption><strong>${esc(r.name)}</strong>${r.label ? `, ${esc(r.label)}` : ''} <span class="whitespace-nowrap">· Google review</span></figcaption></figure></li>`).join('');
 const writeUrl = 'https://search.google.com/local/writereview?placeid=ChIJkdMjFQAJGToRO7CJMqXssjw';
 const total = reviews.length + 1;
 const pt = page.fm.page_type;
 // Last card: rating summary + links. Fills the empty grid slot (5 reviews + 1 = 6, 2 + 1 = 3).
-const cta = `<li class="card rev rev-cta${total % 2 ? ' rev-cta-wide' : ''}"><div class="rev-cta-inner"><p class="rev-score">${data.rating.toFixed(1)}<span aria-hidden="true">★</span></p><div class="stars" role="img" aria-label="5 out of 5 stars">${stars(5)}</div><p class="rev-count">${data.reviewCount} Google reviews · ${five} five-star</p><a class="btn btn-outline" href="${data.googleMapsUrl}" target="_blank" rel="noopener" data-track="outbound_click" data-cta-location="inline_content" data-page-type="${pt}">Read all reviews on Google</a><a class="rev-write" href="${writeUrl}" target="_blank" rel="noopener" data-track="outbound_click" data-cta-location="inline_content" data-page-type="${pt}">Had work done by us? Leave a review</a></div></li>`;
+const cta = `<li class="card rev rev-cta${total % 2 ? ' rev-cta-wide' : ''}"><div class="rev-cta-inner"><p class="rev-score">${data.rating.toFixed(1)}</p><div class="stars" role="img" aria-label="5 out of 5 stars">${stars(5)}</div><p class="rev-count">${data.reviewCount} Google reviews · ${five}\u00A0five-star</p><a class="btn btn-outline" href="${data.googleMapsUrl}" target="_blank" rel="noopener" data-track="outbound_click" data-cta-location="inline_content" data-page-type="${pt}">Read all Google reviews</a><a class="rev-write" href="${writeUrl}" target="_blank" rel="noopener" data-track="outbound_click" data-cta-location="inline_content" data-page-type="${pt}">Had work done by us? Leave a\u00A0review</a></div></li>`;
 const strip = `<div class="revs-scroll" tabindex="0" role="region" aria-label="Google reviews"><ul class="revs">${cards}${cta}</ul></div>${reviews.length > 1 ? '<p class="swipe-hint md:hidden">Swipe for more reviews →</p>' : ''}`;
 ---
 {inline ? (
@@ -27,7 +27,6 @@ const strip = `<div class="revs-scroll" tabindex="0" role="region" aria-label="G
   <section class="sec sec-tint" aria-labelledby="reviews-title">
     <div class="wrap">
       <h2 id="reviews-title">What customers say on Google</h2>
-      <p class="flex items-center gap-2 font-semibold text-navy"><span class="stars" aria-hidden="true" set:html={stars(5)} />{data.rating.toFixed(1)}★ from {data.reviewCount} Google reviews ({five} five-star)</p>
       <Fragment set:html={strip} />
     </div>
   </section>

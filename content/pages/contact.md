@@ -37,7 +37,7 @@ Call or WhatsApp Mahapatra Plumbing Services any day, 8 AM to 10 PM. Late-night 
 
 ## Can I book a plumber visit without calling?
 
-Yes. Fill in the form below and tap the button. It opens WhatsApp with your details ready. We reply on WhatsApp to fix a time. You get a written estimate before any work starts.
+Yes. Fill in the booking form and tap the button. It opens WhatsApp with your details ready. We reply on WhatsApp to fix a time. You get a written estimate before any work starts.
 
 [CARD LABEL: Book a Visit]
 
