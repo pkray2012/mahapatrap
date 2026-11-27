@@ -38,7 +38,7 @@ const ogLogo = await sharp(trimmed).resize({ width: 980 }).toBuffer();
 const meta = await sharp(ogLogo).metadata();
 const band = Buffer.from(`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630">
   <rect width="1200" height="630" fill="#ffffff"/><rect y="0" width="1200" height="14" fill="#0A7CC4"/>
-  <rect y="540" width="1200" height="90" fill="#0A2A5C"/><rect y="532" width="1200" height="8" fill="#F7901E"/></svg>`);
+  <rect y="540" width="1200" height="90" fill="#092B55"/><rect y="532" width="1200" height="8" fill="#FF8A00"/></svg>`);
 const og = sharp(band).composite([{ input: ogLogo, top: Math.round((540 - meta.height) / 2), left: Math.round((1200 - meta.width) / 2) }]);
 const ogBuf = await og.png().toBuffer();
 await sharp(ogBuf).webp({ quality: 82 }).toFile(out('public/images/og-default.webp'));
