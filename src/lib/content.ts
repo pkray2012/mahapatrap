@@ -9,6 +9,7 @@ import { getImage } from 'astro:assets';
 import { SITE, waLink, AREA_OPTIONS, SERVICE_ORDER, AREA_ORDER } from './site';
 import { icon, iconForHref, trustIcon } from './icons';
 import tierData from '../../content/data/pricing-tiers.json';
+import reviewData from '../../content/data/reviews.json';
 
 const marked = new Marked({ gfm: true, breaks: true });
 
@@ -179,7 +180,7 @@ export function renderMap(page: Page, opts: { button?: string; loc?: string } = 
   const button = opts.button || 'Get directions';
   return `<div class="map">
 <div class="map-canvas"><iframe src="${esc(SITE.mapsEmbed)}" title="Map: ${esc(SITE.name)}, Chandrasekharpur" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
-<div class="map-info"><p class="map-title">${esc(SITE.name)}</p><p>${esc(SITE.addressLines.join(', '))}</p>
+<div class="map-info"><p class="map-title">${esc(SITE.name)}</p><p class="map-rating"><span class="map-stars" aria-hidden="true">★★★★★</span> <strong>${reviewData.rating.toFixed(1)}</strong> · <a href="${esc(reviewData.googleMapsUrl)}" target="_blank" rel="noopener" data-track="outbound_click" data-cta-location="${loc}" data-page-type="${page.fm.page_type}">${reviewData.reviewCount} Google reviews</a></p><p>${esc(SITE.addressLines.join(', '))}</p>
 <div class="cta-row"><a class="btn btn-blue" href="${SITE.mapsUrl}" target="_blank" rel="noopener" data-track="directions_click" data-cta-location="${loc}" data-page-type="${page.fm.page_type}">${icon('arrow')}<span>${esc(button)}</span></a></div></div></div>`;
 }
 
@@ -414,12 +415,12 @@ function renderWhyPricing(ctx: Ctx, mk: ReturnType<typeof parseMarker>, blocks: 
   const why = listItems(blocks[0]).map((h) => `<li>${icon('check-circle')}<span>${h}</span></li>`).join('');
   const right = blocks.slice(1).map((b) =>
     b.split('\n').every((l) => /^- /.test(l))
-      ? `<ul class="wp-prices">${listItems(b).map((h) => `<li>${h}</li>`).join('')}</ul>`
+      ? `<ul class="wp-prices">${listItems(b).map((h) => { const i = h.lastIndexOf(': '); return i > 0 ? `<li><span>${h.slice(0, i)}</span><strong>${h.slice(i + 2)}</strong></li>` : `<li><span>${h}</span></li>`; }).join('')}</ul>`
       : `<p>${marked.parseInline(b.replace(/\n/g, ' ')) as string}</p>`,
   ).join('');
   const left = mk.head || 'Why choose us';
   const rt = mk.attrs.right || 'Pricing';
-  return postProcess(ctx, `<div class="wp-grid"><div class="card wp-card"><h3 class="wp-title">${icon('shield', 'ico wp-ico')}<span>${esc(left)}</span></h3><ul class="wp-list">${why}</ul></div><div class="card wp-card"><h3 class="wp-title">${icon('rupee', 'ico wp-ico')}<span>${esc(rt)}</span></h3>${right}</div></div>`);
+  return postProcess(ctx, `<div class="wp-grid"><div class="card wp-card"><h3 class="wp-title">${icon('shield', 'ico wp-ico')}<span>${esc(left)}</span></h3><ul class="wp-list">${why}</ul></div><div class="card wp-card"><h3 class="wp-title">${icon('rupee', 'ico wp-ico')}<span>${esc(rt)}</span></h3>${right}<div class="wp-foot"><p class="wp-note">Visit charge ₹199–₹349, adjusted in the final bill. Free site visit for big works.</p><a class="btn btn-outline" href="/pricing/">See the full rate card${icon('arrow')}</a></div></div></div>`);
 }
 
 // ---------- PRICING TIERS (three cards, from content/data/pricing-tiers.json = rate card) ----------

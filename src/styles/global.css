@@ -286,6 +286,14 @@
   @media (max-width: 479px) { .chips li { flex: 1 1 100%; } }
   /* Three chips: one even row from 768 px (no lone chip on a second row). */
   @media (min-width: 768px) { .chips:has(> li:nth-child(3):last-child) { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  /* Four or more chips: an even grid instead of ragged wrapped rows (2 across, 4 across on wide screens for 4 or 8). */
+  @media (min-width: 640px) {
+    .chips:has(> li:nth-child(4)) { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .chips:has(> li:nth-child(4)) > li:last-child:nth-child(odd) { grid-column: 1 / -1; }
+  }
+  @media (min-width: 1100px) {
+    .chips:has(> li:nth-child(4):last-child), .chips:has(> li:nth-child(8):last-child) { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  }
   .chip-ico { display: inline-block; width: 1.125rem; height: 1.125rem; margin-right: .375rem; vertical-align: -.2em; color: var(--color-blue); }
   .chips a { display: inline; font-weight: 700; color: var(--color-navy); text-decoration: none; padding-block: .6rem; }
   .chips a:hover { color: var(--color-blue-dark); text-decoration: underline; }
@@ -299,7 +307,7 @@
   /* Why choose us + Pricing: two cards side by side (stacked on phones) */
   .wp-grid { display: grid; gap: 1.25rem; margin: 1.25rem 0 1.5rem; }
   @media (min-width: 900px) { .wp-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; } }
-  .wp-card { padding: 1.25rem; }
+  .wp-card { padding: 1.25rem; display: flex; flex-direction: column; }
   @media (min-width: 640px) { .wp-card { padding: 1.5rem 1.75rem; } }
   .sec .wp-title { display: flex; align-items: center; gap: .625rem; font-size: 1.25rem; margin: 0 0 1rem; }
   .wp-ico { width: 1.5rem; height: 1.5rem; color: var(--color-blue); }
@@ -307,9 +315,13 @@
   .wp-list li { display: flex; align-items: flex-start; gap: .625rem; }
   .wp-list .ico, .tier-list .ico { width: 1.375rem; height: 1.375rem; margin-top: .1rem; color: var(--color-blue); }
   .md .wp-card p { font-size: 1.0625rem; margin-bottom: .75rem; }
-  .wp-prices { display: grid; gap: .5rem; }
-  .wp-prices li { position: relative; padding-left: 1.125rem; }
-  .wp-prices li::before { content: ""; position: absolute; left: .125rem; top: .65em; width: .375rem; height: .375rem; border-radius: 999px; background: var(--color-blue); }
+  .wp-prices { display: grid; margin-top: .25rem; }
+  .wp-prices li { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: .7rem 0; border-bottom: 1px solid var(--color-line); }
+  .wp-prices li:last-child { border-bottom: 0; }
+  .wp-prices strong { color: var(--color-navy); font-weight: 800; white-space: nowrap; text-align: right; }
+  .wp-foot { margin-top: auto; padding-top: 1.25rem; border-top: 1px solid var(--color-line); }
+  .md .wp-foot .wp-note { font-size: .9375rem; color: var(--color-muted); margin-bottom: .875rem; }
+  .wp-foot .btn { width: 100%; justify-content: center; }
 
   /* Pricing tiers: three cards, the middle one highlighted with a blue border and an orange label */
   .tiers { margin: 1.25rem 0 1.5rem; }
@@ -404,7 +416,7 @@
   .hero-grid:not(.no-card) .hero-img { max-width: 34rem; }
 
   /* Map: Google Maps embed with a fixed-height box (no layout shift): 320 px on phones, 400 px from 768 px. */
-  .map { border: 1px solid var(--color-line); border-radius: var(--radius-card); overflow: hidden; background: #fff; max-width: var(--measure-wide); margin: 1rem 0 1.5rem; box-shadow: var(--shadow-card); }
+  .map { border: 1px solid var(--color-line); border-radius: var(--radius-card); overflow: hidden; background: #fff; margin: 1rem 0 1.5rem; box-shadow: var(--shadow-card); }
   .map-canvas { position: relative; height: 320px;
     background: linear-gradient(28deg, transparent 47%, #fff 47% 51%, transparent 51%), linear-gradient(-62deg, transparent 58%, #fff 58% 61%, transparent 61%),
       linear-gradient(90deg, transparent 30%, #f7e7cf 30% 32%, transparent 32%), radial-gradient(circle at 75% 30%, #cfe8d6 0 12%, transparent 12.5%), #e4edf6; }
@@ -413,6 +425,8 @@
   .map-info { padding: 1rem 1.125rem; }
   .map-info .cta-row { margin-bottom: 0; margin-top: .75rem; }
   .map-title { font-weight: 800; color: var(--color-navy); font-size: 1.0625rem; }
+  .map-rating { margin: .25rem 0 .5rem; color: var(--color-ink); }
+  .map-stars { color: #B45309; letter-spacing: .05em; }
   /* From 900 px: picture left, address + buttons right (about half the height of the stacked 16:7 version). */
   @media (min-width: 900px) {
     .map { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); }

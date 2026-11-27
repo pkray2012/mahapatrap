@@ -8,7 +8,7 @@ meta_description: Plumber in Bhubaneswar for leaks, taps, geysers, drains, septi
 primary_keyword: plumber in bhubaneswar
 secondary_keywords: [plumber bhubaneswar, plumber near me, plumber service in bhubaneswar, plumbing services bhubaneswar, plumber near me home service]
 h1: Plumber in Bhubaneswar for Repairs, Renovation & Septic Cleaning
-word_count: 1149
+word_count: 1161
 ---
 
 <!-- Hero. Accent colour on the word "Bhubaneswar" in the H1. -->
@@ -89,7 +89,9 @@ Need a plumber service in Bhubaneswar for a hostel, PG, shop or office? We work 
 Labour charges. Parts are extra, and we share the part price before fitting.
 
 - Minor fix (washer, small leak, loose fitting): from ₹249
+- Tap, jet spray or flush kit fitting: ₹299–₹799 + parts
 - Geyser installation: from ₹699
+- Geyser service: ₹499
 - Drain unclogging (sink / floor trap): from ₹349
 - Water motor / pump repair: from ₹399
 

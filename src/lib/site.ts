@@ -10,7 +10,7 @@ export const SITE = {
   addressLines: ['District Center, Chandrasekharpur', 'Bhubaneswar, Odisha 751016'],
   hours: 'Open daily 8 AM – 10 PM',
   mapsUrl: 'https://www.google.com/maps?cid=4373818382391816251',
-  mapsEmbed: 'https://maps.google.com/maps?cid=4373818382391816251&output=embed',
+  mapsEmbed: 'https://maps.google.com/maps?q=Mahapatra+Plumbing+Services,+District+Center,+Chandrasekharpur,+Bhubaneswar&z=15&output=embed',
 };
 
 export const waLink = (text: string) => `https://wa.me/${SITE.wa}?text=${encodeURIComponent(text)}`;
