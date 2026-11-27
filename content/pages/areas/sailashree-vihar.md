@@ -8,18 +8,18 @@ meta_description: "Plumber in Sailashree Vihar, Bhubaneswar for old GI pipe repl
 primary_keyword: plumber in sailashree vihar
 secondary_keywords: []
 h1: Plumber in Sailashree Vihar, Bhubaneswar
-word_count: 897
+word_count: 891
 ---
 
 # Plumber in Sailashree Vihar, Bhubaneswar
 
 [BREADCRUMB: Home > Sailashree Vihar]
 
-Looking for a plumber in Sailashree Vihar? Mahapatra Plumbing Services works on the older houses here: rusted GI lines, damp walls from concealed leaks and tired bathrooms. Our base is District Center, Chandrasekharpur, close to the colony. Call or WhatsApp +91 9668875352, open daily 8 AM to 10 PM.
+Looking for a plumber in Sailashree Vihar? Mahapatra Plumbing Services works on the older houses here: rusted GI lines, damp walls from concealed leaks and tired bathrooms. Our base is District Center, Chandrasekharpur, close to the colony. Call or WhatsApp +91 9668875352.
 
 [CTA: call+whatsapp | location=hero]
 
-**5.0★ from 45 Google reviews** · **Free site visit for pipe replacement** · **Written estimate before work starts**
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 [IMAGE: sailashree-vihar-gi-to-cpvc-pipe-replacement.webp | alt="Plumber replacing an old GI water line with CPVC pipe in a Sailashree Vihar house, Bhubaneswar" | hero]
 
@@ -108,15 +108,15 @@ In older houses, it is often rust from inside GI pipes, seen most after the taps
 
 ### Do I have to replace all the GI pipes in my house at once?
 
-Not always. It depends on how rusted each line is. At the free site visit, the plumber checks your lines and tells you which ones need changing first. You can replace the whole house together or go bathroom by bathroom. Ask us to price it either way in the written estimate.
+Not always, because it depends on how rusted each line is. At the free site visit, the plumber checks your lines and tells you which ones need changing first. You can replace the whole house together or go bathroom by bathroom. Ask us to price it either way in the written estimate.
 
 ### Can you update an old bathroom without a full renovation?
 
-Yes. We change single items like the WC, flush tank, taps, jet spray, wash basin or geyser connection. Tap, jet spray and flush kit installs cost ₹299–₹799 plus parts. If the pipes behind the wall are old GI, we tell you, so you can decide whether to re-plumb the bathroom too.
+Yes, Mahapatra Plumbing Services changes single items like the WC, flush tank, taps, jet spray, wash basin or geyser connection. Tap, jet spray and flush kit installs cost ₹299–₹799 plus parts. If the pipes behind the wall are old GI, we tell you, so you can decide whether to re-plumb the bathroom too.
 
 ### Do you take whole-house re-plumbing jobs in Sailashree Vihar?
 
-Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are bigger jobs. We take them in Sailashree Vihar and anywhere in Bhubaneswar. Each one starts with a free site visit and a written estimate. Call or WhatsApp +91 9668875352 to fix a visit time.
+Yes, Mahapatra Plumbing Services takes bigger jobs like re-plumbing an older house, adding a bathroom or plumbing a new floor, in Sailashree Vihar and anywhere in Bhubaneswar. Each one starts with a free site visit and a written estimate.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -132,7 +132,9 @@ Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are b
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -146,7 +148,10 @@ Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are b
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -167,6 +172,11 @@ Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are b
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -299,7 +309,8 @@ Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are b
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/areas/sailashree-vihar/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "FAQPage",
@@ -318,7 +329,7 @@ Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are b
           "name": "Do I have to replace all the GI pipes in my house at once?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not always. It depends on how rusted each line is. At the free site visit, the plumber checks your lines and tells you which ones need changing first. You can replace the whole house together or go bathroom by bathroom. Ask us to price it either way in the written estimate."
+            "text": "Not always, because it depends on how rusted each line is. At the free site visit, the plumber checks your lines and tells you which ones need changing first. You can replace the whole house together or go bathroom by bathroom. Ask us to price it either way in the written estimate."
           }
         },
         {
@@ -326,7 +337,7 @@ Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are b
           "name": "Can you update an old bathroom without a full renovation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We change single items like the WC, flush tank, taps, jet spray, wash basin or geyser connection. Tap, jet spray and flush kit installs cost ₹299–₹799 plus parts. If the pipes behind the wall are old GI, we tell you, so you can decide whether to re-plumb the bathroom too."
+            "text": "Yes, Mahapatra Plumbing Services changes single items like the WC, flush tank, taps, jet spray, wash basin or geyser connection. Tap, jet spray and flush kit installs cost ₹299–₹799 plus parts. If the pipes behind the wall are old GI, we tell you, so you can decide whether to re-plumb the bathroom too."
           }
         },
         {
@@ -334,7 +345,7 @@ Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are b
           "name": "Do you take whole-house re-plumbing jobs in Sailashree Vihar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are bigger jobs. We take them in Sailashree Vihar and anywhere in Bhubaneswar. Each one starts with a free site visit and a written estimate. Call or WhatsApp +91 9668875352 to fix a visit time."
+            "text": "Yes, Mahapatra Plumbing Services takes bigger jobs like re-plumbing an older house, adding a bathroom or plumbing a new floor, in Sailashree Vihar and anywhere in Bhubaneswar. Each one starts with a free site visit and a written estimate."
           }
         }
       ]

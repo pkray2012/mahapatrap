@@ -8,7 +8,7 @@ meta_description: Plumber in Nayapalli and IRC Village for choked drains, septic
 primary_keyword: plumber in nayapalli
 secondary_keywords: [plumber near irc village bhubaneswar]
 h1: Plumber in Nayapalli & IRC Village, Bhubaneswar
-word_count: 888
+word_count: 893
 ---
 
 <!-- Hero. Accent colour on the words "Nayapalli & IRC Village" in the H1. -->
@@ -17,11 +17,11 @@ word_count: 888
 
 [BREADCRUMB: Home > Nayapalli]
 
-Need a plumber in Nayapalli, or a plumber near IRC Village, Bhubaneswar? Mahapatra Plumbing Services clears choked drains, cleans septic tanks, fixes borewell pipes and pump lines, and takes on bigger plumbing jobs in houses and apartments here. We are based at District Center, Chandrasekharpur. Call or WhatsApp +91 9668875352, open daily 8 AM to 10 PM.
+Need a plumber in Nayapalli, or a plumber near IRC Village, Bhubaneswar? Mahapatra Plumbing Services clears choked drains, cleans septic tanks, fixes borewell pipes and pump lines, and takes on bigger plumbing jobs in houses and apartments here. We are based at District Center, Chandrasekharpur. Call or WhatsApp +91 9668875352.
 
 [CTA: call+whatsapp | location=hero]
 
-**5.0★ from 45 Google reviews** · **Drains, septic tanks and borewells** · **Written estimate before work starts**
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 [IMAGE: plumber-nayapalli-house-drain-chamber.webp | alt="Mahapatra Plumbing Services plumber clearing an outside drain chamber at a house in Nayapalli, Bhubaneswar" | hero]
 
@@ -102,7 +102,7 @@ Close by are [Jayadev Vihar and Saheed Nagar](/areas/jayadev-vihar/). Our base i
 
 ### Is Nayapalli too far for a small repair like a leaking flush tank?
 
-No. Small repairs in Nayapalli and IRC Village are welcome. Our plumber comes from District Center, Chandrasekharpur. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM with the problem and your lane or building name. We will give you a visit slot.
+No, Mahapatra Plumbing Services welcomes small repairs in Nayapalli and IRC Village. Our plumber comes from District Center, Chandrasekharpur. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM with the problem and your lane or building name. We will give you a visit slot.
 
 ### Dirty water comes up from the floor trap in my ground-floor flat. Why?
 
@@ -110,7 +110,7 @@ Usually the shared drain stack or the chamber below your flat is choked. Water f
 
 ### Do you work on IRC Village houses that have a septic tank and soak pit?
 
-Yes. We clean septic tanks for houses with their own tank and soak pit, anywhere in Bhubaneswar. We also repair the line from the house to the tank, and the chambers on the way. Line repair and re-laying are quoted after a free site visit, with a written estimate before work starts.
+Yes, Mahapatra Plumbing Services cleans septic tanks for houses with their own tank and soak pit, anywhere in Bhubaneswar. We also repair the line from the house to the tank, and the chambers on the way. Line repair and re-laying are quoted after a free site visit, with a written estimate before work starts.
 
 ### What should I send on WhatsApp for a borewell problem?
 
@@ -135,7 +135,9 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -149,7 +151,10 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -170,6 +175,11 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -308,7 +318,8 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/areas/nayapalli/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "FAQPage",
@@ -319,7 +330,7 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
           "name": "Is Nayapalli too far for a small repair like a leaking flush tank?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Small repairs in Nayapalli and IRC Village are welcome. Our plumber comes from District Center, Chandrasekharpur. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM with the problem and your lane or building name. We will give you a visit slot."
+            "text": "No, Mahapatra Plumbing Services welcomes small repairs in Nayapalli and IRC Village. Our plumber comes from District Center, Chandrasekharpur. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM with the problem and your lane or building name. We will give you a visit slot."
           }
         },
         {
@@ -335,7 +346,7 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
           "name": "Do you work on IRC Village houses that have a septic tank and soak pit?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We clean septic tanks for houses with their own tank and soak pit, anywhere in Bhubaneswar. We also repair the line from the house to the tank, and the chambers on the way. Line repair and re-laying are quoted after a free site visit, with a written estimate before work starts."
+            "text": "Yes, Mahapatra Plumbing Services cleans septic tanks for houses with their own tank and soak pit, anywhere in Bhubaneswar. We also repair the line from the house to the tank, and the chambers on the way. Line repair and re-laying are quoted after a free site visit, with a written estimate before work starts."
           }
         },
         {

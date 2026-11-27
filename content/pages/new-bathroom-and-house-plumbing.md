@@ -8,14 +8,14 @@ meta_description: "New house plumbing work in Bhubaneswar: CPVC/UPVC/PPR water l
 primary_keyword: new house plumbing work
 secondary_keywords: [house plumbing work, plumbing contractor, plumbing contractors in bhubaneswar, plumbing contractor near me, plumbing work in house construction, new building plumbing work, new bathroom plumbing, residential plumbing contractor, house plumbing work cost]
 h1: New House & Bathroom Plumbing Work in Bhubaneswar
-word_count: 1283
+word_count: 1292
 ---
 
 # New House & Bathroom Plumbing Work in Bhubaneswar
 
 [BREADCRUMB: Home > New House & Bathroom Plumbing]
 
-**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
+**5.0★ from 45 Google reviews** · **Free site visit and written estimate** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 Mahapatra Plumbing Services takes on new house plumbing work anywhere in Bhubaneswar. From our base in Chandrasekharpur, we plumb new houses, new floors and new bathrooms. That covers water lines, drainage lines, tank and motor connections, and fitting points. Every job starts with a free site visit and a written estimate. Call or WhatsApp +91 9668875352.
 
@@ -59,7 +59,7 @@ What changes the cost of house plumbing work:
 |---|---|
 | New house / bathroom plumbing | Quote after inspection (free site visit + written estimate) |
 | Concealed pipeline repair / reroute | Quote after free site visit + written estimate |
-| Geyser installation | From ₹699 |
+| Geyser installation | from ₹699 |
 | Tap / jet spray / flush kit install | ₹299–₹799 + parts |
 | Warranty | 90 days on workmanship for installation and repair jobs; parts follow brand warranty |
 
@@ -102,7 +102,7 @@ Connecting the house drain to the main sewer line or septic tank? See [sewerage 
 
 ## Why choose Mahapatra Plumbing Services
 
-Looking for a plumbing contractor near me in Bhubaneswar? Here is what you get with us:
+Here is what you get with us as your plumbing contractor in Bhubaneswar:
 
 - **Leak test before tiling and plaster**, so problems show up before the walls are closed
 - **Pipes laid at the right building stage**, planned with you and your builder
@@ -133,19 +133,19 @@ We do not publish a per-point rate. We discuss it only over a call, after we und
 
 ### Can you plumb a new bathroom in an existing house?
 
-Yes. We plumb new bathrooms on a new floor or in an extra room. We check where the water line will come from and how the drain will reach the outside line with enough slope. You get a free site visit and a written estimate before work starts.
+Yes, Mahapatra Plumbing Services plumbs new bathrooms on a new floor or in an extra room. We check where the water line will come from and how the drain will reach the outside line with enough slope. You get a free site visit and a written estimate before work starts.
 
 ### Can you plan the plumbing from my house plan before construction?
 
-Yes. Share the floor plan on WhatsApp. At the free site visit, we mark the bathroom, kitchen, tank and motor positions with you and your builder, and plan where pipes pass through the slab. You get a written estimate for the whole job before work starts.
+Yes, share the floor plan with Mahapatra Plumbing Services on WhatsApp. At the free site visit, we mark the bathroom, kitchen, tank and motor positions with you and your builder, and plan where pipes pass through the slab. You get a written estimate for the whole job before work starts.
 
 ### Do you connect the sump, overhead tank and motor in a new house?
 
-Yes. We lay the inlet, outlet and overflow lines for the sump and overhead tank, and the motor line from the sump to the roof. We plan the line lengths and valves at the free site visit. If the house has an existing borewell, we can connect it to the sump or tank too.
+Yes, Mahapatra Plumbing Services lays the inlet, outlet and overflow lines for the sump and overhead tank, and the motor line from the sump to the roof. We plan the line lengths and valves at the free site visit. If the house has an existing borewell, we can connect it to the sump or tank too.
 
 ### Can I buy the pipes and fittings myself?
 
-Yes. You can buy your own pipes and fittings, and we do the plumbing work. The written estimate lists what is needed, so you buy the right type and sizes. If we supply any part, the part price is shared before fitting. Parts follow the brand's own warranty.
+Yes, you can buy your own pipes and fittings, and Mahapatra Plumbing Services does the plumbing work. The written estimate lists what is needed, so you buy the right type and sizes. If we supply any part, the part price is shared before fitting. Parts follow the brand's own warranty.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -162,7 +162,9 @@ Yes. You can buy your own pipes and fittings, and we do the plumbing work. The w
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -176,7 +178,10 @@ Yes. You can buy your own pipes and fittings, and we do the plumbing work. The w
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -197,6 +202,11 @@ Yes. You can buy your own pipes and fittings, and we do the plumbing work. The w
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -325,7 +335,8 @@ Yes. You can buy your own pipes and fittings, and we do the plumbing work. The w
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/services/new-bathroom-and-house-plumbing/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "Service",
@@ -368,7 +379,7 @@ Yes. You can buy your own pipes and fittings, and we do the plumbing work. The w
           "name": "Can you plumb a new bathroom in an existing house?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We plumb new bathrooms on a new floor or in an extra room. We check where the water line will come from and how the drain will reach the outside line with enough slope. You get a free site visit and a written estimate before work starts."
+            "text": "Yes, Mahapatra Plumbing Services plumbs new bathrooms on a new floor or in an extra room. We check where the water line will come from and how the drain will reach the outside line with enough slope. You get a free site visit and a written estimate before work starts."
           }
         },
         {
@@ -376,7 +387,7 @@ Yes. You can buy your own pipes and fittings, and we do the plumbing work. The w
           "name": "Can you plan the plumbing from my house plan before construction?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Share the floor plan on WhatsApp. At the free site visit, we mark the bathroom, kitchen, tank and motor positions with you and your builder, and plan where pipes pass through the slab. You get a written estimate for the whole job before work starts."
+            "text": "Yes, share the floor plan with Mahapatra Plumbing Services on WhatsApp. At the free site visit, we mark the bathroom, kitchen, tank and motor positions with you and your builder, and plan where pipes pass through the slab. You get a written estimate for the whole job before work starts."
           }
         },
         {
@@ -384,7 +395,7 @@ Yes. You can buy your own pipes and fittings, and we do the plumbing work. The w
           "name": "Do you connect the sump, overhead tank and motor in a new house?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We lay the inlet, outlet and overflow lines for the sump and overhead tank, and the motor line from the sump to the roof. We plan the line lengths and valves at the free site visit. If the house has an existing borewell, we can connect it to the sump or tank too."
+            "text": "Yes, Mahapatra Plumbing Services lays the inlet, outlet and overflow lines for the sump and overhead tank, and the motor line from the sump to the roof. We plan the line lengths and valves at the free site visit. If the house has an existing borewell, we can connect it to the sump or tank too."
           }
         },
         {
@@ -392,7 +403,7 @@ Yes. You can buy your own pipes and fittings, and we do the plumbing work. The w
           "name": "Can I buy the pipes and fittings myself?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. You can buy your own pipes and fittings, and we do the plumbing work. The written estimate lists what is needed, so you buy the right type and sizes. If we supply any part, the part price is shared before fitting. Parts follow the brand's own warranty."
+            "text": "Yes, you can buy your own pipes and fittings, and Mahapatra Plumbing Services does the plumbing work. The written estimate lists what is needed, so you buy the right type and sizes. If we supply any part, the part price is shared before fitting. Parts follow the brand's own warranty."
           }
         }
       ]

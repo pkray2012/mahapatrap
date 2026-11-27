@@ -8,14 +8,14 @@ meta_description: Drain cleaning in Bhubaneswar. Sink and floor trap unclogging 
 primary_keyword: drain cleaning bhubaneswar
 secondary_keywords: [drain cleaning, drain blockage removal near me, drain pipe cleaning, toilet blockage removal, sewer jetting]
 h1: "Drain Cleaning & Blockage Removal in Bhubaneswar"
-word_count: 1266
+word_count: 1273
 ---
 
 # Drain Cleaning & Blockage Removal in Bhubaneswar
 
 [BREADCRUMB: Home > Drain Cleaning & Sewer Jetting]
 
-**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **Written estimate before work starts** · **Open daily 8 AM – 10 PM**
 
 Mahapatra Plumbing Services offers drain cleaning in Bhubaneswar for blocked sinks, floor traps, toilets, drain pipes and outside chambers. Drain unclogging starts from ₹349 and toilet blockage removal from ₹999. We are based at District Center, Chandrasekharpur. Call or WhatsApp +91 9668875352. We are open daily, 8 AM to 10 PM.
 
@@ -115,17 +115,17 @@ For a full tank, see [septic tank cleaning in Bhubaneswar](/services/septic-tank
 
 ## Areas we cover for drain cleaning
 
-We offer blocked drain and drainage cleaning in Chandrasekharpur and nearby areas like Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli, and all of Bhubaneswar. Looking for drain blockage removal near me around Chandrasekharpur or Damana? Just call or WhatsApp. Read more about our [plumber in Chandrasekharpur](/areas/chandrasekharpur/) service.
+We offer blocked drain and drainage cleaning in Chandrasekharpur and nearby areas like Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli, and all of Bhubaneswar. For drain blockage removal in Chandrasekharpur or Damana, just call or WhatsApp. Read more about our [plumber in Chandrasekharpur](/areas/chandrasekharpur/) service.
 
 ## Drain cleaning FAQs
 
 ### Do you do drainage cleaning for outside chambers?
 
-Yes. Our drainage cleaning covers the choked chambers around the house that carry waste from bathrooms and the kitchen to the septic tank or main line. If a chamber is broken or needs rebuilding, that is sewerage and drainage work, quoted after a free site visit and written estimate. Send a photo of the chamber on WhatsApp first.
+Yes, drainage cleaning by Mahapatra Plumbing Services covers the choked chambers around the house that carry waste from bathrooms and the kitchen to the septic tank or main line. If a chamber is broken or needs rebuilding, that is sewerage and drainage work, quoted after a free site visit and written estimate. Send a photo of the chamber on WhatsApp first.
 
 ### Do you offer sewer jetting in Bhubaneswar?
 
-Yes. Sewer jetting is available on request for long or badly choked drain and sewer lines. Call or WhatsApp +91 9668875352 with the problem and your area. We check the line first and tell you the price before any work starts. For new sewer lines and manholes, ask about our sewerage and drainage works.
+Yes, Mahapatra Plumbing Services offers sewer jetting in Bhubaneswar on request for long or badly choked drain and sewer lines. Call or WhatsApp +91 9668875352 with the problem and your area. We check the line first and tell you the price before any work starts. For new sewer lines and manholes, ask about our sewerage and drainage works.
 
 ### Why does my bathroom drain smell even when it is not blocked?
 
@@ -141,7 +141,7 @@ Stop using the blocked sink, toilet or bathroom so water does not overflow. Do n
 
 ### Do you clear blocked drains in hostels, PGs and offices?
 
-Yes. We clear drains in homes, flats, hostels, PGs, shops and offices across Bhubaneswar. Buildings with many bathrooms block more often. When you book, tell us how many bathrooms are affected and on which floors. You get a written estimate before work starts. Call or WhatsApp +91 9668875352.
+Yes, Mahapatra Plumbing Services clears drains in homes, flats, hostels, PGs, shops and offices across Bhubaneswar. Buildings with many bathrooms block more often. When you book, tell us how many bathrooms are affected and on which floors. You get a written estimate before work starts. Call or WhatsApp +91 9668875352.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -161,7 +161,9 @@ Tell us which drain is blocked and your area. Call or WhatsApp +91 9668875352, o
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -175,7 +177,10 @@ Tell us which drain is blocked and your area. Call or WhatsApp +91 9668875352, o
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -196,6 +201,11 @@ Tell us which drain is blocked and your area. Call or WhatsApp +91 9668875352, o
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -324,7 +334,8 @@ Tell us which drain is blocked and your area. Call or WhatsApp +91 9668875352, o
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/services/drain-cleaning-and-sewer-jetting/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "Service",
@@ -378,7 +389,7 @@ Tell us which drain is blocked and your area. Call or WhatsApp +91 9668875352, o
           "name": "Do you do drainage cleaning for outside chambers?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Our drainage cleaning covers the choked chambers around the house that carry waste from bathrooms and the kitchen to the septic tank or main line. If a chamber is broken or needs rebuilding, that is sewerage and drainage work, quoted after a free site visit and written estimate. Send a photo of the chamber on WhatsApp first."
+            "text": "Yes, drainage cleaning by Mahapatra Plumbing Services covers the choked chambers around the house that carry waste from bathrooms and the kitchen to the septic tank or main line. If a chamber is broken or needs rebuilding, that is sewerage and drainage work, quoted after a free site visit and written estimate. Send a photo of the chamber on WhatsApp first."
           }
         },
         {
@@ -386,7 +397,7 @@ Tell us which drain is blocked and your area. Call or WhatsApp +91 9668875352, o
           "name": "Do you offer sewer jetting in Bhubaneswar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Sewer jetting is available on request for long or badly choked drain and sewer lines. Call or WhatsApp +91 9668875352 with the problem and your area. We check the line first and tell you the price before any work starts. For new sewer lines and manholes, ask about our sewerage and drainage works."
+            "text": "Yes, Mahapatra Plumbing Services offers sewer jetting in Bhubaneswar on request for long or badly choked drain and sewer lines. Call or WhatsApp +91 9668875352 with the problem and your area. We check the line first and tell you the price before any work starts. For new sewer lines and manholes, ask about our sewerage and drainage works."
           }
         },
         {
@@ -418,7 +429,7 @@ Tell us which drain is blocked and your area. Call or WhatsApp +91 9668875352, o
           "name": "Do you clear blocked drains in hostels, PGs and offices?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We clear drains in homes, flats, hostels, PGs, shops and offices across Bhubaneswar. Buildings with many bathrooms block more often. When you book, tell us how many bathrooms are affected and on which floors. You get a written estimate before work starts. Call or WhatsApp +91 9668875352."
+            "text": "Yes, Mahapatra Plumbing Services clears drains in homes, flats, hostels, PGs, shops and offices across Bhubaneswar. Buildings with many bathrooms block more often. When you book, tell us how many bathrooms are affected and on which floors. You get a written estimate before work starts. Call or WhatsApp +91 9668875352."
           }
         }
       ]

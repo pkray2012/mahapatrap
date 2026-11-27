@@ -8,14 +8,14 @@ meta_description: "Bathroom renovation plumbing in Bhubaneswar: GI lines replace
 primary_keyword: bathroom renovation bhubaneswar
 secondary_keywords: [bathroom renovation, bathroom renovation cost, bathroom renovation contractors near me, kitchen renovation bhubaneswar]
 h1: Bathroom Renovation Plumbing in Bhubaneswar (and Kitchens)
-word_count: 1286
+word_count: 1296
 ---
 
 # Bathroom Renovation Plumbing in Bhubaneswar (and Kitchens)
 
 [BREADCRUMB: Home > Bathroom Renovation Plumbing]
 
-**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
+**5.0★ from 45 Google reviews** · **Free site visit and written estimate** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 Mahapatra Plumbing Services does the plumbing side of bathroom renovation in Bhubaneswar, and kitchens too. From our base in Chandrasekharpur, we replace old GI lines with CPVC, UPVC or PPR pipes, lay concealed lines, fit new fittings and leak-test before tiling. Call or WhatsApp +91 9668875352 for a free site visit.
 
@@ -56,7 +56,7 @@ Here is how each one changes the cost:
 | New house / bathroom plumbing | Quote after inspection (free site visit + written estimate) |
 | Concealed pipeline repair / reroute | Quote after inspection (free site visit + written estimate) |
 | Tap / jet spray / flush kit install | ₹299–₹799 + parts |
-| Geyser installation | From ₹699 |
+| Geyser installation | from ₹699 |
 | Warranty | 90 days on workmanship for installation and repair jobs; parts follow brand warranty |
 
 Labour charges shown; parts are extra unless stated. We can supply the fittings, or fit the ones you buy. For single repairs and installs, see our [plumbing rate card for Bhubaneswar](/pricing/).
@@ -90,7 +90,7 @@ CPVC handles hot and cold water, so it suits geyser lines. UPVC works well for c
 
 ## Why choose Mahapatra Plumbing Services
 
-Searching for bathroom renovation contractors near me? Here is what you get with us:
+Here is what you get with us as your bathroom renovation contractor:
 
 - **Leak test before tiling**, so problems show up before new tiles go on
 - **Tiling, plaster and civil work, after discussing it with you**, so fittings sit at the right level
@@ -117,11 +117,11 @@ Our office is at District Center, Chandrasekharpur. We take renovation work in C
 
 ### Do you do tiling and civil work for bathroom renovation?
 
-Yes. We can also handle the tiling, plaster or civil work, after discussing it with you. The plumbing side is ours too: pipes, drains, floor traps, fittings and the leak test. If you prefer your own tile or civil team, we agree pipe and fitting levels with them, so the tiles fit around the fittings.
+Yes, Mahapatra Plumbing Services can also handle the tiling, plaster or civil work, after discussing it with you. The plumbing side is ours too: pipes, drains, floor traps, fittings and the leak test. If you prefer your own tile or civil team, we agree pipe and fitting levels with them, so the tiles fit around the fittings.
 
 ### Can you change an Indian toilet to a western toilet during renovation?
 
-Yes. Changing an Indian WC to a western WC means checking the drain point and often moving it, plus floor work. We do the plumbing, and we can also handle the floor and tiling, after discussing it with you. It is quoted after a free site visit, with a written estimate before work starts.
+Yes, changing an Indian WC to a western WC in Bhubaneswar means checking the drain point and often moving it, plus floor work. We do the plumbing, and we can also handle the floor and tiling, after discussing it with you. It is quoted after a free site visit, with a written estimate before work starts.
 
 ### What should I plan before a bathroom renovation starts?
 
@@ -129,15 +129,15 @@ Decide where the WC, basin, shower and geyser will go, and whether you want conc
 
 ### Can I buy the taps, WC and fittings myself?
 
-Yes. You can buy your own taps, mixers, WC, basin and shower, and we will fit them. The written estimate lists the work, so you know what to buy and when to keep it ready. Check sizes with us before you buy, so the fittings match the new lines. Parts follow the brand's own warranty.
+Yes, you can buy your own taps, mixers, WC, basin and shower, and Mahapatra Plumbing Services will fit them. The written estimate lists the work, so you know what to buy and when to keep it ready. Check sizes with us before you buy, so the fittings match the new lines. Parts follow the brand's own warranty.
 
 ### Do you test the new pipes for leaks before tiling?
 
-Yes. After the new lines are laid, we run a leak test before the walls and floor are closed. Tiling starts only after the lines pass the test. Finding a leak at this stage costs far less than breaking new tiles later.
+Yes, after the new lines are laid, Mahapatra Plumbing Services runs a leak test before the walls and floor are closed. Tiling starts only after the lines pass the test. Finding a leak at this stage costs far less than breaking new tiles later.
 
 ### Do you also handle kitchen renovation plumbing in Bhubaneswar?
 
-Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kitchen sink and its drain, and add inlet and outlet points for your RO purifier. We fix the points before the platform and tiles go in. You get the same written estimate before work starts, and a 90-day workmanship warranty on installation and repair jobs.
+Yes, in a kitchen renovation in Bhubaneswar, Mahapatra Plumbing Services lays new water lines, fit the kitchen sink and its drain, and add inlet and outlet points for your RO purifier. We fix the points before the platform and tiles go in. You get the same written estimate before work starts, and a 90-day workmanship warranty on installation and repair jobs.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -154,7 +154,9 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -168,7 +170,10 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -189,6 +194,11 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -317,7 +327,8 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/services/bathroom-plumbing-renovation/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "Service",
@@ -352,7 +363,7 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
           "name": "Do you do tiling and civil work for bathroom renovation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We can also handle the tiling, plaster or civil work, after discussing it with you. The plumbing side is ours too: pipes, drains, floor traps, fittings and the leak test. If you prefer your own tile or civil team, we agree pipe and fitting levels with them, so the tiles fit around the fittings."
+            "text": "Yes, Mahapatra Plumbing Services can also handle the tiling, plaster or civil work, after discussing it with you. The plumbing side is ours too: pipes, drains, floor traps, fittings and the leak test. If you prefer your own tile or civil team, we agree pipe and fitting levels with them, so the tiles fit around the fittings."
           }
         },
         {
@@ -360,7 +371,7 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
           "name": "Can you change an Indian toilet to a western toilet during renovation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Changing an Indian WC to a western WC means checking the drain point and often moving it, plus floor work. We do the plumbing, and we can also handle the floor and tiling, after discussing it with you. It is quoted after a free site visit, with a written estimate before work starts."
+            "text": "Yes, changing an Indian WC to a western WC in Bhubaneswar means checking the drain point and often moving it, plus floor work. We do the plumbing, and we can also handle the floor and tiling, after discussing it with you. It is quoted after a free site visit, with a written estimate before work starts."
           }
         },
         {
@@ -376,7 +387,7 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
           "name": "Can I buy the taps, WC and fittings myself?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. You can buy your own taps, mixers, WC, basin and shower, and we will fit them. The written estimate lists the work, so you know what to buy and when to keep it ready. Check sizes with us before you buy, so the fittings match the new lines. Parts follow the brand's own warranty."
+            "text": "Yes, you can buy your own taps, mixers, WC, basin and shower, and Mahapatra Plumbing Services will fit them. The written estimate lists the work, so you know what to buy and when to keep it ready. Check sizes with us before you buy, so the fittings match the new lines. Parts follow the brand's own warranty."
           }
         },
         {
@@ -384,7 +395,7 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
           "name": "Do you test the new pipes for leaks before tiling?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. After the new lines are laid, we run a leak test before the walls and floor are closed. Tiling starts only after the lines pass the test. Finding a leak at this stage costs far less than breaking new tiles later."
+            "text": "Yes, after the new lines are laid, Mahapatra Plumbing Services runs a leak test before the walls and floor are closed. Tiling starts only after the lines pass the test. Finding a leak at this stage costs far less than breaking new tiles later."
           }
         },
         {
@@ -392,7 +403,7 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
           "name": "Do you also handle kitchen renovation plumbing in Bhubaneswar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kitchen sink and its drain, and add inlet and outlet points for your RO purifier. We fix the points before the platform and tiles go in. You get the same written estimate before work starts, and a 90-day workmanship warranty on installation and repair jobs."
+            "text": "Yes, in a kitchen renovation in Bhubaneswar, Mahapatra Plumbing Services lays new water lines, fit the kitchen sink and its drain, and add inlet and outlet points for your RO purifier. We fix the points before the platform and tiles go in. You get the same written estimate before work starts, and a 90-day workmanship warranty on installation and repair jobs."
           }
         }
       ]

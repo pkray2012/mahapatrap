@@ -15,7 +15,7 @@ word_count: 1291
 
 [BREADCRUMB: Home > Water Tank & Motor Repair]
 
-**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 Mahapatra Plumbing Services in Chandrasekharpur offers water motor repair in Bhubaneswar. We fix motors that run but do not fill the tank, leaking pump lines, faulty foot valves and overflowing overhead tanks. Water motor and pump repair starts from ₹399. Call or WhatsApp +91 9668875352. We are open daily 8 AM to 10 PM.
 
@@ -108,7 +108,7 @@ See every rate on our [plumber charges in Bhubaneswar](/pricing/) page.
 
 ## Areas we cover for motor and tank repair
 
-We visit nearby areas like Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli, and all of Bhubaneswar. Searching for water motor repair near me around Chandrasekharpur? Just call or WhatsApp with your area. See our [plumber in Niladri Vihar](/areas/niladri-vihar/) page.
+We visit nearby areas like Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli, and all of Bhubaneswar. For water motor repair around Chandrasekharpur, just call or WhatsApp with your area. See our [plumber in Niladri Vihar](/areas/niladri-vihar/) page.
 
 ## Related services
 
@@ -132,7 +132,7 @@ A foot valve sits at the bottom of the suction pipe in your sump. It lets water 
 
 ### Is it safe to run a water motor without water?
 
-No. A motor running without water heats up quickly and can damage the pump and its seals. If no water comes, switch the motor off. Check the sump level and the valves, then call us. Restarting it again and again will not fix an air lock or a stuck foot valve.
+No, a water motor running without water heats up quickly and can damage the pump and its seals. If no water comes, switch the motor off. Check the sump level and the valves, then call us. Restarting it again and again will not fix an air lock or a stuck foot valve.
 
 ### Can you repair a submersible pump in my sump?
 
@@ -160,7 +160,9 @@ Call or WhatsApp +91 9668875352 with the problem and your area, or see all ways 
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -174,7 +176,10 @@ Call or WhatsApp +91 9668875352 with the problem and your area, or see all ways 
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -195,6 +200,11 @@ Call or WhatsApp +91 9668875352 with the problem and your area, or see all ways 
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -323,7 +333,8 @@ Call or WhatsApp +91 9668875352 with the problem and your area, or see all ways 
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/services/water-tank-and-motor-repair/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "Service",
@@ -388,7 +399,7 @@ Call or WhatsApp +91 9668875352 with the problem and your area, or see all ways 
           "name": "Is it safe to run a water motor without water?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. A motor running without water heats up quickly and can damage the pump and its seals. If no water comes, switch the motor off. Check the sump level and the valves, then call us. Restarting it again and again will not fix an air lock or a stuck foot valve."
+            "text": "No, a water motor running without water heats up quickly and can damage the pump and its seals. If no water comes, switch the motor off. Check the sump level and the valves, then call us. Restarting it again and again will not fix an air lock or a stuck foot valve."
           }
         },
         {

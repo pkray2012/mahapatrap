@@ -8,7 +8,7 @@ meta_description: Plumber in Infocity, Bhubaneswar for office washrooms, pantrie
 primary_keyword: plumber in infocity bhubaneswar
 secondary_keywords: [office plumbing infocity]
 h1: Plumber in Infocity, Bhubaneswar (Offices & Homes)
-word_count: 855
+word_count: 880
 ---
 
 # Plumber in Infocity, Bhubaneswar (Offices & Homes)
@@ -18,6 +18,8 @@ word_count: 855
 Need a plumber in Infocity Bhubaneswar for a running flush in the office washroom, a leaking pantry tap or a choked kitchen sink at home? Mahapatra Plumbing Services works from District Center, Chandrasekharpur, close to Infocity. We visit offices and flats daily from 8 AM to 10 PM. Call or WhatsApp +91 9668875352.
 
 [CTA: call+whatsapp | location=hero]
+
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 [IMAGE: plumber-infocity-bhubaneswar-office-washroom-flush-repair.webp | alt="Plumber repairing a flush valve in an office washroom in Infocity, Bhubaneswar" | hero]
 
@@ -123,7 +125,7 @@ It depends on how the lines are laid. If the washroom has its own valve, we clos
 
 ### Can you fit the water inlet and drain for an RO purifier in our office pantry?
 
-Yes. We fit and repair the water inlet, tap point and drain line for an RO purifier in office pantries and home kitchens. Filters and electrical parts are a job for the purifier brand's service team. Send a photo of the pantry wall on WhatsApp first.
+Yes, Mahapatra Plumbing Services fits and repairs the water inlet, tap point and drain line for an RO purifier in office pantries and home kitchens. Filters and electrical parts are a job for the purifier brand's service team. Send a photo of the pantry wall on WhatsApp first.
 
 ### Our office pantry sink in Infocity keeps choking. How do we stop it?
 
@@ -143,7 +145,9 @@ Keep tea leaves, food bits and oil out of the sink waste, since they settle in t
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -157,7 +161,10 @@ Keep tea leaves, food bits and oil out of the sink waste, since they settle in t
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -178,6 +185,11 @@ Keep tea leaves, food bits and oil out of the sink waste, since they settle in t
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -310,7 +322,8 @@ Keep tea leaves, food bits and oil out of the sink waste, since they settle in t
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/areas/infocity/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "FAQPage",
@@ -337,7 +350,7 @@ Keep tea leaves, food bits and oil out of the sink waste, since they settle in t
           "name": "Can you fit the water inlet and drain for an RO purifier in our office pantry?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We fit and repair the water inlet, tap point and drain line for an RO purifier in office pantries and home kitchens. Filters and electrical parts are a job for the purifier brand's service team. Send a photo of the pantry wall on WhatsApp first."
+            "text": "Yes, Mahapatra Plumbing Services fits and repairs the water inlet, tap point and drain line for an RO purifier in office pantries and home kitchens. Filters and electrical parts are a job for the purifier brand's service team. Send a photo of the pantry wall on WhatsApp first."
           }
         },
         {

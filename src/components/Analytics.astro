@@ -19,6 +19,9 @@ const any = Object.values(cfg).some(Boolean);
   <script is:inline define:vars={{ cfg }}>
     (function () {
       var done = false, w = window, d = document;
+      // Fallback mode (no GTM): events tracked before the direct tags load wait here and are forwarded once in load().
+      // GTM mode needs no queue: GTM reads the dataLayer history itself.
+      if (!cfg.gtm) w.__mpQ = w.__mpQ || [];
       var ric = w.requestIdleCallback || function (f) { return setTimeout(f, 1); };
       function js(src) { var s = d.createElement('script'); s.async = true; s.src = src; d.head.appendChild(s); }
       function load() {
@@ -60,6 +63,9 @@ const any = Object.values(cfg).some(Boolean);
           if (w.fbq) { if (ev === 'call_click' || ev === 'whatsapp_click') w.fbq('track', 'Contact'); if (ev === 'whatsapp_form_submit') w.fbq('track', 'Lead'); }
           if (cfg.uet && ev === 'generate_lead') { w.uetq = w.uetq || []; w.uetq.push('event', 'generate_lead', {}); }
         };
+        var q = w.__mpQ || [];
+        w.__mpQ = null;
+        q.forEach(function (e) { w.__mpForward(e[0], e[1]); });
       }
       var evs = ['pointerdown', 'keydown', 'scroll', 'touchstart'];
       function soon() {

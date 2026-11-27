@@ -11,7 +11,7 @@ const stars = (n: number) => Array.from({ length: n }, () => icon('star')).join(
 const five = data.breakdown['5'];
 // Mobile: a horizontal scroller. The scroll container is focusable (keyboard users scroll it with the arrow keys)
 // and labelled; a visible hint tells touch users to swipe. From 768 px the cards sit in a grid.
-const cards = reviews.map((r) => `<li class="card rev"><figure class="flex flex-col gap-2 h-full"><div class="stars" role="img" aria-label="${r.stars} out of 5 stars">${stars(r.stars)}</div><blockquote><p>“${esc(r.excerpt)}”</p></blockquote><figcaption><strong>${esc(r.name)}</strong>${r.label ? `, ${esc(r.label)}` : ''}\u00A0· <span class="whitespace-nowrap">Google review</span></figcaption></figure></li>`).join('');
+const cards = reviews.map((r) => `<li class="card rev"><figure class="flex flex-col gap-2 h-full"><div class="stars" role="img" aria-label="${r.stars} out of 5 stars">${stars(r.stars)}</div><blockquote><p>“${esc(r.excerpt)}”</p></blockquote><figcaption><strong>${esc(r.name)}</strong>${r.label ? `, <span class="whitespace-nowrap">${esc(r.label)}</span>` : ''}\u00A0· <span class="whitespace-nowrap">Google review</span></figcaption></figure></li>`).join('');
 const writeUrl = 'https://search.google.com/local/writereview?placeid=ChIJkdMjFQAJGToRO7CJMqXssjw';
 const total = reviews.length + 1;
 const pt = page.fm.page_type;

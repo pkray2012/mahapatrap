@@ -79,6 +79,7 @@ export interface Ctx {
   page: Page;
   loc: string; // current data-cta-location
   label: string; // current heading text (for table region labels)
+  heroForm?: string; // id of the form card beside the hero (the hero "Book a Visit" button jumps there)
 }
 
 /** data-* attributes for a tracked CTA. */
@@ -138,8 +139,12 @@ function renderCta(ctx: Ctx, mk: ReturnType<typeof parseMarker>) {
     return `<div class="cta-row cta-cw">${callButton(p, loc)}${waButton(p, loc)}</div>`;
   }
   if (mk.head === 'call+book_visit') {
-    const href = mk.extra.book_visit || '#book-a-visit';
-    return `<div class="cta-row">${callButton(p, loc, mk.attrs.call || 'Call Now')}<a class="btn btn-outline" href="${esc(href)}">${icon('arrow')}<span>${esc(mk.attrs.book_visit || 'Book a Visit')}</span></a></div>`;
+    // In the hero the secondary button always goes to the nearest form: the Quick Quote card beside / under the
+    // hero (not a form at the end of the page), and it carries the form's name.
+    const near = ctx.loc === 'hero' && ctx.heroForm;
+    const href = near ? `#${ctx.heroForm}` : mk.extra.book_visit || '#book-a-visit';
+    const label = near ? `Get a ${FORM_NAME}` : mk.attrs.book_visit || 'Book a Visit';
+    return `<div class="cta-row">${callButton(p, loc, mk.attrs.call || 'Call Now')}<a class="btn btn-outline" href="${esc(href)}">${icon('arrow')}<span>${esc(label)}</span></a></div>`;
   }
   if (mk.head === 'contact_line') {
     return `<div class="cta-row">${callButton(p, loc, `Call ${mk.attrs.call || SITE.phoneDisplay}`)}${waButton(p, loc)}<a class="btn btn-outline" href="mailto:${SITE.email}" data-track="email_click" data-cta-location="${loc}" data-page-type="${p.fm.page_type}">${icon('mail')}<span>Email us</span></a></div>`;
@@ -214,20 +219,34 @@ function formTemplate(page: Page, tpl: string) {
   return readableMsg(lines.join('\n'));
 }
 
-export function renderForm(page: Page, o: { formId: 'quick_quote' | 'book_visit'; id?: string; submit: string; template: string; loc: string }) {
+/** One name and one button label for every WhatsApp form on the site (hero card, service/area card, booking
+ *  sections). Analytics keep telling the two placements apart by data-form-id: quick_quote (hero / service /
+ *  area card) and book_visit (the booking section further down the page). */
+export const FORM_NAME = 'Quick Quote';
+export const FORM_TITLE = 'Quick Quote on WhatsApp';
+export const FORM_SUBMIT = 'Get Quote on WhatsApp';
+
+export function renderForm(page: Page, o: { formId: 'quick_quote' | 'book_visit'; id?: string; submit?: string; template: string; loc: string }) {
   const pre = o.formId === 'quick_quote' ? 'qq' : 'bv';
   const id = o.id || (o.formId === 'quick_quote' ? 'quick-quote' : 'book-a-visit');
   const selArea = page.fm.page_type === 'locality' ? page.slug : '';
   const opts = AREA_OPTIONS.map(([v, l]) => `<option${v === selArea ? ' selected' : ''}>${esc(l)}</option>`).join('');
+  const submit = o.submit || FORM_SUBMIT;
+  // A field's description: an optional visible hint, then its error line (empty until site.ts fills it).
+  const desc = (n: string, hint = false) => `aria-describedby="${hint ? `${pre}-${n}-hint ` : ''}${pre}-${n}-err"`;
+  const err = (n: string) => `<p class="fld-err" id="${pre}-${n}-err" data-err="${n}"></p>`;
   // Fields have no `name` attribute: if the script has not run, a native submit sends nothing (no personal data
-  // in a URL). site.ts reads them by data-f. Phone accepts 10 digits with optional 0 / 91 / +91 and spaces or dashes.
+  // in a URL). site.ts reads them by data-f and validates (visible messages under each field). Phone accepts
+  // 10 digits with optional 0 / 91 / +91 and spaces or dashes. The Area select is not `required` (Chromium would
+  // expose an untouched empty select as "invalid" on load): aria-required + the script check cover it.
   return `<form id="${id}" class="wa-form" data-wa-form data-form-id="${o.formId}" ${trackAttrs(page, 'whatsapp_form_submit', o.loc)} data-template="${esc(formTemplate(page, o.template))}">
-<div class="fld"><label for="${pre}-name">Name</label><input id="${pre}-name" data-f="name" type="text" autocomplete="name" required maxlength="60"></div>
-<div class="fld"><label for="${pre}-phone">Phone (WhatsApp)</label><input id="${pre}-phone" data-f="phone" type="tel" inputmode="tel" autocomplete="tel" required pattern="[\\s\\-]*(\\+?91|0)?[\\s\\-]*[6-9](?:[\\s\\-]*\\d){9}[\\s\\-]*" title="10-digit mobile number, e.g. 98765 43210" maxlength="20"></div>
-<div class="fld"><label for="${pre}-area">Area</label><select id="${pre}-area" data-f="area" required><option value="">Choose your area</option>${opts}</select></div>
-<div class="fld"><label for="${pre}-problem">Problem</label><textarea id="${pre}-problem" data-f="problem" rows="3" required maxlength="500"></textarea></div>
+<p class="req-note">All fields are required.</p>
+<div class="fld"><label for="${pre}-name">Name</label><input id="${pre}-name" data-f="name" type="text" autocomplete="name" required pattern=".*\\S.*" maxlength="60" ${desc('name')}>${err('name')}</div>
+<div class="fld"><label for="${pre}-phone">Phone (WhatsApp)</label><input id="${pre}-phone" data-f="phone" type="tel" inputmode="tel" autocomplete="tel" required pattern="[\\s\\-]*(\\+?91|0)?[\\s\\-]*[6-9](?:[\\s\\-]*\\d){9}[\\s\\-]*" maxlength="20" ${desc('phone', true)}><p class="hint" id="${pre}-phone-hint"><span class="hint-long">10-digit mobile number, e.g. 98765 43210</span><span class="hint-short">e.g. 98765 43210</span></p>${err('phone')}</div>
+<div class="fld"><label for="${pre}-area">Area</label><select id="${pre}-area" data-f="area" aria-required="true" ${desc('area')}><option value="">Choose your area</option>${opts}</select>${err('area')}</div>
+<div class="fld"><label for="${pre}-problem">Problem</label><textarea id="${pre}-problem" data-f="problem" rows="3" required maxlength="500" ${desc('problem', true)}></textarea><p class="hint" id="${pre}-problem-hint">e.g. kitchen tap dripping</p>${err('problem')}</div>
 ${ADS_OPT_IN ? '<label class="chk"><input type="checkbox" data-f="ads"><span>Use my details to improve ads (optional)</span></label>' : ''}
-<button type="submit" class="btn btn-wa btn-block">${icon('wa')}<span>${esc(o.submit)}</span></button>
+<button type="submit" class="btn btn-wa btn-block">${icon('wa')}<span>${esc(submit)}</span></button>
 </form><noscript><p class="noscript">Please call <a href="${SITE.tel}">${SITE.phoneDisplay}</a> or <a href="${esc(waLink(readableMsg(page.fm.whatsapp_prefill)))}" target="_blank" rel="noopener">WhatsApp us</a>.</p></noscript>`;
 }
 
@@ -237,7 +256,8 @@ function formFromMarker(ctx: Ctx, mk: ReturnType<typeof parseMarker>) {
   return renderForm(ctx.page, {
     formId,
     id: mk.attrs.id,
-    submit: mk.attrs.submit || 'Send on WhatsApp',
+    // One submit label everywhere (the marker's submit= text is ignored on purpose).
+    submit: FORM_SUBMIT,
     template: (mk.attrs.whatsapp_text || '').replace(/\\n/g, '\n'),
     loc: mk.attrs.cta_location || (formId === 'quick_quote' ? 'quick_quote_form' : 'book_visit_form'),
   });
@@ -245,9 +265,9 @@ function formFromMarker(ctx: Ctx, mk: ReturnType<typeof parseMarker>) {
 
 /** Quick Quote card for service pages (no FORM marker in their copy). */
 export function quickQuoteCard(page: Page) {
-  return `<div class="card form-card"><p class="card-title">Quick Quote on WhatsApp</p><p>Tell us the problem. We reply on WhatsApp.</p>${renderForm(page, {
+  return `<div class="card form-card" id="quick-quote"><p class="card-title">${FORM_TITLE}</p><p>Tell us the problem. We reply on WhatsApp.</p>${renderForm(page, {
     formId: 'quick_quote',
-    submit: 'Get Quote on WhatsApp',
+    id: 'quick_quote',
     template: `Name: {name}\nPhone: {phone}\nArea: {area}\nProblem: {problem}\n[Page: ${page.fm.page_tag} | Form: quick_quote]`,
     loc: 'quick_quote_form',
   })}<p class="consent">By sending, you agree we may use your number to reply on WhatsApp. See our <a href="/privacy-policy/">Privacy Policy</a>.</p></div>`;
@@ -341,12 +361,25 @@ function postProcess(ctx: Ctx, html: string) {
     }
     const label = ctx.label ? esc(cleanInline(ctx.label)) : 'Table';
     const cols = (t.match(/<tr>([\s\S]*?)<\/tr>/)?.[1].match(/<t[hd][\s>]/g) || []).length;
-    return `<div class="tbl${keyValue ? ' tbl-kv' : ''}${cols > 2 ? ' tbl-3' : ''}" role="region" aria-label="${label}" tabindex="0"${pricing}><table>${t}</table></div>`;
+    // The region label is repeated as a visually hidden <caption>, so the table itself has a name too.
+    const caption = ctx.label ? `<caption class="sr-only">${label}</caption>` : '';
+    return `<div class="tbl${keyValue ? ' tbl-kv' : ''}${cols > 2 ? ' tbl-3' : ''}" role="region" aria-label="${label}" tabindex="0"${pricing}><table>${caption}${t}</table></div>`;
   });
   return linkPhones(ctx, html);
 }
 
-const LIST_LINK_RE = /^- (\*\*)?\[([^\]]+)\]\((\/[^)]+)\)(\*\*)?(.*)$/;
+// A card list item links to a page ("/services/…") or, for a "Not sure? Send a photo on WhatsApp" card, to
+// WhatsApp: "(whatsapp)" or "(/#quick-quote)" use the page's WhatsApp prefill, "(whatsapp: Hi, …)" a custom one,
+// or a full wa.me URL.
+const LIST_LINK_RE = /^- (\*\*)?\[([^\]]+)\]\((\/[^)]+|whatsapp(?::[^)]*)?|https:\/\/wa\.me\/[^)]+)\)(\*\*)?(.*)$/;
+/** "/#quick-quote" or "#book-a-visit" (a link to a WhatsApp form card) in a card list is rendered as a WhatsApp card too. */
+const isFormAnchor = (href: string) => /^\/?#(quick-quote|book-a-visit)$/.test(href);
+const isWaHref = (href: string) => /^whatsapp\b/.test(href) || href.startsWith('https://wa.me/') || isFormAnchor(href);
+function waCardHref(page: Page, href: string) {
+  if (href.startsWith('https://wa.me/')) return href;
+  const custom = href.match(/^whatsapp:\s*(.+)$/)?.[1];
+  return waLink(readableMsg(custom || page.fm.whatsapp_prefill));
+}
 const CONTACT_ICONS: Record<string, string> = { 'Phone / WhatsApp': 'phone', Phone: 'phone', WhatsApp: 'wa', Email: 'mail', Address: 'pin', Hours: 'clock', Languages: 'chat' };
 const CONTACT_RE = new RegExp(`^- \\*\\*(${Object.keys(CONTACT_ICONS).map((k) => k.replace(/[/]/g, '\\/')).join('|')}):\\*\\*`);
 const TRUST_RE = /^\*\*[^*]+\*\*( · \*\*[^*]+\*\*)+$/;
@@ -364,19 +397,28 @@ function renderMdBlock(ctx: Ctx, md: string) {
     const parsed = lines.map((l) => l.match(LIST_LINK_RE)!);
     const svcTrack = (href: string) =>
       `data-track="service_card_click" data-cta-location="service_card" data-service="${href.split('/').filter(Boolean).pop()}" data-page-type="${ctx.page.fm.page_type}"`;
-    const ico = (href: string) => `<span class="svc-ico">${icon(iconForHref(href))}</span>`;
-    const withDesc = parsed.every((m) => /^:\s/.test(m[5]));
-    if (withDesc) {
+    const ico = (href: string) => `<span class="svc-ico">${icon(isWaHref(href) ? 'wa' : iconForHref(href))}</span>`;
+    const hasWa = parsed.some((m) => isWaHref(m[3]));
+    // WhatsApp card: opens WhatsApp in a new tab, tracked as whatsapp_click (+ generate_lead) from the card grid.
+    const waCard = (m: RegExpMatchArray, sm = '') => {
+      const rest = m[5].trim().replace(/^:\s*/, '');
+      const p = rest ? `<p>${marked.parseInline(cap(rest)) as string}</p>` : '';
+      return `<li class="svc-card svc-wa${sm}"><div class="svc-head">${ico(m[3])}<a href="${esc(waCardHref(ctx.page, m[3]))}" target="_blank" rel="noopener" ${trackAttrs(ctx.page, 'whatsapp_click', 'service_card')}>${esc(m[2])}</a></div>${p}</li>`;
+    };
+    const withDesc = parsed.every((m) => isWaHref(m[3]) || /^:\s/.test(m[5]));
+    if (withDesc && parsed.some((m) => !isWaHref(m[3]))) {
       const lis = parsed.map((m) => {
         const href = m[3];
+        if (isWaHref(href)) return waCard(m);
         const track = href.startsWith('/services/') ? svcTrack(href) : `data-track="nav_click" data-cta-location="${ctx.loc}"`;
         return `<li class="svc-card"><div class="svc-head">${ico(href)}<a href="${esc(href)}" ${track}>${esc(m[2])}</a></div><p>${marked.parseInline(cap(m[5].replace(/^:\s*/, ''))) as string}</p></li>`;
       });
       return `<ul class="cards">${lis.join('')}</ul>`;
     }
-    if (parsed.every((m) => m[3].startsWith('/services/'))) {
+    if (parsed.every((m) => m[3].startsWith('/services/') || isWaHref(m[3]))) {
       const lis = parsed.map((m) => {
         const href = m[3];
+        if (isWaHref(href)) return waCard(m, ' svc-sm');
         const rest = m[5].trim();
         const multi = /\]\(\//.test(rest); // a second link in the line: no whole-card overlay
         const desc = /^:/.test(rest);
@@ -386,6 +428,7 @@ function renderMdBlock(ctx: Ctx, md: string) {
       });
       return `<ul class="cards cards-sm">${lis.join('')}</ul>`;
     }
+    if (hasWa) throw new Error(`${ctx.page.file}: a WhatsApp card needs service cards in the same list`);
     const lis = parsed.map((m) => {
       const html = postProcess(ctx, `<a href="${esc(m[3])}">${esc(m[2])}</a>`);
       const pin = m[3].startsWith('/areas/') ? icon('pin', 'ico chip-ico') : '';
@@ -420,7 +463,12 @@ function renderWhyPricing(ctx: Ctx, mk: ReturnType<typeof parseMarker>, blocks: 
   ).join('');
   const left = mk.head || 'Why choose us';
   const rt = mk.attrs.right || 'Pricing';
-  return postProcess(ctx, `<div class="wp-grid"><div class="card wp-card"><h3 class="wp-title">${icon('shield', 'ico wp-ico')}<span>${esc(left)}</span></h3><ul class="wp-list">${why}</ul></div><div class="card wp-card"><h3 class="wp-title">${icon('rupee', 'ico wp-ico')}<span>${esc(rt)}</span></h3>${right}<div class="wp-foot"><p class="wp-note">Visit charge ₹199–₹349, adjusted in the final bill. Free site visit for big works.</p><a class="btn btn-outline" href="/pricing/">See the full rate card${icon('arrow')}</a></div></div></div>`);
+  // Left card footer (pinned to the card bottom, like the Pricing card's), so both cards end on one line.
+  // Marker option: left_button="About our team" /about/ (default).
+  const lb = mk.attrs.left_button || 'About our team';
+  const lh = mk.extra.left_button || '/about/';
+  const leftFoot = `<div class="wp-foot"><a class="btn btn-outline" href="${esc(lh)}">${esc(lb)}${icon('arrow')}</a></div>`;
+  return postProcess(ctx, `<div class="wp-grid"><div class="card wp-card"><h3 class="wp-title">${icon('shield', 'ico wp-ico')}<span>${esc(left)}</span></h3><ul class="wp-list">${why}</ul>${leftFoot}</div><div class="card wp-card"><h3 class="wp-title">${icon('rupee', 'ico wp-ico')}<span>${esc(rt)}</span></h3>${right}<div class="wp-foot"><p class="wp-note">Visit charge ₹199–₹349, adjusted in the final bill. Free site visit for big works.</p><a class="btn btn-outline" href="/pricing/">See the full rate card${icon('arrow')}</a></div></div></div>`);
 }
 
 // ---------- PRICING TIERS (three cards, from content/data/pricing-tiers.json = rate card) ----------
@@ -579,10 +627,13 @@ async function renderSegs(ctx: Ctx, segs: Seg[], level: 'h2' | 'h3', heroMode = 
 }
 
 function wrapCard(parts: string[], _level: string) {
-  // The in-page anchor (#book-a-visit) sits on the card, so a jump lands on the card title, not the first field.
+  // The in-page anchor (#book-a-visit, #quick-quote) sits on the card, so a jump lands on the card title, not the
+  // first field; the <form> keeps its form id (book_visit / quick_quote) as its element id.
   let html = parts.join('');
   let id = '';
-  html = html.replace(/<form id="(book-a-visit)"/, (_m, a) => { id = a; return '<form id="book_visit"'; });
+  html = html.replace(/<form id="([^"]+)"([^>]*?) data-form-id="([^"]+)"/, (_m, a, mid, fid) => { id = a; return `<form id="${fid}"${mid} data-form-id="${fid}"`; });
+  // Every form card carries the same name (a [CARD LABEL] in the copy is replaced).
+  if (id) html = html.replace(/^<p class="card-title">[\s\S]*?<\/p>/, `<p class="card-title">${FORM_TITLE}</p>`);
   return [`<div class="card form-card"${id ? ` id="${id}"` : ''}>${html}</div>`];
 }
 
@@ -603,7 +654,14 @@ export async function renderPage(page: Page): Promise<Rendered> {
   const breadcrumb = hasCrumbMarker ? renderBreadcrumb(page) : '';
 
   ctx.loc = 'hero';
+  // The form card beside the hero: the hero's own [FORM] (its card id), else the Quick Quote card that service
+  // and area pages get automatically.
+  const heroFormMk = heroSegs.find((s) => s.t === 'marker' && s.mk.kind === 'FORM') as { mk: ReturnType<typeof parseMarker> } | undefined;
+  ctx.heroForm = heroFormMk
+    ? heroFormMk.mk.attrs.id || (heroFormMk.mk.head.trim() === 'quick_quote' ? 'quick-quote' : 'book-a-visit')
+    : page.fm.page_type === 'service' || page.fm.page_type === 'locality' ? 'quick-quote' : undefined;
   const hero = await renderSegs(ctx, heroSegs, 'h2', true);
+  ctx.heroForm = undefined;
   let heroCard = hero.cardHtml;
   let heroBlocks = hero.html.filter((h) => h !== heroCard).join('\n');
   // Service and area pages: Quick Quote card beside the hero text (no empty right half on desktop).

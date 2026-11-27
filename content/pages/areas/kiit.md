@@ -8,7 +8,7 @@ meta_description: Plumber near KIIT for hostels, PGs and student flats. Blocked 
 primary_keyword: plumber near kiit
 secondary_keywords: [plumber for hostel near kiit]
 h1: Plumber near KIIT, Bhubaneswar (Hostels, PGs & Homes)
-word_count: 894
+word_count: 891
 ---
 
 <!-- Hero. Accent colour on "KIIT" in the H1. -->
@@ -17,11 +17,11 @@ word_count: 894
 
 [BREADCRUMB: Home > KIIT]
 
-Need a plumber near KIIT for a hostel, PG or student flat? Mahapatra Plumbing Services clears blocked toilets and choked bathroom drains, and fixes running flush tanks and dripping taps. We work from District Center, Chandrasekharpur, and serve all of Bhubaneswar. Call or WhatsApp +91 9668875352, open daily 8 AM to 10 PM.
+Need a plumber near KIIT for a hostel, PG or student flat? Mahapatra Plumbing Services clears blocked toilets and choked bathroom drains, and fixes running flush tanks and dripping taps. We work from District Center, Chandrasekharpur, and serve all of Bhubaneswar. Call or WhatsApp +91 9668875352.
 
 [CTA: call+whatsapp | location=hero]
 
-**5.0★ from 45 Google reviews** · **Written estimate before work starts** · **90-day workmanship warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 [IMAGE: plumber-near-kiit-hostel-flush-tank-repair.webp | alt="Plumber repairing a running flush tank in a hostel bathroom near KIIT, Bhubaneswar" | hero, beside the intro]
 
@@ -58,7 +58,7 @@ Most calls from this area are small repairs: leaks, blockages and new fittings. 
 
 Yes. We offer AMC check-ups for homes, flats, hostels and PG buildings. AMC is price on request. Call or WhatsApp us for a quote. Regular checks catch running flushes, slow drains and tank faults before tenants complain.
 
-Searching for a plumber for hostel near KIIT on a regular plan? WhatsApp us the floors and washroom count.
+Need a plumber for a hostel near KIIT on a regular plan? WhatsApp us the floors and washroom count.
 
 [CTA: call+whatsapp | location=inline_content]
 
@@ -102,11 +102,11 @@ We also cover [Niladri Vihar](/areas/niladri-vihar/), [Sailashree Vihar](/areas/
 
 ### Can a student book a plumber for a rented flat near KIIT?
 
-Yes. Anyone living in the flat can call or WhatsApp +91 9668875352. Send the flat address and a photo of the fault. The plumber gives a written estimate before work starts, so you can share it with your owner first.
+Yes, anyone living in a rented flat near KIIT can call or WhatsApp Mahapatra Plumbing Services on +91 9668875352. Send the flat address and a photo of the fault. The plumber gives a written estimate before work starts, so you can share it with your owner first.
 
 ### Can you check every bathroom in a hostel or PG together?
 
-Yes. Send the number of bathrooms and a list of faults, room by room if you can. Photos on WhatsApp help us bring the right parts. You get one written estimate for the whole list before work starts. Time depends on the job; we tell you the expected time with the estimate.
+Yes, Mahapatra Plumbing Services checks hostel and PG bathrooms together: send the number of bathrooms and a list of faults, room by room if you can. Photos on WhatsApp help us bring the right parts. You get one written estimate for the whole list before work starts.
 
 ### Why do toilets and drains in hostels block so often?
 
@@ -114,11 +114,11 @@ Heavy daily use, plus things that should never go down a drain. Hair and shampoo
 
 ### Our hostel near KIIT has several overhead tanks and a sump. Can you clean them all?
 
-Yes. We take water tank and sump cleaning for hostels, PGs and homes near KIIT and across Bhubaneswar. Call or WhatsApp us for a quote. Tell us the tank size, how many tanks there are and how to reach them. You can book the overhead tank and the sump together.
+Yes, Mahapatra Plumbing Services takes water tank and sump cleaning for hostels, PGs and homes near KIIT and across Bhubaneswar. Call or WhatsApp us for a quote. Tell us the tank size, how many tanks there are and how to reach them. You can book the overhead tank and the sump together.
 
 ### Is Mahapatra Plumbing Services part of KIIT?
 
-No. [Mahapatra Plumbing Services](/about/) is an independent local plumber based at District Center, Chandrasekharpur. We are not connected with KIIT university. We use the name only to describe the area, where we work for private hostels, PGs, student flats and family homes. Call +91 9668875352 to book.
+No, [Mahapatra Plumbing Services](/about/) is an independent local plumber based at District Center, Chandrasekharpur. We are not connected with KIIT university. We use the name only to describe the area, where we work for private hostels, PGs, student flats and family homes. Call +91 9668875352 to book.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -136,7 +136,9 @@ Address, email and hours: [contact Mahapatra Plumbing Services](/contact/).
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -150,7 +152,10 @@ Address, email and hours: [contact Mahapatra Plumbing Services](/contact/).
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -171,6 +176,11 @@ Address, email and hours: [contact Mahapatra Plumbing Services](/contact/).
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -303,7 +313,8 @@ Address, email and hours: [contact Mahapatra Plumbing Services](/contact/).
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/areas/kiit/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "FAQPage",
@@ -314,7 +325,7 @@ Address, email and hours: [contact Mahapatra Plumbing Services](/contact/).
           "name": "Can a student book a plumber for a rented flat near KIIT?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Anyone living in the flat can call or WhatsApp +91 9668875352. Send the flat address and a photo of the fault. The plumber gives a written estimate before work starts, so you can share it with your owner first."
+            "text": "Yes, anyone living in a rented flat near KIIT can call or WhatsApp Mahapatra Plumbing Services on +91 9668875352. Send the flat address and a photo of the fault. The plumber gives a written estimate before work starts, so you can share it with your owner first."
           }
         },
         {
@@ -322,7 +333,7 @@ Address, email and hours: [contact Mahapatra Plumbing Services](/contact/).
           "name": "Can you check every bathroom in a hostel or PG together?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Send the number of bathrooms and a list of faults, room by room if you can. Photos on WhatsApp help us bring the right parts. You get one written estimate for the whole list before work starts. Time depends on the job; we tell you the expected time with the estimate."
+            "text": "Yes, Mahapatra Plumbing Services checks hostel and PG bathrooms together: send the number of bathrooms and a list of faults, room by room if you can. Photos on WhatsApp help us bring the right parts. You get one written estimate for the whole list before work starts."
           }
         },
         {
@@ -338,7 +349,7 @@ Address, email and hours: [contact Mahapatra Plumbing Services](/contact/).
           "name": "Our hostel near KIIT has several overhead tanks and a sump. Can you clean them all?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We take water tank and sump cleaning for hostels, PGs and homes near KIIT and across Bhubaneswar. Call or WhatsApp us for a quote. Tell us the tank size, how many tanks there are and how to reach them. You can book the overhead tank and the sump together."
+            "text": "Yes, Mahapatra Plumbing Services takes water tank and sump cleaning for hostels, PGs and homes near KIIT and across Bhubaneswar. Call or WhatsApp us for a quote. Tell us the tank size, how many tanks there are and how to reach them. You can book the overhead tank and the sump together."
           }
         },
         {
@@ -346,7 +357,7 @@ Address, email and hours: [contact Mahapatra Plumbing Services](/contact/).
           "name": "Is Mahapatra Plumbing Services part of KIIT?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Mahapatra Plumbing Services is an independent local plumber based at District Center, Chandrasekharpur. We are not connected with KIIT university. We use the name only to describe the area, where we work for private hostels, PGs, student flats and family homes. Call +91 9668875352 to book."
+            "text": "No, Mahapatra Plumbing Services is an independent local plumber based at District Center, Chandrasekharpur. We are not connected with KIIT university. We use the name only to describe the area, where we work for private hostels, PGs, student flats and family homes. Call +91 9668875352 to book."
           }
         }
       ]

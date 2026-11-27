@@ -8,16 +8,16 @@ meta_description: Borewell service and repair in Bhubaneswar for existing borewe
 primary_keyword: borewell service near me
 secondary_keywords: [borewell repair bhubaneswar, borewell submersible pump, borewell motor repair, submersible pump repair bhubaneswar, borewell pipe fitting]
 h1: "Borewell Service: Pump & Pipe Repair in Bhubaneswar"
-word_count: 1291
+word_count: 1285
 ---
 
 # Borewell Service: Pump & Pipe Repair in Bhubaneswar
 
 [BREADCRUMB: Home > Borewell Pump & Pipe Repair]
 
-**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
-Mahapatra Plumbing Services, based in Chandrasekharpur, offers borewell pump and pipe repair across Bhubaneswar. We work on existing borewells. We lift the submersible pump, replace damaged pipes, fix leaks and check low water flow. Searching for a borewell service near me? Call or WhatsApp +91 9668875352. We are open daily, 8 AM to 10 PM.
+Mahapatra Plumbing Services, based in Chandrasekharpur, offers borewell pump and pipe repair across Bhubaneswar. We work on existing borewells. We lift the submersible pump, replace damaged pipes, fix leaks and check low water flow. For borewell service, call or WhatsApp +91 9668875352.
 
 [CTA: call+whatsapp | location=hero]
 
@@ -111,7 +111,7 @@ For leaks in pipes hidden in walls or floors, see our [concealed pipeline repair
 
 ### Do you need to pull out the submersible pump to repair a borewell?
 
-Not always. A leak at the borewell head, a fault in the line to your tank or a valve near the top can be fixed without lifting. A leaking column pipe joint, a valve fitted just above the pump or a pump check needs the pump lifted. Mahapatra Plumbing Services tells you which one applies after inspection.
+Not always, because a leak at the borewell head, a fault in the line to your tank or a valve near the top can be fixed without lifting. A leaking column pipe joint, a valve fitted just above the pump or a pump check needs the pump lifted. Mahapatra Plumbing Services tells you which one applies after inspection.
 
 ### What is a non-return valve in a borewell?
 
@@ -123,11 +123,11 @@ Switch the motor off first, because running it without water can damage the pump
 
 ### Can you connect my borewell to the sump or overhead tank?
 
-Yes. We do borewell pipe fitting from the borewell to your sump or overhead tank, anywhere in Bhubaneswar. We also fix leaks and reroute old lines. You get a written estimate before work starts, and the part price is shared before fitting. The 90-day workmanship warranty covers this installation work.
+Yes, Mahapatra Plumbing Services does borewell pipe fitting from the borewell to your sump or overhead tank, anywhere in Bhubaneswar. We also fix leaks and reroute old lines. You get a written estimate before work starts, and the part price is shared before fitting. The 90-day workmanship warranty covers this installation work.
 
 ### Do you work on borewells in apartments and hostels?
 
-Yes. We work on existing borewells in independent houses, apartment blocks, hostels, PGs, shops and offices across Bhubaneswar. A shared borewell may feed a sump and more than one overhead tank. We check the whole line, from the borewell to the tanks. Call or WhatsApp +91 9668875352 with your area and the problem.
+Yes, Mahapatra Plumbing Services works on existing borewells in independent houses, apartment blocks, hostels, PGs, shops and offices across Bhubaneswar. A shared borewell may feed a sump and more than one overhead tank. We check the whole line, from the borewell to the tanks. Call or WhatsApp +91 9668875352 with your area and the problem.
 
 ### Should I repair my old borewell or get a new one?
 
@@ -151,7 +151,9 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -165,7 +167,10 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -186,6 +191,11 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -314,7 +324,8 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/services/borewell-pump-and-pipe-repair/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "Service",
@@ -349,7 +360,7 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
           "name": "Do you need to pull out the submersible pump to repair a borewell?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not always. A leak at the borewell head, a fault in the line to your tank or a valve near the top can be fixed without lifting. A leaking column pipe joint, a valve fitted just above the pump or a pump check needs the pump lifted. Mahapatra Plumbing Services tells you which one applies after inspection."
+            "text": "Not always, because a leak at the borewell head, a fault in the line to your tank or a valve near the top can be fixed without lifting. A leaking column pipe joint, a valve fitted just above the pump or a pump check needs the pump lifted. Mahapatra Plumbing Services tells you which one applies after inspection."
           }
         },
         {
@@ -373,7 +384,7 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
           "name": "Can you connect my borewell to the sump or overhead tank?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We do borewell pipe fitting from the borewell to your sump or overhead tank, anywhere in Bhubaneswar. We also fix leaks and reroute old lines. You get a written estimate before work starts, and the part price is shared before fitting. The 90-day workmanship warranty covers this installation work."
+            "text": "Yes, Mahapatra Plumbing Services does borewell pipe fitting from the borewell to your sump or overhead tank, anywhere in Bhubaneswar. We also fix leaks and reroute old lines. You get a written estimate before work starts, and the part price is shared before fitting. The 90-day workmanship warranty covers this installation work."
           }
         },
         {
@@ -381,7 +392,7 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
           "name": "Do you work on borewells in apartments and hostels?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We work on existing borewells in independent houses, apartment blocks, hostels, PGs, shops and offices across Bhubaneswar. A shared borewell may feed a sump and more than one overhead tank. We check the whole line, from the borewell to the tanks. Call or WhatsApp +91 9668875352 with your area and the problem."
+            "text": "Yes, Mahapatra Plumbing Services works on existing borewells in independent houses, apartment blocks, hostels, PGs, shops and offices across Bhubaneswar. A shared borewell may feed a sump and more than one overhead tank. We check the whole line, from the borewell to the tanks. Call or WhatsApp +91 9668875352 with your area and the problem."
           }
         },
         {
@@ -422,5 +433,5 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
 - Any limit on how deep a pump the team can lift, and whether extra helpers or charges apply for deep or heavy pumps. The page states no depth.
 - Whether the team reinstalls a pump after a motor mechanic repairs it (not stated on the page).
 - Whether the 90-day workmanship warranty covers pump lifting/lowering and column pipe replacement, as the page states for "repair and installation work".
-- Note: "near me" is used once in body copy ("borewell service near me"). Audit 27 Nov 2026: schema keyword "submersible pump repair near me" (schema.md section 7) changed to "submersible pump repair bhubaneswar" to match the visible text "submersible pump repair in Bhubaneswar". Update schema.md section 7 if accepted.
+- Note: the visible "borewell service near me" line was rewritten as natural copy on 27 Nov 2026 (owner-approved UX-02). Audit 27 Nov 2026: schema keyword "submersible pump repair near me" (schema.md section 7) changed to "submersible pump repair bhubaneswar" to match the visible text "submersible pump repair in Bhubaneswar". Update schema.md section 7 if accepted.
 - Real job photos needed for the 3 image slots (pump lifting from a borewell, column pipe replacement, borewell line to sump).

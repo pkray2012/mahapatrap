@@ -20,6 +20,7 @@
     "/services/leak-and-blockage-repair/",
     "/services/pipeline-and-concealed-plumbing/",
     "/services/bathroom-and-kitchen-fittings/",
+    "/services/geyser-installation-and-repair/",
     "/services/bathroom-plumbing-renovation/",
     "/services/new-bathroom-and-house-plumbing/",
     "/services/commercial-plumbing/",
@@ -98,6 +99,10 @@
     "/services/commercial-plumbing/": [
       "Saumya Mishra",
       "Sridhar Rana"
+    ],
+    "/services/geyser-installation-and-repair/": [
+      "Sridhar Rana",
+      "Kalyan Pradhan"
     ],
     "default": [
       "Kshirod Mahanta",

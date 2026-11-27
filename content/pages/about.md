@@ -8,7 +8,7 @@ meta_description: Mahapatra Plumbing Services is a plumbing company in Bhubanesw
 primary_keyword: plumbing company in bhubaneswar
 secondary_keywords: [mahapatra plumbing services]
 h1: About Mahapatra Plumbing Services, Chandrasekharpur
-word_count: 776
+word_count: 779
 ---
 
 # About Mahapatra Plumbing Services, Chandrasekharpur
@@ -102,7 +102,7 @@ We serve all of Bhubaneswar. Quick repairs are most often in Chandrasekharpur, P
 
 ### Do you take both small repairs and big plumbing jobs?
 
-Yes. The same team takes a dripping tap or a running flush, and bigger jobs like bathroom renovation, new house plumbing, sewerage lines and septic tank cleaning anywhere in Bhubaneswar. Small repairs have a ₹199–₹349 visit charge, adjusted in the final bill. Renovation, new house plumbing and sewerage jobs get a free site visit and a written estimate.
+Yes, the same Mahapatra Plumbing Services team takes a dripping tap or a running flush, and bigger jobs like bathroom renovation, new house plumbing, sewerage lines and septic tank cleaning anywhere in Bhubaneswar. Small repairs have a ₹199–₹349 visit charge, adjusted in the final bill. Renovation, new house plumbing and sewerage jobs get a free site visit and a written estimate.
 
 ### Which languages can I speak when I call?
 
@@ -110,7 +110,7 @@ You can speak Odia, Hindi or English when you call or WhatsApp Mahapatra Plumbin
 
 ### Is Mahapatra Plumbing the same as Mahapatra Plumbing Services?
 
-Yes. Mahapatra Plumbing and Mahapatra Plumbing Services are the same business. Our website is mahapatraplumbing.in and our phone and WhatsApp number is +91 9668875352. Our base is District Center, Chandrasekharpur, Bhubaneswar. If you see these details on Google Maps or elsewhere, it is us.
+Yes, Mahapatra Plumbing and Mahapatra Plumbing Services are the same business. Our website is mahapatraplumbing.in and our phone and WhatsApp number is +91 9668875352. Our base is District Center, Chandrasekharpur, Bhubaneswar. If you see these details on Google Maps or elsewhere, it is us.
 
 ### Where can I read reviews of Mahapatra Plumbing Services?
 
@@ -132,7 +132,9 @@ To book a visit, [contact Mahapatra Plumbing Services](/contact/).
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -146,7 +148,10 @@ To book a visit, [contact Mahapatra Plumbing Services](/contact/).
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -167,6 +172,11 @@ To book a visit, [contact Mahapatra Plumbing Services](/contact/).
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -298,7 +308,8 @@ To book a visit, [contact Mahapatra Plumbing Services](/contact/).
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/about/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "FAQPage",
@@ -309,7 +320,7 @@ To book a visit, [contact Mahapatra Plumbing Services](/contact/).
           "name": "Do you take both small repairs and big plumbing jobs?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. The same team takes a dripping tap or a running flush, and bigger jobs like bathroom renovation, new house plumbing, sewerage lines and septic tank cleaning anywhere in Bhubaneswar. Small repairs have a ₹199–₹349 visit charge, adjusted in the final bill. Renovation, new house plumbing and sewerage jobs get a free site visit and a written estimate."
+            "text": "Yes, the same Mahapatra Plumbing Services team takes a dripping tap or a running flush, and bigger jobs like bathroom renovation, new house plumbing, sewerage lines and septic tank cleaning anywhere in Bhubaneswar. Small repairs have a ₹199–₹349 visit charge, adjusted in the final bill. Renovation, new house plumbing and sewerage jobs get a free site visit and a written estimate."
           }
         },
         {
@@ -325,7 +336,7 @@ To book a visit, [contact Mahapatra Plumbing Services](/contact/).
           "name": "Is Mahapatra Plumbing the same as Mahapatra Plumbing Services?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Mahapatra Plumbing and Mahapatra Plumbing Services are the same business. Our website is mahapatraplumbing.in and our phone and WhatsApp number is +91 9668875352. Our base is District Center, Chandrasekharpur, Bhubaneswar. If you see these details on Google Maps or elsewhere, it is us."
+            "text": "Yes, Mahapatra Plumbing and Mahapatra Plumbing Services are the same business. Our website is mahapatraplumbing.in and our phone and WhatsApp number is +91 9668875352. Our base is District Center, Chandrasekharpur, Bhubaneswar. If you see these details on Google Maps or elsewhere, it is us."
           }
         },
         {

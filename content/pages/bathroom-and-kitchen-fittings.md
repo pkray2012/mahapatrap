@@ -8,14 +8,14 @@ meta_description: Bathroom fitting plumber in Bhubaneswar for taps, WC, basin, s
 primary_keyword: bathroom fitting plumber near me
 secondary_keywords: [bathroom fitters, tap installation, kitchen sink repair, toilet installation, sink installation, washing machine inlet and drain fitting]
 h1: Bathroom & Kitchen Fittings Installation in Bhubaneswar
-word_count: 1285
+word_count: 1284
 ---
 
 # Bathroom & Kitchen Fittings Installation in Bhubaneswar
 
 [BREADCRUMB: Home > Bathroom & Kitchen Fittings]
 
-**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 Mahapatra Plumbing Services is a bathroom fitting plumber in Chandrasekharpur, Bhubaneswar. We fit taps, mixers, showers and jet sprays. We also fit wash basins, western and Indian WCs, flush tanks, kitchen sinks and washing machine points. Tap, jet spray and flush kit fitting costs ₹299–₹799 plus parts. Call or WhatsApp +91 9668875352. We are open daily 8 AM to 10 PM.
 
@@ -106,7 +106,7 @@ Our washing machine inlet and drain fitting covers:
 
 ## Areas we cover for fitting work
 
-We visit nearby areas like Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli, and all of Bhubaneswar. If you searched for a bathroom fitting plumber near me from an office or flat around Infocity, we are close by. Read about our [plumber in Infocity, Bhubaneswar](/areas/infocity/) service.
+We visit nearby areas like Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli, and all of Bhubaneswar. For offices and flats around Infocity, our bathroom fitting plumber is close by. Read about our [plumber in Infocity, Bhubaneswar](/areas/infocity/) service.
 
 Dripping tap or running flush rather than a new fitting? See [tap, flush and pipe leak repair](/services/leak-and-blockage-repair/).
 
@@ -114,7 +114,7 @@ Dripping tap or running flush rather than a new fitting? See [tap, flush and pip
 
 ### Do you install bath and washroom fittings of any brand?
 
-Yes. We fit bath and washroom fittings of the brand you choose. Send a photo on WhatsApp before you buy, so we can check the sizes match your points. The fitting itself follows its brand warranty. Our installation work carries the 90-day workmanship warranty on installation and repair jobs.
+Yes, Mahapatra Plumbing Services fits bath and washroom fittings of the brand you choose. Send a photo on WhatsApp before you buy, so we can check the sizes match your points. The fitting itself follows its brand warranty. Our installation work carries the 90-day workmanship warranty on installation and repair jobs.
 
 ### What is an angle valve and do I need one?
 
@@ -122,7 +122,7 @@ An angle valve is a small shut-off valve on the water line to one fitting, such 
 
 ### Can you change an old tap without breaking tiles?
 
-Usually, yes. Most wall taps screw into a point inside the wall, so we remove the old tap and fit the new one. If the point inside the wall is damaged or leaking, the pipe behind the tile needs repair. In that case we explain the work and give you a written estimate first.
+Usually yes, because most wall taps screw into a point inside the wall, so we remove the old tap and fit the new one. If the point inside the wall is damaged or leaking, the pipe behind the tile needs repair. In that case we explain the work and give you a written estimate first.
 
 ### Can you fit a wall mixer or shower in my existing bathroom?
 
@@ -130,11 +130,11 @@ Yes, if the bathroom already has hot and cold water points. We fit wall mixers, 
 
 ### Do you fit RO purifier inlet and outlet points?
 
-Yes. We fit a water inlet point with a valve for the RO purifier, and a drain point for its waste water. We do the plumbing points only. The RO unit itself is set up by the seller or the brand's technician. Tell us where the RO will sit, so the points go in the right place.
+Yes, Mahapatra Plumbing Services fits a water inlet point with a valve for the RO purifier, and a drain point for its waste water. We do the plumbing points only. The RO unit itself is set up by the seller or the brand's technician. Tell us where the RO will sit, so the points go in the right place.
 
 ### Do you do fitting work for hostels, PGs and offices?
 
-Yes. Mahapatra Plumbing Services fits taps, WCs, basins and sinks in hostels and PGs near KIIT and Patia, offices in Infocity, shops and homes. Call or WhatsApp +91 9668875352 with the list of fittings, and we give you a written estimate before work starts.
+Yes, Mahapatra Plumbing Services fits taps, WCs, basins and sinks in hostels and PGs near KIIT and Patia, offices in Infocity, shops and homes. Call or WhatsApp +91 9668875352 with the list of fittings, and we give you a written estimate before work starts.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -156,7 +156,9 @@ Tell us which fittings you need and your area. Call or WhatsApp +91 9668875352, 
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -170,7 +172,10 @@ Tell us which fittings you need and your area. Call or WhatsApp +91 9668875352, 
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -191,6 +196,11 @@ Tell us which fittings you need and your area. Call or WhatsApp +91 9668875352, 
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -319,7 +329,8 @@ Tell us which fittings you need and your area. Call or WhatsApp +91 9668875352, 
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/services/bathroom-and-kitchen-fittings/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "Service",
@@ -361,7 +372,7 @@ Tell us which fittings you need and your area. Call or WhatsApp +91 9668875352, 
           "name": "Do you install bath and washroom fittings of any brand?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We fit bath and washroom fittings of the brand you choose. Send a photo on WhatsApp before you buy, so we can check the sizes match your points. The fitting itself follows its brand warranty. Our installation work carries the 90-day workmanship warranty on installation and repair jobs."
+            "text": "Yes, Mahapatra Plumbing Services fits bath and washroom fittings of the brand you choose. Send a photo on WhatsApp before you buy, so we can check the sizes match your points. The fitting itself follows its brand warranty. Our installation work carries the 90-day workmanship warranty on installation and repair jobs."
           }
         },
         {
@@ -377,7 +388,7 @@ Tell us which fittings you need and your area. Call or WhatsApp +91 9668875352, 
           "name": "Can you change an old tap without breaking tiles?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Usually, yes. Most wall taps screw into a point inside the wall, so we remove the old tap and fit the new one. If the point inside the wall is damaged or leaking, the pipe behind the tile needs repair. In that case we explain the work and give you a written estimate first."
+            "text": "Usually yes, because most wall taps screw into a point inside the wall, so we remove the old tap and fit the new one. If the point inside the wall is damaged or leaking, the pipe behind the tile needs repair. In that case we explain the work and give you a written estimate first."
           }
         },
         {
@@ -393,7 +404,7 @@ Tell us which fittings you need and your area. Call or WhatsApp +91 9668875352, 
           "name": "Do you fit RO purifier inlet and outlet points?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We fit a water inlet point with a valve for the RO purifier, and a drain point for its waste water. We do the plumbing points only. The RO unit itself is set up by the seller or the brand's technician. Tell us where the RO will sit, so the points go in the right place."
+            "text": "Yes, Mahapatra Plumbing Services fits a water inlet point with a valve for the RO purifier, and a drain point for its waste water. We do the plumbing points only. The RO unit itself is set up by the seller or the brand's technician. Tell us where the RO will sit, so the points go in the right place."
           }
         },
         {
@@ -401,7 +412,7 @@ Tell us which fittings you need and your area. Call or WhatsApp +91 9668875352, 
           "name": "Do you do fitting work for hostels, PGs and offices?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Mahapatra Plumbing Services fits taps, WCs, basins and sinks in hostels and PGs near KIIT and Patia, offices in Infocity, shops and homes. Call or WhatsApp +91 9668875352 with the list of fittings, and we give you a written estimate before work starts."
+            "text": "Yes, Mahapatra Plumbing Services fits taps, WCs, basins and sinks in hostels and PGs near KIIT and Patia, offices in Infocity, shops and homes. Call or WhatsApp +91 9668875352 with the list of fittings, and we give you a written estimate before work starts."
           }
         }
       ]
@@ -435,4 +446,4 @@ Tell us which fittings you need and your area. Call or WhatsApp +91 9668875352, 
 - Photo size check on WhatsApp before customers buy fittings online (page offers this). Confirm the team is happy to do this.
 - Seat cover fitting with a western WC, and fitting several items in one booking: confirm both.
 - Real job photos for the 3 image slots (wall mixer and shower, western WC and basin with angle valves, washing machine inlet tap and drain at a floor trap).
-- Schema keyword "kitchen sink repair near me" (schema.md section 7) is used as "kitchen sink repair" so that "near me" appears only once in body copy; "sink installation" (page-specs) added to keywords. Update schema.md section 7 if accepted.
+- Schema keyword "kitchen sink repair near me" (schema.md section 7) is used as "kitchen sink repair" (27 Nov 2026: the visible "near me" line was rewritten as natural copy, owner-approved UX-02); "sink installation" (page-specs) added to keywords. Update schema.md section 7 if accepted.

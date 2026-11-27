@@ -8,14 +8,14 @@ meta_description: "Concealed pipe leakage repair in Bhubaneswar: wall and floor 
 primary_keyword: concealed pipe leakage repair
 secondary_keywords: [internal pipe leak repair, cpvc pipe fitting, pipeline repair bhubaneswar, cpvc pipework]
 h1: "Concealed Pipeline Repair & CPVC Plumbing in Bhubaneswar"
-word_count: 1290
+word_count: 1293
 ---
 
 # Concealed Pipeline Repair & CPVC Plumbing in Bhubaneswar
 
 [BREADCRUMB: Home > Concealed Pipeline Repair & CPVC Plumbing]
 
-**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
+**5.0★ from 45 Google reviews** · **Free site visit and written estimate** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 Mahapatra Plumbing Services, Chandrasekharpur, does concealed pipe leakage repair in Bhubaneswar. We fix leaks inside walls and floors, reroute lines, and replace old GI pipes with CPVC, UPVC or PPR. Call or WhatsApp +91 9668875352 for a free site visit and written estimate. We are open daily 8 AM to 10 PM.
 
@@ -52,7 +52,7 @@ What changes the cost:
 | Service | Price |
 |---|---|
 | Concealed pipeline repair / reroute | Quote after free site visit + written estimate |
-| Minor fix (washer, small leak, loose fitting) | From ₹249 |
+| Minor fix (washer, small leak, loose fitting) | from ₹249 |
 | Warranty | 90 days on workmanship for installation and repair jobs; parts follow brand warranty |
 
 Also good to know:
@@ -118,27 +118,27 @@ We take pipeline repair in Bhubaneswar from our base at District Center, Chandra
 
 ### Can you fix a concealed pipe leak without breaking many tiles?
 
-Yes. We open only the part of the wall or floor needed to reach the leak, and we test the line before closing it. How much depends on where the leak is and how the line runs. We explain this at the free site visit. Keep a few spare tiles from your original lot if you have them.
+Yes, Mahapatra Plumbing Services opens only the part of the wall or floor needed to reach the leak, and we test the line before closing it. How much depends on where the leak is and how the line runs. We explain this at the free site visit. Keep a few spare tiles from your original lot if you have them.
 
 ### Who fixes the tiles and plaster after the pipe repair?
 
-We can. Mahapatra Plumbing Services finds the leaking section, repairs or replaces it, and checks the joints. We can also handle the re-tiling and plaster, after discussing it with you. If you prefer your own mistri, we tell you when the line is ready, so they can close the wall or floor.
+Mahapatra Plumbing Services can redo the tiles and plaster, after discussing it with you, once we have repaired the leaking section and checked the joints. If you prefer your own mistri, we tell you when the line is ready, so they can close the wall or floor.
 
 ### Is CPVC pipe good for hot water from the geyser?
 
-Yes. CPVC pipe handles both hot and cold water, so it suits geyser lines in bathrooms and kitchens. UPVC is meant for cold water lines only. PPR also works for hot and cold water. At the site visit, we suggest the pipe that fits your line and budget, and share the part price before fitting.
+Yes, CPVC pipe handles both hot and cold water, so it suits geyser lines in bathrooms and kitchens. UPVC is meant for cold water lines only. PPR also works for hot and cold water. At the site visit, we suggest the pipe that fits your line and budget, and share the part price before fitting.
 
 ### Can you change a concealed line into an open line?
 
-Yes. If a concealed line keeps leaking, we can reroute it as an open line along the wall. Open lines are easier to reach later, but they show on the wall. Concealed lines look neater but are harder to repair. We explain both options at the free site visit and put the choice in your written estimate.
+Yes, if a concealed line keeps leaking, Mahapatra Plumbing Services can reroute it as an open line along the wall. Open lines are easier to reach later, but they show on the wall. Concealed lines look neater but are harder to repair. We explain both options at the free site visit and put the choice in your written estimate.
 
 ### Is every damp patch on a wall caused by a pipe leak?
 
-No. A damp patch can also come from rain seepage, a gap in the bathroom tile joints, or a leaking drain or floor trap. That is why we check before opening any wall. If the cause is not a water supply pipe, we tell you. Send a photo on WhatsApp to +91 9668875352 first.
+No, a damp patch can also come from rain seepage, a gap in the bathroom tile joints, or a leaking drain or floor trap. That is why we check before opening any wall. If the cause is not a water supply pipe, we tell you. Send a photo on WhatsApp to +91 9668875352 first.
 
 ### Can you add a new water point using CPVC pipe fitting?
 
-Yes. We add new points for a tap, geyser, washing machine or RO purifier by extending your existing line with CPVC pipe fitting. The point can be concealed or open. You get a written estimate before work starts, and the work has a 90-day workmanship warranty on installation and repair jobs. Parts follow the brand warranty.
+Yes, Mahapatra Plumbing Services adds new points for a tap, geyser, washing machine or RO purifier by extending your existing line with CPVC pipe fitting. The point can be concealed or open. You get a written estimate before work starts, and the work has a 90-day workmanship warranty on installation and repair jobs. Parts follow the brand warranty.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -159,7 +159,9 @@ Call or WhatsApp +91 9668875352. Send a photo, tell us your area, and we will bo
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -173,7 +175,10 @@ Call or WhatsApp +91 9668875352. Send a photo, tell us your area, and we will bo
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -194,6 +199,11 @@ Call or WhatsApp +91 9668875352. Send a photo, tell us your area, and we will bo
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -322,7 +332,8 @@ Call or WhatsApp +91 9668875352. Send a photo, tell us your area, and we will bo
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/services/pipeline-and-concealed-plumbing/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "Service",
@@ -357,7 +368,7 @@ Call or WhatsApp +91 9668875352. Send a photo, tell us your area, and we will bo
           "name": "Can you fix a concealed pipe leak without breaking many tiles?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We open only the part of the wall or floor needed to reach the leak, and we test the line before closing it. How much depends on where the leak is and how the line runs. We explain this at the free site visit. Keep a few spare tiles from your original lot if you have them."
+            "text": "Yes, Mahapatra Plumbing Services opens only the part of the wall or floor needed to reach the leak, and we test the line before closing it. How much depends on where the leak is and how the line runs. We explain this at the free site visit. Keep a few spare tiles from your original lot if you have them."
           }
         },
         {
@@ -365,7 +376,7 @@ Call or WhatsApp +91 9668875352. Send a photo, tell us your area, and we will bo
           "name": "Who fixes the tiles and plaster after the pipe repair?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We can. Mahapatra Plumbing Services finds the leaking section, repairs or replaces it, and checks the joints. We can also handle the re-tiling and plaster, after discussing it with you. If you prefer your own mistri, we tell you when the line is ready, so they can close the wall or floor."
+            "text": "Mahapatra Plumbing Services can redo the tiles and plaster, after discussing it with you, once we have repaired the leaking section and checked the joints. If you prefer your own mistri, we tell you when the line is ready, so they can close the wall or floor."
           }
         },
         {
@@ -373,7 +384,7 @@ Call or WhatsApp +91 9668875352. Send a photo, tell us your area, and we will bo
           "name": "Is CPVC pipe good for hot water from the geyser?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. CPVC pipe handles both hot and cold water, so it suits geyser lines in bathrooms and kitchens. UPVC is meant for cold water lines only. PPR also works for hot and cold water. At the site visit, we suggest the pipe that fits your line and budget, and share the part price before fitting."
+            "text": "Yes, CPVC pipe handles both hot and cold water, so it suits geyser lines in bathrooms and kitchens. UPVC is meant for cold water lines only. PPR also works for hot and cold water. At the site visit, we suggest the pipe that fits your line and budget, and share the part price before fitting."
           }
         },
         {
@@ -381,7 +392,7 @@ Call or WhatsApp +91 9668875352. Send a photo, tell us your area, and we will bo
           "name": "Can you change a concealed line into an open line?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. If a concealed line keeps leaking, we can reroute it as an open line along the wall. Open lines are easier to reach later, but they show on the wall. Concealed lines look neater but are harder to repair. We explain both options at the free site visit and put the choice in your written estimate."
+            "text": "Yes, if a concealed line keeps leaking, Mahapatra Plumbing Services can reroute it as an open line along the wall. Open lines are easier to reach later, but they show on the wall. Concealed lines look neater but are harder to repair. We explain both options at the free site visit and put the choice in your written estimate."
           }
         },
         {
@@ -389,7 +400,7 @@ Call or WhatsApp +91 9668875352. Send a photo, tell us your area, and we will bo
           "name": "Is every damp patch on a wall caused by a pipe leak?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. A damp patch can also come from rain seepage, a gap in the bathroom tile joints, or a leaking drain or floor trap. That is why we check before opening any wall. If the cause is not a water supply pipe, we tell you. Send a photo on WhatsApp to +91 9668875352 first."
+            "text": "No, a damp patch can also come from rain seepage, a gap in the bathroom tile joints, or a leaking drain or floor trap. That is why we check before opening any wall. If the cause is not a water supply pipe, we tell you. Send a photo on WhatsApp to +91 9668875352 first."
           }
         },
         {
@@ -397,7 +408,7 @@ Call or WhatsApp +91 9668875352. Send a photo, tell us your area, and we will bo
           "name": "Can you add a new water point using CPVC pipe fitting?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We add new points for a tap, geyser, washing machine or RO purifier by extending your existing line with CPVC pipe fitting. The point can be concealed or open. You get a written estimate before work starts, and the work has a 90-day workmanship warranty on installation and repair jobs. Parts follow the brand warranty."
+            "text": "Yes, Mahapatra Plumbing Services adds new points for a tap, geyser, washing machine or RO purifier by extending your existing line with CPVC pipe fitting. The point can be concealed or open. You get a written estimate before work starts, and the work has a 90-day workmanship warranty on installation and repair jobs. Parts follow the brand warranty."
           }
         }
       ]

@@ -8,7 +8,7 @@ meta_description: Plumber in Chandrasekharpur and Damana, based at District Cent
 primary_keyword: plumber in chandrasekharpur
 secondary_keywords: [plumber in damana]
 h1: Plumber in Chandrasekharpur, Bhubaneswar
-word_count: 899
+word_count: 884
 ---
 
 <!-- Hero. Accent colour on the word "Chandrasekharpur" in the H1. -->
@@ -17,11 +17,11 @@ word_count: 899
 
 [BREADCRUMB: Home > Chandrasekharpur]
 
-Looking for a plumber in Chandrasekharpur? Mahapatra Plumbing Services is based right here, at District Center, Chandrasekharpur. We fix leaks, flush tanks, motors and choked drains in flats and houses across Chandrasekharpur and Damana. Call or WhatsApp +91 9668875352, open daily 8 AM to 10 PM.
+Looking for a plumber in Chandrasekharpur? Mahapatra Plumbing Services is based right here, at District Center, Chandrasekharpur. We fix leaks, flush tanks, motors and choked drains in flats and houses across Chandrasekharpur and Damana. Call or WhatsApp +91 9668875352.
 
 [CTA: call+whatsapp | location=hero]
 
-**5.0★ from 45 Google reviews** · **Base: District Center, Chandrasekharpur** · **Written estimate before work starts**
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 [IMAGE: plumber-chandrasekharpur-apartment-bathroom-leak.webp | alt="Mahapatra Plumbing Services plumber fixing a bathroom leak in a Chandrasekharpur apartment, Bhubaneswar" | hero]
 
@@ -41,7 +41,7 @@ In apartment blocks, the usual calls are leaking flush tanks, worn jet sprays an
 
 Independent houses run on their own sump, motor and overhead tank. So most house calls here are about water supply: a motor that runs but does not fill the tank, an overflowing tank from a stuck float valve, or a leaking line from the sump. Some houses also have an existing borewell pump.
 
-Need a plumber in Damana? It is next to our base. Typical house jobs:
+Typical house jobs:
 
 - Motor and pump line leaks, foot valves and non-return valves. See [water tank and motor repair](/services/water-tank-and-motor-repair/).
 - Sump and overhead tank cleaning. See [water tank cleaning](/services/water-tank-cleaning/).
@@ -102,19 +102,19 @@ From Chandrasekharpur we also cover [Infocity](/areas/infocity/), [Patia](/areas
 
 ### Do you send a plumber to Damana?
 
-Yes. Damana is right beside our base at District Center, Chandrasekharpur, so it is one of the closest areas we serve. We take leak, tap, drain, motor and tank jobs in Damana houses and flats. Call or WhatsApp +91 9668875352 with your lane and the problem, and we will tell you when a plumber can come.
+Yes, Mahapatra Plumbing Services sends plumbers to Damana, right beside our base at District Center, Chandrasekharpur. We take leak, tap, drain, motor and tank jobs in Damana houses and flats. Call or WhatsApp +91 9668875352 with your lane and the problem.
 
 ### Water is leaking into my flat from the flat above. Can you help?
 
-Yes. We check the bathroom or kitchen above, since the leak usually starts at a waste joint, floor trap or a pipe inside the wall. Ask your neighbour to allow access before the visit. You get a written estimate before any tile is opened, and the repair carries our 90-day workmanship warranty.
+Yes, Mahapatra Plumbing Services checks the bathroom or kitchen above, since the leak usually starts at a waste joint, floor trap or a pipe inside the wall. Ask your neighbour to allow access before the visit. You get a written estimate before any tile is opened, and the repair carries our 90-day workmanship warranty.
 
 ### Do you do plumbing work for apartment societies in Chandrasekharpur?
 
-Yes. We handle common-area work such as overhead tank lines, sump lines, motor lines and shared drain stacks. Regular maintenance (AMC) for a whole building is price on request, so call or WhatsApp us for a quote. Our [commercial plumbing service](/services/commercial-plumbing/) covers this.
+Yes, Mahapatra Plumbing Services handles common-area work in Chandrasekharpur societies, such as overhead tank lines, sump lines, motor lines and shared drain stacks. Regular maintenance (AMC) for a whole building is price on request, so call or WhatsApp us for a quote. Our [commercial plumbing service](/services/commercial-plumbing/) covers this.
 
 ### I have just moved into a flat in Chandrasekharpur. Can you fit the washing machine and geyser?
 
-Yes. We fit the washing machine inlet tap and drain pipe, and install or shift a geyser on the plumbing side. Geyser installation starts at ₹699. Mention both jobs when you book, so the plumber comes prepared. We fit parts we bring or ones you bought, and share the part price before fitting.
+Yes, Mahapatra Plumbing Services fits the washing machine inlet tap and drain pipe, and installs or shifts a geyser on the plumbing side. Geyser installation starts at ₹699. Mention both jobs when you book, so the plumber comes prepared. We fit parts we bring or ones you bought, and share the part price before fitting.
 
 ### Can I get a plumber in Chandrasekharpur today?
 
@@ -134,7 +134,9 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -148,7 +150,10 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -169,6 +174,11 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -307,7 +317,8 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/areas/chandrasekharpur/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "FAQPage",
@@ -318,7 +329,7 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
           "name": "Do you send a plumber to Damana?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Damana is right beside our base at District Center, Chandrasekharpur, so it is one of the closest areas we serve. We take leak, tap, drain, motor and tank jobs in Damana houses and flats. Call or WhatsApp +91 9668875352 with your lane and the problem, and we will tell you when a plumber can come."
+            "text": "Yes, Mahapatra Plumbing Services sends plumbers to Damana, right beside our base at District Center, Chandrasekharpur. We take leak, tap, drain, motor and tank jobs in Damana houses and flats. Call or WhatsApp +91 9668875352 with your lane and the problem."
           }
         },
         {
@@ -326,7 +337,7 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
           "name": "Water is leaking into my flat from the flat above. Can you help?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We check the bathroom or kitchen above, since the leak usually starts at a waste joint, floor trap or a pipe inside the wall. Ask your neighbour to allow access before the visit. You get a written estimate before any tile is opened, and the repair carries our 90-day workmanship warranty."
+            "text": "Yes, Mahapatra Plumbing Services checks the bathroom or kitchen above, since the leak usually starts at a waste joint, floor trap or a pipe inside the wall. Ask your neighbour to allow access before the visit. You get a written estimate before any tile is opened, and the repair carries our 90-day workmanship warranty."
           }
         },
         {
@@ -334,7 +345,7 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
           "name": "Do you do plumbing work for apartment societies in Chandrasekharpur?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We handle common-area work such as overhead tank lines, sump lines, motor lines and shared drain stacks. Regular maintenance (AMC) for a whole building is price on request, so call or WhatsApp us for a quote. Our commercial plumbing service covers this."
+            "text": "Yes, Mahapatra Plumbing Services handles common-area work in Chandrasekharpur societies, such as overhead tank lines, sump lines, motor lines and shared drain stacks. Regular maintenance (AMC) for a whole building is price on request, so call or WhatsApp us for a quote. Our commercial plumbing service covers this."
           }
         },
         {
@@ -342,7 +353,7 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
           "name": "I have just moved into a flat in Chandrasekharpur. Can you fit the washing machine and geyser?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We fit the washing machine inlet tap and drain pipe, and install or shift a geyser on the plumbing side. Geyser installation starts at ₹699. Mention both jobs when you book, so the plumber comes prepared. We fit parts we bring or ones you bought, and share the part price before fitting."
+            "text": "Yes, Mahapatra Plumbing Services fits the washing machine inlet tap and drain pipe, and installs or shifts a geyser on the plumbing side. Geyser installation starts at ₹699. Mention both jobs when you book, so the plumber comes prepared. We fit parts we bring or ones you bought, and share the part price before fitting."
           }
         },
         {

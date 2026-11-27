@@ -8,7 +8,7 @@ meta_description: Plumber in Jayadev Vihar and Saheed Nagar for shops, offices a
 primary_keyword: plumber in jayadev vihar
 secondary_keywords: [plumber in saheed nagar]
 h1: Plumber in Jayadev Vihar & Saheed Nagar, Bhubaneswar
-word_count: 875
+word_count: 883
 ---
 
 # Plumber in Jayadev Vihar & Saheed Nagar, Bhubaneswar
@@ -19,7 +19,7 @@ Need a plumber in Jayadev Vihar or Saheed Nagar? Mahapatra Plumbing Services fit
 
 [CTA: call+whatsapp | location=hero]
 
-**5.0★ from 45 Google reviews** · **Written estimate before work starts** · **90-day workmanship warranty on repairs and installations**
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 [IMAGE: plumber-jayadev-vihar-shop-washroom-tap.webp | alt="Plumber replacing a washroom tap in a shop in Jayadev Vihar, Bhubaneswar" | hero]
 
@@ -103,7 +103,7 @@ Address and hours: [contact Mahapatra Plumbing Services](/contact/).
 
 ### Do you also send a plumber to Saheed Nagar?
 
-Yes. As a plumber in Saheed Nagar and Jayadev Vihar, we take repairs, fittings and geyser work in both localities. Bigger jobs like bathroom renovation and septic tank cleaning are done anywhere in Bhubaneswar. Send your lane or building name on WhatsApp to +91 9668875352, and we tell you when a plumber can come.
+Yes, Mahapatra Plumbing Services takes repairs, fittings and geyser work in both Saheed Nagar and Jayadev Vihar. Bigger jobs like bathroom renovation and septic tank cleaning are done anywhere in Bhubaneswar. Send your lane or building name on WhatsApp to +91 9668875352, and we tell you when a plumber can come.
 
 ### Can you work in my shop's washroom during trading hours?
 
@@ -111,11 +111,11 @@ Yes, for most small jobs. Flush kits, taps and basin waste pipes can usually be 
 
 ### Do you look after plumbing for a whole commercial building?
 
-Yes. We work on washrooms on every floor, pantry lines, overhead tank lines and motor lines. Regular maintenance (AMC) for a building is price on request. A GST invoice is available on request. Call or WhatsApp +91 9668875352 for a quote.
+Yes, Mahapatra Plumbing Services works on washrooms on every floor, pantry lines, overhead tank lines and motor lines. Regular maintenance (AMC) for a building is price on request. A GST invoice is available on request. Call or WhatsApp +91 9668875352 for a quote.
 
 ### My new geyser leaks at the pipe joint. Can you fix it?
 
-Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The cause is often a worn washer, a loose connector or a wrong-size fitting. If the water comes from the body of the geyser instead, we check it and tell you whether the brand's service centre should see it.
+Yes, Mahapatra Plumbing Services fixes a leak at a geyser's inlet or outlet joint, because it is a plumbing fault. The cause is often a worn washer, a loose connector or a wrong-size fitting. If the water comes from the body of the geyser instead, we check it and tell you whether the brand's service centre should see it.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -131,7 +131,9 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -145,7 +147,10 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -166,6 +171,11 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -304,7 +314,8 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/areas/jayadev-vihar/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "FAQPage",
@@ -315,7 +326,7 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
           "name": "Do you also send a plumber to Saheed Nagar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. As a plumber in Saheed Nagar and Jayadev Vihar, we take repairs, fittings and geyser work in both localities. Bigger jobs like bathroom renovation and septic tank cleaning are done anywhere in Bhubaneswar. Send your lane or building name on WhatsApp to +91 9668875352, and we tell you when a plumber can come."
+            "text": "Yes, Mahapatra Plumbing Services takes repairs, fittings and geyser work in both Saheed Nagar and Jayadev Vihar. Bigger jobs like bathroom renovation and septic tank cleaning are done anywhere in Bhubaneswar. Send your lane or building name on WhatsApp to +91 9668875352, and we tell you when a plumber can come."
           }
         },
         {
@@ -331,7 +342,7 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
           "name": "Do you look after plumbing for a whole commercial building?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We work on washrooms on every floor, pantry lines, overhead tank lines and motor lines. Regular maintenance (AMC) for a building is price on request. A GST invoice is available on request. Call or WhatsApp +91 9668875352 for a quote."
+            "text": "Yes, Mahapatra Plumbing Services works on washrooms on every floor, pantry lines, overhead tank lines and motor lines. Regular maintenance (AMC) for a building is price on request. A GST invoice is available on request. Call or WhatsApp +91 9668875352 for a quote."
           }
         },
         {
@@ -339,7 +350,7 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
           "name": "My new geyser leaks at the pipe joint. Can you fix it?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The cause is often a worn washer, a loose connector or a wrong-size fitting. If the water comes from the body of the geyser instead, we check it and tell you whether the brand's service centre should see it."
+            "text": "Yes, Mahapatra Plumbing Services fixes a leak at a geyser's inlet or outlet joint, because it is a plumbing fault. The cause is often a worn washer, a loose connector or a wrong-size fitting. If the water comes from the body of the geyser instead, we check it and tell you whether the brand's service centre should see it."
           }
         }
       ]

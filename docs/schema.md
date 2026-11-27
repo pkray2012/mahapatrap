@@ -2,6 +2,8 @@
 
 > **Update 27 Nov 2026 (owner-approved pre-launch fix):** the `keywords` property has been removed from every JSON-LD block (Plumber, WebPage, AboutPage etc.) in content/pages and from the templates below. Do not add it back. The keyword tables in this file stay as an on-page targeting reference only.
 
+> **Update 27 Nov 2026 (owner-approved content fixes):** founder Person carries `"@id": "https://mahapatraplumbing.in/#owner"` and `"jobTitle": "Owner"`; the Plumber node has `"knowsLanguage": ["or","hi","en"]`; ContactPoint `areaServed` is the City Bhubaneswar (was "IN"); every WebPage-type node carries `"dateModified": "2026-11-27"` (update it when a page changes); /pricing/ lists quote-only items (AMC, commercial AMC, tank cleaning, borewell) as plain `Service` items in the OfferCatalog, with no Offer wrapper.
+
 All schema is JSON-LD in `<script type="application/ld+json">`, generated from one data file so names, address, phone, hours and prices never differ between pages. Every page uses `@graph` with stable `@id`s so Google and AI engines see one connected entity.
 
 ## Where keywords go (and where they don't)
@@ -28,7 +30,7 @@ Rules: keywords must also appear in visible page text (natural variants such as 
   "@id": "https://mahapatraplumbing.in/#business",
   "name": "Mahapatra Plumbing Services",
   "alternateName": "Mahapatra Plumbing",
-  "founder": { "@type": "Person", "name": "Amaresh Mahapatra" },
+  "founder": { "@type": "Person", "@id": "https://mahapatraplumbing.in/#owner", "name": "Amaresh Mahapatra", "jobTitle": "Owner" },
   "foundingDate": "2021",
   "url": "https://mahapatraplumbing.in/",
   "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
@@ -41,7 +43,7 @@ Rules: keywords must also appear in visible page text (natural variants such as 
     "telephone": "+91-9668875352",
     "email": "amareshmohapatra143@gmail.com",
     "contactType": "customer service",
-    "areaServed": "IN",
+    "areaServed": { "@type": "City", "name": "Bhubaneswar" },
     "availableLanguage": ["or", "hi", "en"],
     "hoursAvailable": {
       "@type": "OpeningHoursSpecification",
@@ -49,6 +51,7 @@ Rules: keywords must also appear in visible page text (natural variants such as 
       "opens": "08:00", "closes": "22:00"
     }
   },
+  "knowsLanguage": ["or", "hi", "en"],
   "priceRange": "₹199–₹2,999+",
   "currenciesAccepted": "INR",
   "paymentAccepted": "Cash, UPI, Bank transfer",

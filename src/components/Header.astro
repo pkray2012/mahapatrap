@@ -14,6 +14,8 @@ const here = page.fm.url;
 const cur = (url: string) => (url === here ? ' aria-current="page"' : '');
 const ddIco = (url: string) => icon(iconForHref(url), 'ico dd-ico');
 const svcLinks = svc.map((p) => `<li><a href="${p.fm.url}" ${nav}${cur(p.fm.url)}>${ddIco(p.fm.url)}${p.navName}</a></li>`).join('');
+// 14th entry of the 2 × 7 Services panel (no empty cell): the rate card lists every service with its price.
+const svcAll = `<li><a href="/pricing/" ${nav}>${ddIco('/pricing/')}Rate card for all services</a></li>`;
 const areaLinks = ars.map((p) => `<li><a href="${p.fm.url}" ${nav}${cur(p.fm.url)}>${ddIco(p.fm.url)}${p.navName}</a></li>`).join('');
 const ac = (url: string) => (url === here ? { 'aria-current': 'page' as const } : {});
 const chev = icon('chev', 'ico w-4 h-4');
@@ -33,7 +35,7 @@ const navAttrs = { 'data-track': 'nav_click', 'data-cta-location': 'header' };
     </details>
     <nav class="nav-main" aria-label="Main">
       <ul class="nav-list">
-        <li><details class="dd"><summary>Services <Fragment set:html={chev} /></summary><ul class="dd-panel dd-2" set:html={svcLinks} /></details></li>
+        <li><details class="dd"><summary>Services <Fragment set:html={chev} /></summary><ul class="dd-panel dd-2" set:html={svcLinks + svcAll} /></details></li>
         <li><a class="nav-link" href="/pricing/" {...navAttrs} {...ac('/pricing/')}>Pricing</a></li>
         <li><details class="dd"><summary>Areas <Fragment set:html={chev} /></summary><ul class="dd-panel" set:html={areaLinks} /></details></li>
         <li><a class="nav-link" href="/about/" {...navAttrs} {...ac('/about/')}>About</a></li>

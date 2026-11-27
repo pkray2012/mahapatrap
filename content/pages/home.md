@@ -8,18 +8,18 @@ meta_description: Plumber in Bhubaneswar for leaks, taps, geysers, drains, septi
 primary_keyword: plumber in bhubaneswar
 secondary_keywords: [plumber bhubaneswar, plumber near me, plumber service in bhubaneswar, plumbing services bhubaneswar, plumber near me home service]
 h1: Plumber in Bhubaneswar for Repairs, Renovation & Septic Cleaning
-word_count: 1161
+word_count: 1199
 ---
 
 <!-- Hero. Accent colour on the word "Bhubaneswar" in the H1. -->
 
 # Plumber in Bhubaneswar for Repairs, Renovation & Septic Cleaning
 
-Need a plumber in Bhubaneswar (BBSR)? Mahapatra Plumbing Services fixes leaks, taps, geysers, motors and blocked drains in homes, flats and offices. We are based at District Center, Chandrasekharpur, and serve all of Bhubaneswar. Call or WhatsApp +91 9668875352, open daily 8 AM to 10 PM.
+Need a plumber in Bhubaneswar (BBSR)? Mahapatra Plumbing Services fixes leaks, taps, geysers, motors and blocked drains. We are based at District Center, Chandrasekharpur, and serve all of Bhubaneswar. Call or WhatsApp +91 9668875352, open daily 8 AM to 10 PM.
 
 [CTA: call+book_visit | location=hero | call="Call Now" tel:+919668875352 | book_visit="Book a Visit" #book-a-visit]
 
-**5.0★ from 45 Google reviews** · **90-day workmanship warranty on installation and repair jobs** · **Written estimate before work starts** · **Open daily 8 AM – 10 PM**
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 [IMAGE: plumber-in-bhubaneswar-fixing-kitchen-tap.webp | alt="Mahapatra Plumbing Services plumber fixing a kitchen tap in a Bhubaneswar flat" | hero, beside the Quick Quote card]
 
@@ -47,7 +47,7 @@ By sending, you agree we may use your number to reply on WhatsApp. See our [Priv
 
 ## What plumbing services do you offer in Bhubaneswar?
 
-Mahapatra Plumbing Services covers plumbing services in Bhubaneswar, from small repairs to big plumbing work. We fix leaks, taps, flush tanks, geysers, motors and choked drains. We also take septic and water tank cleaning, borewell pump and pipe repair, renovation, new house plumbing, sewerage and commercial work.
+Mahapatra Plumbing Services covers plumbing services in Bhubaneswar, from a dripping tap to septic tank cleaning, a full bathroom re-plumb or commercial work.
 
 ### Repairs
 
@@ -67,14 +67,13 @@ Mahapatra Plumbing Services covers plumbing services in Bhubaneswar, from small 
 - **[Water Tank & Sump Cleaning](/services/water-tank-cleaning/)**: Overhead tanks and underground sumps. Call or WhatsApp us for a quote.
 - **[Borewell Pump & Pipe Repair](/services/borewell-pump-and-pipe-repair/)**: Pump and pipe repair on existing borewells. Quote after inspection.
 - **[Commercial Plumbing](/services/commercial-plumbing/)**: Hotels, offices, hostels, PGs and shops.
+- **[Not sure which service? Send a photo on WhatsApp](/#quick-quote)**: We tell you which job it is and what it costs.
 
 Free site visit and written estimate for concealed pipeline work, renovation, new house plumbing, sewerage works and bigger commercial jobs.
 
 [IMAGE: bathroom-plumbing-renovation-bhubaneswar.webp | alt="Bathroom plumbing renovation with new CPVC lines and fittings in a Bhubaneswar home" | services section, beside "Bigger jobs anywhere in Bhubaneswar"]
 
 ## Why choose Mahapatra Plumbing Services
-
-Need a plumber service in Bhubaneswar for a hostel, PG, shop or office? We work for homes, PGs near KIIT, Infocity offices and builders too.
 
 [WHY PRICING: Why choose us | right=Pricing]
 
@@ -103,13 +102,13 @@ Pick the kind of job and book it on WhatsApp.
 
 [PRICING TIERS]
 
-See every rate, plus late-night, parts and payment details, on our page of [plumber charges in Bhubaneswar](/pricing/).
+See every rate on our page of [plumber charges in Bhubaneswar](/pricing/).
 
 [CTA: call+whatsapp | location=pricing_table]
 
 ## Which areas of Bhubaneswar do you serve?
 
-We serve all of Bhubaneswar from our base at District Center, Chandrasekharpur. For quick repairs we most often visit nearby areas like Patia, KIIT, Infocity and Niladri Vihar. Bigger jobs such as renovation, new house plumbing and septic tank cleaning are done anywhere in the city.
+We serve all of Bhubaneswar from our base at District Center, Chandrasekharpur. Bigger jobs such as renovation, new house plumbing and septic tank cleaning are done anywhere in the city.
 
 - [Plumber in Chandrasekharpur](/areas/chandrasekharpur/) (and Damana)
 - [Plumber in Patia](/areas/patia/)
@@ -136,29 +135,41 @@ We are rated 5.0★ from 45 Google reviews, 43 of them five-star. Customers most
 
 ### Do you offer plumber home service in Bhubaneswar?
 
-Yes. If you searched for a plumber near me home service, we come to your home, flat or office anywhere in Bhubaneswar. The plumber checks the problem and gives you a written estimate before any work starts. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM to book a slot.
+Yes, Mahapatra Plumbing Services offers plumber home service anywhere in Bhubaneswar, at your home, flat or office. The plumber checks the problem and gives you a written estimate before any work starts. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM to book a slot.
 
 ### Do you send a plumber outside Chandrasekharpur?
 
-Yes. We serve all of Bhubaneswar from our base at District Center, Chandrasekharpur. Quick repairs are most often in nearby areas like Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli. For other parts of the city, call or WhatsApp +91 9668875352 and we will tell you when a plumber can come.
+Yes, Mahapatra Plumbing Services sends plumbers to all of Bhubaneswar from District Center, Chandrasekharpur. Quick repairs are most often in nearby areas like Patia, KIIT, Infocity and Niladri Vihar. For other parts of the city, call or WhatsApp +91 9668875352 first.
 
 ### Do you take bathroom renovation and septic tank cleaning jobs anywhere in Bhubaneswar?
 
-Yes. Bigger jobs are done anywhere in Bhubaneswar. This covers bathroom and kitchen renovation, new house plumbing, sewerage and drainage works, and septic tank cleaning from ₹2,999. For renovation and new plumbing, you get a free site visit and a written estimate before any work starts.
+Yes, Mahapatra Plumbing Services takes bigger jobs anywhere in Bhubaneswar. This covers bathroom and kitchen renovation, new house plumbing, sewerage and drainage works, and septic tank cleaning from ₹2,999. For renovation and new plumbing, you get a free site visit and a written estimate before any work starts.
 
 ### What should I tell you when I book a plumber?
 
-Send your name, area and a short note on the problem, like "kitchen sink choked" or "geyser not heating". A photo or short video on WhatsApp helps a lot. It tells us which tools and parts to bring, so the plumber comes prepared.
+Send your name, area and a short note on the problem, like "kitchen sink choked" or "geyser not heating". A photo or short video on WhatsApp helps a lot. It tells us which tools and parts to bring.
 
 ### Do you work for shops, offices, hostels and PGs?
 
-Yes. Besides homes and flats, we work for shops, Infocity offices, hostels and PGs near KIIT and Patia, and builders. A GST invoice is available on request, so ask for it when you book. Call or WhatsApp +91 9668875352 with the address and the problem.
+Yes, besides homes and flats, Mahapatra Plumbing Services works for shops, Infocity offices, hostels and PGs near KIIT and Patia, and builders. A GST invoice is available on request. Call or WhatsApp +91 9668875352 with the address and the problem.
+
+### How much does a plumber charge in Bhubaneswar?
+
+At Mahapatra Plumbing Services, a plumber visit in Bhubaneswar costs ₹199–₹349, adjusted in the final bill if the work goes ahead. Minor fixes start at ₹249 and drain unclogging at ₹349, plus parts. See the full [plumber charges in Bhubaneswar](/pricing/).
+
+### When is Mahapatra Plumbing Services open?
+
+Mahapatra Plumbing Services is open every day, Sundays included, from 8 AM to 10 PM. Late-night and early-morning visits are on request, subject to availability, at ₹300 extra.
+
+### Who runs Mahapatra Plumbing Services?
+
+Mahapatra Plumbing Services is run by Amaresh Mahapatra, who has 20+ years of plumbing experience and started the business in 2021. It is based at District Center, Chandrasekharpur, and rated 5.0 on Google from 45 reviews. Read more [about us](/about/).
 
 [CTA: call+whatsapp | location=faq]
 
 ## How do I book a plumber in Bhubaneswar?
 
-Call or WhatsApp +91 9668875352 between 8 AM and 10 PM, any day. To book a plumber online, fill in the booking form. It opens WhatsApp with your name, area and problem ready to send. We reply on WhatsApp to fix a time.
+Call or WhatsApp +91 9668875352 between 8 AM and 10 PM, any day, or book a plumber online with the form. It opens WhatsApp with your details ready to send, and we reply to fix a time.
 
 [CARD LABEL: Book a Visit]
 
@@ -186,7 +197,9 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -200,7 +213,10 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -221,6 +237,11 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -346,7 +367,8 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
       "about": {
         "@id": "https://mahapatraplumbing.in/#business"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "FAQPage",
@@ -357,7 +379,7 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
           "name": "Do you offer plumber home service in Bhubaneswar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. If you searched for a plumber near me home service, we come to your home, flat or office anywhere in Bhubaneswar. The plumber checks the problem and gives you a written estimate before any work starts. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM to book a slot."
+            "text": "Yes, Mahapatra Plumbing Services offers plumber home service anywhere in Bhubaneswar, at your home, flat or office. The plumber checks the problem and gives you a written estimate before any work starts. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM to book a slot."
           }
         },
         {
@@ -365,7 +387,7 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
           "name": "Do you send a plumber outside Chandrasekharpur?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We serve all of Bhubaneswar from our base at District Center, Chandrasekharpur. Quick repairs are most often in nearby areas like Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli. For other parts of the city, call or WhatsApp +91 9668875352 and we will tell you when a plumber can come."
+            "text": "Yes, Mahapatra Plumbing Services sends plumbers to all of Bhubaneswar from District Center, Chandrasekharpur. Quick repairs are most often in nearby areas like Patia, KIIT, Infocity and Niladri Vihar. For other parts of the city, call or WhatsApp +91 9668875352 first."
           }
         },
         {
@@ -373,7 +395,7 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
           "name": "Do you take bathroom renovation and septic tank cleaning jobs anywhere in Bhubaneswar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Bigger jobs are done anywhere in Bhubaneswar. This covers bathroom and kitchen renovation, new house plumbing, sewerage and drainage works, and septic tank cleaning from ₹2,999. For renovation and new plumbing, you get a free site visit and a written estimate before any work starts."
+            "text": "Yes, Mahapatra Plumbing Services takes bigger jobs anywhere in Bhubaneswar. This covers bathroom and kitchen renovation, new house plumbing, sewerage and drainage works, and septic tank cleaning from ₹2,999. For renovation and new plumbing, you get a free site visit and a written estimate before any work starts."
           }
         },
         {
@@ -381,7 +403,7 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
           "name": "What should I tell you when I book a plumber?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Send your name, area and a short note on the problem, like \"kitchen sink choked\" or \"geyser not heating\". A photo or short video on WhatsApp helps a lot. It tells us which tools and parts to bring, so the plumber comes prepared."
+            "text": "Send your name, area and a short note on the problem, like \"kitchen sink choked\" or \"geyser not heating\". A photo or short video on WhatsApp helps a lot. It tells us which tools and parts to bring."
           }
         },
         {
@@ -389,7 +411,31 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
           "name": "Do you work for shops, offices, hostels and PGs?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Besides homes and flats, we work for shops, Infocity offices, hostels and PGs near KIIT and Patia, and builders. A GST invoice is available on request, so ask for it when you book. Call or WhatsApp +91 9668875352 with the address and the problem."
+            "text": "Yes, besides homes and flats, Mahapatra Plumbing Services works for shops, Infocity offices, hostels and PGs near KIIT and Patia, and builders. A GST invoice is available on request. Call or WhatsApp +91 9668875352 with the address and the problem."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a plumber charge in Bhubaneswar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At Mahapatra Plumbing Services, a plumber visit in Bhubaneswar costs ₹199–₹349, adjusted in the final bill if the work goes ahead. Minor fixes start at ₹249 and drain unclogging at ₹349, plus parts. See the full plumber charges in Bhubaneswar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is Mahapatra Plumbing Services open?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mahapatra Plumbing Services is open every day, Sundays included, from 8 AM to 10 PM. Late-night and early-morning visits are on request, subject to availability, at ₹300 extra."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who runs Mahapatra Plumbing Services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mahapatra Plumbing Services is run by Amaresh Mahapatra, who has 20+ years of plumbing experience and started the business in 2021. It is based at District Center, Chandrasekharpur, and rated 5.0 on Google from 45 reviews. Read more about us."
           }
         }
       ]

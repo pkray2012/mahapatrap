@@ -8,16 +8,16 @@ meta_description: Geyser repair and installation in Bhubaneswar. Fitting from �
 primary_keyword: geyser repair in bhubaneswar
 secondary_keywords: [geyser installation bhubaneswar, geyser repair near me, geyser repair, geyser servicing bhubaneswar, water heater repair, how much does geyser installation cost in bhubaneswar]
 h1: "Geyser (Water Heater) Repair & Installation in Bhubaneswar"
-word_count: 1294
+word_count: 1291
 ---
 
 # Geyser (Water Heater) Repair & Installation in Bhubaneswar
 
 [BREADCRUMB: Home > Geyser Repair & Installation]
 
-**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
-Mahapatra Plumbing Services in Chandrasekharpur offers geyser repair in Bhubaneswar for leaking, noisy and low-flow geysers (water heaters), and installs new ones. Geyser installation starts from ₹699 and a geyser service costs ₹499. Call or WhatsApp +91 9668875352. We are open daily 8 AM to 10 PM.
+Mahapatra Plumbing Services in Chandrasekharpur offers geyser repair in Bhubaneswar for leaking, noisy and low-flow geysers (water heaters), and installs new ones. Geyser installation starts from ₹699 and a geyser service costs ₹499. Call or WhatsApp +91 9668875352.
 
 [CTA: call+whatsapp | location=hero]
 
@@ -52,7 +52,7 @@ For leaks in other pipes, taps or the flush tank, see our [pipe leakage and bloc
 
 ## Why is my geyser not giving hot water?
 
-A geyser usually stops giving hot water for one of four reasons: a power fault, a failed heating element or thermostat, heavy scale in the tank, or a mixing problem in the pipes. First check the switch and MCB. If power is fine, call Mahapatra Plumbing Services. We check the geyser and fix plumbing-side causes. For a failed element or thermostat, we tell you to call an electrician or the brand's service centre.
+A geyser usually stops giving hot water for one of four reasons: a power fault, a failed heating element or thermostat, heavy scale in the tank, or a mixing problem in the pipes. First check the switch and MCB. If power is fine, call Mahapatra Plumbing Services to check the plumbing-side causes.
 
 Common signs and what they often mean:
 
@@ -62,7 +62,7 @@ Common signs and what they often mean:
 
 ## How much does geyser installation cost in Bhubaneswar?
 
-Geyser installation in Bhubaneswar by Mahapatra Plumbing Services starts from ₹699 for labour. A geyser service costs ₹499. Parts such as connection pipes and valves are extra. You get a written estimate before work starts.
+Geyser installation in Bhubaneswar by Mahapatra Plumbing Services starts from ₹699 for labour. A geyser service costs ₹499. Parts such as connection pipes and valves are extra.
 
 ### Geyser installation Bhubaneswar rate card
 
@@ -100,18 +100,17 @@ Get it checked sooner if it pops, heats slowly or leaves a damp patch on the wal
 
 ## Why choose Mahapatra Plumbing Services
 
-- **5.0★ from 45 Google reviews**, 43 of them five-star. Customers mention fair pricing, quality work and timely visits.
+- **5.0★ from 45 Google reviews**, 43 of them five-star.
 - **Written estimate before work starts.**
-- **90-day workmanship warranty** on repair and installation. Parts follow the brand warranty.
+- **90-day workmanship warranty** on repair and installation.
 - **Leak test on every joint** before we leave a new geyser.
-- **Clear advice on electrical faults:** we tell you if a part needs an electrician or the brand's service centre.
 - **We work in** homes, flats, hostels, PGs, shops and offices. Geysers for many rooms in a hotel or hostel? See [commercial plumbing](/services/commercial-plumbing/).
 
 [CTA: call+whatsapp | location=inline_content]
 
 ## Areas we cover for geyser repair
 
-We visit nearby areas like Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli, and all of Bhubaneswar. Searching for geyser repair near me around Chandrasekharpur? Just call or WhatsApp. We also do geyser servicing in Bhubaneswar and water heater repair. Read more about our [plumber in Chandrasekharpur](/areas/chandrasekharpur/) service.
+We do geyser repair, geyser servicing and water heater repair across Bhubaneswar, most often in Chandrasekharpur, Patia, KIIT, Infocity and Niladri Vihar. Read more about our [plumber in Chandrasekharpur](/areas/chandrasekharpur/) service.
 
 ## Geyser repair FAQs
 
@@ -121,11 +120,11 @@ A ₹499 geyser service from Mahapatra Plumbing Services covers the plumbing sid
 
 ### Do you repair geyser heating elements and thermostats?
 
-No. Heating element, thermostat and wiring faults are electrical, and we do not replace those parts. We check the geyser and tell you whether it needs an electrician or the brand's service centre. We handle the plumbing side, such as leaks, valves, pipe connections and scale from hard water. Call +91 9668875352 and describe the problem first.
+No, Mahapatra Plumbing Services does not replace geyser heating elements, thermostats or wiring, because those faults are electrical. We check the geyser and tell you whether it needs an electrician or the brand's service centre. We handle the plumbing side, such as leaks, valves, pipe connections and scale.
 
 ### Can you install a geyser I bought online?
 
-Yes. We fit geysers bought online or from a local shop anywhere in Bhubaneswar. Installation starts from ₹699 for labour. Connection pipes, valves and other parts are extra if the box does not include them. Check first if your brand offers free installation, as some brands do.
+Yes, Mahapatra Plumbing Services fits geysers bought online or from a local shop anywhere in Bhubaneswar. Installation starts from ₹699 for labour. Connection pipes, valves and other parts are extra if the box does not include them. Check first if your brand offers free installation, as some brands do.
 
 ### Which size geyser do I need for my bathroom?
 
@@ -138,6 +137,14 @@ A leak at the bottom often comes from a loose inlet or outlet joint, a dripping 
 ### Should I repair or replace my old geyser?
 
 Repair makes sense for leaking joints, a faulty valve or scale build-up. Think about replacing it if the tank body leaks or shows rust, or if repairs keep coming back. We check it and give you a written estimate, so you can decide.
+
+### Who repairs geysers in Patia and Chandrasekharpur?
+
+Mahapatra Plumbing Services, based at District Center, Chandrasekharpur, installs and repairs geysers on the plumbing side in Patia, Chandrasekharpur and all of Bhubaneswar. For heating element or thermostat faults, we tell you whether you need an electrician or the brand's service centre.
+
+### How much does geyser repair cost in Bhubaneswar?
+
+Geyser repair with Mahapatra Plumbing Services starts with the ₹199–₹349 visit charge, adjusted in the final bill if the work goes ahead. A full geyser service is ₹499, and parts are extra. Repairs carry a 90-day workmanship warranty.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -157,7 +164,9 @@ Tell us your geyser problem and your area. Call or WhatsApp +91 9668875352, or s
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -171,7 +180,10 @@ Tell us your geyser problem and your area. Call or WhatsApp +91 9668875352, or s
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -192,6 +204,11 @@ Tell us your geyser problem and your area. Call or WhatsApp +91 9668875352, or s
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -320,7 +337,8 @@ Tell us your geyser problem and your area. Call or WhatsApp +91 9668875352, or s
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/services/geyser-installation-and-repair/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "Service",
@@ -383,7 +401,7 @@ Tell us your geyser problem and your area. Call or WhatsApp +91 9668875352, or s
           "name": "Do you repair geyser heating elements and thermostats?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. Heating element, thermostat and wiring faults are electrical, and we do not replace those parts. We check the geyser and tell you whether it needs an electrician or the brand's service centre. We handle the plumbing side, such as leaks, valves, pipe connections and scale from hard water. Call +91 9668875352 and describe the problem first."
+            "text": "No, Mahapatra Plumbing Services does not replace geyser heating elements, thermostats or wiring, because those faults are electrical. We check the geyser and tell you whether it needs an electrician or the brand's service centre. We handle the plumbing side, such as leaks, valves, pipe connections and scale."
           }
         },
         {
@@ -391,7 +409,7 @@ Tell us your geyser problem and your area. Call or WhatsApp +91 9668875352, or s
           "name": "Can you install a geyser I bought online?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We fit geysers bought online or from a local shop anywhere in Bhubaneswar. Installation starts from ₹699 for labour. Connection pipes, valves and other parts are extra if the box does not include them. Check first if your brand offers free installation, as some brands do."
+            "text": "Yes, Mahapatra Plumbing Services fits geysers bought online or from a local shop anywhere in Bhubaneswar. Installation starts from ₹699 for labour. Connection pipes, valves and other parts are extra if the box does not include them. Check first if your brand offers free installation, as some brands do."
           }
         },
         {
@@ -416,6 +434,22 @@ Tell us your geyser problem and your area. Call or WhatsApp +91 9668875352, or s
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Repair makes sense for leaking joints, a faulty valve or scale build-up. Think about replacing it if the tank body leaks or shows rust, or if repairs keep coming back. We check it and give you a written estimate, so you can decide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who repairs geysers in Patia and Chandrasekharpur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mahapatra Plumbing Services, based at District Center, Chandrasekharpur, installs and repairs geysers on the plumbing side in Patia, Chandrasekharpur and all of Bhubaneswar. For heating element or thermostat faults, we tell you whether you need an electrician or the brand's service centre."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does geyser repair cost in Bhubaneswar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Geyser repair with Mahapatra Plumbing Services starts with the ₹199–₹349 visit charge, adjusted in the final bill if the work goes ahead. A full geyser service is ₹499, and parts are extra. Repairs carry a 90-day workmanship warranty."
           }
         }
       ]

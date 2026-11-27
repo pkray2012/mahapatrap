@@ -3,7 +3,7 @@ import { Image } from 'astro:assets';
 import footerLogo from '../assets/generated/logo-footer.png';
 import { SITE } from '../lib/site';
 import { icon, iconForHref } from '../lib/icons';
-import { services, areas, typo, type Page } from '../lib/content';
+import { services, areas, typo, callButton, waButton, type Page } from '../lib/content';
 interface Props { page: Page }
 const { page } = Astro.props;
 const svc = services();
@@ -13,6 +13,9 @@ const t = page.fm.page_type;
 // Every tracked footer link carries data-page-type plus data-service / data-locality (tracking-plan §2).
 const ctx = { 'data-cta-location': 'footer', 'data-page-type': t, ...(t === 'locality' ? { 'data-locality': page.slug } : { 'data-service': page.slug }) };
 const nav = { 'data-track': 'nav_click', ...ctx };
+// From 1024 px: Call / WhatsApp pair under "Areas we serve" (column 3), so the three columns end close together.
+// Below 1024 px it is hidden (the sticky bar / header already carry both buttons).
+const ftCta = callButton(page, 'footer', 'Call now') + waButton(page, 'footer', 'WhatsApp us');
 ---
 <footer class="site-footer">
   <div class="wrap ft-grid">
@@ -48,9 +51,10 @@ const nav = { 'data-track': 'nav_click', ...ctx };
         <li><a href="/privacy-policy/" {...nav} class="gap-2"><Fragment set:html={icon(iconForHref('/privacy-policy/'), 'ico w-4 h-4')} />Privacy Policy</a></li>
       </ul>
     </div>
+    <div class="ft-cta" set:html={ftCta} />
     </div>
   </div>
   <div class="border-t border-white/15">
-    <p class="wrap py-4 text-sm ft-credit"><span>© {year} {SITE.name}, Bhubaneswar</span><span class="ft-sep" aria-hidden="true"> · </span><span class="ft-dev">Developed by <a href="https://hometreeinfotech.com/" target="_blank" rel="noopener" data-track="outbound_click" {...ctx}>Hometree Infotech Pvt Ltd</a></span></p>
+    <p class="wrap py-4 text-sm ft-credit"><span>© {year} {SITE.name}, Bhubaneswar</span><span class="ft-sep" aria-hidden="true"> · </span><span class="ft-dev">Developed by <a href="https://hometreeinfotech.com/" target="_blank" rel="noopener nofollow" data-track="outbound_click" {...ctx}>Hometree Infotech Pvt Ltd</a></span></p>
   </div>
 </footer>

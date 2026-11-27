@@ -8,16 +8,16 @@ meta_description: "Sewerage and drainage work in Bhubaneswar: new sewer lines, b
 primary_keyword: sewerage work contractor bhubaneswar
 secondary_keywords: [sewerage work, sewer line repair near me, drainage work bhubaneswar]
 h1: Sewerage & Drainage Works in Bhubaneswar
-word_count: 1242
+word_count: 1251
 ---
 
 # Sewerage & Drainage Works in Bhubaneswar
 
 [BREADCRUMB: Home > Sewerage & Drainage Works]
 
-**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
+**5.0★ from 45 Google reviews** · **Free site visit and written estimate** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
-Looking for a sewerage work contractor in Bhubaneswar? Mahapatra Plumbing Services lays new sewer and drain lines and repairs broken or sagging ones. We also connect lines to chambers, septic tanks or the main line. We take this work anywhere in Bhubaneswar from our base in Chandrasekharpur. Call or WhatsApp +91 9668875352 for a free site visit.
+Mahapatra Plumbing Services is a sewerage work contractor in Bhubaneswar. We lay new sewer and drain lines and repair broken or sagging ones. We also connect lines to chambers, septic tanks or the main line. We take this work anywhere in Bhubaneswar from our base in Chandrasekharpur. Call or WhatsApp +91 9668875352 for a free site visit.
 
 [CTA: call+whatsapp | location=hero]
 
@@ -55,9 +55,9 @@ Sewerage and related rates in Bhubaneswar (labour charges):
 |---|---|
 | Sewerage & drainage works | Quote after inspection (free site visit + written estimate) |
 | Concealed pipeline repair / reroute | Quote after free site visit + written estimate |
-| Drain unclogging (sink / floor trap) | From ₹349 |
-| Toilet blockage removal | From ₹999 |
-| Septic tank cleaning | From ₹2,999 |
+| Drain unclogging (sink / floor trap) | from ₹349 |
+| Toilet blockage removal | from ₹999 |
+| Septic tank cleaning | from ₹2,999 |
 
 Parts are extra, and the part price is shared before fitting. Visit charges, late-night visits, payment and warranty terms are on our [plumber charges in Bhubaneswar](/pricing/) page.
 
@@ -73,7 +73,7 @@ Common signs of a broken sewer line are a sewage smell in the compound and wet o
 - **Backflow.** Dirty water comes up at the lowest floor trap or chamber.
 - **Repeat blockages.** The same line blocks again soon after cleaning.
 
-Searching for sewer line repair near me in Bhubaneswar? Send a photo or video on WhatsApp to plan the site visit.
+For sewer line repair in Bhubaneswar, send a photo or video on WhatsApp to plan the site visit.
 
 [IMAGE: broken-sewer-pipe-repair-bhubaneswar.webp | alt="Cracked sewer pipe being replaced near an inspection chamber at a house in Bhubaneswar" | after broken sewer line section]
 
@@ -114,23 +114,23 @@ Our base is at District Center, Chandrasekharpur. We take sewerage and drainage 
 
 ### Can you repair or rebuild a broken drain chamber or manhole?
 
-Yes. If a chamber is broken, too low or keeps overflowing, we can repair or rebuild it, after discussing it with you. We also join the lines into it at the right slope. Chamber work is quoted after a free site visit, with a written estimate before work starts.
+Yes, if a chamber is broken, too low or keeps overflowing, Mahapatra Plumbing Services can repair or rebuild it, after discussing it with you. We also join the lines into it at the right slope. Chamber work is quoted after a free site visit, with a written estimate before work starts.
 
 ### Can you connect my house drain to a new septic tank?
 
-Yes. We lay the line from the house to the new septic tank with the right slope, and add chambers where the line turns. We run water through the line before it is closed. You get a free site visit and a written estimate before work starts. Call or WhatsApp +91 9668875352.
+Yes, Mahapatra Plumbing Services lays the line from the house to the new septic tank with the right slope, and add chambers where the line turns. We run water through the line before it is closed. You get a free site visit and a written estimate before work starts. Call or WhatsApp +91 9668875352.
 
 ### Can you lay a rainwater drain line from the roof and courtyard?
 
-Yes. We lay drain lines for roof and courtyard rainwater outlets, sized and sloped so water does not stand. Where possible, we keep rainwater out of the septic tank line, so the tank does not fill faster. The work is quoted after a free site visit and written estimate.
+Yes, Mahapatra Plumbing Services lays drain lines for roof and courtyard rainwater outlets, sized and sloped so water does not stand. Where possible, we keep rainwater out of the septic tank line, so the tank does not fill faster. The work is quoted after a free site visit and written estimate.
 
 ### Can you divert a sewer line when I extend my house?
 
-Yes. If an extension, boundary wall or new bathroom sits over an old sewer line, we shift the line around it. We plan the new route with the right slope and link it to the existing chambers. You get a written estimate after a free site visit, before work starts.
+Yes, if an extension, boundary wall or new bathroom sits over an old sewer line, Mahapatra Plumbing Services shifts the line around it. We plan the new route with the right slope and link it to the existing chambers. You get a written estimate after a free site visit, before work starts.
 
 ### Do you take sewerage work for apartments and builders?
 
-Yes. We take sewerage and drainage work for apartment blocks, builders, hostels, PGs, shops and offices anywhere in Bhubaneswar. That includes new lines, chamber connections and repairs to shared lines. Share the site location and a few photos on WhatsApp. We will book a free site visit and written estimate.
+Yes, Mahapatra Plumbing Services takes sewerage and drainage work for apartment blocks, builders, hostels, PGs, shops and offices anywhere in Bhubaneswar. That includes new lines, chamber connections and repairs to shared lines. Share the site location and a few photos on WhatsApp. We will book a free site visit and written estimate.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -148,7 +148,9 @@ To book a site visit, [contact Mahapatra Plumbing Services](/contact/).
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -162,7 +164,10 @@ To book a site visit, [contact Mahapatra Plumbing Services](/contact/).
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -183,6 +188,11 @@ To book a site visit, [contact Mahapatra Plumbing Services](/contact/).
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -311,7 +321,8 @@ To book a site visit, [contact Mahapatra Plumbing Services](/contact/).
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/services/sewerage-and-drainage-works/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "Service",
@@ -346,7 +357,7 @@ To book a site visit, [contact Mahapatra Plumbing Services](/contact/).
           "name": "Can you repair or rebuild a broken drain chamber or manhole?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. If a chamber is broken, too low or keeps overflowing, we can repair or rebuild it, after discussing it with you. We also join the lines into it at the right slope. Chamber work is quoted after a free site visit, with a written estimate before work starts."
+            "text": "Yes, if a chamber is broken, too low or keeps overflowing, Mahapatra Plumbing Services can repair or rebuild it, after discussing it with you. We also join the lines into it at the right slope. Chamber work is quoted after a free site visit, with a written estimate before work starts."
           }
         },
         {
@@ -354,7 +365,7 @@ To book a site visit, [contact Mahapatra Plumbing Services](/contact/).
           "name": "Can you connect my house drain to a new septic tank?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We lay the line from the house to the new septic tank with the right slope, and add chambers where the line turns. We run water through the line before it is closed. You get a free site visit and a written estimate before work starts. Call or WhatsApp +91 9668875352."
+            "text": "Yes, Mahapatra Plumbing Services lays the line from the house to the new septic tank with the right slope, and add chambers where the line turns. We run water through the line before it is closed. You get a free site visit and a written estimate before work starts. Call or WhatsApp +91 9668875352."
           }
         },
         {
@@ -362,7 +373,7 @@ To book a site visit, [contact Mahapatra Plumbing Services](/contact/).
           "name": "Can you lay a rainwater drain line from the roof and courtyard?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We lay drain lines for roof and courtyard rainwater outlets, sized and sloped so water does not stand. Where possible, we keep rainwater out of the septic tank line, so the tank does not fill faster. The work is quoted after a free site visit and written estimate."
+            "text": "Yes, Mahapatra Plumbing Services lays drain lines for roof and courtyard rainwater outlets, sized and sloped so water does not stand. Where possible, we keep rainwater out of the septic tank line, so the tank does not fill faster. The work is quoted after a free site visit and written estimate."
           }
         },
         {
@@ -370,7 +381,7 @@ To book a site visit, [contact Mahapatra Plumbing Services](/contact/).
           "name": "Can you divert a sewer line when I extend my house?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. If an extension, boundary wall or new bathroom sits over an old sewer line, we shift the line around it. We plan the new route with the right slope and link it to the existing chambers. You get a written estimate after a free site visit, before work starts."
+            "text": "Yes, if an extension, boundary wall or new bathroom sits over an old sewer line, Mahapatra Plumbing Services shifts the line around it. We plan the new route with the right slope and link it to the existing chambers. You get a written estimate after a free site visit, before work starts."
           }
         },
         {
@@ -378,7 +389,7 @@ To book a site visit, [contact Mahapatra Plumbing Services](/contact/).
           "name": "Do you take sewerage work for apartments and builders?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We take sewerage and drainage work for apartment blocks, builders, hostels, PGs, shops and offices anywhere in Bhubaneswar. That includes new lines, chamber connections and repairs to shared lines. Share the site location and a few photos on WhatsApp. We will book a free site visit and written estimate."
+            "text": "Yes, Mahapatra Plumbing Services takes sewerage and drainage work for apartment blocks, builders, hostels, PGs, shops and offices anywhere in Bhubaneswar. That includes new lines, chamber connections and repairs to shared lines. Share the site location and a few photos on WhatsApp. We will book a free site visit and written estimate."
           }
         }
       ]

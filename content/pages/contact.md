@@ -15,13 +15,15 @@ word_count: 493
 
 [BREADCRUMB: Home > Contact]
 
-Looking for a plumber Bhubaneswar contact number? Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352. We are at District Center, Chandrasekharpur, and serve all of Bhubaneswar. We are open daily from 8 AM to 10 PM. Book by call, WhatsApp or the form below.
+The contact number for Mahapatra Plumbing Services, your plumber in Bhubaneswar, is +91 9668875352 for calls and WhatsApp, open daily from 8 AM to 10 PM.
 
 [CTA: call+whatsapp | location=contact_page]
 
 [IMAGE: contact-mahapatra-plumbing-chandrasekharpur.webp | alt="Mahapatra Plumbing Services plumber with tools, ready for a home visit in Chandrasekharpur, Bhubaneswar" | hero, beside the contact details]
 
-## Mahapatra Plumbing contact details
+## Can I book a plumber visit without calling?
+
+Yes, the booking form opens WhatsApp with your details ready, and we reply to fix a time. Add your area, a landmark, the problem and a photo or short video.
 
 - **Phone / WhatsApp:** [+91 9668875352](tel:+919668875352)
 - **Email:** [amareshmohapatra143@gmail.com](mailto:amareshmohapatra143@gmail.com)
@@ -29,15 +31,7 @@ Looking for a plumber Bhubaneswar contact number? Call or WhatsApp Mahapatra Plu
 - **Hours:** Monday to Sunday, 8 AM – 10 PM.
 - **Languages:** Odia, Hindi and English.
 
-Save it as your plumber near me contact number.
-
-## When can I call Mahapatra Plumbing Services?
-
-Call or WhatsApp Mahapatra Plumbing Services any day, 8 AM to 10 PM. Late-night and early-morning visits on request, subject to availability (+₹300). Call +91 9668875352 first and we will tell you if a plumber can come. See [plumber charges in Bhubaneswar](/pricing/).
-
-## Can I book a plumber visit without calling?
-
-Yes. Fill in the booking form and tap the button. It opens WhatsApp with your details ready. We reply on WhatsApp to fix a time. You get a written estimate before any work starts.
+See all [plumber charges in Bhubaneswar](/pricing/).
 
 [CARD LABEL: Book a Visit]
 
@@ -47,39 +41,43 @@ By sending, you agree we may use your number to reply on WhatsApp. See our [Priv
 
 ## Where is Mahapatra Plumbing Services located?
 
-Mahapatra Plumbing Services is at District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016. No walk-ins, please: call or WhatsApp first and we come to you. From here we serve [Chandrasekharpur](/areas/chandrasekharpur/), Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli, and [all of Bhubaneswar](/). Bigger jobs like [septic tank cleaning in Bhubaneswar](/services/septic-tank-cleaning/) are done anywhere in the city.
+Mahapatra Plumbing Services is at District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016. No walk-ins, please: call or WhatsApp first and we come to you. From here we serve [Chandrasekharpur](/areas/chandrasekharpur/), Patia, KIIT, Infocity and [all of Bhubaneswar](/).
 
 [MAP: google-maps-listing | full map on the Contact page; static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="Get directions" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click | cta_location=contact_page]
 
-## What to send on WhatsApp
-
-Send your area, a landmark, the problem and a photo or short video.
-
-[IMAGE: plumber-bhubaneswar-whatsapp-photo-leak.webp | alt="Photo of a leaking pipe under a kitchen sink, sent on WhatsApp to a plumber in Bhubaneswar" | inline, beside "What to send on WhatsApp"]
-
 ## Why contact Mahapatra Plumbing Services
 
-- **5.0★ from 45 Google reviews**, 43 of them five-star.
-- **Written estimate before work starts.**
-- **90-day workmanship warranty** on installation and repair jobs.
-- **One number** for calls and WhatsApp.
-- **Owner-run.** Started in 2021 by Amaresh Mahapatra. Read [about Mahapatra Plumbing Services](/about/).
+[IMAGE: plumber-bhubaneswar-whatsapp-photo-leak.webp | alt="Photo of a leaking pipe under a kitchen sink, sent on WhatsApp to a plumber in Bhubaneswar" | inline, beside "Why contact Mahapatra Plumbing Services"]
 
-Dripping tap? See [leak and blockage repair](/services/leak-and-blockage-repair/).
+- **5.0★ from 45 Google reviews**, 43 of them five-star.
+- **90-day workmanship warranty** on installation and repair jobs.
+- **Owner-run.** Started in 2021 by Amaresh Mahapatra. Read [about Mahapatra Plumbing Services](/about/).
 
 ## Contact FAQs
 
 ### How can I reach Mahapatra Plumbing Services?
 
-Call or WhatsApp +91 9668875352, any day between 8 AM and 10 PM. Call for urgent problems like a burst pipe. Use WhatsApp when a photo helps or you cannot talk. For non-urgent questions or a GST invoice request, email amareshmohapatra143@gmail.com.
+Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352, any day between 8 AM and 10 PM. Use WhatsApp when a photo helps or you cannot talk. For non-urgent questions or a GST invoice request, email amareshmohapatra143@gmail.com.
 
 ### Can I book a plumber for my parents or my tenant?
 
-Yes. Share the address, the name and number of the person at home, and the problem on WhatsApp to +91 9668875352. We fix the time with them. The plumber gives the written estimate on site before work starts, so they can share it with you for a go-ahead.
+Yes, Mahapatra Plumbing Services can visit your parents or tenant: share the address, the name and number of the person at home, and the problem on WhatsApp to +91 9668875352. We fix the time with them. The plumber gives the written estimate on site before work starts, so they can share it with you for a go-ahead.
 
 ### Can I send photos or videos of the problem on WhatsApp?
 
-Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the problem and the area around it. This helps us understand the problem before the visit. For hidden or concealed leaks, the plumber still needs to check on site.
+Yes, send clear photos or a short video of the problem and the area around it to Mahapatra Plumbing Services on WhatsApp at +91 9668875352. This helps us understand the problem before the visit. For hidden or concealed leaks, the plumber still needs to check on site.
+
+### What should I do in a plumbing emergency like a burst pipe?
+
+Close the main water valve, switch off the water motor, and then call Mahapatra Plumbing Services on +91 9668875352. We are open daily from 8 AM to 10 PM. Late-night and early-morning visits are on request, subject to availability (+₹300).
+
+### What is the phone number of a plumber in Chandrasekharpur, Bhubaneswar?
+
+Mahapatra Plumbing Services in Chandrasekharpur can be reached on +91 9668875352 by call or WhatsApp, daily from 8 AM to 10 PM. Our base is District Center, Chandrasekharpur.
+
+### Is there a shop or counter at your address?
+
+No, Mahapatra Plumbing Services has no shop counter at District Center, Chandrasekharpur. Call or WhatsApp +91 9668875352 first, and the plumber comes to your home, flat or office.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -95,7 +93,9 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -109,7 +109,10 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -130,6 +133,11 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -261,7 +269,8 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/contact/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "FAQPage",
@@ -272,7 +281,7 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
           "name": "How can I reach Mahapatra Plumbing Services?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Call or WhatsApp +91 9668875352, any day between 8 AM and 10 PM. Call for urgent problems like a burst pipe. Use WhatsApp when a photo helps or you cannot talk. For non-urgent questions or a GST invoice request, email amareshmohapatra143@gmail.com."
+            "text": "Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352, any day between 8 AM and 10 PM. Use WhatsApp when a photo helps or you cannot talk. For non-urgent questions or a GST invoice request, email amareshmohapatra143@gmail.com."
           }
         },
         {
@@ -280,7 +289,7 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
           "name": "Can I book a plumber for my parents or my tenant?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Share the address, the name and number of the person at home, and the problem on WhatsApp to +91 9668875352. We fix the time with them. The plumber gives the written estimate on site before work starts, so they can share it with you for a go-ahead."
+            "text": "Yes, Mahapatra Plumbing Services can visit your parents or tenant: share the address, the name and number of the person at home, and the problem on WhatsApp to +91 9668875352. We fix the time with them. The plumber gives the written estimate on site before work starts, so they can share it with you for a go-ahead."
           }
         },
         {
@@ -288,7 +297,31 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
           "name": "Can I send photos or videos of the problem on WhatsApp?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the problem and the area around it. This helps us understand the problem before the visit. For hidden or concealed leaks, the plumber still needs to check on site."
+            "text": "Yes, send clear photos or a short video of the problem and the area around it to Mahapatra Plumbing Services on WhatsApp at +91 9668875352. This helps us understand the problem before the visit. For hidden or concealed leaks, the plumber still needs to check on site."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do in a plumbing emergency like a burst pipe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Close the main water valve, switch off the water motor, and then call Mahapatra Plumbing Services on +91 9668875352. We are open daily from 8 AM to 10 PM. Late-night and early-morning visits are on request, subject to availability (+₹300)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the phone number of a plumber in Chandrasekharpur, Bhubaneswar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mahapatra Plumbing Services in Chandrasekharpur can be reached on +91 9668875352 by call or WhatsApp, daily from 8 AM to 10 PM. Our base is District Center, Chandrasekharpur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a shop or counter at your address?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, Mahapatra Plumbing Services has no shop counter at District Center, Chandrasekharpur. Call or WhatsApp +91 9668875352 first, and the plumber comes to your home, flat or office."
           }
         }
       ]

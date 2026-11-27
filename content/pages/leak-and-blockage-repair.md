@@ -8,14 +8,14 @@ meta_description: Water leakage and tap repair in Bhubaneswar for dripping taps,
 primary_keyword: water leakage repair in bhubaneswar
 secondary_keywords: [tap leakage repair, water leakage near me, tap repair, toilet repair, flush tank repair, toilet seat repair, water leakage, seepage in wall, how much does tap repair cost in bhubaneswar]
 h1: "Water Leakage, Tap & Flush Repair in Bhubaneswar"
-word_count: 1208
+word_count: 1218
 ---
 
 # Water Leakage, Tap & Flush Repair in Bhubaneswar
 
 [BREADCRUMB: Home > Leak & Blockage Repair]
 
-**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 Mahapatra Plumbing Services in Chandrasekharpur offers water leakage and tap leakage repair in Bhubaneswar for dripping taps, running flush tanks, leaking toilets and loose fittings. A minor fix starts from ₹249. Tap, jet spray or flush kit fitting costs ₹299–₹799 plus parts. Call or WhatsApp +91 9668875352. We are open daily 8 AM to 10 PM.
 
@@ -100,7 +100,7 @@ For a loose or broken toilet seat, toilet seat repair is often a minor fix. We t
 
 We visit nearby areas like Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli, and all of Bhubaneswar. Hostels and PGs in Patia have many shared bathrooms, where taps and flushes wear out sooner. Read about our [plumbing services in Patia](/areas/patia/).
 
-Looking for water leakage or tap repair near me around Chandrasekharpur? Call or send a photo of the leak on WhatsApp.
+Leak or dripping tap near Chandrasekharpur? Call or send a photo of the leak on WhatsApp.
 
 ## Leak repair FAQs
 
@@ -110,7 +110,7 @@ Repair the tap if the drip comes from a worn washer or a loose joint. That is a 
 
 ### Is a small water leakage worth fixing early?
 
-Yes. A dripping tap or running flush wastes water every hour. A leak near a wall can cause seepage and peeling paint over time. Fixing it early is usually a minor job. Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352 with a photo.
+Yes, because a dripping tap or running flush wastes water every hour. A leak near a wall can cause seepage and peeling paint over time. Fixing it early is usually a minor job. Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352 with a photo.
 
 ### Why is my commode leaking?
 
@@ -118,15 +118,15 @@ A leaking commode (western toilet) usually has a worn flush valve seal, a loose 
 
 ### Can you fix a leaking jet spray or health faucet?
 
-Yes. A jet spray usually leaks at the hose, the holder or the angle valve behind it. We tighten or replace the hose or valve. A minor fix starts from ₹249, and a new jet spray set is fitted for ₹299–₹799 plus parts. We share the part price before fitting.
+Yes, Mahapatra Plumbing Services fixes leaking jet sprays, which usually leak at the hose, the holder or the angle valve behind it. We tighten or replace the hose or valve. A minor fix starts from ₹249, and a new jet spray set is fitted for ₹299–₹799 plus parts. We share the part price before fitting.
 
 ### Can you repair a loose or broken toilet seat?
 
-Yes. A loose seat usually needs its hinge bolts tightened or replaced. A cracked seat needs a new seat cover. Toilet seat repair is a minor fix from ₹249. The new seat cover is a part, so we share its price before fitting. Send a photo of the seat on WhatsApp first.
+Yes, Mahapatra Plumbing Services repairs toilet seats: a loose seat usually needs its hinge bolts tightened or replaced. A cracked seat needs a new seat cover. Toilet seat repair is a minor fix from ₹249. The new seat cover is a part, so we share its price before fitting. Send a photo of the seat on WhatsApp first.
 
 ### Can you fix a kitchen sink that leaks from underneath?
 
-Yes. A leak under a kitchen sink usually comes from a loose waste coupling, a cracked waste pipe or a worn tap connector. Mahapatra Plumbing Services finds the source and fixes it. A minor fix starts from ₹249 for labour. If a part needs changing, we tell you the part price before fitting.
+Yes, Mahapatra Plumbing Services fixes these leaks, which usually come from a loose waste coupling, a cracked waste pipe or a worn tap connector. Mahapatra Plumbing Services finds the source and fixes it. A minor fix starts from ₹249 for labour. If a part needs changing, we tell you the part price before fitting.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -146,7 +146,9 @@ Tell us what is leaking and your area. Call or WhatsApp +91 9668875352, or see a
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -160,7 +162,10 @@ Tell us what is leaking and your area. Call or WhatsApp +91 9668875352, or see a
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -181,6 +186,11 @@ Tell us what is leaking and your area. Call or WhatsApp +91 9668875352, or see a
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -309,7 +319,8 @@ Tell us what is leaking and your area. Call or WhatsApp +91 9668875352, or see a
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/services/leak-and-blockage-repair/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "Service",
@@ -372,7 +383,7 @@ Tell us what is leaking and your area. Call or WhatsApp +91 9668875352, or see a
           "name": "Is a small water leakage worth fixing early?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. A dripping tap or running flush wastes water every hour. A leak near a wall can cause seepage and peeling paint over time. Fixing it early is usually a minor job. Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352 with a photo."
+            "text": "Yes, because a dripping tap or running flush wastes water every hour. A leak near a wall can cause seepage and peeling paint over time. Fixing it early is usually a minor job. Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352 with a photo."
           }
         },
         {
@@ -388,7 +399,7 @@ Tell us what is leaking and your area. Call or WhatsApp +91 9668875352, or see a
           "name": "Can you fix a leaking jet spray or health faucet?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. A jet spray usually leaks at the hose, the holder or the angle valve behind it. We tighten or replace the hose or valve. A minor fix starts from ₹249, and a new jet spray set is fitted for ₹299–₹799 plus parts. We share the part price before fitting."
+            "text": "Yes, Mahapatra Plumbing Services fixes leaking jet sprays, which usually leak at the hose, the holder or the angle valve behind it. We tighten or replace the hose or valve. A minor fix starts from ₹249, and a new jet spray set is fitted for ₹299–₹799 plus parts. We share the part price before fitting."
           }
         },
         {
@@ -396,7 +407,7 @@ Tell us what is leaking and your area. Call or WhatsApp +91 9668875352, or see a
           "name": "Can you repair a loose or broken toilet seat?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. A loose seat usually needs its hinge bolts tightened or replaced. A cracked seat needs a new seat cover. Toilet seat repair is a minor fix from ₹249. The new seat cover is a part, so we share its price before fitting. Send a photo of the seat on WhatsApp first."
+            "text": "Yes, Mahapatra Plumbing Services repairs toilet seats: a loose seat usually needs its hinge bolts tightened or replaced. A cracked seat needs a new seat cover. Toilet seat repair is a minor fix from ₹249. The new seat cover is a part, so we share its price before fitting. Send a photo of the seat on WhatsApp first."
           }
         },
         {
@@ -404,7 +415,7 @@ Tell us what is leaking and your area. Call or WhatsApp +91 9668875352, or see a
           "name": "Can you fix a kitchen sink that leaks from underneath?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. A leak under a kitchen sink usually comes from a loose waste coupling, a cracked waste pipe or a worn tap connector. Mahapatra Plumbing Services finds the source and fixes it. A minor fix starts from ₹249 for labour. If a part needs changing, we tell you the part price before fitting."
+            "text": "Yes, Mahapatra Plumbing Services fixes these leaks, which usually come from a loose waste coupling, a cracked waste pipe or a worn tap connector. Mahapatra Plumbing Services finds the source and fixes it. A minor fix starts from ₹249 for labour. If a part needs changing, we tell you the part price before fitting."
           }
         }
       ]

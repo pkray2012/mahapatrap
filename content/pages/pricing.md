@@ -8,7 +8,7 @@ meta_description: "Plumber charges and price list in Bhubaneswar: visit ₹199�
 primary_keyword: plumber charges in bhubaneswar
 secondary_keywords: [plumber visit charge bhubaneswar, plumbing rate list bhubaneswar, plumber price list bhubaneswar, how much does a plumber charge per visit in bhubaneswar]
 h1: "Plumber Charges in Bhubaneswar: Rate Card"
-word_count: 878
+word_count: 886
 ---
 
 # Plumber Charges in Bhubaneswar: Rate Card
@@ -17,7 +17,7 @@ word_count: 878
 
 [CTA: call+whatsapp | location=hero]
 
-Plumber charges in Bhubaneswar at Mahapatra Plumbing Services start with a visit charge of ₹199–₹349. It is adjusted in your final bill if the work goes ahead. Minor fixes start at ₹249. We are based in Chandrasekharpur and serve all of Bhubaneswar. Call or WhatsApp +91 9668875352.
+Plumber charges in Bhubaneswar at Mahapatra Plumbing Services start with a visit charge of ₹199–₹349. It is adjusted in your final bill if the work goes ahead. Minor fixes start at ₹249. We serve all of Bhubaneswar. Call or WhatsApp +91 9668875352.
 
 Prices below are labour charges. Parts are extra.
 
@@ -25,7 +25,7 @@ Prices below are labour charges. Parts are extra.
 
 ## Plumber price list in Bhubaneswar
 
-This plumbing rate list in Bhubaneswar was updated on 27 November 2026. Start with the three common job types, then see the full list.
+This plumbing rate list in Bhubaneswar was updated on 27 November 2026.
 
 [PRICING TIERS]
 
@@ -76,7 +76,7 @@ The plumber visit charge in Bhubaneswar covers the trip and the inspection.
 
 ## Are parts included in the price?
 
-No. The prices on this rate card are labour charges only. Taps, pipes, flush kits, valves and motor parts are extra. We can supply parts, or you can buy your own. If we supply them, we share the part price before fitting. Parts follow the brand's own warranty.
+No, the prices on this rate card are labour charges only. Taps, pipes, flush kits, valves and motor parts are extra. We can supply parts, or you can buy your own. If we supply them, we share the part price before fitting.
 
 [IMAGE: cpvc-pipe-fitting-bhubaneswar.webp | alt="Plumber fitting CPVC pipes and a new tap in a bathroom in Bhubaneswar" | after parts section]
 
@@ -90,11 +90,10 @@ Bathroom renovation, new house plumbing, sewerage lines, concealed pipeline repa
 
 - 5.0★ from 45 Google reviews (43 five-star), often for fair pricing.
 - Written estimate before work starts, and a 90-day workmanship warranty on repair and installation jobs.
-- Open daily 8 AM – 10 PM.
 
-## Areas we serve
+## Areas of Bhubaneswar we serve
 
-[Mahapatra Plumbing Services](/about/) is at District Center, Chandrasekharpur, Bhubaneswar 751016. We serve Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli, and all of Bhubaneswar. See our [plumber in Chandrasekharpur](/areas/chandrasekharpur/) page or find our [plumber Bhubaneswar contact number](/contact/).
+[Mahapatra Plumbing Services](/about/) is at District Center, Chandrasekharpur, and serves all of Bhubaneswar. See our [plumber in Chandrasekharpur](/areas/chandrasekharpur/) page or our [contact details](/contact/).
 
 [IMAGE: mahapatra-plumber-at-work-bhubaneswar.webp | alt="Mahapatra plumber clearing a blocked kitchen sink drain in a Bhubaneswar flat" | before FAQs]
 
@@ -102,7 +101,7 @@ Bathroom renovation, new house plumbing, sewerage lines, concealed pipeline repa
 
 ### What is the minimum plumber charge in Bhubaneswar?
 
-At Mahapatra Plumbing Services, the visit charge is ₹199–₹349. Minor fixes like a washer change, a small leak or a loose fitting start at ₹249. If you go ahead with the work, the visit charge is adjusted in the final bill. Parts are extra, and we share the part price before fitting.
+At Mahapatra Plumbing Services, the visit charge is ₹199–₹349. Minor fixes like a washer change, a small leak or a loose fitting start at ₹249. If you go ahead with the work, the visit charge is adjusted in the final bill.
 
 ### Do I pay the visit charge if I go ahead with the repair?
 
@@ -110,19 +109,27 @@ You pay it only once. When you go ahead with the work, the ₹199–₹349 visit
 
 ### How do I get the exact price before the plumber starts?
 
-Send a photo or short video of the problem on WhatsApp to +91 9668875352. We tell you which rate on this list applies. At the visit, the plumber checks the problem and gives you a written estimate before any work starts. Part prices are shared before fitting. Renovation, new house and sewerage jobs get a free site visit.
+Send a photo or short video of the problem on WhatsApp to +91 9668875352. We tell you which rate on this list applies. At the visit, the plumber checks the problem and gives you a written estimate before any work starts.
 
-### Is there an extra charge for a late-night plumber in Bhubaneswar?
+### How much does an emergency plumber cost at night in Bhubaneswar?
 
-Yes. We are open daily from 8 AM to 10 PM. Late-night and early-morning visits are on request, subject to availability, at ₹300 extra on top of the normal rate. WhatsApp us on +91 9668875352 and we will tell you if a plumber is free.
+A late-night or early-morning visit from Mahapatra Plumbing Services costs ₹300 extra on top of the normal rate, on request and subject to availability. Our normal hours are 8 AM to 10 PM daily. For a burst pipe, close the main valve and switch off the water motor, then call +91 9668875352.
+
+### How much does toilet blockage removal cost in Bhubaneswar?
+
+Toilet blockage removal at Mahapatra Plumbing Services starts at ₹999 (labour), and sink or floor trap unclogging starts at ₹349. Parts are extra. WhatsApp a photo to +91 9668875352 to check which rate applies.
+
+### What is the charge for geyser installation in Bhubaneswar?
+
+Geyser installation by Mahapatra Plumbing Services starts at ₹699 (labour), and a geyser service is ₹499. Pipes, valves and other parts are extra. Installation and repair jobs carry a 90-day workmanship warranty. See [geyser installation and repair](/services/geyser-installation-and-repair/).
 
 ### Is there a warranty on plumbing work?
 
-Yes. Repair and installation jobs by Mahapatra Plumbing Services carry a 90-day workmanship warranty. Parts such as taps, valves or flush kits follow the brand's own warranty. If the same work gives trouble within 90 days, call or WhatsApp +91 9668875352.
+Yes, repair and installation jobs by Mahapatra Plumbing Services carry a 90-day workmanship warranty. Parts such as taps, valves or flush kits follow the brand's own warranty. If the same work gives trouble within 90 days, call or WhatsApp +91 9668875352.
 
 ### Do you give a GST invoice for plumbing work?
 
-Yes, a GST invoice is available on request. You can pay by cash, UPI or bank transfer. Just ask for the GST invoice when you book or before the job is closed.
+Yes, a GST invoice is available on request. You can pay by cash, UPI or bank transfer.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -139,7 +146,9 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -153,7 +162,10 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -174,6 +186,11 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -390,42 +407,26 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
             }
           },
           {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "AMC check-up for homes"
-            },
-            "priceCurrency": "INR",
+            "@type": "Service",
+            "name": "AMC check-up for homes",
             "description": "Price on request. Call or WhatsApp us for a quote."
           },
           {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Water tank / sump cleaning",
-              "url": "https://mahapatraplumbing.in/services/water-tank-cleaning/"
-            },
-            "priceCurrency": "INR",
+            "@type": "Service",
+            "name": "Water tank / sump cleaning",
+            "url": "https://mahapatraplumbing.in/services/water-tank-cleaning/",
             "description": "Call or WhatsApp us for a quote."
           },
           {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Borewell pump & pipe repair",
-              "url": "https://mahapatraplumbing.in/services/borewell-pump-and-pipe-repair/"
-            },
-            "priceCurrency": "INR",
+            "@type": "Service",
+            "name": "Borewell pump & pipe repair",
+            "url": "https://mahapatraplumbing.in/services/borewell-pump-and-pipe-repair/",
             "description": "Quote after inspection; part price shared before fitting."
           },
           {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Commercial AMC (hostels, PGs, offices, shops, hotels)",
-              "url": "https://mahapatraplumbing.in/services/commercial-plumbing/"
-            },
-            "priceCurrency": "INR",
+            "@type": "Service",
+            "name": "Commercial AMC (hostels, PGs, offices, shops, hotels)",
+            "url": "https://mahapatraplumbing.in/services/commercial-plumbing/",
             "description": "Price on request. Call or WhatsApp us for a quote."
           }
         ]
@@ -472,7 +473,7 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
           "name": "What is the minimum plumber charge in Bhubaneswar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "At Mahapatra Plumbing Services, the visit charge is ₹199–₹349. Minor fixes like a washer change, a small leak or a loose fitting start at ₹249. If you go ahead with the work, the visit charge is adjusted in the final bill. Parts are extra, and we share the part price before fitting."
+            "text": "At Mahapatra Plumbing Services, the visit charge is ₹199–₹349. Minor fixes like a washer change, a small leak or a loose fitting start at ₹249. If you go ahead with the work, the visit charge is adjusted in the final bill."
           }
         },
         {
@@ -488,15 +489,31 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
           "name": "How do I get the exact price before the plumber starts?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Send a photo or short video of the problem on WhatsApp to +91 9668875352. We tell you which rate on this list applies. At the visit, the plumber checks the problem and gives you a written estimate before any work starts. Part prices are shared before fitting. Renovation, new house and sewerage jobs get a free site visit."
+            "text": "Send a photo or short video of the problem on WhatsApp to +91 9668875352. We tell you which rate on this list applies. At the visit, the plumber checks the problem and gives you a written estimate before any work starts."
           }
         },
         {
           "@type": "Question",
-          "name": "Is there an extra charge for a late-night plumber in Bhubaneswar?",
+          "name": "How much does an emergency plumber cost at night in Bhubaneswar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We are open daily from 8 AM to 10 PM. Late-night and early-morning visits are on request, subject to availability, at ₹300 extra on top of the normal rate. WhatsApp us on +91 9668875352 and we will tell you if a plumber is free."
+            "text": "A late-night or early-morning visit from Mahapatra Plumbing Services costs ₹300 extra on top of the normal rate, on request and subject to availability. Our normal hours are 8 AM to 10 PM daily. For a burst pipe, close the main valve and switch off the water motor, then call +91 9668875352."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does toilet blockage removal cost in Bhubaneswar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Toilet blockage removal at Mahapatra Plumbing Services starts at ₹999 (labour), and sink or floor trap unclogging starts at ₹349. Parts are extra. WhatsApp a photo to +91 9668875352 to check which rate applies."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the charge for geyser installation in Bhubaneswar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Geyser installation by Mahapatra Plumbing Services starts at ₹699 (labour), and a geyser service is ₹499. Pipes, valves and other parts are extra. Installation and repair jobs carry a 90-day workmanship warranty. See geyser installation and repair."
           }
         },
         {
@@ -504,7 +521,7 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
           "name": "Is there a warranty on plumbing work?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Repair and installation jobs by Mahapatra Plumbing Services carry a 90-day workmanship warranty. Parts such as taps, valves or flush kits follow the brand's own warranty. If the same work gives trouble within 90 days, call or WhatsApp +91 9668875352."
+            "text": "Yes, repair and installation jobs by Mahapatra Plumbing Services carry a 90-day workmanship warranty. Parts such as taps, valves or flush kits follow the brand's own warranty. If the same work gives trouble within 90 days, call or WhatsApp +91 9668875352."
           }
         },
         {
@@ -512,7 +529,7 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
           "name": "Do you give a GST invoice for plumbing work?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, a GST invoice is available on request. You can pay by cash, UPI or bank transfer. Just ask for the GST invoice when you book or before the job is closed."
+            "text": "Yes, a GST invoice is available on request. You can pay by cash, UPI or bank transfer."
           }
         }
       ]

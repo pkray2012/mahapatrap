@@ -8,7 +8,7 @@ meta_description: Plumber in Niladri Vihar for water motors, sumps, overhead tan
 primary_keyword: plumber in niladri vihar
 secondary_keywords: []
 h1: Plumber in Niladri Vihar, Bhubaneswar
-word_count: 835
+word_count: 858
 ---
 
 # Plumber in Niladri Vihar, Bhubaneswar
@@ -19,7 +19,7 @@ Looking for a plumber in Niladri Vihar? Mahapatra Plumbing Services fixes the wa
 
 [CTA: call+whatsapp | location=hero]
 
-**5.0★ from 45 Google reviews** · **Written estimate before work starts** · **90-day workmanship warranty on repairs and installations**
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 [IMAGE: plumber-niladri-vihar-motor-pump-repair.webp | alt="Plumber repairing a water motor beside a house sump in Niladri Vihar, Bhubaneswar" | hero]
 
@@ -94,19 +94,19 @@ We also work nearby. See our pages for a [plumber in Chandrasekharpur](/areas/ch
 
 ### Do you come to Niladri Vihar for a small job like a leaking tap?
 
-Yes. Niladri Vihar is close to our base at District Center, Chandrasekharpur. It is one of the nearby areas we cover for small repairs. A dripping tap, a running flush tank or a loose fitting is all fine. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM and we will fix a time.
+Yes, Niladri Vihar is close to the Mahapatra Plumbing Services base at District Center, Chandrasekharpur. It is one of the nearby areas we cover for small repairs. A dripping tap, a running flush tank or a loose fitting is all fine. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM and we will fix a time.
 
 ### Can you replace cracked pipes on my roof?
 
-Yes. Roof and outside lines left in sun and rain often crack at the joints. We replace the cracked section with CPVC, UPVC or PPR pipe and check every joint for leaks. A small joint repair starts from ₹249. Longer runs get a written estimate before work starts.
+Yes, Mahapatra Plumbing Services replaces cracked roof pipes, since outside lines left in sun and rain often crack at the joints. We replace the cracked section with CPVC, UPVC or PPR pipe and check every joint for leaks. A small joint repair starts from ₹249. Longer runs get a written estimate before work starts.
 
 ### I am adding a floor to my house. Can you extend the tank and motor lines?
 
-Yes. The delivery line must reach the new roof tank. New downtake pipes then feed the new bathrooms and kitchen. This counts as new house plumbing work. You get a free site visit and a written estimate before anything starts.
+Yes, Mahapatra Plumbing Services extends the delivery line to reach the new roof tank. New downtake pipes then feed the new bathrooms and kitchen. This counts as new house plumbing work. You get a free site visit and a written estimate before anything starts.
 
 ### Can you clean the sump when you come to repair the motor?
 
-Yes. You can book sump and overhead tank cleaning along with a motor or tank repair, in Niladri Vihar and across Bhubaneswar. Call or WhatsApp us for a quote. Our number is +91 9668875352. Mention both jobs when you book. The 90-day warranty covers the repair work, not the cleaning.
+Yes, you can book sump and overhead tank cleaning with Mahapatra Plumbing Services along with a motor or tank repair, in Niladri Vihar and across Bhubaneswar. Call or WhatsApp us for a quote. Our number is +91 9668875352. Mention both jobs when you book. The 90-day warranty covers the repair work, not the cleaning.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -128,7 +128,9 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -142,7 +144,10 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -163,6 +168,11 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -295,7 +305,8 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/areas/niladri-vihar/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "FAQPage",
@@ -306,7 +317,7 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
           "name": "Do you come to Niladri Vihar for a small job like a leaking tap?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Niladri Vihar is close to our base at District Center, Chandrasekharpur. It is one of the nearby areas we cover for small repairs. A dripping tap, a running flush tank or a loose fitting is all fine. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM and we will fix a time."
+            "text": "Yes, Niladri Vihar is close to the Mahapatra Plumbing Services base at District Center, Chandrasekharpur. It is one of the nearby areas we cover for small repairs. A dripping tap, a running flush tank or a loose fitting is all fine. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM and we will fix a time."
           }
         },
         {
@@ -314,7 +325,7 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
           "name": "Can you replace cracked pipes on my roof?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Roof and outside lines left in sun and rain often crack at the joints. We replace the cracked section with CPVC, UPVC or PPR pipe and check every joint for leaks. A small joint repair starts from ₹249. Longer runs get a written estimate before work starts."
+            "text": "Yes, Mahapatra Plumbing Services replaces cracked roof pipes, since outside lines left in sun and rain often crack at the joints. We replace the cracked section with CPVC, UPVC or PPR pipe and check every joint for leaks. A small joint repair starts from ₹249. Longer runs get a written estimate before work starts."
           }
         },
         {
@@ -322,7 +333,7 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
           "name": "I am adding a floor to my house. Can you extend the tank and motor lines?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. The delivery line must reach the new roof tank. New downtake pipes then feed the new bathrooms and kitchen. This counts as new house plumbing work. You get a free site visit and a written estimate before anything starts."
+            "text": "Yes, Mahapatra Plumbing Services extends the delivery line to reach the new roof tank. New downtake pipes then feed the new bathrooms and kitchen. This counts as new house plumbing work. You get a free site visit and a written estimate before anything starts."
           }
         },
         {
@@ -330,7 +341,7 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
           "name": "Can you clean the sump when you come to repair the motor?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. You can book sump and overhead tank cleaning along with a motor or tank repair, in Niladri Vihar and across Bhubaneswar. Call or WhatsApp us for a quote. Our number is +91 9668875352. Mention both jobs when you book. The 90-day warranty covers the repair work, not the cleaning."
+            "text": "Yes, you can book sump and overhead tank cleaning with Mahapatra Plumbing Services along with a motor or tank repair, in Niladri Vihar and across Bhubaneswar. Call or WhatsApp us for a quote. Our number is +91 9668875352. Mention both jobs when you book. The 90-day warranty covers the repair work, not the cleaning."
           }
         }
       ]

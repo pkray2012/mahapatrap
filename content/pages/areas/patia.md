@@ -8,7 +8,7 @@ meta_description: Plumber in Patia, Bhubaneswar for flats, apartments and houses
 primary_keyword: plumber in patia
 secondary_keywords: [plumbing services patia]
 h1: Plumber in Patia, Bhubaneswar
-word_count: 882
+word_count: 885
 ---
 
 <!-- Hero. Accent colour on the word "Patia" in the H1. -->
@@ -17,11 +17,11 @@ word_count: 882
 
 [BREADCRUMB: Home > Patia]
 
-Looking for a plumber in Patia? Mahapatra Plumbing Services fixes taps, flush tanks, choked drains, geyser lines and motor pipes in Patia flats, apartments and independent houses. Our base at District Center, Chandrasekharpur is the next area over. Call or WhatsApp +91 9668875352 any day from 8 AM to 10 PM.
+Looking for a plumber in Patia? Mahapatra Plumbing Services fixes taps, flush tanks, choked drains, geyser lines and motor pipes in Patia flats, apartments and independent houses. Our base at District Center, Chandrasekharpur is the next area over. Call or WhatsApp +91 9668875352.
 
 [CTA: call+whatsapp | location=hero]
 
-**5.0★ on Google (45 reviews)** · **Written estimate first** · **90-day warranty on repairs and installations** · **Daily 8 AM – 10 PM**
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 [IMAGE: plumber-in-patia-bhubaneswar-flat-bathroom-tap.webp | alt="Plumber replacing a leaking bathroom tap in a rented flat in Patia, Bhubaneswar" | hero, right of the intro on desktop, under it on mobile]
 
@@ -107,15 +107,15 @@ Address and hours: [contact Mahapatra Plumbing Services](/contact/).
 
 ### How far is Mahapatra Plumbing Services from Patia?
 
-Not far. Our base is at District Center, Chandrasekharpur, which is the area right next to Patia. Call or WhatsApp +91 9668875352 with your address in Patia and a short note on the problem, and we will tell you when a plumber can come.
+Not far: Mahapatra Plumbing Services is based at District Center, Chandrasekharpur, the area right next to Patia. Call or WhatsApp +91 9668875352 with your address in Patia and a short note on the problem, and we will tell you when a plumber can come.
 
 ### Can you check a flat's plumbing before I rent or buy it in Patia?
 
-Yes. Book a visit and the plumber checks the taps, flush tanks, jet sprays, drains, geyser connections and any damp patches. You get a short list of what needs fixing and a written estimate for it. The visit charge is adjusted in the final bill if you go ahead with the repairs.
+Yes, book a Mahapatra Plumbing Services visit and the plumber checks the taps, flush tanks, jet sprays, drains, geyser connections and any damp patches. You get a short list of what needs fixing and a written estimate for it. The visit charge is adjusted in the final bill if you go ahead with the repairs.
 
 ### Do you clean water tanks and sumps near Patia?
 
-Yes. We clean overhead tanks and underground sumps for houses and apartments in Patia and across Bhubaneswar. You can book the sump and the overhead tank together. Call or WhatsApp us for a quote. Our number is +91 9668875352. Send the tank sizes and a photo of how the tanks are reached.
+Yes, Mahapatra Plumbing Services cleans overhead tanks and underground sumps for houses and apartments in Patia and across Bhubaneswar. You can book the sump and the overhead tank together. Call or WhatsApp us for a quote. Our number is +91 9668875352. Send the tank sizes and a photo of how the tanks are reached.
 
 ### Can you fix my geyser in Patia before winter?
 
@@ -123,7 +123,7 @@ Yes, on the plumbing side. We install geysers and fix inlet and outlet leaks, va
 
 ### Can I book a plumber in Patia on a Sunday?
 
-Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp message to +91 9668875352 with your area in Patia, the problem and a photo if you can. We reply on WhatsApp to fix a time that suits you.
+Yes, Mahapatra Plumbing Services is open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp message to +91 9668875352 with your area in Patia, the problem and a photo if you can. We reply on WhatsApp to fix a time that suits you.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -139,7 +139,9 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -153,7 +155,10 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -174,6 +179,11 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -306,7 +316,8 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/areas/patia/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "FAQPage",
@@ -317,7 +328,7 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
           "name": "How far is Mahapatra Plumbing Services from Patia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Not far. Our base is at District Center, Chandrasekharpur, which is the area right next to Patia. Call or WhatsApp +91 9668875352 with your address in Patia and a short note on the problem, and we will tell you when a plumber can come."
+            "text": "Not far: Mahapatra Plumbing Services is based at District Center, Chandrasekharpur, the area right next to Patia. Call or WhatsApp +91 9668875352 with your address in Patia and a short note on the problem, and we will tell you when a plumber can come."
           }
         },
         {
@@ -325,7 +336,7 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
           "name": "Can you check a flat's plumbing before I rent or buy it in Patia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Book a visit and the plumber checks the taps, flush tanks, jet sprays, drains, geyser connections and any damp patches. You get a short list of what needs fixing and a written estimate for it. The visit charge is adjusted in the final bill if you go ahead with the repairs."
+            "text": "Yes, book a Mahapatra Plumbing Services visit and the plumber checks the taps, flush tanks, jet sprays, drains, geyser connections and any damp patches. You get a short list of what needs fixing and a written estimate for it. The visit charge is adjusted in the final bill if you go ahead with the repairs."
           }
         },
         {
@@ -333,7 +344,7 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
           "name": "Do you clean water tanks and sumps near Patia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We clean overhead tanks and underground sumps for houses and apartments in Patia and across Bhubaneswar. You can book the sump and the overhead tank together. Call or WhatsApp us for a quote. Our number is +91 9668875352. Send the tank sizes and a photo of how the tanks are reached."
+            "text": "Yes, Mahapatra Plumbing Services cleans overhead tanks and underground sumps for houses and apartments in Patia and across Bhubaneswar. You can book the sump and the overhead tank together. Call or WhatsApp us for a quote. Our number is +91 9668875352. Send the tank sizes and a photo of how the tanks are reached."
           }
         },
         {
@@ -349,7 +360,7 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
           "name": "Can I book a plumber in Patia on a Sunday?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp message to +91 9668875352 with your area in Patia, the problem and a photo if you can. We reply on WhatsApp to fix a time that suits you."
+            "text": "Yes, Mahapatra Plumbing Services is open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp message to +91 9668875352 with your area in Patia, the problem and a photo if you can. We reply on WhatsApp to fix a time that suits you."
           }
         }
       ]

@@ -8,14 +8,14 @@ meta_description: Commercial plumbing in Bhubaneswar for hotels, offices, hostel
 primary_keyword: commercial plumbing bhubaneswar
 secondary_keywords: [commercial plumbing services, commercial plumbing near me, commercial plumbing work, plumbing maintenance contract, hotel plumbing services, office plumbing services, hostel and PG plumbing, apartment plumbing maintenance, how much does commercial plumbing cost]
 h1: "Commercial Plumbing in Bhubaneswar: Hotels, Offices, Hostels & Shops"
-word_count: 1185
+word_count: 1194
 ---
 
 # Commercial Plumbing in Bhubaneswar: Hotels, Offices, Hostels & Shops
 
 [BREADCRUMB: Home > Commercial Plumbing]
 
-**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **90-day warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 Mahapatra Plumbing Services offers commercial plumbing in Bhubaneswar for hotels, offices, hostels, PGs, shops, restaurants and apartment societies. From our base in Chandrasekharpur, we fix leaks and blockages, lay new lines and take maintenance contracts. Bigger jobs get a free site visit and written estimate. Call or WhatsApp +91 9668875352.
 
@@ -47,12 +47,12 @@ Commercial plumbing rates in Bhubaneswar (labour charges):
 | Service | Price |
 |---|---|
 | Visit / inspection (adjusted in final bill if work goes ahead) | ₹199–₹349 |
-| Minor fix (washer, small leak, loose fitting) | From ₹249 |
+| Minor fix (washer, small leak, loose fitting) | from ₹249 |
 | Tap / jet spray / flush kit install | ₹299–₹799 + parts |
-| Drain unclogging (sink / floor trap) | From ₹349 |
-| Toilet blockage removal | From ₹999 |
-| Water motor / pump repair | From ₹399 |
-| Geyser installation | From ₹699 |
+| Drain unclogging (sink / floor trap) | from ₹349 |
+| Toilet blockage removal | from ₹999 |
+| Water motor / pump repair | from ₹399 |
+| Geyser installation | from ₹699 |
 | Commercial AMC (hostels, PGs, offices, shops, hotels) | Price on request |
 | New house / bathroom plumbing (new lines, washroom fit-outs) | Quote after inspection (free site visit + written estimate) |
 | Concealed pipeline repair / reroute | Quote after free site visit + written estimate |
@@ -101,7 +101,7 @@ Where the job allows, we work floor by floor, so the rest of the building stays 
 
 Our base is District Center, Chandrasekharpur. We take commercial plumbing work in Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli. We also cover nearby Damana, Saheed Nagar and IRC Village, and all of Bhubaneswar.
 
-Searching for commercial plumbing near me for an IT office? See [office plumbing in Infocity](/areas/infocity/). Running a hostel or PG? See [plumber for hostels near KIIT](/areas/kiit/).
+Running an IT office? See [office plumbing in Infocity](/areas/infocity/). Running a hostel or PG? See [plumber for hostels near KIIT](/areas/kiit/).
 
 ## Related services
 
@@ -115,23 +115,23 @@ Searching for commercial plumbing near me for an IT office? See [office plumbing
 
 ### Do you clean water tanks and sumps for hotels and offices?
 
-Yes. We clean overhead tanks and sumps for hotels, offices, hostels, PGs, shops and apartment societies anywhere in Bhubaneswar. Share the number of tanks, their size and how to reach them on WhatsApp. Call or WhatsApp us for a quote. Our [water tank and sump cleaning](/services/water-tank-cleaning/) service covers this.
+Yes, Mahapatra Plumbing Services cleans overhead tanks and sumps for hotels, offices, hostels, PGs, shops and apartment societies anywhere in Bhubaneswar. Share the number of tanks, their size and how to reach them on WhatsApp. Call or WhatsApp us for a quote. Our [water tank and sump cleaning](/services/water-tank-cleaning/) service covers this.
 
 ### Can you clear grease from a restaurant kitchen drain?
 
-Yes. Restaurant and cafe sink lines choke with grease and food waste. We clear the sink trap and waste line, and check the outside chamber. Drain unclogging starts from ₹349. Ask your staff to scrape plates and keep oil out of the sink, to cut repeat blockages.
+Yes, Mahapatra Plumbing Services clears restaurant and cafe sink lines that choke with grease and food waste. We clear the sink trap and waste line, and check the outside chamber. Drain unclogging starts from ₹349. Ask your staff to scrape plates and keep oil out of the sink, to cut repeat blockages.
 
 ### Can you fix plumbing problems across many washrooms in one building?
 
-Yes. We check each washroom, tank and line, and list every fault in one written estimate. You can approve all the work or start with the urgent items. Where the job allows, we work floor by floor, so the rest of the building stays in use. The expected time is shared with the estimate.
+Yes, Mahapatra Plumbing Services checks each washroom, tank and line, and lists every fault in one written estimate. You can approve all the work or start with the urgent items. Where the job allows, we work floor by floor, so the rest of the building stays in use. The expected time is shared with the estimate.
 
 ### Do you fit geysers in hotel rooms and hostel bathrooms?
 
-Yes. We fit geysers in hotel rooms, hostel bathrooms and office washrooms, with geyser installation from ₹699. We also fix plumbing-side faults like inlet and outlet leaks, valves and tank-joint leaks. For heating element or wiring faults, we tell you if an electrician or the brand's service centre is needed.
+Yes, Mahapatra Plumbing Services fits geysers in hotel rooms, hostel bathrooms and office washrooms, with geyser installation from ₹699. We also fix plumbing-side faults like inlet and outlet leaks, valves and tank-joint leaks. For heating element or wiring faults, we tell you if an electrician or the brand's service centre is needed.
 
 ### Do you do plumbing for new offices, shops and washroom fit-outs?
 
-Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, and connect tanks and motors. We can also handle the tiling, plaster or civil work, after discussing it with you. Every fit-out is quoted after a free site visit and written estimate. Call or WhatsApp +91 9668875352 to book.
+Yes, Mahapatra Plumbing Services lays new water supply and drain lines, fits washrooms and pantry sinks, and connects tanks and motors. We can also handle the tiling, plaster or civil work, after discussing it with you. Every fit-out is quoted after a free site visit and written estimate. Call or WhatsApp +91 9668875352 to book.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -147,7 +147,9 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -161,7 +163,10 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -182,6 +187,11 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -310,7 +320,8 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/services/commercial-plumbing/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "Service",
@@ -349,7 +360,7 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
           "name": "Do you clean water tanks and sumps for hotels and offices?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We clean overhead tanks and sumps for hotels, offices, hostels, PGs, shops and apartment societies anywhere in Bhubaneswar. Share the number of tanks, their size and how to reach them on WhatsApp. Call or WhatsApp us for a quote. Our water tank and sump cleaning service covers this."
+            "text": "Yes, Mahapatra Plumbing Services cleans overhead tanks and sumps for hotels, offices, hostels, PGs, shops and apartment societies anywhere in Bhubaneswar. Share the number of tanks, their size and how to reach them on WhatsApp. Call or WhatsApp us for a quote. Our water tank and sump cleaning service covers this."
           }
         },
         {
@@ -357,7 +368,7 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
           "name": "Can you clear grease from a restaurant kitchen drain?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Restaurant and cafe sink lines choke with grease and food waste. We clear the sink trap and waste line, and check the outside chamber. Drain unclogging starts from ₹349. Ask your staff to scrape plates and keep oil out of the sink, to cut repeat blockages."
+            "text": "Yes, Mahapatra Plumbing Services clears restaurant and cafe sink lines that choke with grease and food waste. We clear the sink trap and waste line, and check the outside chamber. Drain unclogging starts from ₹349. Ask your staff to scrape plates and keep oil out of the sink, to cut repeat blockages."
           }
         },
         {
@@ -365,7 +376,7 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
           "name": "Can you fix plumbing problems across many washrooms in one building?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We check each washroom, tank and line, and list every fault in one written estimate. You can approve all the work or start with the urgent items. Where the job allows, we work floor by floor, so the rest of the building stays in use. The expected time is shared with the estimate."
+            "text": "Yes, Mahapatra Plumbing Services checks each washroom, tank and line, and lists every fault in one written estimate. You can approve all the work or start with the urgent items. Where the job allows, we work floor by floor, so the rest of the building stays in use. The expected time is shared with the estimate."
           }
         },
         {
@@ -373,7 +384,7 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
           "name": "Do you fit geysers in hotel rooms and hostel bathrooms?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We fit geysers in hotel rooms, hostel bathrooms and office washrooms, with geyser installation from ₹699. We also fix plumbing-side faults like inlet and outlet leaks, valves and tank-joint leaks. For heating element or wiring faults, we tell you if an electrician or the brand's service centre is needed."
+            "text": "Yes, Mahapatra Plumbing Services fits geysers in hotel rooms, hostel bathrooms and office washrooms, with geyser installation from ₹699. We also fix plumbing-side faults like inlet and outlet leaks, valves and tank-joint leaks. For heating element or wiring faults, we tell you if an electrician or the brand's service centre is needed."
           }
         },
         {
@@ -381,7 +392,7 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
           "name": "Do you do plumbing for new offices, shops and washroom fit-outs?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, and connect tanks and motors. We can also handle the tiling, plaster or civil work, after discussing it with you. Every fit-out is quoted after a free site visit and written estimate. Call or WhatsApp +91 9668875352 to book."
+            "text": "Yes, Mahapatra Plumbing Services lays new water supply and drain lines, fits washrooms and pantry sinks, and connects tanks and motors. We can also handle the tiling, plaster or civil work, after discussing it with you. Every fit-out is quoted after a free site visit and written estimate. Call or WhatsApp +91 9668875352 to book."
           }
         }
       ]

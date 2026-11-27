@@ -8,14 +8,14 @@ meta_description: Water tank cleaning in Bhubaneswar for homes, apartments and h
 primary_keyword: water tank cleaning bhubaneswar
 secondary_keywords: [water tank cleaning services near me, water tank cleaning services, sump cleaning, overhead tank cleaning, underground sump cleaning, apartment water tank cleaning]
 h1: Water Tank & Sump Cleaning in Bhubaneswar
-word_count: 1200
+word_count: 1199
 ---
 
 # Water Tank & Sump Cleaning in Bhubaneswar
 
 [BREADCRUMB: Home > Water Tank & Sump Cleaning]
 
-**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
+**5.0★ from 45 Google reviews** · **Visit ₹199–₹349, adjusted in your bill** · **Written estimate before work starts** · **Open daily 8 AM – 10 PM**
 
 Mahapatra Plumbing Services offers water tank cleaning in Bhubaneswar for overhead tanks, underground sumps and apartment tanks. We cover homes, flats, hostels, offices and shops anywhere in the city. Call or WhatsApp us for a quote on +91 9668875352. We are open daily, 8 AM to 10 PM.
 
@@ -96,7 +96,7 @@ Motor running dry or tank overflowing? That repair is quoted separately. See our
 
 ## Areas we cover for water tank cleaning
 
-We offer water tank cleaning anywhere in Bhubaneswar, including Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli. We also cover Damana, Saheed Nagar and IRC Village. If you searched for water tank cleaning services near me in Patia, see our [plumbing services in Patia](/areas/patia/) page.
+We offer water tank cleaning anywhere in Bhubaneswar, including Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli. We also cover Damana, Saheed Nagar and IRC Village. In Patia? See our [plumbing services in Patia](/areas/patia/) page.
 
 ## Related services
 
@@ -108,7 +108,7 @@ We offer water tank cleaning anywhere in Bhubaneswar, including Chandrasekharpur
 
 ### Do you clean water tanks for apartments and hostels?
 
-Yes. We offer water tank cleaning for apartments, hostels, PGs, hotels, offices and shops anywhere in Bhubaneswar. Share the number of sumps and overhead tanks, their rough size and a day that suits the residents. You get a written estimate before work starts. For regular building plumbing, ask about our commercial plumbing services.
+Yes, Mahapatra Plumbing Services offers water tank cleaning for apartments, hostels, PGs, hotels, offices and shops anywhere in Bhubaneswar. Share the number of sumps and overhead tanks, their rough size and a day that suits the residents. You get a written estimate before work starts. For regular building plumbing, ask about our commercial plumbing services.
 
 ### Should I clean the sump after muddy supply water or borewell sand?
 
@@ -120,11 +120,11 @@ Keep every lid closed and fix a broken lid quickly. Clean the sump and the overh
 
 ### Can you also fix a stuck float valve or leaking tank pipe?
 
-Yes. A stuck float valve, a dripping outlet valve or a loose overflow pipe is a repair job, not part of the cleaning. Tell us about it when you book, so we can check it during the same booking. Repairs are quoted separately, and the part price is shared before fitting.
+Yes, Mahapatra Plumbing Services fixes a stuck float valve, a dripping outlet valve or a loose overflow pipe as a repair job, not part of the cleaning. Tell us about it when you book, so we can check it during the same booking. Repairs are quoted separately, and the part price is shared before fitting.
 
 ### Do you clean plastic water tanks as well as concrete sumps?
 
-Yes. We cover plastic overhead tanks, concrete overhead tanks and concrete underground sumps. Tell us the tank type, its size in litres and where it sits on the roof or ground. Send a photo on WhatsApp to +91 9668875352. Call or WhatsApp us for a quote.
+Yes, Mahapatra Plumbing Services cleans plastic overhead tanks, concrete overhead tanks and concrete underground sumps. Tell us the tank type, its size in litres and where it sits on the roof or ground. Send a photo on WhatsApp to +91 9668875352. Call or WhatsApp us for a quote.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -144,7 +144,9 @@ Tell us how many tanks and sumps you have, their rough size and your area. Call 
       "alternateName": "Mahapatra Plumbing",
       "founder": {
         "@type": "Person",
-        "name": "Amaresh Mahapatra"
+        "@id": "https://mahapatraplumbing.in/#owner",
+        "name": "Amaresh Mahapatra",
+        "jobTitle": "Owner"
       },
       "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
@@ -158,7 +160,10 @@ Tell us how many tanks and sumps you have, their rough size and your area. Call 
         "telephone": "+91-9668875352",
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
-        "areaServed": "IN",
+        "areaServed": {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
         "availableLanguage": [
           "or",
           "hi",
@@ -179,6 +184,11 @@ Tell us how many tanks and sumps you have, their rough size and your area. Call 
           "closes": "22:00"
         }
       },
+      "knowsLanguage": [
+        "or",
+        "hi",
+        "en"
+      ],
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -307,7 +317,8 @@ Tell us how many tanks and sumps you have, their rough size and your area. Call 
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/services/water-tank-cleaning/#breadcrumb"
       },
-      "inLanguage": "en-IN"
+      "inLanguage": "en-IN",
+      "dateModified": "2026-11-27"
     },
     {
       "@type": "Service",
@@ -337,7 +348,7 @@ Tell us how many tanks and sumps you have, their rough size and your area. Call 
           "name": "Do you clean water tanks for apartments and hostels?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We offer water tank cleaning for apartments, hostels, PGs, hotels, offices and shops anywhere in Bhubaneswar. Share the number of sumps and overhead tanks, their rough size and a day that suits the residents. You get a written estimate before work starts. For regular building plumbing, ask about our commercial plumbing services."
+            "text": "Yes, Mahapatra Plumbing Services offers water tank cleaning for apartments, hostels, PGs, hotels, offices and shops anywhere in Bhubaneswar. Share the number of sumps and overhead tanks, their rough size and a day that suits the residents. You get a written estimate before work starts. For regular building plumbing, ask about our commercial plumbing services."
           }
         },
         {
@@ -361,7 +372,7 @@ Tell us how many tanks and sumps you have, their rough size and your area. Call 
           "name": "Can you also fix a stuck float valve or leaking tank pipe?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. A stuck float valve, a dripping outlet valve or a loose overflow pipe is a repair job, not part of the cleaning. Tell us about it when you book, so we can check it during the same booking. Repairs are quoted separately, and the part price is shared before fitting."
+            "text": "Yes, Mahapatra Plumbing Services fixes a stuck float valve, a dripping outlet valve or a loose overflow pipe as a repair job, not part of the cleaning. Tell us about it when you book, so we can check it during the same booking. Repairs are quoted separately, and the part price is shared before fitting."
           }
         },
         {
@@ -369,7 +380,7 @@ Tell us how many tanks and sumps you have, their rough size and your area. Call 
           "name": "Do you clean plastic water tanks as well as concrete sumps?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We cover plastic overhead tanks, concrete overhead tanks and concrete underground sumps. Tell us the tank type, its size in litres and where it sits on the roof or ground. Send a photo on WhatsApp to +91 9668875352. Call or WhatsApp us for a quote."
+            "text": "Yes, Mahapatra Plumbing Services cleans plastic overhead tanks, concrete overhead tanks and concrete underground sumps. Tell us the tank type, its size in litres and where it sits on the roof or ground. Send a photo on WhatsApp to +91 9668875352. Call or WhatsApp us for a quote."
           }
         }
       ]

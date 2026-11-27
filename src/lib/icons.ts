@@ -22,6 +22,7 @@ export const SERVICE_ICONS: Record<string, string> = {
 };
 /** Icon for an internal URL: service icon, pin for area pages, core-page icons otherwise. */
 export function iconForHref(href: string): string {
+  if (/^\/?#(quick-quote|book-a-visit)$/.test(href)) return 'wa'; // links to a WhatsApp form card
   const parts = href.split('/').filter(Boolean);
   if (parts[0] === 'services') return SERVICE_ICONS[parts[1]] || 'wrench';
   if (parts[0] === 'areas') return 'pin';
@@ -31,8 +32,9 @@ export function iconForHref(href: string): string {
 /** Icon for a trust-strip item, picked from its text. */
 export function trustIcon(text: string): string {
   if (/★|review/i.test(text)) return 'star';
-  if (/warranty/i.test(text)) return 'shield';
   if (/estimate/i.test(text)) return 'file';
+  if (/₹/.test(text)) return 'rupee';
+  if (/warranty/i.test(text)) return 'shield';
   if (/\d\s?(AM|PM)/.test(text)) return 'clock';
   if (/call|whatsapp/i.test(text)) return 'phone';
   if (/base:|chandrasekharpur/i.test(text)) return 'pin';
