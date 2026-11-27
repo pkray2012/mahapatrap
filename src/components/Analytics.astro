@@ -1,0 +1,52 @@
+---
+// Tracking pixels: rendered ONLY when at least one PUBLIC_* ID is set (Netlify env vars).
+// Loads after the first user interaction, or idle + 3 s, so Core Web Vitals are not affected.
+const cfg = {
+  gtm: import.meta.env.PUBLIC_GTM_ID || '',
+  ga4: import.meta.env.PUBLIC_GA4_ID || '',
+  clarity: import.meta.env.PUBLIC_CLARITY_ID || '',
+  gads: import.meta.env.PUBLIC_GADS_ID || '',
+  meta: import.meta.env.PUBLIC_META_PIXEL_ID || '',
+  uet: import.meta.env.PUBLIC_MS_UET_ID || '',
+};
+const any = Object.values(cfg).some(Boolean);
+---
+{any && (
+  <script is:inline define:vars={{ cfg }}>
+    (function () {
+      var done = false, w = window, d = document;
+      function js(src) { var s = d.createElement('script'); s.async = true; s.src = src; d.head.appendChild(s); }
+      function load() {
+        if (done) return; done = true;
+        w.dataLayer = w.dataLayer || [];
+        if (cfg.gtm) { w.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' }); js('https://www.googletagmanager.com/gtm.js?id=' + cfg.gtm); }
+        if (cfg.ga4 || cfg.gads) {
+          w.gtag = function () { w.dataLayer.push(arguments); };
+          w.gtag('js', new Date());
+          if (cfg.ga4) w.gtag('config', cfg.ga4);
+          if (cfg.gads) w.gtag('config', cfg.gads);
+          js('https://www.googletagmanager.com/gtag/js?id=' + (cfg.ga4 || cfg.gads));
+        }
+        if (cfg.clarity) { w.clarity = w.clarity || function () { (w.clarity.q = w.clarity.q || []).push(arguments); }; js('https://www.clarity.ms/tag/' + cfg.clarity); }
+        if (cfg.meta) {
+          var n = w.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments); };
+          if (!w._fbq) w._fbq = n; n.push = n; n.loaded = true; n.version = '2.0'; n.queue = [];
+          js('https://connect.facebook.net/en_US/fbevents.js');
+          w.fbq('init', cfg.meta); w.fbq('track', 'PageView');
+          var b = d.body.dataset;
+          if (b.pageType === 'service' || b.pageType === 'locality') w.fbq('track', 'ViewContent', { content_name: b.service || b.locality });
+        }
+        if (cfg.uet) { w.uetq = w.uetq || []; js('https://bat.bing.com/bat.js'); var t = setInterval(function () { if (w.UET) { clearInterval(t); w.uetq = new w.UET({ ti: cfg.uet, q: w.uetq }); w.uetq.push('pageLoad'); } }, 500); }
+        // Forward safe dataLayer events (no personal data) to direct pixels when GTM is not used.
+        w.__mpForward = function (ev, p) {
+          if (!cfg.gtm && w.gtag) w.gtag('event', ev, p);
+          if (w.fbq) { if (ev === 'call_click' || ev === 'whatsapp_click') w.fbq('track', 'Contact'); if (ev === 'whatsapp_form_submit') w.fbq('track', 'Lead'); }
+          if (cfg.uet && ev === 'generate_lead') { w.uetq = w.uetq || []; w.uetq.push('event', 'generate_lead', {}); }
+        };
+      }
+      ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (e) { w.addEventListener(e, load, { once: true, passive: true }); });
+      w.addEventListener('load', function () { var ric = w.requestIdleCallback || function (f) { setTimeout(f, 1); }; ric(function () { setTimeout(load, 3000); }); });
+      w.__mpLoad = load;
+    })();
+  </script>
+)}

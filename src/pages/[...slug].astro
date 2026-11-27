@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import Reviews from '../components/Reviews.astro';
+import { getPages, renderPage, type Page } from '../lib/content';
+import reviews from '../../content/data/reviews.json';
+
+export function getStaticPaths() {
+  return getPages().map((page) => ({
+    params: { slug: page.fm.url === '/' ? undefined : page.fm.url.replace(/^\/|\/$/g, '') },
+    props: { page },
+  }));
+}
+interface Props { page: Page }
+const { page } = Astro.props;
+const r = await renderPage(page);
+const showReviews = reviews.showOn.includes(page.fm.url);
+const reviewsAt = showReviews ? r.sections.findIndex((s) => /customers say/i.test(s.title)) : -1;
+const hasCard = Boolean(r.heroCard);
+const hasImg = Boolean(r.heroImage);
+---
+<Base page={page} title={page.fm.meta_title} description={page.fm.meta_description} canonicalPath={page.fm.url} jsonLd={page.jsonLdText}>
+  <section class="hero">
+    <div class:list={['wrap hero-grid', { 'no-card': !hasCard }]}>
+      <div class="hero-text md">
+        <Fragment set:html={r.breadcrumb} />
+        <h1 set:html={r.h1} />
+        <Fragment set:html={r.heroBlocks} />
+      </div>
+      {hasCard && <div class="hero-aside" set:html={r.heroCard} />}
+      {hasImg && <div class:list={['hero-img', { 'hero-aside': !hasCard }]} set:html={r.heroImage} />}
+    </div>
+  </section>
+  {r.sections.map((s, i) => (
+    <section id={s.id} class:list={['sec', { 'sec-tint': i % 2 === 0 }]}>
+      <div class="wrap md">
+        <h2 set:html={s.title} />
+        <Fragment set:html={s.html} />
+        {i === reviewsAt && <Reviews page={page} inline />}
+      </div>
+    </section>
+  ))}
+  {showReviews && reviewsAt < 0 && <Reviews page={page} />}
+</Base>

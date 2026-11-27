@@ -1,0 +1,29 @@
+{
+  "name": "mahapatraplumbing",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.23.4"
+  },
+  "scripts": {
+    "assets": "node scripts/make-assets.mjs",
+    "dev": "npm run assets && astro dev",
+    "build": "npm run assets && astro build",
+    "preview": "astro preview",
+    "check:links": "node scripts/check_links.mjs",
+    "check:size": "node scripts/size_report.mjs",
+    "check:pages": "python3 scripts/check_pages.py"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "astro": "^7.4.13",
+    "js-yaml": "^5.5.0",
+    "marked": "^18.3.0",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.3.5"
+  },
+  "devDependencies": {
+    "node-html-parser": "^9.0.7"
+  }
+}

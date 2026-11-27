@@ -4,6 +4,8 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Site built with Astro 7 + Tailwind 4 from content/pages (26 pages + 404, sitemap.xml, robots.txt, full-colour header logo, sticky mobile Call/WhatsApp bar, WhatsApp forms, map facade, reviews strip, tracking hooks, netlify.toml); Lighthouse mobile 100/100/100/100 on 5 pages, link/canonical/size checks pass (docs/audits/2026-11-27-build-performance.md).
+- Owner supplied full-colour horizontal logo SVG (brand/final/mahapatra-logo-horizontal-colour.svg + @2x PNG export) = header logo; brand board kept as reference (brand/reference-brand-board.svg, raster inside).
 - Build stack decided: Astro (static HTML, zero JS by default) + Tailwind on Netlify, replacing Next.js from the original brief, for mobile speed. Spec with mobile speed budget in docs/build-spec.md.
 - reviews.json: added Sridhar Rana and Saumya Mishra excerpts (5 total), page-to-review matching, shown on 10 pages. Signed-out Google Maps limits visible reviews; owner-side export needed for more.
 - Added content/data/reviews.json: 3 real Google review excerpts (Kshirod Mahanta, AK, Kalyan Pradhan) + rating 5.0 from 45 (43×5★, 2×4★), read from the public Google Maps listing in a cloud browser. Rendered as a shared reviews strip in the build (visible text only, no review schema). Noted: GBP still shows 'Open 24 hours', no phone, http website link.

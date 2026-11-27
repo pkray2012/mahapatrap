@@ -1,0 +1,27 @@
+---
+// Reviews strip from content/data/reviews.json. Visible text only: no Review / aggregateRating schema.
+import data from '../../content/data/reviews.json';
+import { icon } from '../lib/icons';
+import { esc, type Page } from '../lib/content';
+interface Props { page: Page; inline?: boolean }
+const { page, inline = false } = Astro.props;
+const match = (data.pageMatch as Record<string, string[]>)[page.fm.url] || data.pageMatch.default;
+const reviews = match.map((n) => data.reviews.find((r) => r.name === n)).filter(Boolean) as typeof data.reviews;
+const stars = (n: number) => Array.from({ length: n }, () => icon('star')).join('');
+const five = data.breakdown['5'];
+---
+{inline ? (
+  <div class="reviews-inline">
+    <ul class="revs" set:html={reviews.map((r) => `<li class="card rev"><figure class="flex flex-col gap-2 h-full"><div class="stars" role="img" aria-label="${r.stars} out of 5 stars">${stars(r.stars)}</div><blockquote><p>“${esc(r.excerpt)}”</p></blockquote><figcaption><strong>${esc(r.name)}</strong>${r.label ? `, ${esc(r.label)}` : ''} · Google review</figcaption></figure></li>`).join('')} />
+    <p><a class="btn btn-outline" href={data.googleMapsUrl} target="_blank" rel="noopener" data-track="outbound_click" data-cta-location="inline_content" data-page-type={page.fm.page_type}>Read all reviews on Google</a></p>
+  </div>
+) : (
+  <section class="sec sec-tint" aria-labelledby="reviews-title">
+    <div class="wrap">
+      <h2 id="reviews-title">What customers say on Google</h2>
+      <p class="flex items-center gap-2 font-semibold text-navy"><span class="stars" aria-hidden="true" set:html={stars(5)} />{data.rating.toFixed(1)}★ from {data.reviewCount} Google reviews ({five} five-star)</p>
+      <ul class="revs" set:html={reviews.map((r) => `<li class="card rev"><figure class="flex flex-col gap-2 h-full"><div class="stars" role="img" aria-label="${r.stars} out of 5 stars">${stars(r.stars)}</div><blockquote><p>“${esc(r.excerpt)}”</p></blockquote><figcaption><strong>${esc(r.name)}</strong>${r.label ? `, ${esc(r.label)}` : ''} · Google review</figcaption></figure></li>`).join('')} />
+      <p><a class="btn btn-outline" href={data.googleMapsUrl} target="_blank" rel="noopener" data-track="outbound_click" data-cta-location="inline_content" data-page-type={page.fm.page_type}>Read all reviews on Google</a></p>
+    </div>
+  </section>
+)}

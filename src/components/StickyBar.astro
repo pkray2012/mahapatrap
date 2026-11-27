@@ -1,0 +1,6 @@
+---
+import { callButton, waButton, type Page } from '../lib/content';
+interface Props { page: Page }
+const { page } = Astro.props;
+---
+<nav class="mbar" aria-label="Call or WhatsApp" set:html={callButton(page, 'sticky_mobile_bar', 'Call') + waButton(page, 'sticky_mobile_bar', 'WhatsApp')} />

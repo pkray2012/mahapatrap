@@ -1,0 +1,30 @@
+---
+import Base from '../layouts/Base.astro';
+import { services, callButton, waButton, type Page } from '../lib/content';
+// Minimal page object for the chrome (tracking attributes, WhatsApp prefill).
+const page = {
+  file: '404', slug: '404', fm: { url: '/404/', page_type: 'legal', page_tag: '404', whatsapp_prefill: 'Hi, I need a plumber in Bhubaneswar [Page: 404]', meta_title: '', meta_description: '', h1: '' },
+  body: '', jsonLdText: '', graph: [], breadcrumb: [], faqs: new Map(), navName: '404',
+} as unknown as Page;
+const svc = services();
+---
+<Base page={page} title="Page not found | Mahapatra Plumbing Services" description="This page does not exist. Find plumbing services in Bhubaneswar, rates and contact details for Mahapatra Plumbing Services." noindex>
+  <section class="hero">
+    <div class="wrap py-12 md">
+      <h1>Sorry, this page was not found</h1>
+      <p>The link may be old or mistyped. Call or WhatsApp us, or pick a page below.</p>
+      <div class="cta-row" set:html={callButton(page, 'inline_content') + waButton(page, 'inline_content')} />
+    </div>
+  </section>
+  <section class="sec">
+    <div class="wrap md">
+      <h2>Popular pages</h2>
+      <ul class="chips">
+        <li><a href="/">Home</a></li>
+        <li><a href="/pricing/">Pricing</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        {svc.map((p) => <li><a href={p.fm.url}>{p.navName}</a></li>)}
+      </ul>
+    </div>
+  </section>
+</Base>
