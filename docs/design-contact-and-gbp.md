@@ -43,7 +43,7 @@ Superseded (27 Nov 2026, round 2 audit): the old Plumber template that stood her
 | Role | Colour | Use |
 |---|---|---|
 | Navy (brand primary) | #0A2A5C | Top bar, headings, footer, dark sections, logo |
-| Blue (action) | #0A7CC4 (hover #0866A3) | Call Now, Get a Quote, links, active states |
+| Blue (action) | #0866A3 buttons (hover #07578C); #0A7CC4 for icons, accents, borders | Call Now, Get a Quote, links, active states. Owner decision 27 Nov 2026: buttons use the darker blue so white text passes WCAG AA at normal size (6.1:1); #0A7CC4 with white text is only 4.47:1. |
 | Orange (accent) | #F7901E | Small highlights only: locality word in hero headline, "Most booked" label, icons |
 | Light tint | #EAF2FA | Section backgrounds, table header rows |
 | Page background | #F8FAFC | Body background |

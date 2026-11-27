@@ -4,6 +4,7 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Owner: buttons/links use darker blue #0866A3 (hover #07578C), white text 6.1:1 contrast, normal-size text; #0A7CC4 kept for icons/accents.
 - Site built with Astro 7 + Tailwind 4 from content/pages (26 pages + 404, sitemap.xml, robots.txt, full-colour header logo, sticky mobile Call/WhatsApp bar, WhatsApp forms, map facade, reviews strip, tracking hooks, netlify.toml); Lighthouse mobile 100/100/100/100 on 5 pages, link/canonical/size checks pass (docs/audits/2026-11-27-build-performance.md).
 - Owner supplied full-colour horizontal logo SVG (brand/final/mahapatra-logo-horizontal-colour.svg + @2x PNG export) = header logo; brand board kept as reference (brand/reference-brand-board.svg, raster inside).
 - Build stack decided: Astro (static HTML, zero JS by default) + Tailwind on Netlify, replacing Next.js from the original brief, for mobile speed. Spec with mobile speed budget in docs/build-spec.md.
