@@ -1,6 +1,10 @@
 ---
 // Tracking pixels: rendered ONLY when at least one PUBLIC_* ID is set (Netlify env vars).
-// Loads after the first user interaction, or idle + 3 s, so Core Web Vitals are not affected.
+// With PUBLIC_GTM_ID set, ONLY GTM is loaded (GA4 / Ads / Clarity / Meta / UET tags live inside GTM).
+// The direct tags below are the fallback when no GTM ID is set.
+// Loading starts 3 s after the load event in an idle period (requestIdleCallback), or after the first
+// interaction, scheduled as a separate idle task so it never runs inside the tap handler.
+// This loader does NOT check consent (no consent banner exists yet; see docs/tracking-plan.md §5b).
 const cfg = {
   gtm: import.meta.env.PUBLIC_GTM_ID || '',
   ga4: import.meta.env.PUBLIC_GA4_ID || '',
@@ -15,11 +19,17 @@ const any = Object.values(cfg).some(Boolean);
   <script is:inline define:vars={{ cfg }}>
     (function () {
       var done = false, w = window, d = document;
+      var ric = w.requestIdleCallback || function (f) { return setTimeout(f, 1); };
       function js(src) { var s = d.createElement('script'); s.async = true; s.src = src; d.head.appendChild(s); }
       function load() {
         if (done) return; done = true;
         w.dataLayer = w.dataLayer || [];
-        if (cfg.gtm) { w.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' }); js('https://www.googletagmanager.com/gtm.js?id=' + cfg.gtm); }
+        if (cfg.gtm) {
+          // GTM owns every other tag: nothing else is loaded, so GA4 page views are not double-counted.
+          w.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
+          js('https://www.googletagmanager.com/gtm.js?id=' + cfg.gtm);
+          return;
+        }
         if (cfg.ga4 || cfg.gads) {
           w.gtag = function () { w.dataLayer.push(arguments); };
           w.gtag('js', new Date());
@@ -36,16 +46,30 @@ const any = Object.values(cfg).some(Boolean);
           var b = d.body.dataset;
           if (b.pageType === 'service' || b.pageType === 'locality') w.fbq('track', 'ViewContent', { content_name: b.service || b.locality });
         }
-        if (cfg.uet) { w.uetq = w.uetq || []; js('https://bat.bing.com/bat.js'); var t = setInterval(function () { if (w.UET) { clearInterval(t); w.uetq = new w.UET({ ti: cfg.uet, q: w.uetq }); w.uetq.push('pageLoad'); } }, 500); }
-        // Forward safe dataLayer events (no personal data) to direct pixels when GTM is not used.
+        if (cfg.uet) {
+          w.uetq = w.uetq || []; js('https://bat.bing.com/bat.js');
+          // Poll for bat.js at most 20 times (10 s); stop quietly if an ad blocker removed it.
+          var tries = 0, t = setInterval(function () {
+            if (w.UET) { clearInterval(t); w.uetq = new w.UET({ ti: cfg.uet, q: w.uetq }); w.uetq.push('pageLoad'); }
+            else if (++tries >= 20) clearInterval(t);
+          }, 500);
+        }
+        // Forward safe dataLayer events (no personal data) to the direct tags (fallback mode only).
         w.__mpForward = function (ev, p) {
-          if (!cfg.gtm && w.gtag) w.gtag('event', ev, p);
+          if (w.gtag) w.gtag('event', ev, p);
           if (w.fbq) { if (ev === 'call_click' || ev === 'whatsapp_click') w.fbq('track', 'Contact'); if (ev === 'whatsapp_form_submit') w.fbq('track', 'Lead'); }
           if (cfg.uet && ev === 'generate_lead') { w.uetq = w.uetq || []; w.uetq.push('event', 'generate_lead', {}); }
         };
       }
-      ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (e) { w.addEventListener(e, load, { once: true, passive: true }); });
-      w.addEventListener('load', function () { var ric = w.requestIdleCallback || function (f) { setTimeout(f, 1); }; ric(function () { setTimeout(load, 3000); }); });
+      var evs = ['pointerdown', 'keydown', 'scroll', 'touchstart'];
+      function soon() {
+        evs.forEach(function (e) { w.removeEventListener(e, soon); });
+        ric(load, { timeout: 2000 }); // off the interaction handler: runs as its own idle task
+      }
+      // Bubbling listeners on window: page scroll counts, scrolling inside a table or the reviews strip does not.
+      evs.forEach(function (e) { w.addEventListener(e, soon, { passive: true }); });
+      function idle() { setTimeout(function () { ric(load, { timeout: 2000 }); }, 3000); } // idle + 3 s after load
+      if (d.readyState === 'complete') idle(); else w.addEventListener('load', idle, { once: true });
       w.__mpLoad = load;
     })();
   </script>

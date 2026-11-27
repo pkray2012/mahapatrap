@@ -8,7 +8,7 @@ meta_description: Plumber in Niladri Vihar for water motors, sumps, overhead tan
 primary_keyword: plumber in niladri vihar
 secondary_keywords: []
 h1: Plumber in Niladri Vihar, Bhubaneswar
-word_count: 833
+word_count: 835
 ---
 
 # Plumber in Niladri Vihar, Bhubaneswar
@@ -113,7 +113,7 @@ Yes. You can book sump and overhead tank cleaning along with a motor or tank rep
 **Mahapatra Plumbing Services**
 District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016
 Phone / WhatsApp: [+91 9668875352](tel:+919668875352)
-Open daily 8 AM – 10 PM. [Contact page](/contact/)
+Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
 
 ## JSON-LD
 
@@ -137,6 +137,32 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
       "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9668875352",
+        "email": "amareshmohapatra143@gmail.com",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": [
+          "or",
+          "hi",
+          "en"
+        ],
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      },
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -206,6 +232,18 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
         {
           "@type": "Place",
           "name": "Nayapalli, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Damana, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Saheed Nagar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "IRC Village, Bhubaneswar"
         }
       ],
       "knowsAbout": [

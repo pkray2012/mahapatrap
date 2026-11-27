@@ -14,5 +14,10 @@ export default defineConfig({
   prefetch: false,
   compressHTML: true,
   devToolbar: { enabled: false },
-  vite: { plugins: [tailwindcss()] },
+  vite: {
+    plugins: [tailwindcss()],
+    // Never inline the site script: it is served as one hashed /_astro/*.js file (cached for a year), which keeps
+    // every HTML page inside the first ~14 KB round trip.
+    build: { assetsInlineLimit: 0 },
+  },
 });

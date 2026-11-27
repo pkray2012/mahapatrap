@@ -166,6 +166,32 @@ Tell us your geyser problem and your area. Call or WhatsApp +91 9668875352, or s
       "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9668875352",
+        "email": "amareshmohapatra143@gmail.com",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": [
+          "or",
+          "hi",
+          "en"
+        ],
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      },
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -235,6 +261,18 @@ Tell us your geyser problem and your area. Call or WhatsApp +91 9668875352, or s
         {
           "@type": "Place",
           "name": "Nayapalli, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Damana, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Saheed Nagar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "IRC Village, Bhubaneswar"
         }
       ],
       "knowsAbout": [

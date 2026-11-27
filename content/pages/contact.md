@@ -47,7 +47,7 @@ By sending, you agree we may use your number to reply on WhatsApp. See our [Priv
 
 ## Where is Mahapatra Plumbing Services located?
 
-Mahapatra Plumbing Services is at District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016. No walk-ins, please: call or WhatsApp first and we come to you. From here we serve [Chandrasekharpur](/areas/chandrasekharpur/), Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli, and all of Bhubaneswar. Bigger jobs like [septic tank cleaning in Bhubaneswar](/services/septic-tank-cleaning/) are done anywhere in the city.
+Mahapatra Plumbing Services is at District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016. No walk-ins, please: call or WhatsApp first and we come to you. From here we serve [Chandrasekharpur](/areas/chandrasekharpur/), Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli, and [all of Bhubaneswar](/). Bigger jobs like [septic tank cleaning in Bhubaneswar](/services/septic-tank-cleaning/) are done anywhere in the city.
 
 [MAP: google-maps-listing | full map on the Contact page; static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="Get directions" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click | cta_location=contact_page]
 
@@ -104,6 +104,32 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
       "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9668875352",
+        "email": "amareshmohapatra143@gmail.com",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": [
+          "or",
+          "hi",
+          "en"
+        ],
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      },
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -173,6 +199,18 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
         {
           "@type": "Place",
           "name": "Nayapalli, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Damana, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Saheed Nagar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "IRC Village, Bhubaneswar"
         }
       ],
       "knowsAbout": [
@@ -191,32 +229,6 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
         "Commercial plumbing and maintenance contracts"
       ],
       "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91-9668875352",
-        "email": "amareshmohapatra143@gmail.com",
-        "contactType": "customer service",
-        "areaServed": "IN",
-        "availableLanguage": [
-          "or",
-          "hi",
-          "en"
-        ],
-        "hoursAvailable": {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-            "Sunday"
-          ],
-          "opens": "08:00",
-          "closes": "22:00"
-        }
-      },
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]

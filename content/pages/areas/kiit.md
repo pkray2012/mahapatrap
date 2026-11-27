@@ -8,7 +8,7 @@ meta_description: Plumber near KIIT for hostels, PGs and student flats. Blocked 
 primary_keyword: plumber near kiit
 secondary_keywords: [plumber for hostel near kiit]
 h1: Plumber near KIIT, Bhubaneswar (Hostels, PGs & Homes)
-word_count: 884
+word_count: 894
 ---
 
 <!-- Hero. Accent colour on "KIIT" in the H1. -->
@@ -86,7 +86,7 @@ See the visit charge, parts and payment details on our page of [plumber charges 
 
 ## Which nearby areas do you cover from KIIT?
 
-We serve all of Bhubaneswar from District Center, Chandrasekharpur. Next to KIIT, we work in Patia houses and rented flats, and in Infocity offices and apartments.
+We are a [plumber in Bhubaneswar](/) based at District Center, Chandrasekharpur, and we serve the whole city. Next to KIIT, we work in Patia houses and rented flats, and in Infocity offices and apartments.
 
 - [Plumber in Patia](/areas/patia/) (houses and rented flats)
 - [Plumber in Infocity](/areas/infocity/) (offices and apartments)
@@ -118,11 +118,11 @@ Yes. We take water tank and sump cleaning for hostels, PGs and homes near KIIT a
 
 ### Is Mahapatra Plumbing Services part of KIIT?
 
-No. Mahapatra Plumbing Services is an independent local plumber based at District Center, Chandrasekharpur. We are not connected with KIIT university. We use the name only to describe the area, where we work for private hostels, PGs, student flats and family homes. Call +91 9668875352 to book.
+No. [Mahapatra Plumbing Services](/about/) is an independent local plumber based at District Center, Chandrasekharpur. We are not connected with KIIT university. We use the name only to describe the area, where we work for private hostels, PGs, student flats and family homes. Call +91 9668875352 to book.
 
 [CTA: call+whatsapp | location=faq]
 
-Address, email and hours: [contact page](/contact/).
+Address, email and hours: [contact Mahapatra Plumbing Services](/contact/).
 
 ## JSON-LD
 ```json
@@ -145,6 +145,32 @@ Address, email and hours: [contact page](/contact/).
       "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9668875352",
+        "email": "amareshmohapatra143@gmail.com",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": [
+          "or",
+          "hi",
+          "en"
+        ],
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      },
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -214,6 +240,18 @@ Address, email and hours: [contact page](/contact/).
         {
           "@type": "Place",
           "name": "Nayapalli, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Damana, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Saheed Nagar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "IRC Village, Bhubaneswar"
         }
       ],
       "knowsAbout": [

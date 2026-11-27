@@ -11,7 +11,7 @@ Goal: know exactly which page, which button and which service brings every call 
 | `whatsapp_form_submit` | Quick Quote or Book a Visit form opens WhatsApp | form_id, cta_location, page_type, service | Yes |
 | `generate_lead` | Fired together with each of the three events above (one standard lead event for Google Ads / GA4) | lead_channel (call / whatsapp / whatsapp_form), cta_location, service | Yes (primary conversion) |
 | `email_click` | `mailto:` link tapped | cta_location | No |
-| `directions_click` | "Get directions" / Open in Maps tapped | cta_location | No |
+| `directions_click` | "Get directions" / Open in Maps tapped: the footer "Get directions" link on every page (cta_location `footer`) and the map facade button (added 27 Nov 2026) | cta_location, page_type, link_domain | No |
 | `map_interaction` | Embedded Google Map clicked | page_type | No |
 | `pricing_view` | Rate-card table scrolled into view (50% visible) | page_type, service | No |
 | `faq_open` | An FAQ accordion item is opened | question_id, page_type | No |
@@ -41,7 +41,7 @@ Every CTA is a real `<a>` tag (no JavaScript-only buttons), so GTM "Just Links" 
 Allowed `data-cta-location` values (fixed list, used in reports):
 `top_bar`, `header`, `hero`, `quick_quote_form`, `service_card`, `pricing_table`, `inline_content`, `faq`, `book_visit_form`, `contact_page`, `footer`, `sticky_mobile_bar`, `floating_whatsapp`.
 
-Allowed `data-page-type` values: `home`, `service`, `locality`, `pricing`, `about`, `contact`, `legal` (privacy policy).
+Allowed `data-page-type` values: `home`, `service`, `locality`, `pricing`, `about`, `contact`, `legal` (privacy policy only), `404` (the not-found page, added 27 Nov 2026 so its clicks are not counted as privacy-page clicks).
 
 `data-service` = page slug (e.g. `septic-tank-cleaning`, `bathroom-plumbing-renovation`); `data-locality` on locality pages (e.g. `patia`). The front-matter `page_tag` feeds only the WhatsApp `[Page: ...]` tag, not `data-service`.
 
@@ -93,6 +93,7 @@ document.addEventListener('click', (e) => {
 - If a variable is empty, nothing is rendered: no placeholder IDs, no console errors.
 - Preferred setup: GTM only on the page; GA4, Google Ads and Clarity tags are added inside GTM. Direct GA4/Clarity tags are a fallback when GTM is not used.
 - Scripts load after the page is interactive so Core Web Vitals stay at 95+ on mobile.
+- As built (27 Nov 2026, `src/components/Analytics.astro`): with `PUBLIC_GTM_ID` set, **only GTM loads**, even if other IDs are set (GTM owns GA4, Ads, Clarity, Meta and UET, so nothing is double-counted). Without a GTM ID, each direct tag loads only when its own ID is set. Loading starts 3 s after the page's load event in an idle period (`requestIdleCallback`), or after the first tap/key/scroll, scheduled as its own idle task (never inside the tap handler). The UET poll stops after 10 s if `bat.js` is blocked. The loader does **not** check consent; add a consent check here if a consent banner is ever needed.
 - Set in Netlify → Site configuration → Environment variables. Nothing secret goes into the public repo.
 
 ## 5b. Ad platform pixels (for future ads, agreed 27 Nov 2026)

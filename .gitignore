@@ -9,3 +9,4 @@ out/
 *.log
 dist/
 .astro/
+docs/audits/qa3-screens/

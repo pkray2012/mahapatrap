@@ -8,7 +8,7 @@ meta_description: Plumber in Bhubaneswar for leaks, taps, geysers, drains, septi
 primary_keyword: plumber in bhubaneswar
 secondary_keywords: [plumber bhubaneswar, plumber near me, plumber service in bhubaneswar, plumbing services bhubaneswar, plumber near me home service]
 h1: Plumber in Bhubaneswar for Repairs, Renovation & Septic Cleaning
-word_count: 1185
+word_count: 1188
 ---
 
 <!-- Hero. Accent colour on the word "Bhubaneswar" in the H1. -->
@@ -53,16 +53,16 @@ Mahapatra Plumbing Services covers plumbing services in Bhubaneswar, from small 
 
 - **[Leak & Blockage Repair](/services/leak-and-blockage-repair/)**: Dripping taps, leaking pipes and running flush tanks. From ₹249.
 - **[Bathroom & Kitchen Fittings](/services/bathroom-and-kitchen-fittings/)**: Taps, jet sprays, flush kits and sinks fitted. From ₹299 plus parts.
-- **[Geyser Installation & Repair](/services/geyser-installation-and-repair/)**: Geyser service ₹499, installation from ₹699.
+- **[Geyser Repair & Installation](/services/geyser-installation-and-repair/)**: Geyser service ₹499, installation from ₹699.
 - **[Water Tank & Motor Repair](/services/water-tank-and-motor-repair/)**: Motor, pump, overhead tank and sump problems. From ₹399.
-- **[Pipeline & Concealed Plumbing](/services/pipeline-and-concealed-plumbing/)**: Hidden wall leaks repaired and pipes rerouted. Quote after inspection.
+- **[Concealed Pipeline Repair & CPVC Plumbing](/services/pipeline-and-concealed-plumbing/)**: Hidden wall leaks repaired and pipes rerouted. Quote after inspection.
 - **[Drain Cleaning & Sewer Jetting](/services/drain-cleaning-and-sewer-jetting/)**: Choked sinks, traps and toilets cleared. From ₹349.
 
 ### Bigger jobs anywhere in Bhubaneswar
 
 - **[Septic Tank Cleaning](/services/septic-tank-cleaning/)**: Septic and sewage tanks cleaned. From ₹2,999, by tank size.
-- **[Bathroom & Kitchen Plumbing Renovation](/services/bathroom-plumbing-renovation/)**: Old bathroom or kitchen fully re-plumbed.
-- **[New Bathroom & House Plumbing](/services/new-bathroom-and-house-plumbing/)**: Plumbing for a new house, flat or extra bathroom.
+- **[Bathroom Renovation Plumbing](/services/bathroom-plumbing-renovation/)**: Old bathroom or kitchen fully re-plumbed.
+- **[New House & Bathroom Plumbing](/services/new-bathroom-and-house-plumbing/)**: Plumbing for a new house, flat or extra bathroom.
 - **[Sewerage & Drainage Works](/services/sewerage-and-drainage-works/)**: New sewer lines, drainage lines and soak pit connections.
 - **[Water Tank & Sump Cleaning](/services/water-tank-cleaning/)**: Overhead tanks and underground sumps. Call or WhatsApp us for a quote.
 - **[Borewell Pump & Pipe Repair](/services/borewell-pump-and-pipe-repair/)**: Pump and pipe repair on existing borewells. Quote after inspection.
@@ -169,7 +169,7 @@ By sending, you agree we may use your number to reply on WhatsApp. See our [Priv
 District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016
 Phone / WhatsApp: [+91 9668875352](tel:+919668875352)
 Email: [amareshmohapatra143@gmail.com](mailto:amareshmohapatra143@gmail.com)
-Open daily 8 AM – 10 PM. [Contact page](/contact/)
+Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
 
 ## JSON-LD
 ```json
@@ -192,6 +192,32 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
       "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9668875352",
+        "email": "amareshmohapatra143@gmail.com",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": [
+          "or",
+          "hi",
+          "en"
+        ],
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      },
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -261,6 +287,18 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
         {
           "@type": "Place",
           "name": "Nayapalli, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Damana, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Saheed Nagar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "IRC Village, Bhubaneswar"
         }
       ],
       "knowsAbout": [

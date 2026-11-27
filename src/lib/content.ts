@@ -3,7 +3,6 @@
 // Any other [UPPERCASE: ...] marker fails the build. "## JSON-LD" and "## Facts to confirm" are not rendered.
 import { Marked } from 'marked';
 import { load as yamlLoad } from 'js-yaml';
-import fs from 'node:fs';
 import path from 'node:path';
 import { getImage } from 'astro:assets';
 import { SITE, waLink, AREA_OPTIONS, SERVICE_ORDER, AREA_ORDER } from './site';
@@ -14,7 +13,7 @@ const marked = new Marked({ gfm: true, breaks: true });
 // ---------- types ----------
 export interface FrontMatter {
   url: string;
-  page_type: 'home' | 'service' | 'locality' | 'pricing' | 'about' | 'contact' | 'legal';
+  page_type: 'home' | 'service' | 'locality' | 'pricing' | 'about' | 'contact' | 'legal' | '404';
   whatsapp_prefill: string;
   page_tag: string;
   meta_title: string;
@@ -70,6 +69,7 @@ export const esc = (s: string) =>
   String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 export const slugify = (s: string) =>
   s.toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
+const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
 const cleanInline = (s: string) => s.replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/\*\*|`/g, '').trim();
 
 export interface Ctx {
@@ -143,43 +143,27 @@ function renderCta(ctx: Ctx, mk: ReturnType<typeof parseMarker>) {
 }
 
 // ---------- IMAGE ----------
+// Real job photos live in src/assets/photos/<name>.(webp|jpg|jpeg|png|avif); the marker's file name (any extension)
+// is matched by base name and the photo is emitted as AVIF + WebP with a responsive srcset.
+// Until a photo exists the marker renders NOTHING (no placeholder box, no caption).
 const PHOTOS = import.meta.glob('/src/assets/photos/*.{webp,jpg,jpeg,png,avif}', { eager: true, import: 'default' }) as Record<string, ImageMetadata>;
-
-function placeholderIcon(file: string) {
-  if (/amaresh|team|contact|owner/.test(file)) return 'user';
-  if (/estimate/.test(file)) return 'file';
-  if (/leak|drain|tank|septic|sewer|sump|water|whatsapp|borewell|motor|pump/.test(file)) return 'drop';
-  return 'wrench';
-}
-function shortCaption(alt: string) {
-  let c = alt.replace(/^Mahapatra Plumbing Services\s+/, '').replace(/^Mahapatra\s+/, '');
-  c = c.charAt(0).toUpperCase() + c.slice(1);
-  return c;
-}
 
 async function renderImage(ctx: Ctx, mk: ReturnType<typeof parseMarker>, hero = false) {
   const file = mk.head.trim();
   const alt = mk.attrs.alt || '';
   const base = file.replace(/\.[a-z]+$/, '');
   const photoKey = Object.keys(PHOTOS).find((k) => path.basename(k).replace(/\.[a-z]+$/, '') === base);
-  const loading = hero ? 'eager' : 'lazy';
-  const fp = hero ? ' fetchpriority="high"' : '';
-  if (photoKey) {
-    const src = PHOTOS[photoKey];
-    const widths = [400, 800, 1200].filter((w) => w <= src.width);
-    const sizes = hero ? '(min-width: 768px) 40vw, 100vw' : '(min-width: 768px) 448px, 100vw';
-    const avif = await getImage({ src, widths, format: 'avif', sizes });
-    const webp = await getImage({ src, widths, format: 'webp', sizes });
-    return `<figure class="photo"><picture><source type="image/avif" srcset="${avif.srcSet.attribute}" sizes="${sizes}"><img src="${webp.src}" srcset="${webp.srcSet.attribute}" sizes="${sizes}" width="${src.width}" height="${src.height}" alt="${esc(alt)}" loading="${loading}" decoding="async"${fp}></picture></figure>`;
-  }
-  const pub = path.join(process.cwd(), 'public/images', file);
-  if (fs.existsSync(pub)) {
-    const { default: sharp } = await import('sharp');
-    const meta = await sharp(pub).metadata();
-    return `<figure class="photo"><img src="/images/${esc(file)}" width="${meta.width}" height="${meta.height}" alt="${esc(alt)}" loading="${loading}" decoding="async"${fp}></figure>`;
-  }
-  // No photo yet: fixed-ratio placeholder (no CLS), icon + short caption. The alt text is kept as the caption.
-  return `<figure class="ph${hero ? ' ph-hero' : ''}" data-image-slot="${esc(file)}"><div class="ph-box" aria-hidden="true">${icon(placeholderIcon(file), 'ph-ico')}${icon('camera', 'ph-cam')}</div><figcaption>${esc(shortCaption(alt))}</figcaption></figure>`;
+  if (!photoKey) return '';
+  // On mobile the H1 + intro text are always first on screen (text is the LCP element), so no photo is ever
+  // fetchpriority="high"/eager: hero photos sit below the text (and below the Quick Quote card on service pages).
+  // Chrome's lazy-load margin still fetches a hero photo straight away when it is near the viewport.
+  const src = PHOTOS[photoKey];
+  const widths = [400, 800, 1200].filter((w) => w <= src.width);
+  if (!widths.length) widths.push(src.width);
+  const sizes = hero ? '(min-width: 900px) 40vw, 100vw' : '(min-width: 768px) 448px, 100vw';
+  const avif = await getImage({ src, widths, format: 'avif', sizes });
+  const webp = await getImage({ src, widths, format: 'webp', sizes });
+  return `<figure class="photo"><picture><source type="image/avif" srcset="${avif.srcSet.attribute}" sizes="${sizes}"><img src="${webp.src}" srcset="${webp.srcSet.attribute}" sizes="${sizes}" width="${src.width}" height="${src.height}" alt="${esc(alt)}" loading="lazy" decoding="async"></picture></figure>`;
 }
 
 // ---------- MAP ----------
@@ -198,14 +182,16 @@ export function renderForm(page: Page, o: { formId: 'quick_quote' | 'book_visit'
   const id = o.id || (o.formId === 'quick_quote' ? 'quick-quote' : 'book-a-visit');
   const selArea = page.fm.page_type === 'locality' ? page.slug : '';
   const opts = AREA_OPTIONS.map(([v, l]) => `<option${v === selArea ? ' selected' : ''}>${esc(l)}</option>`).join('');
+  // Fields have no `name` attribute: if the script has not run, a native submit sends nothing (no personal data
+  // in a URL). site.ts reads them by data-f. Phone accepts 10 digits with optional 0 / 91 / +91 and spaces or dashes.
   return `<form id="${id}" class="wa-form" data-wa-form data-form-id="${o.formId}" ${trackAttrs(page, 'whatsapp_form_submit', o.loc)} data-template="${esc(o.template)}">
-<div class="fld"><label for="${pre}-name">Name</label><input id="${pre}-name" name="name" type="text" autocomplete="name" required maxlength="60"></div>
-<div class="fld"><label for="${pre}-phone">Phone (WhatsApp)</label><input id="${pre}-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required pattern="(\\+?91\\s?)?[6-9]\\d{4}\\s?\\d{5}" title="10-digit Indian mobile number, e.g. 98765 43210" maxlength="16"></div>
-<div class="fld"><label for="${pre}-area">Area</label><select id="${pre}-area" name="area" required><option value="">Choose your area</option>${opts}</select></div>
-<div class="fld"><label for="${pre}-problem">Problem</label><textarea id="${pre}-problem" name="problem" rows="3" required maxlength="500"></textarea></div>
-<label class="chk"><input type="checkbox" name="ads"><span>Use my details to improve ads (optional)</span></label>
+<div class="fld"><label for="${pre}-name">Name</label><input id="${pre}-name" data-f="name" type="text" autocomplete="name" required maxlength="60"></div>
+<div class="fld"><label for="${pre}-phone">Phone (WhatsApp)</label><input id="${pre}-phone" data-f="phone" type="tel" inputmode="tel" autocomplete="tel" required pattern="[\\s\\-]*(\\+?91|0)?[\\s\\-]*[6-9](?:[\\s\\-]*\\d){9}[\\s\\-]*" title="10-digit mobile number, e.g. 98765 43210" maxlength="20"></div>
+<div class="fld"><label for="${pre}-area">Area</label><select id="${pre}-area" data-f="area" required><option value="">Choose your area</option>${opts}</select></div>
+<div class="fld"><label for="${pre}-problem">Problem</label><textarea id="${pre}-problem" data-f="problem" rows="3" required maxlength="500"></textarea></div>
+<label class="chk"><input type="checkbox" data-f="ads"><span>Use my details to improve ads (optional)</span></label>
 <button type="submit" class="btn btn-wa btn-block">${icon('wa')}<span>${esc(o.submit)}</span></button>
-</form>`;
+</form><noscript><p class="noscript">Please call <a href="${SITE.tel}">${SITE.phoneDisplay}</a> or <a href="${esc(waLink(page.fm.whatsapp_prefill))}" target="_blank" rel="noopener">WhatsApp us</a>.</p></noscript>`;
 }
 
 function formFromMarker(ctx: Ctx, mk: ReturnType<typeof parseMarker>) {
@@ -221,8 +207,8 @@ function formFromMarker(ctx: Ctx, mk: ReturnType<typeof parseMarker>) {
 }
 
 /** Quick Quote card for service pages (no FORM marker in their copy). */
-export function quickQuoteCard(page: Page, headingTag = 'h2') {
-  return `<div class="card form-card"><${headingTag} class="card-title">Quick Quote on WhatsApp</${headingTag}><p>Tell us the problem. We reply on WhatsApp.</p>${renderForm(page, {
+export function quickQuoteCard(page: Page) {
+  return `<div class="card form-card"><p class="card-title">Quick Quote on WhatsApp</p><p>Tell us the problem. We reply on WhatsApp.</p>${renderForm(page, {
     formId: 'quick_quote',
     submit: 'Get Quote on WhatsApp',
     template: `Name: {name}\nArea: {area}\nProblem: {problem}\n[Page: ${page.fm.page_tag} | Form: quick_quote]`,
@@ -256,6 +242,21 @@ function linkAttrs(ctx: Ctx, href: string, text: string) {
   return '';
 }
 
+const PHONE_TEXT = SITE.phoneDisplay.replace(/\+/g, '\\+');
+/** Wrap "+91 9668875352" in a tracked tel: link wherever it is plain text (never inside an existing link or tag). */
+function linkPhones(ctx: Ctx, html: string) {
+  const loc = ctx.loc === 'faq' ? 'faq' : 'inline_content';
+  let inA = 0;
+  return html.split(/(<[^>]+>)/).map((part) => {
+    if (part.startsWith('<')) {
+      if (/^<a[\s>]/.test(part)) inA++;
+      else if (/^<\/a>/.test(part)) inA = Math.max(0, inA - 1);
+      return part;
+    }
+    return inA ? part : part.replace(new RegExp(PHONE_TEXT, 'g'), `<a href="${SITE.tel}" ${trackAttrs(ctx.page, 'call_click', loc)}>${SITE.phoneDisplay}</a>`);
+  }).join('');
+}
+
 function postProcess(ctx: Ctx, html: string) {
   html = html.replace(/<a href="([^"]+)">([\s\S]*?)<\/a>/g, (_m, href, text) => `<a href="${href}"${linkAttrs(ctx, href.replace(/&amp;/g, '&'), text)}>${text}</a>`);
   html = html.replace(/<table>([\s\S]*?)<\/table>/g, (_m, inner: string) => {
@@ -266,13 +267,14 @@ function postProcess(ctx: Ctx, html: string) {
       t = t.replace(emptyHead, '');
       t = t.replace(/<tr>\s*<td([^>]*)>([\s\S]*?)<\/td>/g, '<tr><th scope="row"$1>$2</th>');
     } else {
-      t = t.replace(/<th(?![^>]*scope)/g, '<th scope="col"');
+      t = t.replace(/<th(?=[\s>])(?![^>]*scope)/g, '<th scope="col"');
     }
     const pricing = /<th[^>]*>\s*Price/.test(t) ? ' data-pricing' : '';
     const label = ctx.label ? esc(cleanInline(ctx.label)) : 'Table';
-    return `<div class="tbl${keyValue ? ' tbl-kv' : ''}" role="region" aria-label="${label}" tabindex="0"${pricing}><table>${t}</table></div>`;
+    const cols = (t.match(/<tr>([\s\S]*?)<\/tr>/)?.[1].match(/<t[hd][\s>]/g) || []).length;
+    return `<div class="tbl${keyValue ? ' tbl-kv' : ''}${cols > 2 ? ' tbl-3' : ''}" role="region" aria-label="${label}" tabindex="0"${pricing}><table>${t}</table></div>`;
   });
-  return html;
+  return linkPhones(ctx, html);
 }
 
 const LIST_LINK_RE = /^- (\*\*)?\[([^\]]+)\]\((\/[^)]+)\)(\*\*)?(.*)$/;
@@ -296,13 +298,14 @@ function renderMdBlock(ctx: Ctx, md: string) {
         const track = href.startsWith('/services/')
           ? `data-track="service_card_click" data-cta-location="service_card" data-service="${svc}" data-page-type="${ctx.page.fm.page_type}"`
           : `data-track="nav_click" data-cta-location="${ctx.loc}"`;
-        return `<li class="svc-card"><a href="${esc(href)}" ${track}>${esc(m[2])}</a><p>${marked.parseInline(m[5].replace(/^:\s*/, '')) as string}</p></li>`;
+        return `<li class="svc-card"><a href="${esc(href)}" ${track}>${esc(m[2])}</a><p>${marked.parseInline(cap(m[5].replace(/^:\s*/, ''))) as string}</p></li>`;
       });
       return `<ul class="cards">${lis.join('')}</ul>`;
     }
     const lis = parsed.map((m) => {
       const html = postProcess(ctx, `<a href="${esc(m[3])}">${esc(m[2])}</a>`);
-      return `<li>${html}${m[5] ? ' ' + (marked.parseInline(m[5].trim()) as string) : ''}</li>`;
+      // Keep the source spacing: "[link] (and Damana)" gets a space, "[link], from ₹2,999" / "[link]." do not.
+      return `<li>${html}${m[5].trim() ? (/^\s/.test(m[5]) ? ' ' : '') + (marked.parseInline(m[5].trim()) as string) : ''}</li>`;
     });
     return `<ul class="chips">${lis.join('')}</ul>`;
   }
@@ -420,7 +423,7 @@ async function renderSegs(ctx: Ctx, segs: Seg[], level: 'h2' | 'h3', heroMode = 
       } else if (kind === 'MAP') push(renderMap(ctx.page, { button: s.mk.attrs.button, loc: s.mk.attrs.cta_location }));
       else if (kind === 'CARD LABEL') {
         if (card) out.push(...wrapCard(card, level));
-        card = [`<${level} class="card-title">${esc(s.mk.head)}</${level}>`];
+        card = [`<p class="card-title">${esc(s.mk.head)}</p>`];
         cardDone = false;
       } else if (kind === 'FORM') {
         push(formFromMarker(ctx, s.mk));

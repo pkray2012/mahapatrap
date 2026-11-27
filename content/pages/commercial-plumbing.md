@@ -8,7 +8,7 @@ meta_description: Commercial plumbing in Bhubaneswar for hotels, offices, hostel
 primary_keyword: commercial plumbing bhubaneswar
 secondary_keywords: [commercial plumbing services, commercial plumbing near me, commercial plumbing work, plumbing maintenance contract, hotel plumbing services, office plumbing services, hostel and PG plumbing, apartment plumbing maintenance, how much does commercial plumbing cost]
 h1: "Commercial Plumbing in Bhubaneswar: Hotels, Offices, Hostels & Shops"
-word_count: 1165
+word_count: 1189
 ---
 
 # Commercial Plumbing in Bhubaneswar: Hotels, Offices, Hostels & Shops
@@ -95,6 +95,7 @@ Where the job allows, we work floor by floor, so the rest of the building stays 
 - **90-day workmanship warranty** on installation and repair jobs (not cleaning jobs). Parts follow the brand warranty.
 - **Easy payment.** Cash, UPI or bank transfer. GST invoice on request.
 - **Open daily, 8 AM to 10 PM.**
+- **Owner-run.** Started in 2021 by Amaresh Mahapatra, who has 10+ years of plumbing experience. Read [about Mahapatra Plumbing Services](/about/).
 
 ## Commercial plumbing anywhere in Bhubaneswar
 
@@ -108,13 +109,13 @@ Searching for commercial plumbing near me for an IT office? See [office plumbing
 - Motor not lifting water: [water tank and motor repair](/services/water-tank-and-motor-repair/).
 - Dirty overhead tanks or sumps: [water tank and sump cleaning](/services/water-tank-cleaning/).
 - New floors or a new building: [new building plumbing work](/services/new-bathroom-and-house-plumbing/).
-- Book a site visit on our [contact page](/contact/).
+- Book a site visit when you [contact Mahapatra Plumbing Services](/contact/).
 
 ## Commercial plumbing FAQs
 
 ### Do you clean water tanks and sumps for hotels and offices?
 
-Yes. We clean overhead tanks and sumps for hotels, offices, hostels, PGs, shops and apartment societies anywhere in Bhubaneswar. Share the number of tanks, their size and how to reach them on WhatsApp. Call or WhatsApp us for a quote. See [water tank and sump cleaning](/services/water-tank-cleaning/).
+Yes. We clean overhead tanks and sumps for hotels, offices, hostels, PGs, shops and apartment societies anywhere in Bhubaneswar. Share the number of tanks, their size and how to reach them on WhatsApp. Call or WhatsApp us for a quote. Our [water tank and sump cleaning](/services/water-tank-cleaning/) service covers this.
 
 ### Can you clear grease from a restaurant kitchen drain?
 
@@ -155,6 +156,32 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
       "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9668875352",
+        "email": "amareshmohapatra143@gmail.com",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": [
+          "or",
+          "hi",
+          "en"
+        ],
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      },
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -224,6 +251,18 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
         {
           "@type": "Place",
           "name": "Nayapalli, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Damana, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Saheed Nagar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "IRC Village, Bhubaneswar"
         }
       ],
       "knowsAbout": [
@@ -312,7 +351,7 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
           "name": "Do you clean water tanks and sumps for hotels and offices?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We clean overhead tanks and sumps for hotels, offices, hostels, PGs, shops and apartment societies anywhere in Bhubaneswar. Share the number of tanks, their size and how to reach them on WhatsApp. Call or WhatsApp us for a quote. See water tank and sump cleaning."
+            "text": "Yes. We clean overhead tanks and sumps for hotels, offices, hostels, PGs, shops and apartment societies anywhere in Bhubaneswar. Share the number of tanks, their size and how to reach them on WhatsApp. Call or WhatsApp us for a quote. Our water tank and sump cleaning service covers this."
           }
         },
         {

@@ -8,7 +8,7 @@ meta_description: Mahapatra Plumbing Services is a plumbing company in Bhubanesw
 primary_keyword: plumbing company in bhubaneswar
 secondary_keywords: [mahapatra plumbing services]
 h1: About Mahapatra Plumbing Services, Chandrasekharpur
-word_count: 774
+word_count: 780
 ---
 
 # About Mahapatra Plumbing Services, Chandrasekharpur
@@ -48,7 +48,7 @@ Amaresh Mahapatra worked as a plumber on his own for about 10 years. In 2021 he 
 
 ## What work do we do?
 
-We handle everyday repairs and bigger plumbing jobs anywhere in Bhubaneswar:
+We handle everyday repairs and bigger plumbing jobs anywhere in Bhubaneswar. See all our [plumbing services in Bhubaneswar](/):
 
 - **Small repairs:** dripping taps, leaking pipes and running flush tanks. See [leak and blockage repair](/services/leak-and-blockage-repair/).
 - **Fittings:** taps, sinks, flush kits, and washing machine inlet and drain fitting.
@@ -67,12 +67,12 @@ Every job starts with a check and a written estimate. The part price is shared b
 
 A few starting rates (labour charges):
 
-| Service | Price (₹) |
+| Service | Price |
 |---|---|
-| Visit / inspection (adjusted in final bill if work goes ahead) | 199–349 |
-| Minor fix (washer, small leak, loose fitting) | from 249 |
-| Drain unclogging (sink / floor trap) | from 349 |
-| Septic tank cleaning | from 2,999 |
+| Visit / inspection (adjusted in final bill if work goes ahead) | ₹199–₹349 |
+| Minor fix (washer, small leak, loose fitting) | from ₹249 |
+| Drain unclogging (sink / floor trap) | from ₹349 |
+| Septic tank cleaning | from ₹2,999 |
 
 All rates, late-night charges and warranty terms are on our [plumbing charges in Bhubaneswar](/pricing/) page.
 
@@ -120,7 +120,7 @@ You can read our reviews on our Google Maps listing. Mahapatra Plumbing Services
 
 [CTA: call+whatsapp | location=faq]
 
-To book a visit, use our [contact page](/contact/).
+To book a visit, [contact Mahapatra Plumbing Services](/contact/).
 
 ## JSON-LD
 ```json
@@ -143,6 +143,32 @@ To book a visit, use our [contact page](/contact/).
       "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9668875352",
+        "email": "amareshmohapatra143@gmail.com",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": [
+          "or",
+          "hi",
+          "en"
+        ],
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      },
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -212,6 +238,18 @@ To book a visit, use our [contact page](/contact/).
         {
           "@type": "Place",
           "name": "Nayapalli, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Damana, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Saheed Nagar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "IRC Village, Bhubaneswar"
         }
       ],
       "knowsAbout": [

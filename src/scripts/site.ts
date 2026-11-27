@@ -23,10 +23,26 @@ function fire(track: string, d: DOMStringMap, extra: P = {}) {
   if (LEAD[track]) pushTrackEvent('generate_lead', { ...p, lead_channel: LEAD[track] });
 }
 
+// Header menus (<details>): close on outside click, Escape, and (dropdowns) when focus leaves them.
+const header = document.querySelector('.site-header');
+const menus = () => document.querySelectorAll<HTMLDetailsElement>('details.dd[open],details.mnav[open]');
+document.addEventListener('keydown', (e) => {
+  if (e.key !== 'Escape') return;
+  menus().forEach((d) => {
+    const inside = d.contains(document.activeElement) || (d.classList.contains('mnav') && header?.contains(document.activeElement));
+    d.open = false;
+    if (inside) d.querySelector('summary')?.focus();
+  });
+});
+document.querySelectorAll<HTMLDetailsElement>('details.dd').forEach((d) =>
+  d.addEventListener('focusout', (e) => { if (!d.contains(e.relatedTarget as Node | null)) d.open = false; }));
+const mnav = document.querySelector<HTMLDetailsElement>('details.mnav');
+mnav?.addEventListener('toggle', () => mnav.querySelector('summary')?.setAttribute('aria-label', mnav.open ? 'Close menu' : 'Open menu'));
+
 document.addEventListener('click', (e) => {
   const t = e.target as Element;
-  // Close open dropdowns when clicking elsewhere.
-  document.querySelectorAll('details.dd[open],details.mnav[open]').forEach((dd) => { if (!dd.contains(t)) dd.removeAttribute('open'); });
+  // Close open menus when clicking elsewhere (the mobile menu panel sits next to its <details> in the header).
+  menus().forEach((d) => { if (!d.contains(t) && !(d.classList.contains('mnav') && t.closest?.('.nav-main'))) d.open = false; });
   const el = t.closest<HTMLElement>('[data-track]');
   if (!el || el.tagName === 'FORM') return;
   const track = el.dataset.track!;
@@ -69,15 +85,17 @@ document.querySelectorAll<HTMLButtonElement>('[data-map-load]').forEach((b) =>
 document.querySelectorAll<HTMLFormElement>('form[data-wa-form]').forEach((f) =>
   f.addEventListener('submit', (e) => {
     e.preventDefault();
-    const v = (n: string) => ((f.elements.namedItem(n) as HTMLInputElement)?.value || '').trim();
-    const text = (f.dataset.template || '').replace('{name}', v('name')).replace('{area}', v('area')).replace('{problem}', v('problem'));
+    const field = (n: string) => f.querySelector<HTMLInputElement>(`[data-f="${n}"]`);
+    const v = (n: string) => (field(n)?.value || '').trim();
+    // Accepts 98765 43210, 09876543210, +91-98765-43210, 91 98765 43210 ...: keep the last 10 digits.
+    const phone = v('phone').replace(/\D/g, '').slice(-10);
+    const text = (f.dataset.template || '').replace('{name}', v('name')).replace('{phone}', phone).replace('{area}', v('area')).replace('{problem}', v('problem'));
     // Meta Advanced Matching only if the visitor ticked the box and a Meta Pixel ID is configured.
     // (Values go straight to the Meta Pixel, which hashes them; never to dataLayer / GA4 / Clarity.)
-    const ads = (f.elements.namedItem('ads') as HTMLInputElement)?.checked;
+    const ads = field('ads')?.checked;
     if (ads && META_ID) {
       w.__mpLoad?.();
-      const digits = v('phone').replace(/\D/g, '').slice(-10);
-      w.fbq?.('init', META_ID, { ph: '91' + digits, fn: v('name').split(/\s+/)[0].toLowerCase(), ct: 'bhubaneswar', st: 'od', country: 'in' });
+      w.fbq?.('init', META_ID, { ph: '91' + phone, fn: v('name').split(/\s+/)[0].toLowerCase(), ct: 'bhubaneswar', st: 'od', country: 'in' });
     }
     fire('whatsapp_form_submit', f.dataset, { form_id: f.dataset.formId });
     const url = 'https://wa.me/919668875352?text=' + encodeURIComponent(text);

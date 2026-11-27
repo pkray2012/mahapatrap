@@ -5,7 +5,7 @@ import { trackAttrs, waButton, type Page } from '../lib/content';
 interface Props { page: Page }
 const { page } = Astro.props;
 ---
-<div class="topbar hidden md:block">
+<aside class="topbar hidden md:block" aria-label="Contact and opening hours">
   <div class="wrap flex items-center justify-between gap-4 py-1.5">
     <p class="flex items-center gap-5">
       <a class="inline-flex items-center gap-1.5 min-h-[36px] font-semibold" href={SITE.tel} set:html={`${icon('phone', 'ico w-4 h-4')}<span>${SITE.phoneDisplay}</span>`} {...Object.fromEntries([...trackAttrs(page, 'call_click', 'top_bar').matchAll(/([\w-]+)="([^"]*)"/g)].map((m) => [m[1], m[2]]))} />
@@ -14,4 +14,4 @@ const { page } = Astro.props;
     </p>
     <Fragment set:html={waButton(page, 'top_bar', 'WhatsApp', 'pill-wa min-h-[32px]')} />
   </div>
-</div>
+</aside>

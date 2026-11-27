@@ -21,6 +21,8 @@ const { page, title, description, canonicalPath, jsonLd, noindex } = Astro.props
 const canonical = canonicalPath ? SITE.origin + canonicalPath : undefined;
 const ogImage = `${SITE.origin}/images/og-default.png`;
 const t = page.fm.page_type;
+// JSON-LD: minified and placed at the end of <body> (Google reads it anywhere), so the CSS and hero come first.
+const ld = jsonLd ? JSON.stringify(JSON.parse(jsonLd)).replace(/</g, '\\u003c') : '';
 ---
 <!doctype html>
 <html lang="en-IN">
@@ -51,21 +53,21 @@ const t = page.fm.page_type;
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
-    {jsonLd && <script type="application/ld+json" set:html={jsonLd} />}
   </head>
   <body data-page-type={t} data-service={t === 'locality' ? undefined : page.slug} data-locality={t === 'locality' ? page.slug : undefined}>
     <Fragment set:html={SPRITE} />
     <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[60] focus:bg-white focus:p-3 focus:rounded-lg">Skip to content</a>
     <TopBar page={page} />
     <Header page={page} />
-    <main id="main">
+    <main id="main" tabindex="-1">
       <slot />
     </main>
-    <Footer />
+    <Footer page={page} />
     <StickyBar page={page} />
     <script>
       import '../scripts/site.ts';
     </script>
     <Analytics />
+    {ld && <script type="application/ld+json" set:html={ld} />}
   </body>
 </html>

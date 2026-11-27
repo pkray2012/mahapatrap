@@ -13,7 +13,7 @@ All schema is JSON-LD in `<script type="application/ld+json">`, generated from o
 | `Service.serviceType` | One short category ("Septic tank cleaning") | |
 | `Plumber.knowsAbout` | All 13 services | Tells AI engines what the business does |
 | `Plumber.keywords` | 6–8 core business keywords | Entity-level |
-| `areaServed` | Bhubaneswar (City) + the 8 areas (Place) | Local relevance |
+| `areaServed` | Bhubaneswar (City) + the 8 areas + nearby Damana, Saheed Nagar, IRC Village (Place) | Local relevance |
 | `FAQPage` questions | Real customer questions that include the keyword naturally | AEO / AI Overviews |
 
 Rules: keywords must also appear in visible page text (natural variants such as "in Bhubaneswar" are fine); no stuffing (max ~8 per field); no `aggregateRating` (the 5.0★ comes from Google Maps, a third-party site — show it as visible text only); prices must match the rate card.
@@ -34,6 +34,19 @@ Rules: keywords must also appear in visible page text (natural variants such as 
   "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
   "telephone": "+91-9668875352",
   "email": "amareshmohapatra143@gmail.com",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-9668875352",
+    "email": "amareshmohapatra143@gmail.com",
+    "contactType": "customer service",
+    "areaServed": "IN",
+    "availableLanguage": ["or", "hi", "en"],
+    "hoursAvailable": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "08:00", "closes": "22:00"
+    }
+  },
   "priceRange": "₹199–₹2,999+",
   "currenciesAccepted": "INR",
   "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -61,7 +74,10 @@ Rules: keywords must also appear in visible page text (natural variants such as 
     { "@type": "Place", "name": "Niladri Vihar, Bhubaneswar" },
     { "@type": "Place", "name": "Sailashree Vihar, Bhubaneswar" },
     { "@type": "Place", "name": "Jayadev Vihar, Bhubaneswar" },
-    { "@type": "Place", "name": "Nayapalli, Bhubaneswar" }
+    { "@type": "Place", "name": "Nayapalli, Bhubaneswar" },
+    { "@type": "Place", "name": "Damana, Bhubaneswar" },
+    { "@type": "Place", "name": "Saheed Nagar, Bhubaneswar" },
+    { "@type": "Place", "name": "IRC Village, Bhubaneswar" }
   ],
   "knowsAbout": [
     "Leak and tap repair",
@@ -84,6 +100,8 @@ Rules: keywords must also appear in visible page text (natural variants such as 
   ]
 }
 ```
+
+`contactPoint` (with `availableLanguage` or/hi/en) is part of this sitewide node on every page, not only on /contact/ (QA1 m5, 27 Nov 2026). `hasOfferCatalog` stays on /pricing/ only. The nearby areas Damana, Saheed Nagar and IRC Village are in `areaServed`; the Chandrasekharpur page's `spatialCoverage` also lists Damana and the Nayapalli page's lists IRC Village.
 
 Plus a `WebSite` node once (`@id` `https://mahapatraplumbing.in/#website`, `publisher` → `#business`).
 

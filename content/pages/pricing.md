@@ -8,7 +8,7 @@ meta_description: "Plumber charges and price list in Bhubaneswar: visit ₹199�
 primary_keyword: plumber charges in bhubaneswar
 secondary_keywords: [plumber visit charge bhubaneswar, plumbing rate list bhubaneswar, plumber price list bhubaneswar, how much does a plumber charge per visit in bhubaneswar]
 h1: "Plumber Charges in Bhubaneswar: 2026 Rate Card"
-word_count: 891
+word_count: 896
 ---
 
 # Plumber Charges in Bhubaneswar: 2026 Rate Card
@@ -97,7 +97,7 @@ Bathroom renovation, new house plumbing, sewerage lines, concealed pipeline repa
 
 ## Areas we serve
 
-We are at District Center, Chandrasekharpur, Bhubaneswar 751016. We serve Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli, and all of Bhubaneswar. See our [plumber in Chandrasekharpur](/areas/chandrasekharpur/) page or our [contact page](/contact/).
+[Mahapatra Plumbing Services](/about/) is at District Center, Chandrasekharpur, Bhubaneswar 751016. We serve Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli, and all of Bhubaneswar. See our [plumber in Chandrasekharpur](/areas/chandrasekharpur/) page or find our [plumber Bhubaneswar contact number](/contact/).
 
 [IMAGE: mahapatra-plumber-at-work-bhubaneswar.webp | alt="Mahapatra plumber clearing a blocked kitchen sink drain in a Bhubaneswar flat" | before FAQs]
 
@@ -151,6 +151,32 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
       "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9668875352",
+        "email": "amareshmohapatra143@gmail.com",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": [
+          "or",
+          "hi",
+          "en"
+        ],
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      },
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -220,6 +246,18 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
         {
           "@type": "Place",
           "name": "Nayapalli, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Damana, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Saheed Nagar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "IRC Village, Bhubaneswar"
         }
       ],
       "knowsAbout": [

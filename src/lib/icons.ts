@@ -12,11 +12,7 @@ export const SPRITE = `<svg xmlns="http://www.w3.org/2000/svg" style="display:no
 <symbol id="i-menu" viewBox="0 0 24 24"><path ${S} d="M3 6h18M3 12h18M3 18h18"/></symbol>
 <symbol id="i-chev" viewBox="0 0 24 24"><path ${S} d="m6 9 6 6 6-6"/></symbol>
 <symbol id="i-arrow" viewBox="0 0 24 24"><path ${S} d="M5 12h14M12 5l7 7-7 7"/></symbol>
-<symbol id="i-wrench" viewBox="0 0 24 24"><path ${S} d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9z"/></symbol>
-<symbol id="i-drop" viewBox="0 0 24 24"><path ${S} d="M12 2.7 17.7 8.3a8 8 0 1 1-11.3 0z"/></symbol>
-<symbol id="i-user" viewBox="0 0 24 24"><g ${S}><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></g></symbol>
-<symbol id="i-file" viewBox="0 0 24 24"><g ${S}><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></g></symbol>
-<symbol id="i-camera" viewBox="0 0 24 24"><g ${S}><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></g></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path ${S} d="M18 6 6 18M6 6l12 12"/></symbol>
 </svg>`;
 
 export const icon = (name: string, cls = 'ico') =>

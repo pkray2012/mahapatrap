@@ -27,6 +27,17 @@
   status = 301
   force = true
 
+# There are no /services/ or /areas/ hub pages: send trimmed URLs to the matching home section.
+[[redirects]]
+  from = "/services/"
+  to = "/#what-plumbing-services-do-you-offer-in-bhubaneswar"
+  status = 301
+
+[[redirects]]
+  from = "/areas/"
+  to = "/#which-areas-of-bhubaneswar-do-you-serve"
+  status = 301
+
 # Pages without a trailing slash (e.g. /pricing) are 301-redirected to /pricing/ by Netlify's
 # default "pretty URLs" handling, because every page is built as /path/index.html.
 # Unknown URLs get dist/404.html (noindex) with a real 404 status automatically.
@@ -54,8 +65,25 @@
   [headers.values]
     Cache-Control = "public, max-age=604800"
 
+# Fixed-name PNG icons, listed one by one: a "/*.png" pattern may be read by Netlify as "/*",
+# which would give every HTML page a one-week cache.
 [[headers]]
-  for = "/*.png"
+  for = "/favicon-32.png"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/apple-touch-icon.png"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/icon-192.png"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/icon-512.png"
   [headers.values]
     Cache-Control = "public, max-age=604800"
 
@@ -70,4 +98,5 @@
     Cache-Control = "public, max-age=86400"
     Content-Type = "application/manifest+json"
 
-# HTML, sitemap.xml and robots.txt keep Netlify's default (always revalidate), so updates show at once.
+# HTML, sitemap.xml and robots.txt get no Cache-Control rule here: Netlify's default (max-age=0, must-revalidate)
+# applies, so updates show at once. Never add a header rule that could match HTML (e.g. "/*" or "/*.ext").

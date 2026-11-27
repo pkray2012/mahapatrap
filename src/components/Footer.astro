@@ -3,11 +3,16 @@ import { Image } from 'astro:assets';
 import footerLogo from '../assets/generated/logo-footer.png';
 import { SITE } from '../lib/site';
 import { icon } from '../lib/icons';
-import { services, areas } from '../lib/content';
+import { services, areas, type Page } from '../lib/content';
+interface Props { page: Page }
+const { page } = Astro.props;
 const svc = services();
 const ars = areas();
 const year = new Date().getFullYear();
-const nav = { 'data-track': 'nav_click', 'data-cta-location': 'footer' };
+const t = page.fm.page_type;
+// Every tracked footer link carries data-page-type plus data-service / data-locality (tracking-plan §2).
+const ctx = { 'data-cta-location': 'footer', 'data-page-type': t, ...(t === 'locality' ? { 'data-locality': page.slug } : { 'data-service': page.slug }) };
+const nav = { 'data-track': 'nav_click', ...ctx };
 ---
 <footer class="site-footer">
   <div class="wrap grid gap-8 py-12 sm:grid-cols-2 lg:grid-cols-4">
@@ -16,30 +21,30 @@ const nav = { 'data-track': 'nav_click', 'data-cta-location': 'footer' };
         <Image src={footerLogo} width={65} height={56} densities={[1, 2]} format="webp" alt="" loading="lazy" />
         <span class="font-extrabold text-lg leading-tight">Mahapatra<br />Plumbing Services</span>
       </a>
-      <address class="not-italic text-sm space-y-1">
+      <address class="not-italic space-y-1">
         <p class="flex gap-2"><Fragment set:html={icon('pin', 'ico w-4 h-4 mt-1')} /><span>{SITE.addressLines[0]},<br />{SITE.addressLines[1]}</span></p>
-        <p><a href={SITE.tel} data-track="call_click" data-cta-location="footer" class="gap-2"><Fragment set:html={icon('phone', 'ico w-4 h-4')} />{SITE.phoneDisplay}</a></p>
-        <p><a href={`mailto:${SITE.email}`} data-track="email_click" data-cta-location="footer" class="gap-2 break-all"><Fragment set:html={icon('mail', 'ico w-4 h-4')} />{SITE.email}</a></p>
+        <p><a href={SITE.mapsUrl} target="_blank" rel="noopener" data-track="directions_click" {...ctx} class="gap-2 underline"><Fragment set:html={icon('arrow', 'ico w-4 h-4')} />Get directions</a></p>
+        <p><a href={SITE.tel} data-track="call_click" {...ctx} class="gap-2"><Fragment set:html={icon('phone', 'ico w-4 h-4')} />{SITE.phoneDisplay}</a></p>
+        <p><a href={`mailto:${SITE.email}`} data-track="email_click" {...ctx} class="gap-2 break-all"><Fragment set:html={icon('mail', 'ico w-4 h-4')} />{SITE.email}</a></p>
         <p class="flex items-center gap-2"><Fragment set:html={icon('clock', 'ico w-4 h-4')} />{SITE.hours}</p>
       </address>
     </div>
     <div>
       <h2>Services</h2>
-      <ul class="text-sm">{svc.map((p) => <li><a href={p.fm.url} {...nav}>{p.navName}</a></li>)}</ul>
+      <ul>{svc.map((p) => <li><a href={p.fm.url} {...nav}>{p.navName}</a></li>)}</ul>
     </div>
     <div>
       <h2>Areas we serve</h2>
-      <ul class="text-sm">{ars.map((p) => <li><a href={p.fm.url} {...nav}>{p.navName}</a></li>)}</ul>
-      <p class="text-sm mt-2">Serving all of Bhubaneswar</p>
+      <ul>{ars.map((p) => <li><a href={p.fm.url} {...nav}>{p.navName}</a></li>)}</ul>
+      <p class="mt-2">Serving all of Bhubaneswar</p>
     </div>
     <div>
       <h2>Company</h2>
-      <ul class="text-sm">
+      <ul>
         <li><a href="/pricing/" {...nav}>Pricing</a></li>
         <li><a href="/about/" {...nav}>About</a></li>
         <li><a href="/contact/" {...nav}>Contact</a></li>
         <li><a href="/privacy-policy/" {...nav}>Privacy Policy</a></li>
-        <li><a href={SITE.mapsUrl} target="_blank" rel="noopener" data-track="outbound_click" data-cta-location="footer">Google Maps listing</a></li>
       </ul>
     </div>
   </div>

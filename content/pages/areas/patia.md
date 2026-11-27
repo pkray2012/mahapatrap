@@ -8,7 +8,7 @@ meta_description: Plumber in Patia, Bhubaneswar for flats, apartments and houses
 primary_keyword: plumber in patia
 secondary_keywords: [plumbing services patia]
 h1: Plumber in Patia, Bhubaneswar
-word_count: 885
+word_count: 887
 ---
 
 <!-- Hero. Accent colour on the word "Patia" in the H1. -->
@@ -95,13 +95,13 @@ All rates and payment options: [plumber charges in Bhubaneswar](/pricing/).
 
 ## Do you also cover areas next to Patia?
 
-Yes. We are a local plumber in Bhubaneswar, and the areas around Patia are close to our base. We take small repairs in KIIT, Infocity and Chandrasekharpur too. Bigger jobs such as renovation, tank cleaning and septic tank cleaning go anywhere in the city.
+Yes. We are a local [plumber in Bhubaneswar](/), and the areas around Patia are close to our base. We take small repairs in KIIT, Infocity and Chandrasekharpur too. Bigger jobs such as renovation, tank cleaning and septic tank cleaning go anywhere in the city.
 
 Nearby: [KIIT](/areas/kiit/) · [Infocity](/areas/infocity/) · [Chandrasekharpur](/areas/chandrasekharpur/) · [Niladri Vihar](/areas/niladri-vihar/) · [Sailashree Vihar](/areas/sailashree-vihar/) · [Jayadev Vihar](/areas/jayadev-vihar/) · [Nayapalli](/areas/nayapalli/), and all of Bhubaneswar.
 
 [MAP: google-maps-listing | static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="Get directions" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click]
 
-Address and hours: [contact page](/contact/).
+Address and hours: [contact Mahapatra Plumbing Services](/contact/).
 
 ## Plumber in Patia: questions people ask
 
@@ -148,6 +148,32 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
       "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9668875352",
+        "email": "amareshmohapatra143@gmail.com",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": [
+          "or",
+          "hi",
+          "en"
+        ],
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      },
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -217,6 +243,18 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
         {
           "@type": "Place",
           "name": "Nayapalli, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Damana, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Saheed Nagar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "IRC Village, Bhubaneswar"
         }
       ],
       "knowsAbout": [

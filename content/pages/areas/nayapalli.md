@@ -8,7 +8,7 @@ meta_description: Plumber in Nayapalli and IRC Village for choked drains, septic
 primary_keyword: plumber in nayapalli
 secondary_keywords: [plumber near irc village bhubaneswar]
 h1: Plumber in Nayapalli & IRC Village, Bhubaneswar
-word_count: 889
+word_count: 891
 ---
 
 <!-- Hero. Accent colour on the words "Nayapalli & IRC Village" in the H1. -->
@@ -121,7 +121,7 @@ Send a short video of the pump running and of the tap or sump where water should
 **Mahapatra Plumbing Services**
 District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016
 Phone / WhatsApp: [+91 9668875352](tel:+919668875352)
-Open daily 8 AM – 10 PM. [Contact page](/contact/)
+Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
 
 ## JSON-LD
 ```json
@@ -144,6 +144,32 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
       "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9668875352",
+        "email": "amareshmohapatra143@gmail.com",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": [
+          "or",
+          "hi",
+          "en"
+        ],
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      },
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -213,6 +239,18 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
         {
           "@type": "Place",
           "name": "Nayapalli, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Damana, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Saheed Nagar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "IRC Village, Bhubaneswar"
         }
       ],
       "knowsAbout": [
@@ -259,10 +297,16 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
       "about": {
         "@id": "https://mahapatraplumbing.in/#business"
       },
-      "spatialCoverage": {
-        "@type": "Place",
-        "name": "Nayapalli, Bhubaneswar, Odisha"
-      },
+      "spatialCoverage": [
+        {
+          "@type": "Place",
+          "name": "Nayapalli, Bhubaneswar, Odisha"
+        },
+        {
+          "@type": "Place",
+          "name": "IRC Village, Bhubaneswar, Odisha"
+        }
+      ],
       "breadcrumb": {
         "@id": "https://mahapatraplumbing.in/areas/nayapalli/#breadcrumb"
       },

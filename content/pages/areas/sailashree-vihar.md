@@ -8,7 +8,7 @@ meta_description: "Plumber in Sailashree Vihar, Bhubaneswar for old GI pipe repl
 primary_keyword: plumber in sailashree vihar
 secondary_keywords: []
 h1: Plumber in Sailashree Vihar, Bhubaneswar
-word_count: 894
+word_count: 896
 ---
 
 # Plumber in Sailashree Vihar, Bhubaneswar
@@ -87,7 +87,7 @@ Need a [plumber in Chandrasekharpur](/areas/chandrasekharpur/) itself? We also c
 
 [MAP: google-maps-listing | static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="View on Google Maps" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click]
 
-Address and hours: [contact page](/contact/)
+Address and hours: [contact Mahapatra Plumbing Services](/contact/)
 
 ## Sailashree Vihar plumbing: common questions
 
@@ -130,6 +130,32 @@ Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are b
       "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9668875352",
+        "email": "amareshmohapatra143@gmail.com",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": [
+          "or",
+          "hi",
+          "en"
+        ],
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      },
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -199,6 +225,18 @@ Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are b
         {
           "@type": "Place",
           "name": "Nayapalli, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Damana, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Saheed Nagar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "IRC Village, Bhubaneswar"
         }
       ],
       "knowsAbout": [

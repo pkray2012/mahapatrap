@@ -2,7 +2,8 @@
 import { Picture } from 'astro:assets';
 import logo from '../assets/generated/logo-header.png';
 import { icon } from '../lib/icons';
-import { services, areas, waButton, type Page } from '../lib/content';
+import { SITE } from '../lib/site';
+import { services, areas, waButton, callButton, type Page } from '../lib/content';
 interface Props { page: Page }
 const { page } = Astro.props;
 const svc = services();
@@ -11,39 +12,32 @@ const nav = 'data-track="nav_click" data-cta-location="header"';
 const svcLinks = svc.map((p) => `<li><a href="${p.fm.url}" ${nav}>${p.navName}</a></li>`).join('');
 const areaLinks = ars.map((p) => `<li><a href="${p.fm.url}" ${nav}>${p.navName}</a></li>`).join('');
 const chev = icon('chev', 'ico w-4 h-4');
+// tel: button from 768 px (the sticky Call/WhatsApp bar covers smaller screens); the number shows from 1280 px.
+const callBtn = callButton(page, 'header', 'Call', 'btn btn-call hidden md:inline-flex').replace('<span>Call</span>', `<span>Call<span class="hidden xl:inline"> ${SITE.phoneDisplay}</span></span>`);
+const navAttrs = { 'data-track': 'nav_click', 'data-cta-location': 'header' };
 ---
 <header class="site-header">
-  <div class="wrap relative flex items-center justify-between gap-3 h-16 md:h-[72px]">
-    <a href="/" class="flex items-center min-h-[48px]" data-track="nav_click" data-cta-location="header" aria-label="Mahapatra Plumbing Services, home">
+  <div class="wrap hdr">
+    <a href="/" class="hdr-logo" data-track="nav_click" data-cta-location="header" aria-label="Mahapatra Plumbing Services, home">
       <Picture src={logo} formats={['avif', 'webp']} fallbackFormat="webp" width={161} height={44} densities={[1, 2]} alt="Mahapatra Plumbing Services" loading="eager" class="h-11 w-auto" />
     </a>
-    <nav class="hidden lg:block" aria-label="Main">
-      <ul class="flex items-center gap-1">
-        <li><details class="dd"><summary>Services <Fragment set:html={chev} /></summary><ul class="dd-panel grid grid-cols-2 min-w-[34rem]" set:html={svcLinks} /></details></li>
-        <li><a class="nav-link" href="/pricing/" {...{ 'data-track': 'nav_click', 'data-cta-location': 'header' }}>Pricing</a></li>
+    <!-- One nav for all screen sizes (no duplicated link lists): inline with dropdowns from 1024 px,
+         a panel opened by the hamburger <details> below it (CSS: .mnav[open] ~ .nav-main). -->
+    <details class="mnav">
+      <summary aria-label="Open menu"><Fragment set:html={icon('menu', 'ico mnav-open')} /><Fragment set:html={icon('x', 'ico mnav-close')} /></summary>
+    </details>
+    <nav class="nav-main" aria-label="Main">
+      <ul class="nav-list">
+        <li><details class="dd"><summary>Services <Fragment set:html={chev} /></summary><ul class="dd-panel dd-2" set:html={svcLinks} /></details></li>
+        <li><a class="nav-link" href="/pricing/" {...navAttrs}>Pricing</a></li>
         <li><details class="dd"><summary>Areas <Fragment set:html={chev} /></summary><ul class="dd-panel" set:html={areaLinks} /></details></li>
-        <li><a class="nav-link" href="/about/" {...{ 'data-track': 'nav_click', 'data-cta-location': 'header' }}>About</a></li>
-        <li><a class="nav-link" href="/contact/" {...{ 'data-track': 'nav_click', 'data-cta-location': 'header' }}>Contact</a></li>
+        <li><a class="nav-link" href="/about/" {...navAttrs}>About</a></li>
+        <li><a class="nav-link" href="/contact/" {...navAttrs}>Contact</a></li>
       </ul>
     </nav>
-    <div class="flex items-center gap-2">
+    <div class="hdr-cta">
       <Fragment set:html={waButton(page, 'header', 'Get a Quote', 'btn btn-blue hidden sm:inline-flex')} />
-      <details class="mnav lg:hidden">
-        <summary aria-label="Open menu"><Fragment set:html={icon('menu', 'ico w-7 h-7')} /></summary>
-        <nav class="mnav-panel" aria-label="Mobile">
-          <p>Services</p>
-          <ul class="grid sm:grid-cols-2" set:html={svcLinks} />
-          <p>Areas</p>
-          <ul class="grid grid-cols-2" set:html={areaLinks} />
-          <p>More</p>
-          <ul class="grid grid-cols-2">
-            <li><a href="/pricing/" data-track="nav_click" data-cta-location="header">Pricing</a></li>
-            <li><a href="/about/" data-track="nav_click" data-cta-location="header">About</a></li>
-            <li><a href="/contact/" data-track="nav_click" data-cta-location="header">Contact</a></li>
-            <li><a href="/privacy-policy/" data-track="nav_click" data-cta-location="header">Privacy Policy</a></li>
-          </ul>
-        </nav>
-      </details>
+      <Fragment set:html={callBtn} />
     </div>
   </div>
 </header>

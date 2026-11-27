@@ -8,7 +8,7 @@ meta_description: Septic tank cleaning in Bhubaneswar from ₹2,999 for homes, P
 primary_keyword: septic tank cleaning bhubaneswar
 secondary_keywords: [clean septic tank, sewage tank cleaning, septic tank cleaning services near me, septic tank cleaning services, how often should a septic tank be cleaned]
 h1: Septic & Sewage Tank Cleaning in Bhubaneswar
-word_count: 1168
+word_count: 1167
 ---
 
 # Septic & Sewage Tank Cleaning in Bhubaneswar
@@ -103,7 +103,7 @@ We offer septic tank cleaning in Bhubaneswar for every area, including Chandrase
 - Blocked toilet or floor trap but the tank is fine? Book [drain cleaning and sewer jetting](/services/drain-cleaning-and-sewer-jetting/).
 - New sewer lines or manholes: see [sewerage and drainage works](/services/sewerage-and-drainage-works/).
 - Need your overhead tank or sump cleaned too? See [water tank and sump cleaning](/services/water-tank-cleaning/).
-- To book a visit, go to our [contact page](/contact/).
+- To book a visit, [contact Mahapatra Plumbing Services](/contact/).
 
 ## Septic tank cleaning FAQs
 
@@ -150,6 +150,32 @@ Clear the area above the tank lid. Move pots, vehicles or stored items. If tiles
       "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9668875352",
+        "email": "amareshmohapatra143@gmail.com",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": [
+          "or",
+          "hi",
+          "en"
+        ],
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      },
       "priceRange": "₹199–₹2,999+",
       "currenciesAccepted": "INR",
       "paymentAccepted": "Cash, UPI, Bank transfer",
@@ -219,6 +245,18 @@ Clear the area above the tank lid. Move pots, vehicles or stored items. If tiles
         {
           "@type": "Place",
           "name": "Nayapalli, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Damana, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Saheed Nagar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "IRC Village, Bhubaneswar"
         }
       ],
       "knowsAbout": [

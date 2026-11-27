@@ -1,12 +1,14 @@
 ---
 import Base from '../layouts/Base.astro';
-import { services, callButton, waButton, type Page } from '../lib/content';
+import { services, areas, callButton, waButton, type Page } from '../lib/content';
 // Minimal page object for the chrome (tracking attributes, WhatsApp prefill).
 const page = {
-  file: '404', slug: '404', fm: { url: '/404/', page_type: 'legal', page_tag: '404', whatsapp_prefill: 'Hi, I need a plumber in Bhubaneswar [Page: 404]', meta_title: '', meta_description: '', h1: '' },
+  file: '404', slug: '404', fm: { url: '/404/', page_type: '404', page_tag: '404', whatsapp_prefill: 'Hi, I need a plumber in Bhubaneswar [Page: 404]', meta_title: '', meta_description: '', h1: '' },
   body: '', jsonLdText: '', graph: [], breadcrumb: [], faqs: new Map(), navName: '404',
 } as unknown as Page;
 const svc = services();
+const ars = areas();
+const nav = { 'data-track': 'nav_click', 'data-cta-location': 'inline_content', 'data-page-type': '404' };
 ---
 <Base page={page} title="Page not found | Mahapatra Plumbing Services" description="This page does not exist. Find plumbing services in Bhubaneswar, rates and contact details for Mahapatra Plumbing Services." noindex>
   <section class="hero">
@@ -20,10 +22,14 @@ const svc = services();
     <div class="wrap md">
       <h2>Popular pages</h2>
       <ul class="chips">
-        <li><a href="/">Home</a></li>
-        <li><a href="/pricing/">Pricing</a></li>
-        <li><a href="/contact/">Contact</a></li>
-        {svc.map((p) => <li><a href={p.fm.url}>{p.navName}</a></li>)}
+        <li><a href="/" {...nav}>Home</a></li>
+        <li><a href="/pricing/" {...nav}>Pricing</a></li>
+        <li><a href="/contact/" {...nav}>Contact</a></li>
+        {svc.map((p) => <li><a href={p.fm.url} {...nav}>{p.navName}</a></li>)}
+      </ul>
+      <h2>Areas we serve</h2>
+      <ul class="chips">
+        {ars.map((p) => <li><a href={p.fm.url} {...nav}>{p.navName}</a></li>)}
       </ul>
     </div>
   </section>

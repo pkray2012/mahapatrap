@@ -42,12 +42,19 @@ npm run preview        # serve dist/
 npm run check:pages    # content rules (python3 scripts/check_pages.py)
 npm run check:links    # after a build: links, anchors, canonical URLs, sitemap, inbound links (add -- --report for the table)
 npm run check:size     # after a build: HTML/CSS/JS gzip per page vs the budget
-bash scripts/lighthouse.sh   # Lighthouse mobile on 5 pages (needs Chrome; CHROME_PATH=...)
+bash scripts/lighthouse.sh   # Lighthouse mobile on 6 pages (needs Chrome; CHROME_PATH=...)
 ```
 
 Edit page copy only in `content/pages/*.md`; the build fails on any unknown `[MARKER]`, a marker left in the HTML, or FAQs that do not match the JSON-LD.
 
-Markers: `[CTA: ...]` Call/WhatsApp buttons (WhatsApp text = front-matter `whatsapp_prefill`), `[IMAGE: file.webp | alt="..." | where]` real photo if `src/assets/photos/<name>.(webp|jpg|png)` (optimised to AVIF + WebP) or `public/images/<file>` exists, else a fixed-ratio placeholder, `[MAP: ...]` map facade (iframe loads on tap), `[FORM: quick_quote|book_visit ...]` WhatsApp form, `[CARD LABEL: ...]` card heading, `[BREADCRUMB]` breadcrumb from the BreadcrumbList JSON-LD. Service pages get a Quick Quote card in the hero automatically.
+Markers: `[CTA: ...]` Call/WhatsApp buttons (WhatsApp text = front-matter `whatsapp_prefill`), `[IMAGE: file.webp | alt="..." | where]` job photo (see below), `[MAP: ...]` map facade (iframe loads on tap), `[FORM: quick_quote|book_visit ...]` WhatsApp form, `[CARD LABEL: ...]` card label (rendered as a styled paragraph, not a heading), `[BREADCRUMB]` breadcrumb from the BreadcrumbList JSON-LD. Service pages get a Quick Quote card in the hero automatically.
+
+## Job photos for the `[IMAGE]` slots
+
+- Until a photo file exists, an `[IMAGE: …]` marker renders **nothing**: no placeholder box, no caption.
+- To add one, save the real photo as `src/assets/photos/<name>.webp` (or `.jpg`, `.jpeg`, `.png`, `.avif`), where `<name>` is the marker's file name without its extension (e.g. `[IMAGE: plumber-in-bhubaneswar-fixing-kitchen-tap.webp | …]` → `src/assets/photos/plumber-in-bhubaneswar-fixing-kitchen-tap.jpg`). Rebuild: it appears automatically as AVIF + WebP with a responsive `srcset` (400/800/1200 px wide), explicit width/height and the marker's alt text. Each page's "Facts to confirm" lists its photo file names.
+- Use photos at least 1200 px wide. Every photo is `loading="lazy"` and none gets `fetchpriority="high"`: on mobile the H1 and intro text are always first on screen (they are the LCP element). Only give an image high priority if it ever becomes the first thing on a phone screen.
+- `public/images/` is only for fixed files (logo, OG image); photos there are not optimised and are not used by the markers.
 
 ## Tracking IDs (environment variables)
 
@@ -62,7 +69,7 @@ Set in Netlify → Site configuration → Environment variables (see `.env.examp
 | `PUBLIC_META_PIXEL_ID` | Meta Pixel (Advanced Matching only when the visitor ticks the optional box on a form) |
 | `PUBLIC_MS_UET_ID` | Microsoft Ads UET tag |
 
-Scripts load after the first interaction or idle + 3 s. Every CTA carries `data-track`, `data-cta-location`, `data-page-type`, `data-service` / `data-locality`; events go to `window.dataLayer` with no personal data (`docs/tracking-plan.md`; the plan's `NEXT_PUBLIC_*` names are `PUBLIC_*` in Astro).
+With `PUBLIC_GTM_ID` set, only GTM is loaded (add GA4, Ads, Clarity, Meta and UET as tags inside GTM); the direct tags are the fallback when there is no GTM ID. Scripts load 3 s after page load in an idle period, or after the first interaction (scheduled as a separate idle task, not inside the tap handler). The loader does not check consent. Every CTA carries `data-track`, `data-cta-location`, `data-page-type`, `data-service` / `data-locality`; events go to `window.dataLayer` with no personal data (`docs/tracking-plan.md`; the plan's `NEXT_PUBLIC_*` names are `PUBLIC_*` in Astro).
 
 ## Deploy on Netlify
 
