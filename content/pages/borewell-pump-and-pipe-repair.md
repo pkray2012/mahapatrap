@@ -6,7 +6,7 @@ page_tag: Borewell
 meta_title: Borewell Pump & Pipe Repair Bhubaneswar | Mahapatra Plumbing
 meta_description: Borewell pump & pipe repair in Bhubaneswar for existing borewells. Pump lifting, pipe, joint and valve fixes. Quote after inspection. Call +91 9668875352.
 primary_keyword: borewell service near me
-secondary_keywords: [borewell repair bhubaneswar, borewell submersible pump, borewell motor repair, submersible pump repair near me, borewell pipe fitting]
+secondary_keywords: [borewell repair bhubaneswar, borewell submersible pump, borewell motor repair, submersible pump repair bhubaneswar, borewell pipe fitting]
 h1: Borewell Pump & Pipe Repair in Bhubaneswar
 word_count: 1298
 ---
@@ -40,7 +40,7 @@ We supply pipes and fittings, or you can bring your own. The part price is share
 
 ## Do you drill new borewells?
 
-No. We do not drill new borewells. Mahapatra Plumbing Services works on borewells that are already in place. We handle pump lifting, pipes, joints, valves and the line to your tank. For a new borewell, you need a drilling contractor. Once it is drilled, we can connect it to your sump or overhead tank.
+No. We do not drill new borewells. Mahapatra Plumbing Services works on borewells that are already in place. We handle pump lifting, pipes, joints, valves and the line to your tank. For a new borewell, contact a borewell contractor. Once it is ready, we can connect it to your sump or overhead tank.
 
 Building a new house with a borewell? We plan the line to the sump and tanks as part of our [new house plumbing work](/services/new-bathroom-and-house-plumbing/).
 
@@ -94,8 +94,8 @@ The time needed depends on the job. We tell you the expected time with the estim
 - **5.0★ from 45 Google reviews**, 43 of them five-star. Customers mention fair pricing, quality work and timely visits.
 - **Written estimate before work starts.**
 - **90-day workmanship warranty** on repair and installation. Parts follow the brand warranty.
-- **Clear scope:** we do not drill borewells, and we tell you when a motor mechanic or electrician is needed.
-- **The whole water line in one call:** borewell pipes, sump, motor line and overhead tank.
+- **Clear scope:** we do not drill new borewells, and we tell you when a motor mechanic or electrician is needed.
+- **The whole water line checked together:** borewell pipes, sump, motor line and overhead tank.
 - **We work in** homes, flats, hostels, PGs, shops, offices and for builders.
 
 [CTA: call+whatsapp | location=inline_content]
@@ -128,7 +128,7 @@ Yes. We do borewell pipe fitting from the borewell to your sump or overhead tank
 
 Yes. We work on existing borewells in independent houses, apartment blocks, hostels, PGs, shops and offices across Bhubaneswar. A shared borewell may feed a sump and more than one overhead tank. We check the whole line, from the borewell to the tanks. Call or WhatsApp +91 9668875352 with your area and the problem.
 
-### Should I repair my old borewell or drill a new one?
+### Should I repair my old borewell or get a new one?
 
 If the pipes, joints or valve are the problem, a repair can bring the water back. If the borewell has gone dry or the water level stays too low, pipe repairs will not help. Mahapatra Plumbing Services checks it and tells you what we find. We do not drill new borewells, so we focus on repairing the one you have.
 
@@ -262,7 +262,7 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
       "name": "Borewell Pump & Pipe Repair Bhubaneswar | Mahapatra Plumbing",
       "headline": "Borewell Pump & Pipe Repair in Bhubaneswar",
       "description": "Borewell pump & pipe repair in Bhubaneswar for existing borewells. Pump lifting, pipe, joint and valve fixes. Quote after inspection. Call +91 9668875352.",
-      "keywords": "borewell service near me, borewell repair bhubaneswar, borewell submersible pump, borewell motor repair, submersible pump repair near me",
+      "keywords": "borewell service near me, borewell repair bhubaneswar, borewell submersible pump, borewell motor repair, submersible pump repair bhubaneswar",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },
@@ -284,7 +284,7 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
         "Borewell pipe replacement"
       ],
       "serviceType": "Borewell pump and pipe repair",
-      "description": "Borewell pump and pipe repair on existing borewells anywhere in Bhubaneswar by Mahapatra Plumbing Services, Chandrasekharpur. Submersible pump lifting and lowering, column pipe replacement, joint leaks, non-return valves and the line to the sump or overhead tank. No new borewell drilling. Quote after inspection. Call or WhatsApp +91 9668875352.",
+      "description": "Borewell pump and pipe repair on existing borewells anywhere in Bhubaneswar by Mahapatra Plumbing Services, Chandrasekharpur. Submersible pump lifting and lowering, column pipe replacement, joint leaks, non-return valves and the line to the sump or overhead tank. We do not drill new borewells. Quote after inspection. Call or WhatsApp +91 9668875352.",
       "provider": {
         "@id": "https://mahapatraplumbing.in/#business"
       },
@@ -344,7 +344,7 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
         },
         {
           "@type": "Question",
-          "name": "Should I repair my old borewell or drill a new one?",
+          "name": "Should I repair my old borewell or get a new one?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "If the pipes, joints or valve are the problem, a repair can bring the water back. If the borewell has gone dry or the water level stays too low, pipe repairs will not help. Mahapatra Plumbing Services checks it and tells you what we find. We do not drill new borewells, so we focus on repairing the one you have."
@@ -381,5 +381,5 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
 - Any limit on how deep a pump the team can lift, and whether extra helpers or charges apply for deep or heavy pumps. The page states no depth.
 - That the team lifts and lowers the pump themselves (no outside help), and whether they reinstall a pump after a motor mechanic repairs it (not stated on the page).
 - Whether the 90-day workmanship warranty covers pump lifting/lowering and column pipe replacement, as the page states for "repair and installation work".
-- Note: "near me" is used once in body copy ("borewell service near me"). The schema keyword "submersible pump repair near me" appears in visible text as the variant "submersible pump repair in Bhubaneswar" (variants allowed by schema.md).
+- Note: "near me" is used once in body copy ("borewell service near me"). Audit 27 Nov 2026: schema keyword "submersible pump repair near me" (schema.md section 7) changed to "submersible pump repair bhubaneswar" to match the visible text "submersible pump repair in Bhubaneswar". Update schema.md section 7 if accepted.
 - Real job photos needed for the 3 image slots (pump lifting from a borewell, column pipe replacement, borewell line to sump).

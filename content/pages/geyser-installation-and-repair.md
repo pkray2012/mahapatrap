@@ -8,7 +8,7 @@ meta_description: Geyser repair and installation in Bhubaneswar. Fitting from â‚
 primary_keyword: geyser repair in bhubaneswar
 secondary_keywords: [geyser installation bhubaneswar, geyser repair near me, geyser repair, geyser servicing bhubaneswar, water heater repair, how much does geyser installation cost in bhubaneswar]
 h1: "Geyser Repair & Installation in Bhubaneswar"
-word_count: 1282
+word_count: 1295
 ---
 
 # Geyser Repair & Installation in Bhubaneswar
@@ -105,7 +105,7 @@ Get it checked sooner if it pops, heats slowly or leaves a damp patch on the wal
 - **90-day workmanship warranty** on repair and installation. Parts follow the brand warranty.
 - **Leak test on every joint** before we leave a new geyser.
 - **Clear advice on electrical faults:** we tell you if a part needs an electrician or the brand's service centre.
-- **We work in** homes, flats, hostels, PGs, shops and offices.
+- **We work in** homes, flats, hostels, PGs, shops and offices. Geysers for many rooms in a hotel or hostel? See [commercial plumbing](/services/commercial-plumbing/).
 
 [CTA: call+whatsapp | location=inline_content]
 

@@ -56,7 +56,7 @@ Sand can also block a jet spray or shower head. Yellow or reddish water can also
 
 [IMAGE: underground-sump-cleaning-bhubaneswar.webp | alt="Open underground sump lid in a house courtyard before sump cleaning in Bhubaneswar" | inline, after this heading]
 
-- **Overhead tanks.** Plastic (Sintex-type) and concrete tanks on the roof.
+- **Overhead tanks.** Plastic and concrete tanks on the roof.
 - **Underground sumps.** Concrete sumps under the parking, courtyard or staircase.
 - **Apartment tanks.** Large shared sumps and several overhead tanks in apartment blocks.
 - **Business tanks.** Hostels, PGs, hotels, offices, shops and restaurants.
@@ -120,7 +120,7 @@ Muddy water usually means sand and silt have settled in the sump or overhead tan
 
 ### Do you clean plastic water tanks as well as concrete sumps?
 
-Yes. We cover plastic (Sintex-type) overhead tanks, concrete overhead tanks and concrete underground sumps. Tell us the tank type, its size in litres and where it sits on the roof or ground. Send a photo on WhatsApp to +91 9668875352. Call or WhatsApp us for a quote.
+Yes. We cover plastic overhead tanks, concrete overhead tanks and concrete underground sumps. Tell us the tank type, its size in litres and where it sits on the roof or ground. Send a photo on WhatsApp to +91 9668875352. Call or WhatsApp us for a quote.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -328,7 +328,7 @@ Yes. We cover plastic (Sintex-type) overhead tanks, concrete overhead tanks and 
           "name": "Do you clean plastic water tanks as well as concrete sumps?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We cover plastic (Sintex-type) overhead tanks, concrete overhead tanks and concrete underground sumps. Tell us the tank type, its size in litres and where it sits on the roof or ground. Send a photo on WhatsApp to +91 9668875352. Call or WhatsApp us for a quote."
+            "text": "Yes. We cover plastic overhead tanks, concrete overhead tanks and concrete underground sumps. Tell us the tank type, its size in litres and where it sits on the roof or ground. Send a photo on WhatsApp to +91 9668875352. Call or WhatsApp us for a quote."
           }
         }
       ]

@@ -8,7 +8,7 @@ meta_description: Plumber in Infocity, Bhubaneswar for office washrooms, pantrie
 primary_keyword: plumber in infocity bhubaneswar
 secondary_keywords: [office plumbing infocity, plumber in chandrasekharpur]
 h1: Plumber in Infocity, Bhubaneswar (Offices & Homes)
-word_count: 888
+word_count: 838
 ---
 
 # Plumber in Infocity, Bhubaneswar (Offices & Homes)
@@ -52,9 +52,9 @@ Yes, within our working hours. We start at 8 AM every day, weekends included. Bo
 
 [CTA: call+whatsapp | location=inline_content]
 
-## Do you work in apartment societies near Infocity?
+## Can residents and society offices near Infocity book you?
 
-Yes. We fix plumbing in flats, apartment towers and independent houses around Infocity. You can book us as a resident or through your society office. For shared lines, overhead tanks and sumps, we inspect first and give a written estimate before any work starts.
+Yes, both can. We fix plumbing in flats, apartment towers and independent houses around Infocity. For shared lines, overhead tanks and sumps, we inspect first and give a written estimate before any work starts.
 
 Want regular checks of every office washroom? See [commercial plumbing for offices](/services/commercial-plumbing/). Maintenance contracts are quoted after a free site visit.
 
@@ -105,9 +105,11 @@ Need a plumber in Chandrasekharpur or another area close to Infocity? See:
 - [Plumber near KIIT](/areas/kiit/) for hostels and PGs
 - [Plumber in Niladri Vihar](/areas/niladri-vihar/)
 
-We serve Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar, Nayapalli and all of Bhubaneswar.
+We also serve [Sailashree Vihar](/areas/sailashree-vihar/), [Jayadev Vihar](/areas/jayadev-vihar/), [Nayapalli](/areas/nayapalli/) and all of Bhubaneswar.
 
 [MAP: google-maps-listing | small map; static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="Get directions" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click]
+
+Address and hours: [contact page](/contact/).
 
 ## Infocity plumbing: common questions
 
@@ -123,13 +125,9 @@ It depends on how the lines are laid. If the washroom has its own valve, we clos
 
 Yes. We fit and repair the water inlet, tap point and drain line for an RO purifier in office pantries and home kitchens. Filters and electrical parts are a job for the purifier brand's service team. Send a photo of the pantry wall on WhatsApp first.
 
-### I rent a flat near Infocity. Can I book a plumber myself?
+### Our office pantry sink in Infocity keeps choking. How do we stop it?
 
-Yes. You can book us directly as a tenant. You get a written estimate before work starts, so you can share it with your owner before you say yes. Call or WhatsApp +91 9668875352 with your society name and the problem.
-
-### Do you clean overhead tanks and sumps for apartments near Infocity?
-
-Yes. We clean overhead tanks and underground sumps for apartment blocks and houses around Infocity. Call or WhatsApp us for a quote, with the number of tanks and where they are. The sump and overhead tank can be booked together.
+Keep tea leaves, food bits and oil out of the sink waste, since they settle in the trap. Fit a steel strainer and empty it into a bin. If the sink still chokes, we clear the trap and check the slope of the drain line. Drain unclogging starts at ₹349.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -303,18 +301,10 @@ Yes. We clean overhead tanks and underground sumps for apartment blocks and hous
         },
         {
           "@type": "Question",
-          "name": "I rent a flat near Infocity. Can I book a plumber myself?",
+          "name": "Our office pantry sink in Infocity keeps choking. How do we stop it?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. You can book us directly as a tenant. You get a written estimate before work starts, so you can share it with your owner before you say yes. Call or WhatsApp +91 9668875352 with your society name and the problem."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you clean overhead tanks and sumps for apartments near Infocity?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. We clean overhead tanks and underground sumps for apartment blocks and houses around Infocity. Call or WhatsApp us for a quote, with the number of tanks and where they are. The sump and overhead tank can be booked together."
+            "text": "Keep tea leaves, food bits and oil out of the sink waste, since they settle in the trap. Fit a steel strainer and empty it into a bin. If the sink still chokes, we clear the trap and check the slope of the drain line. Drain unclogging starts at ₹349."
           }
         }
       ]

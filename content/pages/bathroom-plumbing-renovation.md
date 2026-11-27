@@ -8,7 +8,7 @@ meta_description: Bathroom renovation plumbing in Bhubaneswar: GI lines replaced
 primary_keyword: bathroom renovation bhubaneswar
 secondary_keywords: [bathroom renovation, bathroom renovation cost, bathroom renovation contractors near me, kitchen renovation bhubaneswar]
 h1: Bathroom Renovation Plumbing in Bhubaneswar (and Kitchens)
-word_count: 1278
+word_count: 1290
 ---
 
 # Bathroom Renovation Plumbing in Bhubaneswar (and Kitchens)
@@ -114,6 +114,7 @@ Our office is at District Center, Chandrasekharpur. We take renovation work in C
 - Building a new home? See [new bathroom and house plumbing](/services/new-bathroom-and-house-plumbing/).
 - Only one new tap or WC? See [bathroom and kitchen fittings](/services/bathroom-and-kitchen-fittings/).
 - Hidden leak in a wall? See [pipeline and concealed plumbing repair](/services/pipeline-and-concealed-plumbing/).
+- Redoing washrooms in a hotel, office or hostel? See [commercial plumbing](/services/commercial-plumbing/).
 - Ready to book? [Contact Mahapatra Plumbing Services](/contact/).
 
 ## Frequently asked questions

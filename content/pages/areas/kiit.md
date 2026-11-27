@@ -8,7 +8,7 @@ meta_description: Plumber near KIIT for hostels, PGs and student flats. Blocked 
 primary_keyword: plumber near kiit
 secondary_keywords: [plumber for hostel near kiit, plumber in patia]
 h1: Plumber near KIIT, Bhubaneswar (Hostels, PGs & Homes)
-word_count: 897
+word_count: 889
 ---
 
 <!-- Hero. Accent colour on "KIIT" in the H1. -->
@@ -86,13 +86,13 @@ See the visit charge, parts and payment details on our page of [plumber charges 
 
 ## Which nearby areas do you cover from KIIT?
 
-We serve all of Bhubaneswar from District Center, Chandrasekharpur. Next to KIIT, we work in Patia houses and rented flats, and in Infocity offices and apartments. Need a plumber in Patia for a family house? See the Patia page.
+We serve all of Bhubaneswar from District Center, Chandrasekharpur. Next to KIIT, we work in Patia houses and rented flats, and in Infocity offices and apartments.
 
 - [Plumber in Patia](/areas/patia/) (houses and rented flats)
 - [Plumber in Infocity](/areas/infocity/) (offices and apartments)
 - [Plumber in Chandrasekharpur](/areas/chandrasekharpur/) (our base)
 
-We also cover Niladri Vihar, Sailashree Vihar, Jayadev Vihar, Nayapalli and all of Bhubaneswar.
+We also cover [Niladri Vihar](/areas/niladri-vihar/), [Sailashree Vihar](/areas/sailashree-vihar/), [Jayadev Vihar](/areas/jayadev-vihar/), [Nayapalli](/areas/nayapalli/) and all of Bhubaneswar.
 
 [MAP: google-maps-listing | static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="Get directions" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click]
 
@@ -112,7 +112,7 @@ Yes. Send the number of bathrooms and a list of faults, room by room if you can.
 
 Heavy daily use, plus things that should never go down a drain. Hair and shampoo sachets choke floor traps. Wipes, sanitary pads and plastic block WC pipes. A steel jaali on each floor trap and a covered dustbin in every toilet cut repeat blockages. If one block keeps returning, the pipe slope or main line needs a check.
 
-### Do you clean overhead tanks and sumps for PGs near KIIT?
+### Our hostel near KIIT has several overhead tanks and a sump. Can you clean them all?
 
 Yes. We take water tank and sump cleaning for hostels, PGs and homes near KIIT and across Bhubaneswar. Call or WhatsApp us for a quote. Tell us the tank size, how many tanks there are and how to reach them. You can book the overhead tank and the sump together.
 
@@ -294,7 +294,7 @@ Address, email and hours: [contact page](/contact/).
         },
         {
           "@type": "Question",
-          "name": "Do you clean overhead tanks and sumps for PGs near KIIT?",
+          "name": "Our hostel near KIIT has several overhead tanks and a sump. Can you clean them all?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes. We take water tank and sump cleaning for hostels, PGs and homes near KIIT and across Bhubaneswar. Call or WhatsApp us for a quote. Tell us the tank size, how many tanks there are and how to reach them. You can book the overhead tank and the sump together."

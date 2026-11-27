@@ -8,7 +8,7 @@ meta_description: Plumber in Jayadev Vihar and Saheed Nagar for shops, offices a
 primary_keyword: plumber in jayadev vihar
 secondary_keywords: [plumber in saheed nagar]
 h1: Plumber in Jayadev Vihar & Saheed Nagar, Bhubaneswar
-word_count: 888
+word_count: 892
 ---
 
 # Plumber in Jayadev Vihar & Saheed Nagar, Bhubaneswar
@@ -25,7 +25,7 @@ Need a plumber in Jayadev Vihar or Saheed Nagar? Mahapatra Plumbing Services fit
 
 ## What plumbing jobs come up in Jayadev Vihar and Saheed Nagar?
 
-These two localities mix busy shopfronts, office floors and family homes, so the calls are mixed too. Shops and offices need washroom taps, flush tanks and pantry sinks put right. Homes want geysers fitted or serviced and worn fittings changed. Mahapatra Plumbing Services handles the plumbing side of all of these.
+These two localities mix busy shopfronts, office floors and family homes, so the calls are mixed too. Shops and offices need washroom taps, flush tanks and pantry sinks put right. Homes want geysers fitted or serviced and worn fittings changed.
 
 ### Shops and showrooms
 
@@ -93,9 +93,11 @@ Every other rate is on our page of [plumber charges in Bhubaneswar](/pricing/).
 
 ## Areas near Jayadev Vihar we also cover
 
-We also work in [Chandrasekharpur](/areas/chandrasekharpur/), Patia, KIIT, Infocity, Niladri Vihar, [Sailashree Vihar](/areas/sailashree-vihar/) and [Nayapalli and IRC Village](/areas/nayapalli/), and all of Bhubaneswar.
+We also work in [Chandrasekharpur](/areas/chandrasekharpur/), [Patia](/areas/patia/), [KIIT](/areas/kiit/), [Infocity](/areas/infocity/), [Niladri Vihar](/areas/niladri-vihar/), [Sailashree Vihar](/areas/sailashree-vihar/) and [Nayapalli and IRC Village](/areas/nayapalli/), and all of Bhubaneswar.
 
 [MAP: google-maps-listing | static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="Get directions" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click]
+
+Address and hours: [contact page](/contact/).
 
 [IMAGE: office-pantry-sink-repair-jayadev-vihar.webp | alt="Plumber repairing an office pantry sink line in a commercial building in Jayadev Vihar, Bhubaneswar" | beside map]
 
@@ -105,9 +107,9 @@ We also work in [Chandrasekharpur](/areas/chandrasekharpur/), Patia, KIIT, Infoc
 
 Yes. As a plumber in Saheed Nagar and Jayadev Vihar, we take repairs, fittings and geyser work in both localities. Bigger jobs like bathroom renovation and septic tank cleaning are done anywhere in Bhubaneswar. Send your lane or building name on WhatsApp to +91 9668875352, and we tell you when a plumber can come.
 
-### Can you come before my shop opens?
+### Can you work in my shop's washroom during trading hours?
 
-Our hours are 8 AM to 10 PM, every day. Tell us your shop or office timings when you book, and we plan the visit around them where possible. Visits outside these hours are on request, subject to availability, and cost extra. The late-night charge is listed on our pricing page.
+Yes, for most small jobs. Flush kits, taps and basin waste pipes can usually be changed without closing the shop. If a job needs the water off for longer, we tell you first so you can pick a quieter time. Our hours are 8 AM to 10 PM daily. Visits outside them are on request, at extra charge.
 
 ### Do you look after plumbing for a whole commercial building?
 
@@ -279,10 +281,10 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
         },
         {
           "@type": "Question",
-          "name": "Can you come before my shop opens?",
+          "name": "Can you work in my shop's washroom during trading hours?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our hours are 8 AM to 10 PM, every day. Tell us your shop or office timings when you book, and we plan the visit around them where possible. Visits outside these hours are on request, subject to availability, and cost extra. The late-night charge is listed on our pricing page."
+            "text": "Yes, for most small jobs. Flush kits, taps and basin waste pipes can usually be changed without closing the shop. If a job needs the water off for longer, we tell you first so you can pick a quieter time. Our hours are 8 AM to 10 PM daily. Visits outside them are on request, at extra charge."
           }
         },
         {
@@ -330,3 +332,4 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
 - That geyser fitting/service and tap/flush fitting are the main jobs the owner gets from Jayadev Vihar and Saheed Nagar (page angle from page-specs; no local landmarks named, building types used instead).
 - That visits can be planned around shop and office hours "where possible" (same wording as the commercial plumbing page).
 - That commercial building maintenance is quoted after a free site visit based on number of washrooms and floors (from page-specs commercial entry).
+- Shop washroom FAQ (added by audit, 27 Nov 2026): confirm small jobs (flush kit, tap, basin waste) can usually be done without the shop closing.

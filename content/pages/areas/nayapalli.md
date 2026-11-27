@@ -95,7 +95,7 @@ All rates: [plumbing rate card](/pricing/).
 
 ## Areas near Nayapalli
 
-Next door is [Jayadev Vihar and Saheed Nagar](/areas/jayadev-vihar/). Our base is in [Chandrasekharpur](/areas/chandrasekharpur/). We also cover [Sailashree Vihar](/areas/sailashree-vihar/), [Niladri Vihar](/areas/niladri-vihar/), [Patia](/areas/patia/), [KIIT](/areas/kiit/) and [Infocity](/areas/infocity/). And all of Bhubaneswar.
+Close by are [Jayadev Vihar and Saheed Nagar](/areas/jayadev-vihar/). Our base is in [Chandrasekharpur](/areas/chandrasekharpur/). We also cover [Sailashree Vihar](/areas/sailashree-vihar/), [Niladri Vihar](/areas/niladri-vihar/), [Patia](/areas/patia/), [KIIT](/areas/kiit/) and [Infocity](/areas/infocity/). And all of Bhubaneswar.
 
 [MAP: google-maps-listing | static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="Get directions" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click]
 

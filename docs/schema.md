@@ -243,7 +243,7 @@ Two levels (Home > Page) until a /services/ hub page exists. Home page has no Br
 | /pricing/ | plumber charges in bhubaneswar, plumber visit charge bhubaneswar, plumbing rate list bhubaneswar | — |
 | /about/ | plumbing company in bhubaneswar, plumber in chandrasekharpur, mahapatra plumbing services | — |
 | /contact/ | plumber bhubaneswar contact number, plumber near me contact number, mahapatra plumbing contact | — |
-| /services/septic-tank-cleaning/ | septic tank cleaning bhubaneswar, clean septic tank, sewage tank cleaning services near me, septic tank cleaning services near me | Sewage tank cleaning; Septic tank emptying; Soak pit cleaning |
+| /services/septic-tank-cleaning/ | septic tank cleaning bhubaneswar, clean septic tank, sewage tank cleaning, septic tank cleaning services near me | Sewage tank cleaning; Septic tank emptying; Soak pit cleaning |
 | /services/bathroom-plumbing-renovation/ | bathroom renovation bhubaneswar, bathroom renovation, bathroom renovation cost, bathroom renovation contractors near me, kitchen renovation bhubaneswar | Bathroom remodelling; Bathroom re-plumbing; Kitchen plumbing renovation |
 | /services/new-bathroom-and-house-plumbing/ | new house plumbing work, house plumbing work, plumbing contractor, plumbing contractors in bhubaneswar, plumbing work in house construction, new building plumbing work, new bathroom plumbing | New construction plumbing; House plumbing contractor; Residential plumbing contractor |
 | /services/commercial-plumbing/ | commercial plumbing bhubaneswar, commercial plumbing services, commercial plumbing work, plumbing maintenance contract, hotel plumbing services, office plumbing services | Commercial plumbing services; Plumbing AMC for businesses; Hotel and office plumbing |
@@ -254,7 +254,7 @@ Two levels (Home > Page) until a /services/ hub page exists. Home page has no Br
 | /services/bathroom-and-kitchen-fittings/ | bathroom fitting plumber near me, bathroom fitters, tap installation, kitchen sink repair near me, toilet installation, washing machine inlet and drain fitting | Bathroom fitting installation; Sink and tap fitting; Washing machine plumbing |
 | /services/water-tank-and-motor-repair/ | water motor repair near me, motor repair near me, water pump repair near me, submersible pump repair near me, water tank repair near me, sump pump repair | Water pump repair; Motor repair; Float valve repair |
 | /services/water-tank-cleaning/ | water tank cleaning bhubaneswar, water tank cleaning services near me, water tank cleaning services, sump cleaning, overhead tank cleaning | Water tank cleaning; Sump cleaning; Overhead tank cleaning |
-| /services/borewell-pump-and-pipe-repair/ | borewell service near me, borewell repair bhubaneswar, borewell submersible pump, borewell motor repair, submersible pump repair near me | Borewell repair; Submersible pump lifting; Borewell pipe replacement |
+| /services/borewell-pump-and-pipe-repair/ | borewell service near me, borewell repair bhubaneswar, borewell submersible pump, borewell motor repair, submersible pump repair bhubaneswar | Borewell repair; Submersible pump lifting; Borewell pipe replacement |
 | /services/pipeline-and-concealed-plumbing/ | concealed pipe leakage repair, internal pipe leak repair, cpvc pipe fitting, pipeline repair bhubaneswar | Concealed pipeline repair; CPVC plumbing; Pipe rerouting |
 | /areas/chandrasekharpur/ | plumber in chandrasekharpur, plumber in damana, plumber in bhubaneswar | — |
 | /areas/patia/ | plumber in patia, plumbing services patia, plumber in bhubaneswar | — |

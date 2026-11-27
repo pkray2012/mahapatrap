@@ -8,7 +8,7 @@ meta_description: Plumber in Bhubaneswar for leaks, taps, geysers, drains, septi
 primary_keyword: plumber in bhubaneswar
 secondary_keywords: [plumber bhubaneswar, plumber near me, plumber service in bhubaneswar, plumbing services bhubaneswar, plumber near me home service]
 h1: Plumber in Bhubaneswar for Repairs, Renovation & Septic Cleaning
-word_count: 1169
+word_count: 1159
 ---
 
 <!-- Hero. Accent colour on the word "Bhubaneswar" in the H1. -->
@@ -33,7 +33,7 @@ By sending, you agree we may use your number to reply on WhatsApp. See our [Priv
 
 ## What plumbing services do you offer in Bhubaneswar?
 
-Mahapatra Plumbing Services covers plumbing services in Bhubaneswar, from small repairs to big jobs. We fix leaks, taps, flush tanks, geysers, motors and choked drains. We also take septic tank cleaning, bathroom and kitchen renovation, new house plumbing and sewerage works. Tap a card for details and prices.
+Mahapatra Plumbing Services covers plumbing services in Bhubaneswar, from small repairs to big jobs. We fix leaks, taps, flush tanks, geysers, motors and choked drains. We also take septic and water tank cleaning, borewell pump repair, renovation, new house plumbing, sewerage and commercial work. Tap a card for details and prices.
 
 ### Repairs
 
@@ -50,8 +50,11 @@ Mahapatra Plumbing Services covers plumbing services in Bhubaneswar, from small 
 - **[Bathroom & Kitchen Plumbing Renovation](/services/bathroom-plumbing-renovation/)**: Old bathroom or kitchen fully re-plumbed.
 - **[New Bathroom & House Plumbing](/services/new-bathroom-and-house-plumbing/)**: Plumbing for a new house, flat or extra bathroom.
 - **[Sewerage & Drainage Works](/services/sewerage-and-drainage-works/)**: New sewer lines, drainage lines and soak pit connections.
+- **[Water Tank & Sump Cleaning](/services/water-tank-cleaning/)**: Overhead tanks and underground sumps. Call or WhatsApp us for a quote.
+- **[Borewell Pump & Pipe Repair](/services/borewell-pump-and-pipe-repair/)**: Pump and pipe repair on existing borewells. Quote after inspection.
+- **[Commercial Plumbing](/services/commercial-plumbing/)**: Hotels, offices, hostels, PGs and shops.
 
-Renovation, new plumbing and sewerage works get a free site visit and written estimate.
+Renovation, new plumbing, sewerage and bigger commercial jobs get a free site visit and written estimate.
 
 [IMAGE: bathroom-plumbing-renovation-bhubaneswar.webp | alt="Bathroom plumbing renovation with new CPVC lines and fittings in a Bhubaneswar home" | services section, beside "Bigger jobs anywhere in Bhubaneswar"]
 

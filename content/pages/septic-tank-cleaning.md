@@ -6,9 +6,9 @@ page_tag: Septic
 meta_title: Septic Tank Cleaning in Bhubaneswar | Mahapatra Plumbing
 meta_description: Septic tank cleaning in Bhubaneswar from ₹2,999. Emptying, sludge removal and soak pit check for homes, PGs and apartments. Call +91 9668875352.
 primary_keyword: septic tank cleaning bhubaneswar
-secondary_keywords: [clean septic tank, sewage tank cleaning services near me, septic tank cleaning services near me, septic tank cleaning services, how often should a septic tank be cleaned]
+secondary_keywords: [clean septic tank, sewage tank cleaning, septic tank cleaning services near me, septic tank cleaning services, how often should a septic tank be cleaned]
 h1: Septic Tank Cleaning in Bhubaneswar
-word_count: 1207
+word_count: 1220
 ---
 
 # Septic Tank Cleaning in Bhubaneswar
@@ -102,6 +102,7 @@ We clean septic tanks anywhere in Bhubaneswar, including Chandrasekharpur, Patia
 
 - Blocked toilet or floor trap but the tank is fine? Book [drain cleaning and sewer jetting](/services/drain-cleaning-and-sewer-jetting/).
 - New sewer lines or manholes: see [sewerage and drainage works](/services/sewerage-and-drainage-works/).
+- Need your overhead tank or sump cleaned too? See [water tank and sump cleaning](/services/water-tank-cleaning/).
 - To book a visit, go to our [contact page](/contact/).
 
 ## Septic tank cleaning FAQs
@@ -256,7 +257,7 @@ Clear the area above the tank lid. Move pots, vehicles or stored items. If tiles
       "name": "Septic Tank Cleaning in Bhubaneswar | Mahapatra Plumbing",
       "headline": "Septic Tank Cleaning in Bhubaneswar",
       "description": "Septic tank cleaning in Bhubaneswar from ₹2,999. Emptying, sludge removal and soak pit check for homes, PGs and apartments. Call +91 9668875352.",
-      "keywords": "septic tank cleaning bhubaneswar, clean septic tank, sewage tank cleaning services near me, septic tank cleaning services near me, septic tank cleaning services",
+      "keywords": "septic tank cleaning bhubaneswar, clean septic tank, sewage tank cleaning, septic tank cleaning services near me, septic tank cleaning services",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

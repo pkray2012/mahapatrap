@@ -8,7 +8,7 @@ meta_description: "Plumber charges in Bhubaneswar: visit ₹199–₹349 adjuste
 primary_keyword: plumber charges in bhubaneswar
 secondary_keywords: [plumber visit charge bhubaneswar, plumbing rate list bhubaneswar, how much does a plumber charge per visit in bhubaneswar]
 h1: "Plumber Charges in Bhubaneswar: 2026 Rate Card"
-word_count: 896
+word_count: 897
 ---
 
 # Plumber Charges in Bhubaneswar: 2026 Rate Card
@@ -25,7 +25,7 @@ Prices below are labour charges. Parts are extra.
 
 ## Plumbing rate list in Bhubaneswar (2026)
 
-Our plumbing rate list for Bhubaneswar, updated 27 November 2026.
+Rates updated 27 November 2026.
 
 ### Small repairs
 
@@ -51,6 +51,7 @@ Our plumbing rate list for Bhubaneswar, updated 27 November 2026.
 | [Drain unclogging (sink / floor trap)](/services/drain-cleaning-and-sewer-jetting/) | from ₹349 | Parts extra. |
 | [Toilet blockage removal](/services/drain-cleaning-and-sewer-jetting/) | from ₹999 | Parts extra. |
 | [Septic tank cleaning](/services/septic-tank-cleaning/) | from ₹2,999 | Depends on tank size. |
+| [Water tank / sump cleaning](/services/water-tank-cleaning/) | Call or WhatsApp us for a quote | Overhead tanks and sumps. |
 
 ### Bigger jobs
 
@@ -60,6 +61,7 @@ Our plumbing rate list for Bhubaneswar, updated 27 November 2026.
 | [Bathroom / kitchen renovation](/services/bathroom-plumbing-renovation/) | Quote after inspection | Free site visit, written estimate. |
 | [New house / bathroom plumbing](/services/new-bathroom-and-house-plumbing/) | Quote after inspection | Free site visit, written estimate. |
 | [Sewerage & drainage works](/services/sewerage-and-drainage-works/) | Quote after inspection | Free site visit, written estimate. |
+| [Borewell pump & pipe repair](/services/borewell-pump-and-pipe-repair/) | Quote after inspection | Part price shared before fitting. |
 
 ### Applies to every job
 
@@ -73,6 +75,7 @@ Our plumbing rate list for Bhubaneswar, updated 27 November 2026.
 A plumber visit from Mahapatra Plumbing Services costs ₹199–₹349. If you go ahead with the work, this visit charge is adjusted in the final bill, so you pay it only once. Late-night or early-morning visits cost ₹300 extra. Ask for the exact visit charge when you call +91 9668875352.
 
 The plumber visit charge in Bhubaneswar covers the trip and the inspection.
+
 ## Are parts included in the price?
 
 No. The prices on this rate card are labour charges only. Taps, pipes, flush kits, valves and motor parts are extra. We can supply parts, or you can buy your own. If we supply them, we share the part price before fitting. Parts follow the brand's own warranty.
@@ -83,7 +86,7 @@ No. The prices on this rate card are labour charges only. Taps, pipes, flush kit
 
 Bathroom renovation, new house plumbing and sewerage lines differ in every building. Pipe length, walls and fittings change the cost. So we visit the site for free and give you a written estimate before work starts. The same applies to concealed pipeline repair.
 
-We take bigger jobs anywhere in Bhubaneswar, for homes, hostels, shops, offices and builders.
+We take bigger jobs anywhere in Bhubaneswar, for homes and businesses.
 
 [CTA: call+whatsapp | location=inline_content]
 
@@ -93,7 +96,6 @@ We take bigger jobs anywhere in Bhubaneswar, for homes, hostels, shops, offices 
 - Written estimate before work starts, and a 90-day workmanship warranty on repair and installation jobs.
 - Open daily 8 AM – 10 PM.
 - One rate card for all of Bhubaneswar.
-- Visit charge adjusted in your final bill.
 
 ## Areas we serve
 
@@ -362,6 +364,26 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
               "priceCurrency": "INR",
               "unitText": "per quarter"
             }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Water tank / sump cleaning",
+              "url": "https://mahapatraplumbing.in/services/water-tank-cleaning/"
+            },
+            "priceCurrency": "INR",
+            "description": "Call or WhatsApp us for a quote."
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Borewell pump & pipe repair",
+              "url": "https://mahapatraplumbing.in/services/borewell-pump-and-pipe-repair/"
+            },
+            "priceCurrency": "INR",
+            "description": "Quote after inspection; part price shared before fitting."
           }
         ]
       }
@@ -477,5 +499,6 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
 
 ## Facts to confirm
 - What decides the visit charge within ₹199–₹349 (distance, job type, time)? The copy only says "ask for the exact visit charge when you call".
-- Does the 90-day workmanship warranty apply to cleaning jobs (drain unclogging, toilet blockage, septic tank cleaning)? The page limits it to repair and installation jobs until confirmed.
+- (Resolved 27 Nov 2026: the 90-day workmanship warranty covers installation and repair jobs only, not cleaning jobs. The page already says this.)
+- Water tank / sump cleaning and borewell pump & pipe repair were added to the rate tables on 27 Nov 2026 as quote-only rows (no figure), per the rate card. Add starting prices later only if the owner decides to show them.
 - What the AMC check-up (from ₹999 per quarter) covers: number of visits, what is checked, and whether labour or parts discounts are included.

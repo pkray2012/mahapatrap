@@ -8,7 +8,7 @@ meta_description: "Plumber in Sailashree Vihar, Bhubaneswar for old GI pipe repl
 primary_keyword: plumber in sailashree vihar
 secondary_keywords: [plumber in chandrasekharpur]
 h1: Plumber in Sailashree Vihar, Bhubaneswar
-word_count: 890
+word_count: 889
 ---
 
 # Plumber in Sailashree Vihar, Bhubaneswar
@@ -84,17 +84,17 @@ Every rate is on our page of [plumber charges in Bhubaneswar](/pricing/).
 
 ## Nearby areas we serve
 
-Sailashree Vihar sits close to our base. Need a [plumber in Chandrasekharpur](/areas/chandrasekharpur/) itself? We also cover [Niladri Vihar](/areas/niladri-vihar/), [Patia](/areas/patia/), KIIT, Infocity, Jayadev Vihar, Nayapalli and all of Bhubaneswar.
+Sailashree Vihar sits close to our base. Need a [plumber in Chandrasekharpur](/areas/chandrasekharpur/) itself? We also cover [Niladri Vihar](/areas/niladri-vihar/), [Patia](/areas/patia/), [KIIT](/areas/kiit/), [Infocity](/areas/infocity/), [Jayadev Vihar](/areas/jayadev-vihar/), [Nayapalli](/areas/nayapalli/) and all of Bhubaneswar.
 
 [MAP: google-maps-listing | static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="View on Google Maps" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click]
 
-[Get directions to Mahapatra Plumbing Services](https://www.google.com/maps?cid=4373818382391816251)
+[Get directions to Mahapatra Plumbing Services](https://www.google.com/maps?cid=4373818382391816251) · Address and hours: [contact page](/contact/)
 
 ## Sailashree Vihar plumbing: common questions
 
-### Do you send a plumber to Sailashree Vihar for a small leak?
+### Why does brown water come from my taps in Sailashree Vihar?
 
-Yes. Sailashree Vihar is close to our base at District Center, Chandrasekharpur, so we take small repairs here. A dripping tap, a running flush tank or a loose fitting is a minor fix from ₹249. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM to book a slot.
+In older houses, it is often rust from inside GI pipes, seen most after the taps sit unused for a while. A dirty overhead tank or sump can also cause it. The plumber checks the lines and tanks at a visit and tells you which it is. Pipe replacement is quoted after a free site visit.
 
 ### Do I have to replace all the GI pipes in my house at once?
 
@@ -256,10 +256,10 @@ Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are b
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Do you send a plumber to Sailashree Vihar for a small leak?",
+          "name": "Why does brown water come from my taps in Sailashree Vihar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Sailashree Vihar is close to our base at District Center, Chandrasekharpur, so we take small repairs here. A dripping tap, a running flush tank or a loose fitting is a minor fix from ₹249. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM to book a slot."
+            "text": "In older houses, it is often rust from inside GI pipes, seen most after the taps sit unused for a while. A dirty overhead tank or sump can also cause it. The plumber checks the lines and tanks at a visit and tells you which it is. Pipe replacement is quoted after a free site visit."
           }
         },
         {

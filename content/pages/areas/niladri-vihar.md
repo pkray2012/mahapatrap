@@ -8,7 +8,7 @@ meta_description: Plumber in Niladri Vihar for water motors, sumps, overhead tan
 primary_keyword: plumber in niladri vihar
 secondary_keywords: [plumber in chandrasekharpur]
 h1: Plumber in Niladri Vihar, Bhubaneswar
-word_count: 876
+word_count: 885
 ---
 
 # Plumber in Niladri Vihar, Bhubaneswar
@@ -106,9 +106,9 @@ In a house fed by a roof tank, flow depends on the downtake pipe and its valves.
 
 Yes. The delivery line must reach the new roof tank. New downtake pipes then feed the new bathrooms and kitchen. This counts as new house plumbing work. You get a free site visit and a written estimate before anything starts.
 
-### Can you also clean the sump and overhead tank?
+### Can you clean the sump when you come to repair the motor?
 
-Yes. We clean ground sumps and overhead tanks across Bhubaneswar, including Niladri Vihar. The price depends on tank size, the number of tanks and access. Share these on call or WhatsApp at +91 9668875352. The 90-day warranty covers repair and installation jobs, not cleaning.
+Yes. You can book sump and overhead tank cleaning along with a motor or tank repair, in Niladri Vihar and across Bhubaneswar. Call or WhatsApp us for a quote. Our number is +91 9668875352. Mention both jobs when you book. The 90-day warranty covers the repair work, not the cleaning.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -295,10 +295,10 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
         },
         {
           "@type": "Question",
-          "name": "Can you also clean the sump and overhead tank?",
+          "name": "Can you clean the sump when you come to repair the motor?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We clean ground sumps and overhead tanks across Bhubaneswar, including Niladri Vihar. The price depends on tank size, the number of tanks and access. Share these on call or WhatsApp at +91 9668875352. The 90-day warranty covers repair and installation jobs, not cleaning."
+            "text": "Yes. You can book sump and overhead tank cleaning along with a motor or tank repair, in Niladri Vihar and across Bhubaneswar. Call or WhatsApp us for a quote. Our number is +91 9668875352. Mention both jobs when you book. The 90-day warranty covers the repair work, not the cleaning."
           }
         }
       ]

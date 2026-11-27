@@ -8,7 +8,7 @@ meta_description: Plumber in Patia, Bhubaneswar for flats, apartments and houses
 primary_keyword: plumber in patia
 secondary_keywords: [plumbing services patia, plumber in bhubaneswar]
 h1: Plumber in Patia, Bhubaneswar
-word_count: 898
+word_count: 884
 ---
 
 <!-- Hero. Accent colour on the word "Patia" in the H1. -->
@@ -101,15 +101,17 @@ Nearby: [KIIT](/areas/kiit/) · [Infocity](/areas/infocity/) · [Chandrasekharpu
 
 [MAP: google-maps-listing | static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="Get directions" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click]
 
+Address and hours: [contact page](/contact/).
+
 ## Plumber in Patia: questions people ask
 
 ### How far is Mahapatra Plumbing Services from Patia?
 
 Not far. Our base is at District Center, Chandrasekharpur, which is the area right next to Patia. Call or WhatsApp +91 9668875352 with your address in Patia and a short note on the problem, and we will tell you when a plumber can come.
 
-### Water is leaking from the ceiling of my Patia flat. What should I do?
+### Can you check a flat's plumbing before I rent or buy it in Patia?
 
-Ceiling leaks in flats usually start in the bathroom of the flat above. Ask that neighbour or the house owner for access, then call us. We check the bathroom lines and floor trap above your ceiling. If the leak is inside a wall or floor, you get a free site visit and a written estimate before any work.
+Yes. Book a visit and the plumber checks the taps, flush tanks, jet sprays, drains, geyser connections and any damp patches. You get a short list of what needs fixing and a written estimate for it. The visit charge is adjusted in the final bill if you go ahead with the repairs.
 
 ### Do you clean water tanks and sumps near Patia?
 
@@ -279,10 +281,10 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
         },
         {
           "@type": "Question",
-          "name": "Water is leaking from the ceiling of my Patia flat. What should I do?",
+          "name": "Can you check a flat's plumbing before I rent or buy it in Patia?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Ceiling leaks in flats usually start in the bathroom of the flat above. Ask that neighbour or the house owner for access, then call us. We check the bathroom lines and floor trap above your ceiling. If the leak is inside a wall or floor, you get a free site visit and a written estimate before any work."
+            "text": "Yes. Book a visit and the plumber checks the taps, flush tanks, jet sprays, drains, geyser connections and any damp patches. You get a short list of what needs fixing and a written estimate for it. The visit charge is adjusted in the final bill if you go ahead with the repairs."
           }
         },
         {
@@ -336,3 +338,4 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
 ## Facts to confirm
 - Real job photos from Patia for the 3 image slots (rented-flat tap repair, house overhead tank motor line, apartment kitchen sink drain).
 - Whether the owner wants a named Patia landmark added (for example a well-known square or residential colony); none is named on this page to avoid guessing.
+- Pre-rent or pre-purchase plumbing check (added by audit, 27 Nov 2026): confirm a normal visit / inspection can be booked to check a flat before renting or buying, with the visit charge adjusted if repairs go ahead.

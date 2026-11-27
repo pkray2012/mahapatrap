@@ -8,7 +8,7 @@ meta_description: Plumber in Chandrasekharpur and Damana, based at District Cent
 primary_keyword: plumber in chandrasekharpur
 secondary_keywords: [plumber in damana, plumber in bhubaneswar]
 h1: Plumber in Chandrasekharpur, Bhubaneswar
-word_count: 894
+word_count: 896
 ---
 
 <!-- Hero. Accent colour on the word "Chandrasekharpur" in the H1. -->
@@ -96,7 +96,7 @@ From Chandrasekharpur we also cover [Infocity](/areas/infocity/), [Patia](/areas
 
 [MAP: google-maps-listing | static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="Get directions" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click]
 
-**Mahapatra Plumbing Services**, District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016. Open daily 8 AM – 10 PM.
+**Mahapatra Plumbing Services**, District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016. Open daily 8 AM – 10 PM. [Contact page](/contact/)
 
 ## Chandrasekharpur plumbing: common questions
 
@@ -112,9 +112,9 @@ Yes. We check the bathroom or kitchen above, since the leak usually starts at a 
 
 Yes. We handle common-area work such as overhead tank lines, sump lines, motor lines and shared drain stacks. For regular maintenance across a whole building, we quote after a free site visit. See our [commercial plumbing](/services/commercial-plumbing/) page for maintenance contracts.
 
-### My house in Chandrasekharpur has a sump and an overhead tank. Can you clean and repair both?
+### I have just moved into a flat in Chandrasekharpur. Can you fit the washing machine and geyser?
 
-Yes. We clean sumps and overhead tanks, and repair the motor, foot valve, float valve and connecting lines. Water motor or pump repair starts at ₹399. For tank cleaning, call or WhatsApp us for a quote. Tell us both jobs together when you book.
+Yes. We fit the washing machine inlet tap and drain pipe, and install or shift a geyser on the plumbing side. Geyser installation starts at ₹699. Mention both jobs when you book, so the plumber comes prepared. We fit parts we bring or ones you bought, and share the part price before fitting.
 
 ### Can I get a plumber in Chandrasekharpur today?
 
@@ -292,10 +292,10 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
         },
         {
           "@type": "Question",
-          "name": "My house in Chandrasekharpur has a sump and an overhead tank. Can you clean and repair both?",
+          "name": "I have just moved into a flat in Chandrasekharpur. Can you fit the washing machine and geyser?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We clean sumps and overhead tanks, and repair the motor, foot valve, float valve and connecting lines. Water motor or pump repair starts at ₹399. For tank cleaning, call or WhatsApp us for a quote. Tell us both jobs together when you book."
+            "text": "Yes. We fit the washing machine inlet tap and drain pipe, and install or shift a geyser on the plumbing side. Geyser installation starts at ₹699. Mention both jobs when you book, so the plumber comes prepared. We fit parts we bring or ones you bought, and share the part price before fitting."
           }
         },
         {
