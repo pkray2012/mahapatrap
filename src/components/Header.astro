@@ -1,7 +1,7 @@
 ---
 import { Picture } from 'astro:assets';
 import logo from '../assets/generated/logo-header.png';
-import { icon } from '../lib/icons';
+import { icon, iconForHref } from '../lib/icons';
 import { SITE } from '../lib/site';
 import { services, areas, waButton, callButton, type Page } from '../lib/content';
 interface Props { page: Page }
@@ -12,8 +12,9 @@ const nav = 'data-track="nav_click" data-cta-location="header"';
 // "You are here" state: aria-current on the link to the current page (styled in global.css).
 const here = page.fm.url;
 const cur = (url: string) => (url === here ? ' aria-current="page"' : '');
-const svcLinks = svc.map((p) => `<li><a href="${p.fm.url}" ${nav}${cur(p.fm.url)}>${p.navName}</a></li>`).join('');
-const areaLinks = ars.map((p) => `<li><a href="${p.fm.url}" ${nav}${cur(p.fm.url)}>${p.navName}</a></li>`).join('');
+const ddIco = (url: string) => icon(iconForHref(url), 'ico dd-ico');
+const svcLinks = svc.map((p) => `<li><a href="${p.fm.url}" ${nav}${cur(p.fm.url)}>${ddIco(p.fm.url)}${p.navName}</a></li>`).join('');
+const areaLinks = ars.map((p) => `<li><a href="${p.fm.url}" ${nav}${cur(p.fm.url)}>${ddIco(p.fm.url)}${p.navName}</a></li>`).join('');
 const ac = (url: string) => (url === here ? { 'aria-current': 'page' as const } : {});
 const chev = icon('chev', 'ico w-4 h-4');
 // tel: button from 768 px (the sticky Call/WhatsApp bar covers smaller screens); the number shows from 1280 px.

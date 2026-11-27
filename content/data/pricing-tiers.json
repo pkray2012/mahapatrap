@@ -1,0 +1,22 @@
+{
+  "_source": "docs/rate-card.md (27 Nov 2026). Rendered by the [PRICING TIERS] marker on / and /pricing/. No durations, no AMC price, no 'no hidden charges'.",
+  "tiers": [
+    {
+      "name": "Small Repairs",
+      "price": "from ₹249",
+      "items": ["Minor leak or loose fitting", "Tap, jet spray or flush kit fitting (₹299–₹799 + parts)", "Drain unclogging from ₹349"]
+    },
+    {
+      "name": "Installs & Service",
+      "price": "from ₹399",
+      "badge": "Most booked",
+      "items": ["Geyser installation from ₹699", "Geyser service ₹499", "Water motor / pump repair from ₹399"]
+    },
+    {
+      "name": "Big Works",
+      "price": "Free site visit",
+      "items": ["Bathroom renovation & new house plumbing", "Concealed pipeline & sewerage works", "Written estimate before work starts"]
+    }
+  ],
+  "note": "Visit charge ₹199–₹349, adjusted in your final bill. 90-day workmanship warranty on installation and repair jobs. Late-night visits +₹300, subject to availability."
+}

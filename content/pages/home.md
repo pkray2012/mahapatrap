@@ -8,7 +8,7 @@ meta_description: Plumber in Bhubaneswar for leaks, taps, geysers, drains, septi
 primary_keyword: plumber in bhubaneswar
 secondary_keywords: [plumber bhubaneswar, plumber near me, plumber service in bhubaneswar, plumbing services bhubaneswar, plumber near me home service]
 h1: Plumber in Bhubaneswar for Repairs, Renovation & Septic Cleaning
-word_count: 1188
+word_count: 1149
 ---
 
 <!-- Hero. Accent colour on the word "Bhubaneswar" in the H1. -->
@@ -74,31 +74,32 @@ Free site visit and written estimate for concealed pipeline work, renovation, ne
 
 ## Why choose Mahapatra Plumbing Services
 
+Need a plumber service in Bhubaneswar for a hostel, PG, shop or office? We work for homes, PGs near KIIT, Infocity offices and builders too.
+
+[WHY PRICING: Why choose us | right=Pricing]
+
 - **Rated 5.0★ on Google.** 45 reviews, 43 of them five-star.
 - **Price first.** Written estimate before work starts.
-- **Visit charge adjusted.** The ₹199–₹349 visit charge is adjusted in your final bill if the work goes ahead.
 - **90-day workmanship warranty** on repair and installation jobs. Parts follow the brand's own warranty.
 - **Good materials.** CPVC, UPVC and PPR pipes.
 - **Owner-run, local base.** Started in 2021 by Amaresh Mahapatra, who has 10+ years of plumbing experience. Read [about our plumbing company in Bhubaneswar](/about/).
 - **Easy payment.** Cash, UPI or bank transfer. GST invoice on request.
 - **One number for small and big jobs.** A dripping tap or a full bathroom re-plumb, you call the same team.
-- **Late-night help, on request.** Late-night and early-morning visits are on request, subject to availability, at ₹300 extra.
 
-Need a plumber service in Bhubaneswar for a hostel, PG, shop or office? We work for homes, PGs near KIIT, Infocity offices and builders too.
+Labour charges. Parts are extra, and we share the part price before fitting.
+
+- Minor fix (washer, small leak, loose fitting): from ₹249
+- Geyser installation: from ₹699
+- Drain unclogging (sink / floor trap): from ₹349
+- Water motor / pump repair: from ₹399
 
 [CTA: call+whatsapp | location=inline_content]
 
 ## Popular plumbing rates
 
-A few common rates (labour only, parts extra). You get a written estimate before work starts.
+Pick the kind of job and book it on WhatsApp.
 
-| Service | Price |
-|---|---|
-| Visit / inspection (adjusted in final bill if work goes ahead) | ₹199–₹349 |
-| Minor fix (washer, small leak, loose fitting) | from ₹249 |
-| Geyser service | ₹499 |
-| Drain unclogging (sink / floor trap) | from ₹349 |
-| Septic tank cleaning | from ₹2,999 |
+[PRICING TIERS]
 
 See every rate, plus late-night, parts and payment details, on our page of [plumber charges in Bhubaneswar](/pricing/).
 

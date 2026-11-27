@@ -8,7 +8,7 @@ meta_description: "Plumber charges and price list in Bhubaneswar: visit ₹199�
 primary_keyword: plumber charges in bhubaneswar
 secondary_keywords: [plumber visit charge bhubaneswar, plumbing rate list bhubaneswar, plumber price list bhubaneswar, how much does a plumber charge per visit in bhubaneswar]
 h1: "Plumber Charges in Bhubaneswar: 2026 Rate Card"
-word_count: 896
+word_count: 880
 ---
 
 # Plumber Charges in Bhubaneswar: 2026 Rate Card
@@ -25,7 +25,9 @@ Prices below are labour charges. Parts are extra.
 
 ## Plumber price list in Bhubaneswar (2026)
 
-This plumbing rate list in Bhubaneswar was updated on 27 November 2026.
+This plumbing rate list in Bhubaneswar was updated on 27 November 2026. Start with the three common job types, then see the full list.
+
+[PRICING TIERS]
 
 ### Small repairs
 
@@ -63,11 +65,6 @@ This plumbing rate list in Bhubaneswar was updated on 27 November 2026.
 | [New house / bathroom plumbing](/services/new-bathroom-and-house-plumbing/) | Quote after inspection | Free site visit, written estimate. |
 | [Sewerage & drainage works](/services/sewerage-and-drainage-works/) | Quote after inspection | Free site visit, written estimate. |
 | [Borewell pump & pipe repair](/services/borewell-pump-and-pipe-repair/) | Quote after inspection | Part price shared before fitting. |
-
-### Applies to every job
-
-- Late-night / early-morning visit: +₹300 extra, on request, subject to availability.
-- Warranty: 90 days on workmanship for repair and installation jobs. Parts follow brand warranty.
 
 [CTA: call+whatsapp | location=pricing_table]
 

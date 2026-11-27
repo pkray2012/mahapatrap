@@ -1,12 +1,14 @@
 // Loads content/pages/**/*.md, renders markdown + markers to HTML strings.
-// Markers: [CTA: ...], [IMAGE: ...], [MAP: ...], [FORM: ...], [CARD LABEL: ...], [BREADCRUMB: ...].
+// Markers: [CTA: ...], [IMAGE: ...], [MAP: ...], [FORM: ...], [CARD LABEL: ...], [BREADCRUMB: ...],
+// [WHY PRICING: ...] (two-card Why choose us + Pricing block) and [PRICING TIERS] (three tier cards).
 // Any other [UPPERCASE: ...] marker fails the build. "## JSON-LD" and "## Facts to confirm" are not rendered.
 import { Marked } from 'marked';
 import { load as yamlLoad } from 'js-yaml';
 import path from 'node:path';
 import { getImage } from 'astro:assets';
 import { SITE, waLink, AREA_OPTIONS, SERVICE_ORDER, AREA_ORDER } from './site';
-import { icon } from './icons';
+import { icon, iconForHref, trustIcon } from './icons';
+import tierData from '../../content/data/pricing-tiers.json';
 
 const marked = new Marked({ gfm: true, breaks: true });
 
@@ -223,7 +225,7 @@ export function renderBreadcrumb(page: Page) {
     const href = b.item.replace(SITE.origin, '');
     return i === page.breadcrumb.length - 1
       ? `<li aria-current="page">${esc(b.name)}</li>`
-      : `<li><a href="${esc(href)}">${esc(b.name)}</a></li>`;
+      : `<li><a href="${esc(href)}">${i === 0 ? icon('home', 'ico crumb-home') : ''}${esc(b.name)}</a></li>`;
   });
   return `<nav class="crumbs" aria-label="Breadcrumb"><ol>${items.join('')}</ol></nav>`;
 }
@@ -278,6 +280,8 @@ function postProcess(ctx: Ctx, html: string) {
 }
 
 const LIST_LINK_RE = /^- (\*\*)?\[([^\]]+)\]\((\/[^)]+)\)(\*\*)?(.*)$/;
+const CONTACT_ICONS: Record<string, string> = { 'Phone / WhatsApp': 'phone', Phone: 'phone', WhatsApp: 'wa', Email: 'mail', Address: 'pin', Hours: 'clock', Languages: 'chat' };
+const CONTACT_RE = new RegExp(`^- \\*\\*(${Object.keys(CONTACT_ICONS).map((k) => k.replace(/[/]/g, '\\/')).join('|')}):\\*\\*`);
 const TRUST_RE = /^\*\*[^*]+\*\*( · \*\*[^*]+\*\*)+$/;
 
 function renderMdBlock(ctx: Ctx, md: string) {
@@ -285,31 +289,84 @@ function renderMdBlock(ctx: Ctx, md: string) {
   // Trust row: **a** · **b** · **c**
   if (lines.length === 1 && TRUST_RE.test(lines[0].trim())) {
     const items = lines[0].trim().split(' · ').map((s) => s.replace(/\*\*/g, ''));
-    return `<ul class="trust">${items.map((i) => `<li>${icon('check')}<span>${marked.parseInline(i)}</span></li>`).join('')}</ul>`;
+    return `<ul class="trust">${items.map((i) => `<li>${icon(trustIcon(i))}<span>${marked.parseInline(i)}</span></li>`).join('')}</ul>`;
   }
-  // Link lists -> service cards (with description) or link chips.
+  // Link lists -> service cards (icon + title + description), compact service cards (no description) or
+  // link chips (area links, with a map-pin icon).
   if (lines.length > 1 && lines.every((l) => LIST_LINK_RE.test(l))) {
     const parsed = lines.map((l) => l.match(LIST_LINK_RE)!);
+    const svcTrack = (href: string) =>
+      `data-track="service_card_click" data-cta-location="service_card" data-service="${href.split('/').filter(Boolean).pop()}" data-page-type="${ctx.page.fm.page_type}"`;
+    const ico = (href: string) => `<span class="svc-ico">${icon(iconForHref(href))}</span>`;
     const withDesc = parsed.every((m) => /^:\s/.test(m[5]));
     if (withDesc) {
       const lis = parsed.map((m) => {
         const href = m[3];
-        const svc = href.split('/').filter(Boolean).pop();
-        const track = href.startsWith('/services/')
-          ? `data-track="service_card_click" data-cta-location="service_card" data-service="${svc}" data-page-type="${ctx.page.fm.page_type}"`
-          : `data-track="nav_click" data-cta-location="${ctx.loc}"`;
-        return `<li class="svc-card"><a href="${esc(href)}" ${track}>${esc(m[2])}</a><p>${marked.parseInline(cap(m[5].replace(/^:\s*/, ''))) as string}</p></li>`;
+        const track = href.startsWith('/services/') ? svcTrack(href) : `data-track="nav_click" data-cta-location="${ctx.loc}"`;
+        return `<li class="svc-card"><div class="svc-head">${ico(href)}<a href="${esc(href)}" ${track}>${esc(m[2])}</a></div><p>${marked.parseInline(cap(m[5].replace(/^:\s*/, ''))) as string}</p></li>`;
       });
       return `<ul class="cards">${lis.join('')}</ul>`;
     }
+    if (parsed.every((m) => m[3].startsWith('/services/'))) {
+      const lis = parsed.map((m) => {
+        const href = m[3];
+        const rest = m[5].trim();
+        const multi = /\]\(\//.test(rest); // a second link in the line: no whole-card overlay
+        const desc = /^:/.test(rest);
+        const tail = rest && !desc ? (/^\s/.test(m[5]) ? ' ' : '') + (marked.parseInline(rest) as string) : '';
+        const p = desc ? `<p>${marked.parseInline(cap(rest.replace(/^:\s*/, ''))) as string}</p>` : '';
+        return `<li class="svc-card svc-sm${multi ? ' svc-multi' : ''}"><div class="svc-head">${ico(href)}<span><a href="${esc(href)}" ${svcTrack(href)}>${esc(m[2])}</a>${tail}</span></div>${p}</li>`;
+      });
+      return `<ul class="cards cards-sm">${lis.join('')}</ul>`;
+    }
     const lis = parsed.map((m) => {
       const html = postProcess(ctx, `<a href="${esc(m[3])}">${esc(m[2])}</a>`);
+      const pin = m[3].startsWith('/areas/') ? icon('pin', 'ico chip-ico') : '';
       // Keep the source spacing: "[link] (and Damana)" gets a space, "[link], from ₹2,999" / "[link]." do not.
-      return `<li>${html}${m[5].trim() ? (/^\s/.test(m[5]) ? ' ' : '') + (marked.parseInline(m[5].trim()) as string) : ''}</li>`;
+      return `<li>${pin}${html}${m[5].trim() ? (/^\s/.test(m[5]) ? ' ' : '') + (marked.parseInline(m[5].trim()) as string) : ''}</li>`;
     });
     return `<ul class="chips">${lis.join('')}</ul>`;
   }
+  // Contact details list: "- **Phone / WhatsApp:** ..." items get a matching icon.
+  if (lines.length > 1 && lines.every((l) => CONTACT_RE.test(l))) {
+    const lis = lines.map((l) => {
+      const label = l.match(CONTACT_RE)![1];
+      const item = marked.parseInline(l.replace(/^- /, '')) as string;
+      return `<li>${icon(CONTACT_ICONS[label], 'ico contact-ico')}<span>${item}</span></li>`;
+    });
+    return postProcess(ctx, `<ul class="contact-list">${lis.join('')}</ul>`);
+  }
   return postProcess(ctx, marked.parse(md) as string);
+}
+
+// ---------- WHY PRICING (two cards) ----------
+const listItems = (md: string) => md.split('\n').filter((l) => /^- /.test(l)).map((l) => marked.parseInline(l.slice(2).trim()) as string);
+
+function renderWhyPricing(ctx: Ctx, mk: ReturnType<typeof parseMarker>, blocks: string[]) {
+  const li = blocks.findIndex((b) => b.split('\n').every((l) => /^- /.test(l)));
+  if (li !== 0) throw new Error(`${ctx.page.file}: [WHY PRICING] must be followed by the "why" bullet list`);
+  const why = listItems(blocks[0]).map((h) => `<li>${icon('check-circle')}<span>${h}</span></li>`).join('');
+  const right = blocks.slice(1).map((b) =>
+    b.split('\n').every((l) => /^- /.test(l))
+      ? `<ul class="wp-prices">${listItems(b).map((h) => `<li>${h}</li>`).join('')}</ul>`
+      : `<p>${marked.parseInline(b.replace(/\n/g, ' ')) as string}</p>`,
+  ).join('');
+  const left = mk.head || 'Why choose us';
+  const rt = mk.attrs.right || 'Pricing';
+  return postProcess(ctx, `<div class="wp-grid"><div class="card wp-card"><h3 class="wp-title">${icon('shield', 'ico wp-ico')}<span>${esc(left)}</span></h3><ul class="wp-list">${why}</ul></div><div class="card wp-card"><h3 class="wp-title">${icon('rupee', 'ico wp-ico')}<span>${esc(rt)}</span></h3>${right}</div></div>`);
+}
+
+// ---------- PRICING TIERS (three cards, from content/data/pricing-tiers.json = rate card) ----------
+export function renderTiers(page: Page) {
+  const t = page.fm.page_type;
+  const cards = tierData.tiers.map((tier: { name: string; price: string; badge?: string; items: string[] }) => {
+    const slug = slugify(tier.name);
+    const text = `Hi, I want to book: ${tier.name} [Page: ${page.fm.page_tag} | Tier: ${tier.name}]`;
+    const attrs = `data-track="whatsapp_click" data-cta-location="pricing_table" data-page-type="${t}" data-service="${slug}"${t === 'locality' ? ` data-locality="${page.slug}"` : ''}`;
+    const items = tier.items.map((it) => `<li>${icon('check-circle')}<span>${esc(it)}</span></li>`).join('');
+    return `<li class="tier${tier.badge ? ' tier-hot' : ''}">${tier.badge ? `<p class="tier-badge">${esc(tier.badge)}</p>` : ''}<div class="tier-top"><p class="tier-name">${esc(tier.name)}</p>${icon('rupee', 'ico tier-ico')}</div><p class="tier-price">${esc(tier.price)}</p><ul class="tier-list">${items}</ul><a class="btn btn-blue btn-block tier-btn" href="${esc(waLink(text))}" target="_blank" rel="noopener" ${attrs}><span>Book Now</span><span class="sr-only">: ${esc(tier.name)}</span>${icon('arrow')}</a></li>`;
+  }).join('');
+  return `<div class="tiers" data-pricing><ul class="tier-grid">${cards}</ul><p class="tier-note">${esc(tierData.note)}</p></div>`;
 }
 
 // ---------- page assembly ----------
@@ -321,7 +378,7 @@ type Seg =
   | { t: 'h3'; text: string }
   | { t: 'faq'; q: string; md: string };
 
-const KNOWN = new Set(['CTA', 'IMAGE', 'MAP', 'FORM', 'BREADCRUMB', 'CARD LABEL']);
+const KNOWN = new Set(['CTA', 'IMAGE', 'MAP', 'FORM', 'BREADCRUMB', 'CARD LABEL', 'WHY PRICING', 'PRICING TIERS']);
 
 function segment(page: Page): { segs: Seg[]; accent: string | null } {
   let body = page.body;
@@ -428,6 +485,14 @@ async function renderSegs(ctx: Ctx, segs: Seg[], level: 'h2' | 'h3', heroMode = 
       } else if (kind === 'FORM') {
         push(formFromMarker(ctx, s.mk));
         if (card) cardDone = true;
+      } else if (kind === 'PRICING TIERS') {
+        push(renderTiers(ctx.page));
+      } else if (kind === 'WHY PRICING') {
+        // Consumes the markdown blocks that follow (up to the next marker / heading): the first list is the
+        // "Why choose us" card, everything after it goes into the "Pricing" card.
+        const blocks: string[] = [];
+        while (i + 1 < segs.length && segs[i + 1].t === 'md') blocks.push((segs[++i] as { md: string }).md);
+        push(renderWhyPricing(ctx, s.mk, blocks));
       } else if (kind === 'BREADCRUMB') {
         /* hoisted above the H1 */
       }
@@ -481,7 +546,7 @@ export async function renderPage(page: Page): Promise<Rendered> {
     }
   }
   const all = [breadcrumb, heroBlocks, heroCard, ...sections.map((s) => s.html)].join('\n');
-  const leak = all.replace(/<script[\s\S]*?<\/script>/g, '').match(/\[(CTA|IMAGE|MAP|FORM|BREADCRUMB|CARD LABEL)\b[^\]]*/);
+  const leak = all.replace(/<script[\s\S]*?<\/script>/g, '').match(/\[(CTA|IMAGE|MAP|FORM|BREADCRUMB|CARD LABEL|WHY PRICING|PRICING TIERS)\b[^\]]*/);
   if (leak) throw new Error(`${page.file}: raw marker leaked into HTML: ${leak[0].slice(0, 60)}`);
   const faqCount = (all.match(/<details class="faq"/g) || []).length;
   if (faqCount !== page.faqs.size) throw new Error(`${page.file}: ${page.faqs.size} FAQs in JSON-LD but ${faqCount} rendered`);

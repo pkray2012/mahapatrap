@@ -69,7 +69,7 @@ BANNED = [
 ]
 DRILL_OK = "We do not drill new borewells."
 
-MARKER_RE = re.compile(r"\[(CTA|IMAGE|MAP|FORM|BREADCRUMB|CARD LABEL)[^\]]*\]")
+MARKER_RE = re.compile(r"\[(CTA|IMAGE|MAP|FORM|BREADCRUMB|CARD LABEL|WHY PRICING|PRICING TIERS)[^\]]*\]")
 LINK_RE = re.compile(r"\[([^\]]+)\]\([^)]*\)")
 
 
