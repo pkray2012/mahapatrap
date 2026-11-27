@@ -4,6 +4,7 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Build stack decided: Astro (static HTML, zero JS by default) + Tailwind on Netlify, replacing Next.js from the original brief, for mobile speed. Spec with mobile speed budget in docs/build-spec.md.
 - reviews.json: added Sridhar Rana and Saumya Mishra excerpts (5 total), page-to-review matching, shown on 10 pages. Signed-out Google Maps limits visible reviews; owner-side export needed for more.
 - Added content/data/reviews.json: 3 real Google review excerpts (Kshirod Mahanta, AK, Kalyan Pradhan) + rating 5.0 from 45 (43×5★, 2×4★), read from the public Google Maps listing in a cloud browser. Rendered as a shared reviews strip in the build (visible text only, no review schema). Noted: GBP still shows 'Open 24 hours', no phone, http website link.
 - Owner answers round 3 (content-brief.md): owner Amaresh Mahapatra (10+ years of plumbing experience, business started 2021) on about (intro, "Meet Amaresh Mahapatra" + owner photo slot, at-a-glance rows), home (at a glance + why-choose line) and contact; Plumber schema `founder` + `foundingDate: 2021` on all 26 pages and schema.md §1; sewerage page names WATCO approval for new sewer connections (page-specs synced); 2–3 verified landmarks on all 8 area pages (sources in docs/research/2026-11-27-area-landmarks.md); answered Facts-to-confirm bullets removed; check_pages.py now flags "Mohapatra" outside the email, "since 2011", and a missing founder/foundingDate; word counts recounted.
