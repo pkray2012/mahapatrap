@@ -8,7 +8,7 @@ meta_description: Plumber near KIIT for hostels, PGs and student flats. Blocked 
 primary_keyword: plumber near kiit
 secondary_keywords: [plumber for hostel near kiit]
 h1: Plumber near KIIT, Bhubaneswar (Hostels, PGs & Homes)
-word_count: 881
+word_count: 874
 ---
 
 <!-- Hero. Accent colour on "KIIT" in the H1. -->

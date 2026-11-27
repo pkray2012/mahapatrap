@@ -8,7 +8,7 @@ meta_description: "Plumber charges in Bhubaneswar: visit ₹199–₹349 adjuste
 primary_keyword: plumber charges in bhubaneswar
 secondary_keywords: [plumber visit charge bhubaneswar, plumbing rate list bhubaneswar, how much does a plumber charge per visit in bhubaneswar]
 h1: "Plumber Charges in Bhubaneswar: 2026 Rate Card"
-word_count: 896
+word_count: 895
 ---
 
 # Plumber Charges in Bhubaneswar: 2026 Rate Card
@@ -35,7 +35,7 @@ Rates updated 27 November 2026.
 | [Minor fix (washer, small leak, loose fitting)](/services/leak-and-blockage-repair/) | from ₹249 | Parts extra. |
 | [Geyser service](/services/geyser-installation-and-repair/) | ₹499 | Parts extra. |
 | [Water motor / pump repair](/services/water-tank-and-motor-repair/) | from ₹399 | Parts extra. |
-| AMC check-up (homes) | Price on request | Home check-up. Call or WhatsApp us for a quote. |
+| AMC check-up (homes) | Price on request | Home check-up. |
 | [Commercial AMC (hostels, PGs, offices, shops, hotels)](/services/commercial-plumbing/) | Price on request | Call or WhatsApp us for a quote. |
 
 ### Installations
