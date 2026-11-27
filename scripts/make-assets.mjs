@@ -15,9 +15,9 @@ const out = (f) => path.join(root, f);
 await mkdir(out('src/assets/generated'), { recursive: true });
 await mkdir(out('public/images'), { recursive: true });
 
-// Header logo: crop to content, 2x of ~44 px display height => 88 px tall.
+// Header logo: crop to content, 2x of the 54 px desktop display height (44 px on phones) => 112 px tall source.
 const trimmed = await sharp(b('mahapatra-logo-horizontal-colour@2x.png')).trim({ threshold: 1 }).toBuffer();
-await sharp(trimmed).resize({ height: 88 }).png({ compressionLevel: 9, palette: true, quality: 90 }).toFile(out('src/assets/generated/logo-header.png'));
+await sharp(trimmed).resize({ height: 112 }).png({ compressionLevel: 9, palette: true, quality: 90 }).toFile(out('src/assets/generated/logo-header.png'));
 
 // Schema logo (bigger, PNG, white background so it reads anywhere).
 await sharp(trimmed).resize({ height: 240 }).flatten({ background: '#ffffff' }).extend({ top: 24, bottom: 24, left: 24, right: 24, background: '#ffffff' })

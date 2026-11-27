@@ -9,8 +9,12 @@ const { page } = Astro.props;
 const svc = services();
 const ars = areas();
 const nav = 'data-track="nav_click" data-cta-location="header"';
-const svcLinks = svc.map((p) => `<li><a href="${p.fm.url}" ${nav}>${p.navName}</a></li>`).join('');
-const areaLinks = ars.map((p) => `<li><a href="${p.fm.url}" ${nav}>${p.navName}</a></li>`).join('');
+// "You are here" state: aria-current on the link to the current page (styled in global.css).
+const here = page.fm.url;
+const cur = (url: string) => (url === here ? ' aria-current="page"' : '');
+const svcLinks = svc.map((p) => `<li><a href="${p.fm.url}" ${nav}${cur(p.fm.url)}>${p.navName}</a></li>`).join('');
+const areaLinks = ars.map((p) => `<li><a href="${p.fm.url}" ${nav}${cur(p.fm.url)}>${p.navName}</a></li>`).join('');
+const ac = (url: string) => (url === here ? { 'aria-current': 'page' as const } : {});
 const chev = icon('chev', 'ico w-4 h-4');
 // tel: button from 768 px (the sticky Call/WhatsApp bar covers smaller screens); the number shows from 1280 px.
 const callBtn = callButton(page, 'header', 'Call', 'btn btn-call hidden md:inline-flex').replace('<span>Call</span>', `<span>Call<span class="hidden xl:inline"> ${SITE.phoneDisplay}</span></span>`);
@@ -19,7 +23,7 @@ const navAttrs = { 'data-track': 'nav_click', 'data-cta-location': 'header' };
 <header class="site-header">
   <div class="wrap hdr">
     <a href="/" class="hdr-logo" data-track="nav_click" data-cta-location="header" aria-label="Mahapatra Plumbing Services, home">
-      <Picture src={logo} formats={['avif', 'webp']} fallbackFormat="webp" width={161} height={44} densities={[1, 2]} alt="Mahapatra Plumbing Services" loading="eager" class="h-11 w-auto" />
+      <Picture src={logo} formats={['avif', 'webp']} fallbackFormat="webp" width={198} height={54} densities={[1, 2]} alt="Mahapatra Plumbing Services" loading="eager" fetchpriority="high" />
     </a>
     <!-- One nav for all screen sizes (no duplicated link lists): inline with dropdowns from 1024 px,
          a panel opened by the hamburger <details> below it (CSS: .mnav[open] ~ .nav-main). -->
@@ -29,14 +33,14 @@ const navAttrs = { 'data-track': 'nav_click', 'data-cta-location': 'header' };
     <nav class="nav-main" aria-label="Main">
       <ul class="nav-list">
         <li><details class="dd"><summary>Services <Fragment set:html={chev} /></summary><ul class="dd-panel dd-2" set:html={svcLinks} /></details></li>
-        <li><a class="nav-link" href="/pricing/" {...navAttrs}>Pricing</a></li>
+        <li><a class="nav-link" href="/pricing/" {...navAttrs} {...ac('/pricing/')}>Pricing</a></li>
         <li><details class="dd"><summary>Areas <Fragment set:html={chev} /></summary><ul class="dd-panel" set:html={areaLinks} /></details></li>
-        <li><a class="nav-link" href="/about/" {...navAttrs}>About</a></li>
-        <li><a class="nav-link" href="/contact/" {...navAttrs}>Contact</a></li>
+        <li><a class="nav-link" href="/about/" {...navAttrs} {...ac('/about/')}>About</a></li>
+        <li><a class="nav-link" href="/contact/" {...navAttrs} {...ac('/contact/')}>Contact</a></li>
       </ul>
     </nav>
     <div class="hdr-cta">
-      <Fragment set:html={waButton(page, 'header', 'Get a Quote', 'btn btn-blue hidden sm:inline-flex')} />
+      <Fragment set:html={waButton(page, 'header', 'Get a Quote', 'btn btn-quote hidden sm:inline-flex')} />
       <Fragment set:html={callBtn} />
     </div>
   </div>
