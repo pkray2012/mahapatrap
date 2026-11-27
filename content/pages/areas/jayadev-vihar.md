@@ -8,7 +8,7 @@ meta_description: Plumber in Jayadev Vihar and Saheed Nagar for shops, offices a
 primary_keyword: plumber in jayadev vihar
 secondary_keywords: [plumber in saheed nagar]
 h1: Plumber in Jayadev Vihar & Saheed Nagar, Bhubaneswar
-word_count: 892
+word_count: 882
 ---
 
 # Plumber in Jayadev Vihar & Saheed Nagar, Bhubaneswar
@@ -113,7 +113,7 @@ Yes, for most small jobs. Flush kits, taps and basin waste pipes can usually be 
 
 ### Do you look after plumbing for a whole commercial building?
 
-Yes. We work on washrooms on every floor, pantry lines, overhead tank lines and motor lines. Regular maintenance for a building is quoted after a free site visit, based on the number of washrooms and floors. A GST invoice is available on request. Call +91 9668875352 to fix a site visit.
+Yes. We work on washrooms on every floor, pantry lines, overhead tank lines and motor lines. Regular maintenance (AMC) for a building is price on request. A GST invoice is available on request. Call or WhatsApp +91 9668875352 for a quote.
 
 ### My new geyser leaks at the pipe joint. Can you fix it?
 
@@ -292,7 +292,7 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
           "name": "Do you look after plumbing for a whole commercial building?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We work on washrooms on every floor, pantry lines, overhead tank lines and motor lines. Regular maintenance for a building is quoted after a free site visit, based on the number of washrooms and floors. A GST invoice is available on request. Call +91 9668875352 to fix a site visit."
+            "text": "Yes. We work on washrooms on every floor, pantry lines, overhead tank lines and motor lines. Regular maintenance (AMC) for a building is price on request. A GST invoice is available on request. Call or WhatsApp +91 9668875352 for a quote."
           }
         },
         {
@@ -331,5 +331,4 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
 - Real job photos from Jayadev Vihar or Saheed Nagar for the 3 image slots (shop washroom tap, geyser fitting in a flat, office pantry sink).
 - That geyser fitting/service and tap/flush fitting are the main jobs the owner gets from Jayadev Vihar and Saheed Nagar (page angle from page-specs; no local landmarks named, building types used instead).
 - That visits can be planned around shop and office hours "where possible" (same wording as the commercial plumbing page).
-- That commercial building maintenance is quoted after a free site visit based on number of washrooms and floors (from page-specs commercial entry).
 - Shop washroom FAQ (added by audit, 27 Nov 2026): confirm small jobs (flush kit, tap, basin waste) can usually be done without the shop closing.

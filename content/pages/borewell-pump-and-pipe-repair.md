@@ -27,7 +27,7 @@ Mahapatra Plumbing Services, based in Chandrasekharpur, offers borewell pump and
 
 We cover the plumbing side, from the pump to your tank:
 
-- **Submersible pump lifting and lowering:** We pull the borewell submersible pump up for checks or repair, then lower it back.
+- **Submersible pump lifting and lowering:** Our own team lifts the borewell submersible pump for checks or repair, then lowers it back.
 - **Borewell pipe replacement:** We replace cracked or damaged column (riser) pipes that carry water up from the pump.
 - **Pipe joint and connection leaks:** A loose or broken joint lets water leak back down. We fix it.
 - **Non-return valve:** A faulty valve lets water drain back when the motor stops. We check and replace it.
@@ -375,11 +375,10 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
 ```
 
 ## Facts to confirm
-- Whether the ₹199–₹349 visit / inspection charge applies to borewell inspections, or whether the borewell inspection is free. The page does not state a visit charge; it links to /pricing/.
 - A typical starting price for borewell pump lifting and lowering, and for column pipe replacement, if the owner wants a number shown. The page says "Quote after inspection" only, so the price table has no ₹ figure.
 - Which column (riser) pipe types the team supplies and fits (for example UPVC, HDPE or GI). The page names no pipe type for column pipes.
 - Any limit on how deep a pump the team can lift, and whether extra helpers or charges apply for deep or heavy pumps. The page states no depth.
-- That the team lifts and lowers the pump themselves (no outside help), and whether they reinstall a pump after a motor mechanic repairs it (not stated on the page).
+- Whether the team reinstalls a pump after a motor mechanic repairs it (not stated on the page).
 - Whether the 90-day workmanship warranty covers pump lifting/lowering and column pipe replacement, as the page states for "repair and installation work".
 - Note: "near me" is used once in body copy ("borewell service near me"). Audit 27 Nov 2026: schema keyword "submersible pump repair near me" (schema.md section 7) changed to "submersible pump repair bhubaneswar" to match the visible text "submersible pump repair in Bhubaneswar". Update schema.md section 7 if accepted.
 - Real job photos needed for the 3 image slots (pump lifting from a borewell, column pipe replacement, borewell line to sump).

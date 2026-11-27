@@ -6,9 +6,9 @@ page_tag: About
 meta_title: Plumbing Company in Bhubaneswar | Mahapatra Plumbing
 meta_description: Mahapatra Plumbing Services is a plumbing company in Bhubaneswar, based in Chandrasekharpur. 5.0★ on Google. Call or WhatsApp +91 9668875352.
 primary_keyword: plumbing company in bhubaneswar
-secondary_keywords: [plumber in chandrasekharpur, mahapatra plumbing services]
+secondary_keywords: [mahapatra plumbing services]
 h1: About Mahapatra Plumbing Services, Chandrasekharpur
-word_count: 858
+word_count: 794
 ---
 
 # About Mahapatra Plumbing Services, Chandrasekharpur
@@ -23,23 +23,23 @@ Mahapatra Plumbing Services is a local plumbing company in Bhubaneswar. Our base
 
 ## Who is Mahapatra Plumbing Services?
 
-Mahapatra Plumbing Services is a plumber in Chandrasekharpur, Bhubaneswar. We are a local team based at District Center, Chandrasekharpur. We fix leaks, taps, geysers, motors and choked drains. We also take renovation, new house plumbing, sewerage works and septic tank cleaning. You get a written estimate before work starts.
+Mahapatra Plumbing Services is a plumber in Chandrasekharpur, Bhubaneswar. We are a local team based at District Center, Chandrasekharpur. Our plumbers come to you, and we speak Odia, Hindi and English. You get a written estimate before work starts.
 
 ## What work do we do?
 
-We handle everyday plumbing repairs and bigger plumbing jobs. Repairs cover leaks, taps, flush tanks, fittings, geysers, water motors and choked drains. Bigger jobs cover renovation, new house plumbing, sewerage works and septic tank cleaning, anywhere in Bhubaneswar. Here is what that includes:
+We handle everyday plumbing repairs and bigger plumbing jobs anywhere in Bhubaneswar. Here is what that includes:
 
 - **Small repairs:** dripping taps, leaking pipes and running flush tanks. See [leak and blockage repair](/services/leak-and-blockage-repair/).
-- **Fittings:** taps, sinks, flush kits, and washing machine inlet and drain fitting.
+- **Fittings:** taps, sinks, flush kits, and washing machine inlet and drain fitting. We also fit items you bought online or from a shop.
 - **Geysers:** installation and service. We fix the plumbing side and tell you if an electrician or the brand's service centre is needed.
 - **Water supply:** motor and pump repair, borewell pump and pipe repair, and water tank and sump cleaning.
-- **Bigger jobs:** concealed pipelines, bathroom and kitchen renovation, and [septic tank cleaning in Bhubaneswar](/services/septic-tank-cleaning/).
+- **Bigger jobs:** concealed pipelines, bathroom and kitchen renovation, and [septic tank cleaning in Bhubaneswar](/services/septic-tank-cleaning/). We can also handle the tiling, plaster or civil work, after discussing it with you.
 
 We work with CPVC, UPVC and PPR pipes. We supply fittings and parts, or you can bring your own.
 
 ## How do we work on every job?
 
-Every job starts with a check and a written estimate. You know the price before work starts. The part price is shared before fitting. Installation and repair jobs carry a 90-day workmanship warranty. You can pay by cash, UPI or bank transfer, and ask for a GST invoice.
+Every job starts with a check and a written estimate. The part price is shared before fitting. Installation and repair jobs carry a 90-day workmanship warranty. You can pay by cash, UPI or bank transfer, and ask for a GST invoice.
 
 - **Visit charge ₹199–₹349,** adjusted in the final bill if the work goes ahead.
 - **Free site visit and written estimate** for renovation, new house plumbing, concealed pipeline work and sewerage works.
@@ -63,13 +63,13 @@ All rates, late-night charges and warranty terms are on our [plumbing charges in
 
 ## Who do we work for?
 
-We work for homes, flats, hostels, PGs, shops, offices and builders across Bhubaneswar. Families call us for leaks, geysers and choked drains. Hostels and PGs near KIIT and Patia call for toilets, taps and water tanks. Builders call for new house plumbing and sewerage lines.
+We work for homes, flats, hostels, PGs, shops, offices and builders across Bhubaneswar. Hostels and PGs near KIIT and Patia call for toilets, taps and water tanks. Builders call for new house plumbing and sewerage lines.
 
 For hotels, offices, hostels and shops, see our [commercial plumbing services](/services/commercial-plumbing/).
 
 ## What do customers say about us?
 
-Mahapatra Plumbing Services is rated 5.0★ from 45 Google reviews, and 43 of them are five-star. Customers mention fair pricing, quality work and plumbers who come on time. Kitchen and bathroom fixes come up often. Every review is on our Google Maps listing.
+Mahapatra Plumbing Services is rated 5.0★ from 45 Google reviews, and 43 of them are five-star. Customers mention fair pricing, quality work and plumbers who come on time.
 
 [Read our reviews on Google](https://www.google.com/maps?cid=4373818382391816251)
 
@@ -77,7 +77,7 @@ Mahapatra Plumbing Services is rated 5.0★ from 45 Google reviews, and 43 of th
 
 ## Areas we serve
 
-We are based in Chandrasekharpur and serve all of Bhubaneswar. Quick repairs are most often in Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli. We also reach Damana, Saheed Nagar and IRC Village. See our page for a [plumber in Chandrasekharpur and Damana](/areas/chandrasekharpur/). Bigger jobs are done anywhere in Bhubaneswar.
+We are based in Chandrasekharpur and serve all of Bhubaneswar. Quick repairs are most often in Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli. We also reach Damana, Saheed Nagar and IRC Village. See our page for a [plumber in Chandrasekharpur and Damana](/areas/chandrasekharpur/).
 
 ## About Mahapatra Plumbing Services: FAQs
 
@@ -85,9 +85,9 @@ We are based in Chandrasekharpur and serve all of Bhubaneswar. Quick repairs are
 
 Mahapatra Plumbing Services is based at District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016. From there we serve all of Bhubaneswar, including Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM to book a visit.
 
-### Do you have a shop I can visit?
+### Can I visit your office at District Center?
 
-Our base is District Center, Chandrasekharpur, but our plumbers work on site at your home or building. So please call +91 9668875352 before you visit. The quickest way to get help is to call or WhatsApp us with your area and a photo of the problem. We then fix a time for a visit.
+Please do not come to District Center without calling. Our plumbers work on site, so we come to your home or building. Call or WhatsApp +91 9668875352 first with your area and a photo of the problem. We then fix a time for a visit. We speak Odia, Hindi and English.
 
 ### Is Mahapatra Plumbing the same as Mahapatra Plumbing Services?
 
@@ -225,7 +225,7 @@ To book a visit, call or WhatsApp +91 9668875352, or use our [contact page](/con
       "name": "Plumbing Company in Bhubaneswar | Mahapatra Plumbing",
       "headline": "About Mahapatra Plumbing Services, Chandrasekharpur",
       "description": "Mahapatra Plumbing Services is a plumbing company in Bhubaneswar, based in Chandrasekharpur. 5.0★ on Google. Call or WhatsApp +91 9668875352.",
-      "keywords": "plumbing company in bhubaneswar, plumber in chandrasekharpur, mahapatra plumbing services",
+      "keywords": "plumbing company in bhubaneswar, mahapatra plumbing services",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },
@@ -254,10 +254,10 @@ To book a visit, call or WhatsApp +91 9668875352, or use our [contact page](/con
         },
         {
           "@type": "Question",
-          "name": "Do you have a shop I can visit?",
+          "name": "Can I visit your office at District Center?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our base is District Center, Chandrasekharpur, but our plumbers work on site at your home or building. So please call +91 9668875352 before you visit. The quickest way to get help is to call or WhatsApp us with your area and a photo of the problem. We then fix a time for a visit."
+            "text": "Please do not come to District Center without calling. Our plumbers work on site, so we come to your home or building. Call or WhatsApp +91 9668875352 first with your area and a photo of the problem. We then fix a time for a visit. We speak Odia, Hindi and English."
           }
         },
         {
@@ -301,8 +301,6 @@ To book a visit, call or WhatsApp +91 9668875352, or use our [contact page](/con
 ```
 
 ## Facts to confirm
-- Whether there is a shop or office at District Center, Chandrasekharpur that customers can walk into, and its opening hours. The FAQ "Do you have a shop I can visit?" says our base is there, plumbers work on site, and customers should call before visiting.
 - Owner name, year the business started and team size, if the owner wants them on the About page. All are left out until confirmed.
 - Any trade registration or GST number the owner wants shown (left out; "GST invoice on request" is stated only as in the brief).
 - Real photos for the three image slots: a plumber outside a home in Chandrasekharpur, a plumber explaining a written estimate, and a kitchen sink repair in Chandrasekharpur.
-- Note for the owner: the project description gives a different visit charge (₹149–₹299) and a different rating source; this page uses the approved rate card (₹199–₹349) and the Google figure (5.0★ from 45 reviews) only.

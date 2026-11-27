@@ -8,7 +8,7 @@ meta_description: Concealed pipe leakage repair in Bhubaneswar: wall and floor l
 primary_keyword: concealed pipe leakage repair
 secondary_keywords: [internal pipe leak repair, cpvc pipe fitting, pipeline repair bhubaneswar, cpvc pipework]
 h1: "Concealed Pipeline Repair & CPVC Plumbing in Bhubaneswar"
-word_count: 1292
+word_count: 1289
 ---
 
 # Concealed Pipeline Repair & CPVC Plumbing in Bhubaneswar
@@ -32,7 +32,7 @@ A hidden leak shows up as damp or a bigger water bill. We handle the plumbing si
 - **New lines and extra points** for a tap, geyser, washing machine or RO
 - **CPVC pipe fitting** for hot and cold water lines
 
-We do the plumbing work. For re-tiling and plaster after a wall is opened, we work with your tile or civil mistri. Building a new house? See [new house and bathroom plumbing](/services/new-bathroom-and-house-plumbing/).
+We can also handle the re-tiling and plaster, after discussing it with you. Building a new house? See [new house and bathroom plumbing](/services/new-bathroom-and-house-plumbing/).
 
 ## How much does concealed pipe leakage repair cost in Bhubaneswar?
 
@@ -118,11 +118,11 @@ We take pipeline repair in Bhubaneswar from our base at District Center, Chandra
 
 ### Can you fix a concealed pipe leak without breaking many tiles?
 
-We try to open only the part of the wall or floor needed to reach the leak. How much depends on where the leak is and how the line runs. We explain this at the free site visit, so you know before work starts. Keep a few spare tiles from your original lot if you have them.
+Yes. We open only the part of the wall or floor needed to reach the leak, and we test the line before closing it. How much depends on where the leak is and how the line runs. We explain this at the free site visit. Keep a few spare tiles from your original lot if you have them.
 
 ### Who fixes the tiles and plaster after the pipe repair?
 
-Mahapatra Plumbing Services does the plumbing work: finding the leaking section, repairing or replacing it, and checking the joints. For re-tiling and plaster, we work with your tile or civil mistri. We tell you when the line is ready, so they can close the wall or floor.
+We can. Mahapatra Plumbing Services finds the leaking section, repairs or replaces it, and checks the joints. We can also handle the re-tiling and plaster, after discussing it with you. If you prefer your own mistri, we tell you when the line is ready, so they can close the wall or floor.
 
 ### Is CPVC pipe good for hot water from the geyser?
 
@@ -316,7 +316,7 @@ Call or WhatsApp +91 9668875352. Send a photo, tell us your area, and we will bo
           "name": "Can you fix a concealed pipe leak without breaking many tiles?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We try to open only the part of the wall or floor needed to reach the leak. How much depends on where the leak is and how the line runs. We explain this at the free site visit, so you know before work starts. Keep a few spare tiles from your original lot if you have them."
+            "text": "Yes. We open only the part of the wall or floor needed to reach the leak, and we test the line before closing it. How much depends on where the leak is and how the line runs. We explain this at the free site visit. Keep a few spare tiles from your original lot if you have them."
           }
         },
         {
@@ -324,7 +324,7 @@ Call or WhatsApp +91 9668875352. Send a photo, tell us your area, and we will bo
           "name": "Who fixes the tiles and plaster after the pipe repair?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Mahapatra Plumbing Services does the plumbing work: finding the leaking section, repairing or replacing it, and checking the joints. For re-tiling and plaster, we work with your tile or civil mistri. We tell you when the line is ready, so they can close the wall or floor."
+            "text": "We can. Mahapatra Plumbing Services finds the leaking section, repairs or replaces it, and checks the joints. We can also handle the re-tiling and plaster, after discussing it with you. If you prefer your own mistri, we tell you when the line is ready, so they can close the wall or floor."
           }
         },
         {
@@ -386,9 +386,5 @@ Call or WhatsApp +91 9668875352. Send a photo, tell us your area, and we will bo
 ## Facts to confirm
 
 - How the team locates a hidden leak at the site visit (method, any equipment). Page makes no equipment claim and says only that we "check the signs and the line around them".
-- Confirm the line "We try to open only the part of the wall or floor needed to reach the leak" (FAQ 1) reflects how the team works.
-- Re-tiling and plaster after opening a wall: page says the customer's tile or civil mistri does it. Confirm the team does not do this itself or arrange it.
-- Is the free site visit for concealed pipeline repair free across all of Bhubaneswar, even if the customer does not go ahead?
 - Confirm the team reviews WhatsApp photos/videos and advises before the site visit (copy says "We look at it and tell you what to check before the site visit").
-- Confirm a leak check (running water and checking joints) is done before the wall or floor is closed on repair jobs.
 - Real job photos for the 3 image slots (opened wall at a concealed leak, damp patch from a hidden leak, CPVC reroute).

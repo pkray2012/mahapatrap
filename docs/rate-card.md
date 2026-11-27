@@ -14,6 +14,7 @@ Single source of truth for /pricing/ and every service page. Labour charges; par
 | Water motor / pump repair | from 399 |
 | Septic tank cleaning | from 2,999 |
 | AMC check-up (homes) | from 999 per quarter |
+| Commercial AMC (hostels, PGs, offices, shops, hotels) | Price on request |
 | Late-night / early-morning visit | +300 extra |
 | Concealed pipeline repair / reroute | Quote after free site visit + written estimate |
 | Bathroom / kitchen renovation | Quote after inspection (free site visit + written estimate) |

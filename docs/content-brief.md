@@ -94,3 +94,16 @@ word_count: ...
 - FAQ text in JSON-LD is identical to the visible FAQs. JSON is valid (parse it).
 - Title ≤60 chars, description ≤155 chars (count them).
 - No invented facts, no Madanpur, no placeholder text in visible copy.
+
+## Owner answers, 27 Nov 2026 (round 2) — apply on every page
+- Visit charge ₹199–₹349 is correct (adjusted in the final bill).
+- Septic: never mention partners. Writing "we" for the septic job is fine.
+- Free site visit ONLY for big works: concealed pipeline, bathroom/kitchen renovation, new house/bathroom plumbing, sewerage & drainage works, commercial work. Never offer a free visit for small repairs. Do not promise it is free "even if you don't go ahead".
+- Civil work (tiling, plaster, digging, chamber work): we can do it too, after discussing it with the customer. Do not say "plumbing only" or "your mistri does the civil work". Say e.g. "We can also handle the tiling, plaster or civil work, after discussing it with you."
+- Motor rewinding / electrical faults: always referred to a motor mechanic or electrician (keep current wording).
+- Borewell: our team lifts and lowers the submersible pump itself.
+- We fit taps and fittings that customers bought online or from shops.
+- Hidden / concealed leaks: we open only the part of the wall or floor that is needed, and test before closing it.
+- AMC: ₹999 per quarter is for homes only. Commercial AMC (hostels, PGs, offices, hotels, shops, apartment societies): price on request ("Call or WhatsApp us for a quote"). No figure, no "quoted after free site visit" wording for AMC.
+- No walk-ins at District Center: customers call or WhatsApp first; we come to them.
+- Languages on calls: Odia, Hindi and English (schema availableLanguage: or, hi, en).

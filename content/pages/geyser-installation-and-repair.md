@@ -8,7 +8,7 @@ meta_description: Geyser repair and installation in Bhubaneswar. Fitting from �
 primary_keyword: geyser repair in bhubaneswar
 secondary_keywords: [geyser installation bhubaneswar, geyser repair near me, geyser repair, geyser servicing bhubaneswar, water heater repair, how much does geyser installation cost in bhubaneswar]
 h1: "Geyser Repair & Installation in Bhubaneswar"
-word_count: 1295
+word_count: 1277
 ---
 
 # Geyser Repair & Installation in Bhubaneswar
@@ -404,5 +404,4 @@ Tell us your geyser problem and your area. Call or WhatsApp +91 9668875352, or s
 ## Facts to confirm
 - What exactly is included in the ₹499 geyser service: is draining, flushing and descaling included, and for which geyser types (storage vs instant)? Copy says "where the model allows".
 - Does the "from ₹699" installation price include wall drilling and mounting, and does it cover both storage and instant geysers? Are connection pipes and the pressure release valve always charged as extra parts?
-- Confirm the team installs geysers bought online or from shops (FAQ says yes).
 - Real job photos needed for the 3 image slots (geyser installation in a bathroom, inlet/outlet and PRV close-up, descaling during service).

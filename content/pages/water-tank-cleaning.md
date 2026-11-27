@@ -8,7 +8,7 @@ meta_description: Water tank cleaning in Bhubaneswar for overhead tanks, undergr
 primary_keyword: water tank cleaning bhubaneswar
 secondary_keywords: [water tank cleaning services near me, water tank cleaning services, sump cleaning, overhead tank cleaning, underground sump cleaning, apartment water tank cleaning]
 h1: Water Tank & Sump Cleaning in Bhubaneswar
-word_count: 1164
+word_count: 1137
 ---
 
 # Water Tank & Sump Cleaning in Bhubaneswar
@@ -358,7 +358,6 @@ Yes. We cover plastic overhead tanks, concrete overhead tanks and concrete under
 ## Facts to confirm
 - Owner decision applied: no price is mentioned anywhere for water tank cleaning (no figure, no price table, no cost question). Wherever price comes up the page says "Call or WhatsApp us for a quote." The Service schema has no `offers`. Note this means the page has no ₹ price table, which the content brief normally requires.
 - Whether the owner wants the cleaning method described (steps, tools, any cleaning agents) and whether the work is done in-house or with partners. The page makes no method, chemical, machine, disposal or "who does the work" claim.
-- Whether the ₹199–₹349 visit charge applies to tank cleaning. Not mentioned on this page.
 - The recommended cleaning interval. The page says "at least twice a year" for homes (common general guidance); confirm or change.
 - Whether customers should store water before the cleaning (the prep list asks them to keep some in buckets). The page states no duration.
 - Whether apartment and commercial bookings can be scheduled around water supply timings or on specific days (the page only asks customers to suggest a day that suits residents).

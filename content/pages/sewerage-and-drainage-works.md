@@ -8,7 +8,7 @@ meta_description: Sewerage and drainage work in Bhubaneswar: new sewer lines, br
 primary_keyword: sewerage work contractor bhubaneswar
 secondary_keywords: [sewerage work, sewer line repair near me, drainage work bhubaneswar]
 h1: Sewerage & Drainage Works in Bhubaneswar
-word_count: 1287
+word_count: 1280
 ---
 
 # Sewerage & Drainage Works in Bhubaneswar
@@ -77,13 +77,13 @@ Searching for sewer line repair near me in Bhubaneswar? Send a photo or video on
 
 ## Do I need permission to connect to the main sewer line?
 
-Usually, yes. A new connection from your house to the public sewer line generally needs approval from the local authority. Check with them before work starts. Once the connection is approved, we lay the line from your house up to the agreed connection point. In apartments, ask your society before digging in shared areas.
+Usually, yes. A new connection from your house to the public sewer line generally needs approval from the local authority. Check with them before work starts. Once the connection is approved, we lay the line from your house up to the agreed connection point.
 
 ## How a sewerage job works, step by step
 
 1. **Free site visit.** We check the line, the chambers and where the waste flows.
 2. **Written estimate.** You get the scope and cost in writing before work starts.
-3. **Opening the line.** The damaged or new section is opened up.
+3. **Opening the line.** We open only the section needed. We can also do the digging, chamber work and re-closing, after discussing it with you.
 4. **Pipe work.** We lay or replace the pipe with the right slope towards the outlet.
 5. **Chamber connections.** Lines are joined to the chambers, septic tank or main line.
 6. **Flow check.** We run water through the line before it is closed.
@@ -120,7 +120,7 @@ Watch for a sewage smell in the compound and wet or sinking soil along the line.
 
 ### Do I need permission to connect my house to the main sewer line?
 
-A new connection to the public sewer line generally needs approval from the local authority. Check with them before any digging starts. Once you have approval, Mahapatra Plumbing Services lays the line from your house to the agreed connection point. In apartments, ask your society before digging in shared areas.
+A new connection to the public sewer line generally needs approval from the local authority. Check with them before any digging starts. Once you have approval, Mahapatra Plumbing Services lays the line from your house to the agreed connection point.
 
 ### Is sewerage work the same as drain cleaning?
 
@@ -323,7 +323,7 @@ To book a site visit, go to our [contact page](/contact/).
           "name": "Do I need permission to connect my house to the main sewer line?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A new connection to the public sewer line generally needs approval from the local authority. Check with them before any digging starts. Once you have approval, Mahapatra Plumbing Services lays the line from your house to the agreed connection point. In apartments, ask your society before digging in shared areas."
+            "text": "A new connection to the public sewer line generally needs approval from the local authority. Check with them before any digging starts. Once you have approval, Mahapatra Plumbing Services lays the line from your house to the agreed connection point."
           }
         },
         {
@@ -375,10 +375,8 @@ To book a site visit, go to our [contact page](/contact/).
 ```
 
 ## Facts to confirm
-- Whether Mahapatra Plumbing Services does the digging, chamber building and floor or concrete re-closing itself, or works with a civil mistri. The page says only that the line is "opened up" and gives no civil-work claim.
 - Whether the team helps customers with the sewer connection approval, and which authority handles it in Bhubaneswar. The page tells customers to check with "the local authority" and makes no approval claim.
 - Which pipe types and sizes are used for sewer and drain lines (for example UPVC or PVC SWR). The page says "decided at the site visit".
 - Whether the 90-day workmanship warranty covers sewer line laying and repair. The brief says it covers installation and repair jobs, so the page states it; confirm before launch.
 - Whether sewer jetting is offered on request for repeat blockages before a line is replaced. The page links to the drain cleaning page instead.
-- Whether the free site visit for sewerage work replaces the ₹199–₹349 visit charge. The visit-charge row is left out of this page's table.
 - Any real job photos for the three image slots (sewer line laying, broken pipe replacement, flow check).

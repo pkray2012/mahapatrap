@@ -8,7 +8,7 @@ meta_description: Water motor repair in Bhubaneswar from ₹399. Pump line leaks
 primary_keyword: water motor repair near me
 secondary_keywords: [water motor repair in bhubaneswar, motor repair, water pump repair, submersible pump repair, water tank repair, sump pump repair]
 h1: "Water Motor, Pump & Tank Repair in Bhubaneswar"
-word_count: 1286
+word_count: 1274
 ---
 
 # Water Motor, Pump & Tank Repair in Bhubaneswar
@@ -390,7 +390,6 @@ Call or WhatsApp +91 9668875352 with the problem and your area.
 ```
 
 ## Facts to confirm
-- Motor rewinding and electrical repair (winding, capacitor, switch, wiring): does the team do any of this, or always refer to a motor mechanic or electrician? Copy currently says we tell you who to call.
 - What the "from ₹399" water motor / pump repair price covers (for example foot valve or non-return valve replacement, priming an air-locked line, re-doing a pump joint), and when the ₹249 minor fix applies instead.
 - Do you install new water motors / pumps, or fit the pipe connections when a customer replaces a motor? Not mentioned on the page until confirmed.
 - Do you repair cracked tank bodies, or replace / install new overhead tanks and sumps? Page only says "we tell you if repair makes sense".

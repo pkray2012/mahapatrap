@@ -8,7 +8,7 @@ meta_description: Bathroom renovation plumbing in Bhubaneswar: GI lines replaced
 primary_keyword: bathroom renovation bhubaneswar
 secondary_keywords: [bathroom renovation, bathroom renovation cost, bathroom renovation contractors near me, kitchen renovation bhubaneswar]
 h1: Bathroom Renovation Plumbing in Bhubaneswar (and Kitchens)
-word_count: 1290
+word_count: 1287
 ---
 
 # Bathroom Renovation Plumbing in Bhubaneswar (and Kitchens)
@@ -34,7 +34,7 @@ A renovation is the right time to fix what is hidden behind the tiles. We redo t
 - Kitchen sink, sink drain and RO inlet and outlet points
 - Leak test before the tiles go on
 
-We do the plumbing work only. For tiles, flooring and civil changes, we work with your tile or civil mistri, so fittings sit at the right level. Planning a kitchen renovation in Bhubaneswar? Kitchens need the sink and RO points planned before the platform is built, so we fix those first.
+We can also handle the tiling, plaster or civil work, after discussing it with you. Either way, fittings sit at the right level. Planning a kitchen renovation in Bhubaneswar? Kitchens need the sink and RO points planned before the platform is built, so we fix those first.
 
 ## How much does bathroom renovation cost in Bhubaneswar?
 
@@ -65,7 +65,7 @@ Labour charges shown; parts are extra unless stated. We can supply the fittings,
 
 The time depends on three things: the size of the bathroom, how much old pipe comes out, and whether the new lines are concealed or open. Open-line work in one bathroom is quicker than concealed re-plumbing. We discuss the work order with you at the site visit.
 
-Tell us when your tile or civil mistri is booked, so the plumbing stages fit around that work. If you are buying fittings yourself, keep them ready before the fitting stage.
+If another team is doing the tiling or civil work, tell us when they start, so the plumbing stages fit around it. If you are buying fittings yourself, keep them ready before the fitting stage.
 
 ## Should I replace old GI pipes with CPVC?
 
@@ -93,7 +93,7 @@ CPVC handles hot and cold water, so it suits geyser lines. UPVC works well for c
 Searching for bathroom renovation contractors near me? Here is what you get with us:
 
 - **Leak test before tiling**, so problems show up before new tiles go on
-- **We work around your tile or civil mistri**, so fittings sit at the right level
+- **Tiling, plaster and civil work on discussion**, so fittings sit at the right level
 - **5.0★ from 45 Google reviews**, with 43 five-star ratings
 - Customers mention fair pricing, quality work, timely service, and kitchen and bathroom fixes
 - **Written estimate before work starts**, so you know the scope upfront
@@ -121,7 +121,7 @@ Our office is at District Center, Chandrasekharpur. We take renovation work in C
 
 ### Do you do tiling and civil work for bathroom renovation?
 
-We handle the plumbing side of the renovation: pipes, drains, floor traps, fittings and the leak test. For tiles, flooring and civil changes, we work with your tile or civil contractor. We agree pipe and fitting levels with them, so the tiles fit around the fittings.
+Yes. We can also handle the tiling, plaster or civil work, after discussing it with you. The plumbing side is ours too: pipes, drains, floor traps, fittings and the leak test. If you prefer your own tile or civil team, we agree pipe and fitting levels with them, so the tiles fit around the fittings.
 
 ### Do you take bathroom renovation work outside Chandrasekharpur?
 
@@ -129,7 +129,7 @@ Yes. Mahapatra Plumbing Services takes bathroom and kitchen renovation plumbing 
 
 ### What should I plan before a bathroom renovation starts?
 
-Decide where the WC, basin, shower and geyser will go, and whether you want concealed or open lines. Choose your taps, mixers and WC early. Book the site visit before the tile mistri starts, so the plumbing is laid and tested first. We go through the layout with you at the site visit.
+Decide where the WC, basin, shower and geyser will go, and whether you want concealed or open lines. Choose your taps, mixers and WC early. Book the site visit before tiling starts, so the plumbing is laid and tested first. We go through the layout with you at the site visit.
 
 ### Can I buy the taps, WC and fittings myself?
 
@@ -137,7 +137,7 @@ Yes. You can buy your own taps, mixers, WC, basin and shower, and we will fit th
 
 ### Do you test the new pipes for leaks before tiling?
 
-Yes. After the new lines are laid, we run a leak test before the walls and floor are closed. Ask your tile mistri to start only after the lines pass the test. Finding a leak at this stage costs far less than breaking new tiles later.
+Yes. After the new lines are laid, we run a leak test before the walls and floor are closed. Tiling starts only after the lines pass the test. Finding a leak at this stage costs far less than breaking new tiles later.
 
 ### Do you also handle kitchen renovation plumbing in Bhubaneswar?
 
@@ -315,7 +315,7 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
           "name": "Do you do tiling and civil work for bathroom renovation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We handle the plumbing side of the renovation: pipes, drains, floor traps, fittings and the leak test. For tiles, flooring and civil changes, we work with your tile or civil contractor. We agree pipe and fitting levels with them, so the tiles fit around the fittings."
+            "text": "Yes. We can also handle the tiling, plaster or civil work, after discussing it with you. The plumbing side is ours too: pipes, drains, floor traps, fittings and the leak test. If you prefer your own tile or civil team, we agree pipe and fitting levels with them, so the tiles fit around the fittings."
           }
         },
         {
@@ -331,7 +331,7 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
           "name": "What should I plan before a bathroom renovation starts?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Decide where the WC, basin, shower and geyser will go, and whether you want concealed or open lines. Choose your taps, mixers and WC early. Book the site visit before the tile mistri starts, so the plumbing is laid and tested first. We go through the layout with you at the site visit."
+            "text": "Decide where the WC, basin, shower and geyser will go, and whether you want concealed or open lines. Choose your taps, mixers and WC early. Book the site visit before tiling starts, so the plumbing is laid and tested first. We go through the layout with you at the site visit."
           }
         },
         {
@@ -347,7 +347,7 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
           "name": "Do you test the new pipes for leaks before tiling?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. After the new lines are laid, we run a leak test before the walls and floor are closed. Ask your tile mistri to start only after the lines pass the test. Finding a leak at this stage costs far less than breaking new tiles later."
+            "text": "Yes. After the new lines are laid, we run a leak test before the walls and floor are closed. Tiling starts only after the lines pass the test. Finding a leak at this stage costs far less than breaking new tiles later."
           }
         },
         {
@@ -384,10 +384,7 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
 
 ## Facts to confirm
 
-- Does the team handle tiling, flooring or civil work itself, or only work with the customer's tile/civil contractor? (Page says plumbing only.)
-- Typical duration for one bathroom (open-line vs concealed re-plumbing) and for a kitchen, if the owner wants a day range shown.
-- Is the free site visit for renovation available across all of Bhubaneswar, with no charge if the customer does not go ahead?
-- Does the team supply fittings/sanitaryware on request? (Removed from the page until confirmed.) Any brands to name?
+- Any fitting or sanitaryware brands to name? (None named on the page.)
 - How is the leak test done (method/equipment)? Page now says only "leak test"; no pressure gauge claimed.
 - Geyser points: does the team also do the electrical point for the geyser, or only plumbing?
 - Optional typical starting price for bathroom re-plumbing, to add to the rate card and this page.

@@ -8,7 +8,7 @@ meta_description: Plumber in Chandrasekharpur and Damana, based at District Cent
 primary_keyword: plumber in chandrasekharpur
 secondary_keywords: [plumber in damana, plumber in bhubaneswar]
 h1: Plumber in Chandrasekharpur, Bhubaneswar
-word_count: 896
+word_count: 898
 ---
 
 <!-- Hero. Accent colour on the word "Chandrasekharpur" in the H1. -->
@@ -110,7 +110,7 @@ Yes. We check the bathroom or kitchen above, since the leak usually starts at a 
 
 ### Do you do plumbing work for apartment societies in Chandrasekharpur?
 
-Yes. We handle common-area work such as overhead tank lines, sump lines, motor lines and shared drain stacks. For regular maintenance across a whole building, we quote after a free site visit. See our [commercial plumbing](/services/commercial-plumbing/) page for maintenance contracts.
+Yes. We handle common-area work such as overhead tank lines, sump lines, motor lines and shared drain stacks. Regular maintenance (AMC) for a whole building is price on request, so call or WhatsApp us for a quote. See our [commercial plumbing](/services/commercial-plumbing/) page.
 
 ### I have just moved into a flat in Chandrasekharpur. Can you fit the washing machine and geyser?
 
@@ -287,7 +287,7 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
           "name": "Do you do plumbing work for apartment societies in Chandrasekharpur?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We handle common-area work such as overhead tank lines, sump lines, motor lines and shared drain stacks. For regular maintenance across a whole building, we quote after a free site visit. See our commercial plumbing page for maintenance contracts."
+            "text": "Yes. We handle common-area work such as overhead tank lines, sump lines, motor lines and shared drain stacks. Regular maintenance (AMC) for a whole building is price on request, so call or WhatsApp us for a quote. See our commercial plumbing page."
           }
         },
         {
@@ -332,5 +332,4 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
 
 ## Facts to confirm
 - Real job photos from Chandrasekharpur and Damana for the 2 image slots (apartment bathroom leak, house sump motor line).
-- Whether customers may walk in at District Center, or should call before visiting.
 - Common-area work for apartment societies: confirm the team takes building-wide maintenance (copy points to the commercial plumbing page for quotes).

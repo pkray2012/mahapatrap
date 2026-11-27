@@ -4,6 +4,10 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Owner answers round 2 applied to all 26 pages: civil work (tiling, plaster, digging, chamber) offered after discussion instead of "plumbing only"; commercial AMC now "price on request" (KIIT, Infocity, Chandrasekharpur, Jayadev Vihar, commercial; new Commercial AMC row + Offer on /pricing/); no walk-ins (about FAQ, contact); Odia/Hindi/English on about and contact, ContactPoint availableLanguage or/hi/en; borewell pump lifted and lowered by our own team; hidden leaks: only the needed part opened and tested before closing (leak, pipeline, Sailashree Vihar); new house per-point rate discussed only over a call. Settled items removed from each page's Facts to confirm. word_count front matter recounted with scripts/check_pages.py.
+- Keyword targeting: "plumber in chandrasekharpur" removed from about, Infocity, Niladri Vihar and Sailashree Vihar keywords; "plumber in patia" removed from KIIT. schema.md section 7 and pricing OfferCatalog synced.
+- Added scripts/check_pages.py (JSON-LD parse, FAQ match, keywords in visible text, title/description length, rate-card prices, banned terms, round-2 rules, word counts).
+
 - Logo: removed baked-in checkerboard from owner's logo (5.png) -> brand/final/ transparent PNG, white variant for dark footer, icons 512/192/180/32.
 - Owner answers round 2 recorded in content-brief.md and rate card (visit ₹199–₹349 confirmed; free site visit only for big works; civil work on discussion; commercial AMC price on request; no walk-ins; Odia/Hindi/English).
 - Independent SEO/AEO/GEO audit of all 26 pages (3 auditors, reports in docs/audits/): ~40 fixes incl. borewell drilling wording, tank-cleaning price line on Niladri Vihar, duplicate FAQs across area pages, missing area/contact links, home + pricing now list water tank cleaning, borewell and commercial. Removed 'Sintex' brand name and 'in one call' wording. schema.md section 7 keywords synced.

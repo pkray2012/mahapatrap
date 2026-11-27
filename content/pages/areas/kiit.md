@@ -6,9 +6,9 @@ page_tag: KIIT
 meta_title: Plumber near KIIT for Hostels & PGs | Mahapatra Plumbing
 meta_description: Plumber near KIIT for hostels, PGs and student flats. Blocked toilets, flush and tap leaks, tank cleaning, AMC. Call or WhatsApp +91 9668875352.
 primary_keyword: plumber near kiit
-secondary_keywords: [plumber for hostel near kiit, plumber in patia]
+secondary_keywords: [plumber for hostel near kiit]
 h1: Plumber near KIIT, Bhubaneswar (Hostels, PGs & Homes)
-word_count: 889
+word_count: 881
 ---
 
 <!-- Hero. Accent colour on "KIIT" in the H1. -->
@@ -56,7 +56,7 @@ Most calls from this area are small repairs: leaks, blockages and new fittings. 
 
 ## Is there a maintenance plan for PG and hostel owners?
 
-Yes. Our AMC check-up for homes and flats starts from ₹999 per quarter. For a hostel or PG building with many washrooms, we quote the AMC after a free site visit, based on the number of washrooms and floors. Regular checks catch running flushes, slow drains and tank faults before tenants complain.
+Yes. Our AMC check-up for homes and flats starts from ₹999 per quarter. For a hostel or PG building, AMC is price on request. Call or WhatsApp us for a quote. Regular checks catch running flushes, slow drains and tank faults before tenants complain.
 
 Searching for a plumber for hostel near KIIT on a regular plan? WhatsApp us the floors and washroom count.
 
@@ -248,7 +248,7 @@ Address, email and hours: [contact page](/contact/).
       "name": "Plumber near KIIT for Hostels & PGs | Mahapatra Plumbing",
       "headline": "Plumber near KIIT, Bhubaneswar (Hostels, PGs & Homes)",
       "description": "Plumber near KIIT for hostels, PGs and student flats. Blocked toilets, flush and tap leaks, tank cleaning, AMC. Call or WhatsApp +91 9668875352.",
-      "keywords": "plumber near kiit, plumber for hostel near kiit, plumber in patia",
+      "keywords": "plumber near kiit, plumber for hostel near kiit",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },
@@ -333,7 +333,6 @@ Address, email and hours: [contact page](/contact/).
 ```
 
 ## Facts to confirm
-- AMC for hostels and PGs: the rate card lists the ₹999 per quarter AMC check-up for homes. The page says hostel/PG AMC is quoted after a free site visit (same rule as the commercial page). Confirm, or confirm that ₹999 per quarter also applies to small PGs.
 - Water tank and sump cleaning: per owner update, no price figure is shown; the page says "Call or WhatsApp us for a quote."
 - Real job photos from hostels or PGs in the KIIT/Patia area for the 3 image slots (hostel flush tank repair, PG floor trap cleaning, hostel overhead tanks).
 - Whether the owner wants a named landmark (for example KIIT Square) on this page; none is named for now.

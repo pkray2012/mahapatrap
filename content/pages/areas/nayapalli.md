@@ -8,7 +8,7 @@ meta_description: Plumber in Nayapalli and IRC Village for choked drains, septic
 primary_keyword: plumber in nayapalli
 secondary_keywords: [plumber near irc village bhubaneswar]
 h1: Plumber in Nayapalli & IRC Village, Bhubaneswar
-word_count: 898
+word_count: 899
 ---
 
 <!-- Hero. Accent colour on the words "Nayapalli & IRC Village" in the H1. -->
@@ -49,7 +49,7 @@ A full tank needs [septic tank cleaning](/services/septic-tank-cleaning/). A bro
 
 ## Can you fix a borewell pump or pipe at my house in IRC Village?
 
-Yes, on existing borewells. We lift and lower the submersible pump, replace column pipes, fix leaking joints and the non-return valve, and repair the line to your sump or tank. You get a quote after inspection. The part price is shared before fitting.
+Yes, on existing borewells. Our team lifts and lowers the submersible pump, replace column pipes, fix leaking joints and the non-return valve, and repair the line to your sump or tank. You get a quote after inspection. The part price is shared before fitting.
 
 For an electrical motor fault, we tell you if a motor mechanic or electrician is needed. See [borewell pump and pipe repair](/services/borewell-pump-and-pipe-repair/).
 

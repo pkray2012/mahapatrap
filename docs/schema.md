@@ -192,8 +192,10 @@ Plus the Plumber node, FAQPage (3–5 area questions) and BreadcrumbList. No sep
       "priceSpecification": { "@type": "PriceSpecification", "minPrice": 399, "priceCurrency": "INR" } },
     { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Septic tank cleaning" },
       "priceSpecification": { "@type": "PriceSpecification", "minPrice": 2999, "priceCurrency": "INR" } },
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AMC check-up (per quarter)" },
-      "priceSpecification": { "@type": "PriceSpecification", "minPrice": 999, "priceCurrency": "INR" } }
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AMC check-up for homes (per quarter)" },
+      "priceSpecification": { "@type": "PriceSpecification", "minPrice": 999, "priceCurrency": "INR" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial AMC (hostels, PGs, offices, shops, hotels)" },
+      "priceCurrency": "INR", "description": "Price on request. Call or WhatsApp us for a quote." }
   ]
 }
 ```
@@ -241,7 +243,7 @@ Two levels (Home > Page) until a /services/ hub page exists. Home page has no Br
 |---|---|---|
 | / | plumber in bhubaneswar, plumber bhubaneswar, plumber near me, plumber service in bhubaneswar, plumbing services bhubaneswar, plumber near me home service | — |
 | /pricing/ | plumber charges in bhubaneswar, plumber visit charge bhubaneswar, plumbing rate list bhubaneswar | — |
-| /about/ | plumbing company in bhubaneswar, plumber in chandrasekharpur, mahapatra plumbing services | — |
+| /about/ | plumbing company in bhubaneswar, mahapatra plumbing services | — |
 | /contact/ | plumber bhubaneswar contact number, plumber near me contact number, mahapatra plumbing contact | — |
 | /services/septic-tank-cleaning/ | septic tank cleaning bhubaneswar, clean septic tank, sewage tank cleaning, septic tank cleaning services near me | Sewage tank cleaning; Septic tank emptying; Soak pit cleaning |
 | /services/bathroom-plumbing-renovation/ | bathroom renovation bhubaneswar, bathroom renovation, bathroom renovation cost, bathroom renovation contractors near me, kitchen renovation bhubaneswar | Bathroom remodelling; Bathroom re-plumbing; Kitchen plumbing renovation |
@@ -258,10 +260,10 @@ Two levels (Home > Page) until a /services/ hub page exists. Home page has no Br
 | /services/pipeline-and-concealed-plumbing/ | concealed pipe leakage repair, internal pipe leak repair, cpvc pipe fitting, pipeline repair bhubaneswar | Concealed pipeline repair; CPVC plumbing; Pipe rerouting |
 | /areas/chandrasekharpur/ | plumber in chandrasekharpur, plumber in damana, plumber in bhubaneswar | — |
 | /areas/patia/ | plumber in patia, plumbing services patia, plumber in bhubaneswar | — |
-| /areas/kiit/ | plumber near kiit, plumber for hostel near kiit, plumber in patia | — |
-| /areas/infocity/ | plumber in infocity bhubaneswar, office plumbing infocity, plumber in chandrasekharpur | — |
-| /areas/niladri-vihar/ | plumber in niladri vihar, plumber in chandrasekharpur | — |
-| /areas/sailashree-vihar/ | plumber in sailashree vihar, plumber in chandrasekharpur | — |
+| /areas/kiit/ | plumber near kiit, plumber for hostel near kiit | — |
+| /areas/infocity/ | plumber in infocity bhubaneswar, office plumbing infocity | — |
+| /areas/niladri-vihar/ | plumber in niladri vihar | — |
+| /areas/sailashree-vihar/ | plumber in sailashree vihar | — |
 | /areas/jayadev-vihar/ | plumber in jayadev vihar, plumber in saheed nagar | — |
 | /areas/nayapalli/ | plumber in nayapalli, plumber near irc village bhubaneswar | — |
 

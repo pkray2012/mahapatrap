@@ -8,7 +8,7 @@ meta_description: "Plumber charges in Bhubaneswar: visit ₹199–₹349 adjuste
 primary_keyword: plumber charges in bhubaneswar
 secondary_keywords: [plumber visit charge bhubaneswar, plumbing rate list bhubaneswar, how much does a plumber charge per visit in bhubaneswar]
 h1: "Plumber Charges in Bhubaneswar: 2026 Rate Card"
-word_count: 897
+word_count: 896
 ---
 
 # Plumber Charges in Bhubaneswar: 2026 Rate Card
@@ -36,6 +36,7 @@ Rates updated 27 November 2026.
 | [Geyser service](/services/geyser-installation-and-repair/) | ₹499 | Parts extra. |
 | [Water motor / pump repair](/services/water-tank-and-motor-repair/) | from ₹399 | Parts extra. |
 | AMC check-up (homes) | from ₹999 per quarter | Home check-up. |
+| [Commercial AMC (hostels, PGs, offices, shops, hotels)](/services/commercial-plumbing/) | Price on request | Call or WhatsApp us for a quote. |
 
 ### Installations
 
@@ -86,8 +87,6 @@ No. The prices on this rate card are labour charges only. Taps, pipes, flush kit
 
 Bathroom renovation, new house plumbing and sewerage lines differ in every building. Pipe length, walls and fittings change the cost. So we visit the site for free and give you a written estimate before work starts. The same applies to concealed pipeline repair.
 
-We take bigger jobs anywhere in Bhubaneswar, for homes and businesses.
-
 [CTA: call+whatsapp | location=inline_content]
 
 ## Why Mahapatra Plumbing Services
@@ -95,7 +94,6 @@ We take bigger jobs anywhere in Bhubaneswar, for homes and businesses.
 - 5.0★ from 45 Google reviews (43 five-star), often for fair pricing.
 - Written estimate before work starts, and a 90-day workmanship warranty on repair and installation jobs.
 - Open daily 8 AM – 10 PM.
-- One rate card for all of Bhubaneswar.
 
 ## Areas we serve
 
@@ -356,7 +354,7 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "AMC check-up (per quarter)"
+              "name": "AMC check-up for homes (per quarter)"
             },
             "priceSpecification": {
               "@type": "PriceSpecification",
@@ -384,6 +382,16 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
             },
             "priceCurrency": "INR",
             "description": "Quote after inspection; part price shared before fitting."
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Commercial AMC (hostels, PGs, offices, shops, hotels)",
+              "url": "https://mahapatraplumbing.in/services/commercial-plumbing/"
+            },
+            "priceCurrency": "INR",
+            "description": "Price on request. Call or WhatsApp us for a quote."
           }
         ]
       }

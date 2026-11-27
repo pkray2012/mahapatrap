@@ -6,9 +6,9 @@ page_tag: SailashreeVihar
 meta_title: Plumber in Sailashree Vihar | Mahapatra Plumbing Services
 meta_description: "Plumber in Sailashree Vihar, Bhubaneswar for old GI pipe replacement, concealed leaks and bathroom upgrades. 5.0★ on Google. Call +91 9668875352."
 primary_keyword: plumber in sailashree vihar
-secondary_keywords: [plumber in chandrasekharpur]
+secondary_keywords: []
 h1: Plumber in Sailashree Vihar, Bhubaneswar
-word_count: 889
+word_count: 898
 ---
 
 # Plumber in Sailashree Vihar, Bhubaneswar
@@ -42,7 +42,7 @@ CPVC takes hot and cold water, so it suits geyser lines. UPVC or PPR can also wo
 
 ## How do you fix a concealed leak behind bathroom tiles?
 
-First we check that the damp comes from a pipe, not from roof seepage or a shared wall. We close taps and outlets and see whether the line holds water. Then we show you where the wall or floor needs opening. No tile is broken until you agree to the spot. The repair is quoted after a free site visit.
+First we check that the damp comes from a pipe, not from roof seepage or a shared wall. We close taps and outlets and see whether the line holds water. Then we show you where the wall or floor needs opening. We open only that part, and test the line before closing it. No tile is broken until you agree. The repair is quoted after a free site visit.
 
 [IMAGE: sailashree-vihar-concealed-leak-damp-wall.webp | alt="Damp bathroom wall from a concealed pipe leak being checked by a plumber in Sailashree Vihar, Bhubaneswar" | beside the concealed leak section]
 
@@ -234,7 +234,7 @@ Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are b
       "name": "Plumber in Sailashree Vihar | Mahapatra Plumbing Services",
       "headline": "Plumber in Sailashree Vihar, Bhubaneswar",
       "description": "Plumber in Sailashree Vihar, Bhubaneswar for old GI pipe replacement, concealed leaks and bathroom upgrades. 5.0★ on Google. Call +91 9668875352.",
-      "keywords": "plumber in sailashree vihar, plumber in chandrasekharpur",
+      "keywords": "plumber in sailashree vihar",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

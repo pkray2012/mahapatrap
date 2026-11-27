@@ -8,7 +8,7 @@ meta_description: How Mahapatra Plumbing Services, Bhubaneswar, uses your detail
 primary_keyword: privacy policy
 secondary_keywords: []
 h1: Privacy Policy
-word_count: 883
+word_count: 882
 ---
 
 # Privacy Policy

@@ -8,7 +8,7 @@ meta_description: Commercial plumbing in Bhubaneswar for hotels, offices, hostel
 primary_keyword: commercial plumbing bhubaneswar
 secondary_keywords: [commercial plumbing services, commercial plumbing near me, commercial plumbing work, plumbing maintenance contract, hotel plumbing services, office plumbing services, hostel and PG plumbing, apartment plumbing maintenance, how much does commercial plumbing cost]
 h1: "Commercial Plumbing in Bhubaneswar: Hotels, Offices, Hostels & Shops"
-word_count: 1302
+word_count: 1225
 ---
 
 # Commercial Plumbing in Bhubaneswar: Hotels, Offices, Hostels & Shops
@@ -52,7 +52,7 @@ Commercial plumbing rates in Bhubaneswar (labour charges):
 | Water motor / pump repair | From ₹399 |
 | Geyser installation | From ₹699 |
 | AMC check-up (homes) | From ₹999 per quarter |
-| Commercial maintenance contract | Quote after free site visit + written estimate |
+| Commercial AMC (hostels, PGs, offices, shops, hotels) | Price on request |
 | New house / bathroom plumbing (new lines, washroom fit-outs) | Quote after inspection (free site visit + written estimate) |
 | Concealed pipeline repair / reroute | Quote after free site visit + written estimate |
 
@@ -62,7 +62,7 @@ Parts are extra. Late-night visits, payment and warranty terms are on our [plumb
 
 ## Do you offer plumbing maintenance contracts (AMC) for hotels and offices?
 
-Yes. Mahapatra Plumbing Services offers a plumbing maintenance contract for hotels, offices, hostels, PGs, shops and apartment societies. Home AMC check-ups start from ₹999 per quarter. A commercial AMC is quoted after a free site visit, based on the number of washrooms and floors. You get the scope in writing.
+Yes. Mahapatra Plumbing Services offers a plumbing maintenance contract for hotels, offices, hostels, PGs, shops and apartment societies. Home AMC check-ups start from ₹999 per quarter. Commercial AMC is price on request, based on what you want checked. Call or WhatsApp us for a quote.
 
 [IMAGE: plumbing-maintenance-overhead-tank-check-bhubaneswar.webp | alt="Plumber checking an overhead tank and motor line on the roof of a commercial building in Bhubaneswar" | inline, after this heading]
 
@@ -117,7 +117,7 @@ It depends on the number of washrooms and floors, the type of work, the pipe mat
 
 ### Do you offer plumbing maintenance contracts (AMC) for hotels and offices?
 
-Yes. We offer a plumbing maintenance contract for hotels, offices, hostels, PGs, shops and apartment societies. A commercial AMC is quoted after a free site visit, based on the number of washrooms and floors. We agree what is checked and the visit schedule in the written estimate. Home AMC check-ups start from ₹999 per quarter.
+Yes. We offer a plumbing maintenance contract for hotels, offices, hostels, PGs, shops and apartment societies. Commercial AMC is price on request. Call or WhatsApp us for a quote. We agree what is checked and the visit schedule in writing. Home AMC check-ups start from ₹999 per quarter.
 
 ### Can you work around our business hours?
 
@@ -133,7 +133,7 @@ Yes. We fit geysers in hotel rooms, hostel bathrooms and office washrooms, with 
 
 ### Do you do plumbing for new offices, shops and washroom fit-outs?
 
-Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, and connect tanks and motors. We do the plumbing work only, and coordinate with your civil or interior contractor. Every fit-out is quoted after a free site visit and written estimate. Call or WhatsApp +91 9668875352 to book.
+Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, and connect tanks and motors. We can also handle the tiling, plaster or civil work, after discussing it with you. Every fit-out is quoted after a free site visit and written estimate. Call or WhatsApp +91 9668875352 to book.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -298,7 +298,7 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
       "offers": {
         "@type": "Offer",
         "priceCurrency": "INR",
-        "description": "Commercial plumbing work and commercial maintenance contracts quoted after a free site visit and written estimate. Single repairs follow the rate card, for example a minor fix from ₹249."
+        "description": "Bigger commercial plumbing work quoted after a free site visit and written estimate. Commercial AMC: price on request. Single repairs follow the rate card, for example a minor fix from ₹249."
       }
     },
     {
@@ -318,7 +318,7 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
           "name": "Do you offer plumbing maintenance contracts (AMC) for hotels and offices?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We offer a plumbing maintenance contract for hotels, offices, hostels, PGs, shops and apartment societies. A commercial AMC is quoted after a free site visit, based on the number of washrooms and floors. We agree what is checked and the visit schedule in the written estimate. Home AMC check-ups start from ₹999 per quarter."
+            "text": "Yes. We offer a plumbing maintenance contract for hotels, offices, hostels, PGs, shops and apartment societies. Commercial AMC is price on request. Call or WhatsApp us for a quote. We agree what is checked and the visit schedule in writing. Home AMC check-ups start from ₹999 per quarter."
           }
         },
         {
@@ -350,7 +350,7 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
           "name": "Do you do plumbing for new offices, shops and washroom fit-outs?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, and connect tanks and motors. We do the plumbing work only, and coordinate with your civil or interior contractor. Every fit-out is quoted after a free site visit and written estimate. Call or WhatsApp +91 9668875352 to book."
+            "text": "Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, and connect tanks and motors. We can also handle the tiling, plaster or civil work, after discussing it with you. Every fit-out is quoted after a free site visit and written estimate. Call or WhatsApp +91 9668875352 to book."
           }
         }
       ]
@@ -378,10 +378,9 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
 ```
 
 ## Facts to confirm
-- Commercial AMC: what a visit covers, how often visits happen, and whether labour or parts discounts are included. The page says only that the scope and visit schedule are agreed in the written estimate. The "Commercial maintenance contract" table row comes from the page spec, not the rate card; confirm it should appear there.
+- Commercial AMC: what a visit covers, how often visits happen, and whether labour or parts discounts are included. The page says commercial AMC is price on request, with the scope and visit schedule agreed in writing.
 - Whether the owner already serves hotels, guest houses, restaurants and cafes (the brief's customer list names homes, flats, hostels, PGs, shops, offices and builders). The page offers the service to these types without claiming past clients.
 - Whether commercial work outside 8 AM to 10 PM (for example after a restaurant closes) carries the same +₹300 late-night extra as homes. The page uses only the standard wording "extra charge may apply" and links to /pricing/.
 - Whether the plumber can work floor by floor in hotels, hostels and offices to keep the rest of the building in use (stated as "where the job allows").
-- That the team coordinates with the customer's civil or interior contractor on washroom fit-outs (same wording as the renovation page).
 - Names of commercial clients, a commercial job photo set, and any references the owner is willing to show (none are on the page).
 - Whether the ₹199–₹349 visit charge applies to commercial repair calls in the same way as homes (shown in the table as on the rate card).

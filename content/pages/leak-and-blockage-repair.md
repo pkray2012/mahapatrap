@@ -8,7 +8,7 @@ meta_description: Pipe leakage repair in Bhubaneswar for dripping taps, running 
 primary_keyword: pipe leakage repair in bhubaneswar
 secondary_keywords: [pipe leakage repair near me, tap repair, toilet repair, flush tank repair, toilet seat repair, water leakage, seepage in wall, how much does tap repair cost in bhubaneswar]
 h1: "Tap, Flush & Pipe Leak Repair in Bhubaneswar"
-word_count: 1286
+word_count: 1298
 ---
 
 # Tap, Flush & Pipe Leak Repair in Bhubaneswar
@@ -84,7 +84,7 @@ Signs of a hidden leak:
 - **Wet floor tiles:** Tiles that stay damp, or water coming up through the joints.
 - **Sound of running water:** Water flowing when every tap is closed.
 
-We check the taps, joints and fittings you can see. If the leak looks to be inside a wall or floor, we tell you. Leaks inside walls are handled by our [concealed pipeline repair](/services/pipeline-and-concealed-plumbing/) service, with a free site visit and written estimate.
+We check the taps, joints and fittings you can see. If the leak looks to be inside a wall or floor, we tell you. Our [concealed pipeline repair](/services/pipeline-and-concealed-plumbing/) service handles it, with a free site visit and written estimate. We open only the part of the wall or floor needed, and test before closing it.
 
 ## Toilet repair: leaks around the pan and loose seats
 

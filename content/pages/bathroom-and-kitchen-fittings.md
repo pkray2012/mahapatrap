@@ -8,7 +8,7 @@ meta_description: Bathroom fitting plumber in Bhubaneswar for taps, WC, basin, s
 primary_keyword: bathroom fitting plumber near me
 secondary_keywords: [bathroom fitters, tap installation, kitchen sink repair, toilet installation, sink installation, washing machine inlet and drain fitting]
 h1: Bathroom & Kitchen Fittings Installation in Bhubaneswar
-word_count: 1273
+word_count: 1279
 ---
 
 # Bathroom & Kitchen Fittings Installation in Bhubaneswar
@@ -73,7 +73,7 @@ Before you buy a western WC, check whether your drain needs a floor or wall outl
 
 Yes. We install wash basins and western toilets in homes, flats, hostels, PGs, shops and offices across Bhubaneswar. For toilet installation, we fix the WC to the floor, connect the outlet to the drain and fit the flush tank and its water line. For a basin, we fit the tap, waste pipe and bottle trap.
 
-We also fit Indian WCs. If the drain point has to move, or you are changing an Indian WC to a western WC, the job needs floor work. We see the site first and give you a written estimate.
+We also fit Indian WCs. If the drain point has to move, or you are changing an Indian WC to a western WC, the job needs floor work. We can also handle the floor and tiling work, after discussing it with you. We see the site first and give you a written estimate.
 
 [IMAGE: western-wc-wash-basin-installation-bhubaneswar.webp | alt="Newly installed western toilet and wash basin with angle valves in a flat in Bhubaneswar" | after toilet and basin section]
 
@@ -388,7 +388,6 @@ Tell us which fittings you need and your area. Call or WhatsApp +91 9668875352, 
 
 ## Facts to confirm
 - Price for fittings not on the rate card (wash basin, western/Indian WC, kitchen sink, RO points, washing machine inlet and drain fitting, angle valves): page says "quoted at the visit". Owner may want starting prices added to the rate card.
-- Does the team change an Indian WC to a western WC (floor work), or only fit a WC where the drain already suits it? Page says floor work needs a site visit and written estimate.
 - Washing machine: does the team connect the machine's own inlet and drain hoses, or only make the inlet tap and drain points? Page covers the points and fixing spills at the drain hose.
 - RO purifier: page says we fit only the inlet and drain points and the seller or brand technician sets up the RO unit. Confirm.
 - Photo size check on WhatsApp before customers buy fittings online (page offers this). Confirm the team is happy to do this.

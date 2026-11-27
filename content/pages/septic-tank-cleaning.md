@@ -8,7 +8,7 @@ meta_description: Septic tank cleaning in Bhubaneswar from ₹2,999. Emptying, s
 primary_keyword: septic tank cleaning bhubaneswar
 secondary_keywords: [clean septic tank, sewage tank cleaning, septic tank cleaning services near me, septic tank cleaning services, how often should a septic tank be cleaned]
 h1: Septic Tank Cleaning in Bhubaneswar
-word_count: 1220
+word_count: 1223
 ---
 
 # Septic Tank Cleaning in Bhubaneswar
@@ -374,10 +374,5 @@ Clear the area above the tank lid. Move pots, vehicles or stored items. If tiles
 ```
 
 ## Facts to confirm
-- Whether the ₹199–₹349 visit / inspection charge applies to septic tank cleaning, or whether the septic inspection is free. The visit-charge row is left out of this page's table until confirmed.
-- Whether the 90-day workmanship warranty applies to cleaning jobs. The warranty row and bullet are left out until confirmed.
-- How the tank is emptied and where the waste is disposed of (own vehicle, hired tanker or municipal service). The page makes no method, equipment or disposal claim.
 - That the work is done from outside the tank, with no one going in. The FAQ advises customers to book a service that works this way; confirm it matches how the owner works.
-- Typical time for one septic tank cleaning job, by tank size (useful for AI answers).
 - Whether soak pit cleaning is offered as a separate job, and its price. "Soak pit cleaning" was removed from the Service alternateName until confirmed.
-- Note for the owner: the project description says visit charge ₹149–₹299, while the approved rate card and content brief say ₹199–₹349. This page does not state a visit charge; /pricing/ uses ₹199–₹349.

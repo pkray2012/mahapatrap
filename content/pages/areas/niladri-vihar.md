@@ -6,7 +6,7 @@ page_tag: NiladriVihar
 meta_title: Plumber in Niladri Vihar, Bhubaneswar | Mahapatra Plumbing
 meta_description: Plumber in Niladri Vihar for water motors, sumps, overhead tanks, borewell pumps, leaks and taps. Open 8 AM–10 PM. Call or WhatsApp +91 9668875352.
 primary_keyword: plumber in niladri vihar
-secondary_keywords: [plumber in chandrasekharpur]
+secondary_keywords: []
 h1: Plumber in Niladri Vihar, Bhubaneswar
 word_count: 885
 ---
@@ -241,7 +241,7 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
       "url": "https://mahapatraplumbing.in/areas/niladri-vihar/",
       "name": "Plumber in Niladri Vihar, Bhubaneswar | Mahapatra Plumbing",
       "description": "Plumber in Niladri Vihar for water motors, sumps, overhead tanks, borewell pumps, leaks and taps. Open 8 AM–10 PM. Call or WhatsApp +91 9668875352.",
-      "keywords": "plumber in niladri vihar, plumber in chandrasekharpur",
+      "keywords": "plumber in niladri vihar",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

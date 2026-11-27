@@ -6,9 +6,9 @@ page_tag: Infocity
 meta_title: Plumber in Infocity, Bhubaneswar | Mahapatra Plumbing
 meta_description: Plumber in Infocity, Bhubaneswar for office washrooms, pantries and flats. Flush, tap, drain and motor repairs. Call or WhatsApp +91 9668875352.
 primary_keyword: plumber in infocity bhubaneswar
-secondary_keywords: [office plumbing infocity, plumber in chandrasekharpur]
+secondary_keywords: [office plumbing infocity]
 h1: Plumber in Infocity, Bhubaneswar (Offices & Homes)
-word_count: 838
+word_count: 842
 ---
 
 # Plumber in Infocity, Bhubaneswar (Offices & Homes)
@@ -56,7 +56,7 @@ Yes, within our working hours. We start at 8 AM every day, weekends included. Bo
 
 Yes, both can. We fix plumbing in flats, apartment towers and independent houses around Infocity. For shared lines, overhead tanks and sumps, we inspect first and give a written estimate before any work starts.
 
-Want regular checks of every office washroom? See [commercial plumbing for offices](/services/commercial-plumbing/). Maintenance contracts are quoted after a free site visit.
+Want regular checks of every office washroom? See [commercial plumbing for offices](/services/commercial-plumbing/). Maintenance contracts are price on request: call or WhatsApp us for a quote.
 
 ## Plumbing services we offer in Infocity
 
@@ -255,7 +255,7 @@ Keep tea leaves, food bits and oil out of the sink waste, since they settle in t
       "name": "Plumber in Infocity, Bhubaneswar | Mahapatra Plumbing",
       "headline": "Plumber in Infocity, Bhubaneswar (Offices & Homes)",
       "description": "Plumber in Infocity, Bhubaneswar for office washrooms, pantries and flats. Flush, tap, drain and motor repairs. Call or WhatsApp +91 9668875352.",
-      "keywords": "plumber in infocity bhubaneswar, office plumbing infocity, plumber in chandrasekharpur",
+      "keywords": "plumber in infocity bhubaneswar, office plumbing infocity",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

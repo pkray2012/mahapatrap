@@ -8,7 +8,7 @@ meta_description: Plumber Bhubaneswar contact number: call or WhatsApp +91 96688
 primary_keyword: plumber bhubaneswar contact number
 secondary_keywords: [plumber near me contact number, mahapatra plumbing contact]
 h1: Contact Mahapatra Plumbing Services
-word_count: 507
+word_count: 495
 ---
 
 # Contact Mahapatra Plumbing Services
@@ -23,10 +23,11 @@ Looking for a plumber Bhubaneswar contact number? Call or WhatsApp Mahapatra Plu
 
 ## Mahapatra Plumbing contact details
 
-- **Phone / WhatsApp:** [+91 9668875352](tel:+919668875352). Tap to call.
+- **Phone / WhatsApp:** [+91 9668875352](tel:+919668875352)
 - **Email:** [amareshmohapatra143@gmail.com](mailto:amareshmohapatra143@gmail.com)
 - **Address:** District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016
 - **Hours:** Monday to Sunday, 8 AM – 10 PM.
+- **Languages:** Odia, Hindi and English.
 
 Save it as your plumber near me contact number for the next leak.
 
@@ -36,7 +37,7 @@ Call or WhatsApp Mahapatra Plumbing Services any day, 8 AM to 10 PM. Late-night 
 
 ## Can I book a plumber visit without calling?
 
-Yes. Fill in the form below and tap the button. It opens WhatsApp with your name, area and problem ready, so you only press send. We reply on WhatsApp to fix a time. You get a written estimate before any work starts.
+Yes. Fill in the form below and tap the button. It opens WhatsApp with your details ready. We reply on WhatsApp to fix a time. You get a written estimate before any work starts.
 
 [CARD LABEL: Book a Visit]
 
@@ -46,7 +47,7 @@ By sending, you agree we may use your number to reply on WhatsApp. See our [Priv
 
 ## Where is Mahapatra Plumbing Services located?
 
-Mahapatra Plumbing Services is at District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016. From here we serve [Chandrasekharpur](/areas/chandrasekharpur/), Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli, and all of Bhubaneswar. Bigger jobs like [septic tank cleaning in Bhubaneswar](/services/septic-tank-cleaning/) are done anywhere in the city.
+Mahapatra Plumbing Services is at District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016. No walk-ins, please: call or WhatsApp first and we come to you. From here we serve [Chandrasekharpur](/areas/chandrasekharpur/), Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli, and all of Bhubaneswar. Bigger jobs like [septic tank cleaning in Bhubaneswar](/services/septic-tank-cleaning/) are done anywhere in the city.
 
 [MAP: google-maps-listing | full map on the Contact page; static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="Get directions" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click | cta_location=contact_page]
 
@@ -192,6 +193,8 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
         "contactType": "customer service",
         "areaServed": "IN",
         "availableLanguage": [
+          "or",
+          "hi",
           "en"
         ],
         "hoursAvailable": {
@@ -298,8 +301,6 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
 ```
 
 ## Facts to confirm
-- Whether customers can walk in at District Center, Chandrasekharpur (office or shop with visiting hours). The page gives the address and map but does not invite walk-ins until confirmed.
 - Whether email is checked daily, and whether GST invoice requests should go by email or WhatsApp. The page suggests email only for non-urgent questions and GST invoice requests.
-- Languages spoken on calls (Odia, Hindi, English). Schema `availableLanguage` is set to English only until confirmed.
 - Google Business Profile still needs the phone number added (+91 9668875352) and hours changed from "Open 24 hours" to 8 AM – 10 PM, so NAP and hours match this page.
 - Real photos needed for the 2 image slots (plumber ready for a visit in Chandrasekharpur; a WhatsApp photo of a leaking pipe under a sink).
