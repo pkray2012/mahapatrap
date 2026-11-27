@@ -1,0 +1,36 @@
+{
+  "source": "Google Maps listing, Mahapatra Plumbing Services (cid 4373818382391816251)",
+  "captured": "2026-11-27",
+  "rating": 5.0,
+  "reviewCount": 45,
+  "breakdown": {"5": 43, "4": 2, "3": 0, "2": 0, "1": 0},
+  "googleMapsUrl": "https://www.google.com/maps?cid=4373818382391816251",
+  "schemaNote": "Show as visible text only. No Review or aggregateRating schema (self-serving review markup is not allowed for LocalBusiness).",
+  "showOn": ["/", "/about/", "/pricing/", "/services/leak-and-blockage-repair/", "/services/pipeline-and-concealed-plumbing/", "/services/bathroom-and-kitchen-fittings/"],
+  "reviews": [
+    {
+      "name": "Kshirod Mahanta",
+      "label": "Local Guide",
+      "stars": 5,
+      "when": "about a month before 27 Nov 2026",
+      "excerpt": "They fixed the leak in my kitchen basin quickly and professionally. The price was reasonable, and the work was done properly.",
+      "topic": "Kitchen basin leak repair"
+    },
+    {
+      "name": "AK",
+      "label": "",
+      "stars": 5,
+      "when": "about 3 months before 27 Nov 2026",
+      "excerpt": "Mr. Mahapatra is very polite, a thorough professional and very responsive to client needs. He did excellent work in a timely manner with very reasonable cost.",
+      "topic": "Pipe leak in wall, toilet valve repair, bathroom floor work"
+    },
+    {
+      "name": "Kalyan Pradhan",
+      "label": "Local Guide",
+      "stars": 5,
+      "when": "about a month before 27 Nov 2026",
+      "excerpt": "Their technician arrived right on time, quickly diagnosed the problem, and resolved it efficiently without any hassle. It is hard to find plumbers who are both skilled and polite, but the team here excels at both.",
+      "topic": "Bathroom repair"
+    }
+  ]
+}
