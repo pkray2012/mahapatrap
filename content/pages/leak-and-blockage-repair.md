@@ -234,6 +234,8 @@ Tell us what is leaking and your area. Call or WhatsApp +91 9668875352, or see a
         "Bathroom and kitchen fittings",
         "Geyser installation and repair",
         "Water tank and motor repair",
+        "Water tank and sump cleaning",
+        "Borewell pump and pipe repair",
         "Concealed pipeline and CPVC plumbing",
         "Drain cleaning and sewer jetting",
         "Septic tank cleaning",

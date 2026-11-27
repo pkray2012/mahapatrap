@@ -115,18 +115,36 @@ Mahapatra Plumbing Services, District Center, Chandrasekharpur, Bhubaneswar, Odi
       "headline": "Privacy Policy",
       "description": "How Mahapatra Plumbing Services, Bhubaneswar, uses your details, cookies and ad pixels, and how to ask for access or deletion. +91 9668875352.",
       "dateModified": "2026-11-27",
-      "isPartOf": { "@id": "https://mahapatraplumbing.in/#website" },
-      "about": { "@id": "https://mahapatraplumbing.in/#business" },
-      "publisher": { "@id": "https://mahapatraplumbing.in/#business" },
-      "breadcrumb": { "@id": "https://mahapatraplumbing.in/privacy-policy/#breadcrumb" },
+      "isPartOf": {
+        "@id": "https://mahapatraplumbing.in/#website"
+      },
+      "about": {
+        "@id": "https://mahapatraplumbing.in/#business"
+      },
+      "publisher": {
+        "@id": "https://mahapatraplumbing.in/#business"
+      },
+      "breadcrumb": {
+        "@id": "https://mahapatraplumbing.in/privacy-policy/#breadcrumb"
+      },
       "inLanguage": "en-IN"
     },
     {
       "@type": "BreadcrumbList",
       "@id": "https://mahapatraplumbing.in/privacy-policy/#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mahapatraplumbing.in/" },
-        { "@type": "ListItem", "position": 2, "name": "Privacy Policy", "item": "https://mahapatraplumbing.in/privacy-policy/" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mahapatraplumbing.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Privacy Policy",
+          "item": "https://mahapatraplumbing.in/privacy-policy/"
+        }
       ]
     }
   ]

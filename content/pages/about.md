@@ -128,32 +128,73 @@ To book a visit, call or WhatsApp +91 9668875352, or use our [contact page](/con
         "postalCode": "751016",
         "addressCountry": "IN"
       },
-      "geo": { "@type": "GeoCoordinates", "latitude": 20.3248238, "longitude": 85.8196582 },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 20.3248238,
+        "longitude": 85.8196582
+      },
       "hasMap": "https://www.google.com/maps?cid=4373818382391816251",
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
           "opens": "08:00",
           "closes": "22:00"
         }
       ],
       "areaServed": [
-        { "@type": "City", "name": "Bhubaneswar" },
-        { "@type": "Place", "name": "Chandrasekharpur, Bhubaneswar" },
-        { "@type": "Place", "name": "Patia, Bhubaneswar" },
-        { "@type": "Place", "name": "KIIT, Bhubaneswar" },
-        { "@type": "Place", "name": "Infocity, Bhubaneswar" },
-        { "@type": "Place", "name": "Niladri Vihar, Bhubaneswar" },
-        { "@type": "Place", "name": "Sailashree Vihar, Bhubaneswar" },
-        { "@type": "Place", "name": "Jayadev Vihar, Bhubaneswar" },
-        { "@type": "Place", "name": "Nayapalli, Bhubaneswar" }
+        {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Chandrasekharpur, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Patia, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "KIIT, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Infocity, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Niladri Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Sailashree Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Jayadev Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Nayapalli, Bhubaneswar"
+        }
       ],
       "knowsAbout": [
         "Leak and tap repair",
         "Bathroom and kitchen fittings",
         "Geyser installation and repair",
         "Water tank and motor repair",
+        "Water tank and sump cleaning",
+        "Borewell pump and pipe repair",
         "Concealed pipeline and CPVC plumbing",
         "Drain cleaning and sewer jetting",
         "Septic tank cleaning",
@@ -173,7 +214,9 @@ To book a visit, call or WhatsApp +91 9668875352, or use our [contact page](/con
       "url": "https://mahapatraplumbing.in/",
       "name": "Mahapatra Plumbing Services",
       "inLanguage": "en-IN",
-      "publisher": { "@id": "https://mahapatraplumbing.in/#business" }
+      "publisher": {
+        "@id": "https://mahapatraplumbing.in/#business"
+      }
     },
     {
       "@type": "AboutPage",
@@ -183,10 +226,18 @@ To book a visit, call or WhatsApp +91 9668875352, or use our [contact page](/con
       "headline": "About Mahapatra Plumbing Services, Chandrasekharpur",
       "description": "Mahapatra Plumbing Services is a plumbing company in Bhubaneswar, based in Chandrasekharpur. 5.0★ on Google. Call or WhatsApp +91 9668875352.",
       "keywords": "plumbing company in bhubaneswar, plumber in chandrasekharpur, mahapatra plumbing services",
-      "isPartOf": { "@id": "https://mahapatraplumbing.in/#website" },
-      "about": { "@id": "https://mahapatraplumbing.in/#business" },
-      "mainEntity": { "@id": "https://mahapatraplumbing.in/#business" },
-      "breadcrumb": { "@id": "https://mahapatraplumbing.in/about/#breadcrumb" },
+      "isPartOf": {
+        "@id": "https://mahapatraplumbing.in/#website"
+      },
+      "about": {
+        "@id": "https://mahapatraplumbing.in/#business"
+      },
+      "mainEntity": {
+        "@id": "https://mahapatraplumbing.in/#business"
+      },
+      "breadcrumb": {
+        "@id": "https://mahapatraplumbing.in/about/#breadcrumb"
+      },
       "inLanguage": "en-IN"
     },
     {
@@ -196,22 +247,34 @@ To book a visit, call or WhatsApp +91 9668875352, or use our [contact page](/con
         {
           "@type": "Question",
           "name": "Where is Mahapatra Plumbing Services located?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Mahapatra Plumbing Services is based at District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016. From there we serve all of Bhubaneswar, including Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM to book a visit." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mahapatra Plumbing Services is based at District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016. From there we serve all of Bhubaneswar, including Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM to book a visit."
+          }
         },
         {
           "@type": "Question",
           "name": "Do you have a shop I can visit?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Our base is District Center, Chandrasekharpur, but our plumbers work on site at your home or building. So please call +91 9668875352 before you visit. The quickest way to get help is to call or WhatsApp us with your area and a photo of the problem. We then fix a time for a visit." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our base is District Center, Chandrasekharpur, but our plumbers work on site at your home or building. So please call +91 9668875352 before you visit. The quickest way to get help is to call or WhatsApp us with your area and a photo of the problem. We then fix a time for a visit."
+          }
         },
         {
           "@type": "Question",
           "name": "Is Mahapatra Plumbing the same as Mahapatra Plumbing Services?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Mahapatra Plumbing and Mahapatra Plumbing Services are the same business. Our website is mahapatraplumbing.in and our phone and WhatsApp number is +91 9668875352. Our base is District Center, Chandrasekharpur, Bhubaneswar. If you see these details on Google Maps or elsewhere, it is us." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Mahapatra Plumbing and Mahapatra Plumbing Services are the same business. Our website is mahapatraplumbing.in and our phone and WhatsApp number is +91 9668875352. Our base is District Center, Chandrasekharpur, Bhubaneswar. If you see these details on Google Maps or elsewhere, it is us."
+          }
         },
         {
           "@type": "Question",
           "name": "Where can I read reviews of Mahapatra Plumbing Services?",
-          "acceptedAnswer": { "@type": "Answer", "text": "You can read our reviews on our Google Maps listing. Mahapatra Plumbing Services is rated 5.0★ from 45 Google reviews, and 43 of them are five-star. Customers mention fair pricing, quality work, timely visits, and kitchen and bathroom fixes. Search \"Mahapatra Plumbing Services\" on Google Maps to find the listing." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can read our reviews on our Google Maps listing. Mahapatra Plumbing Services is rated 5.0★ from 45 Google reviews, and 43 of them are five-star. Customers mention fair pricing, quality work, timely visits, and kitchen and bathroom fixes. Search \"Mahapatra Plumbing Services\" on Google Maps to find the listing."
+          }
         }
       ]
     },
@@ -219,8 +282,18 @@ To book a visit, call or WhatsApp +91 9668875352, or use our [contact page](/con
       "@type": "BreadcrumbList",
       "@id": "https://mahapatraplumbing.in/about/#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mahapatraplumbing.in/" },
-        { "@type": "ListItem", "position": 2, "name": "About", "item": "https://mahapatraplumbing.in/about/" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mahapatraplumbing.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About",
+          "item": "https://mahapatraplumbing.in/about/"
+        }
       ]
     }
   ]

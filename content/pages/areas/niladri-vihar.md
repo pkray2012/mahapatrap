@@ -210,6 +210,8 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
         "Bathroom and kitchen fittings",
         "Geyser installation and repair",
         "Water tank and motor repair",
+        "Water tank and sump cleaning",
+        "Borewell pump and pipe repair",
         "Concealed pipeline and CPVC plumbing",
         "Drain cleaning and sewer jetting",
         "Septic tank cleaning",
@@ -326,4 +328,3 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
 ## Facts to confirm
 - A real job photo from Niladri Vihar (motor, sump or overhead tank work) for the three image slots; the content brief asks for one per area page.
 - Does the team install or repair float valves and overflow controls on overhead tanks? The page says it repairs or replaces float valves (the water tank and motor page lists "Float valve repair"); confirm, and confirm whether automatic motor controllers are offered (not mentioned on the page).
-- A starting price for water tank and sump cleaning (currently "price on call or WhatsApp").

@@ -230,6 +230,8 @@ To book a site visit, go to our [contact page](/contact/).
         "Bathroom and kitchen fittings",
         "Geyser installation and repair",
         "Water tank and motor repair",
+        "Water tank and sump cleaning",
+        "Borewell pump and pipe repair",
         "Concealed pipeline and CPVC plumbing",
         "Drain cleaning and sewer jetting",
         "Septic tank cleaning",

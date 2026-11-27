@@ -242,6 +242,8 @@ Yes. We plumb new bathrooms on a new floor or in an extra room. We check where t
         "Bathroom and kitchen fittings",
         "Geyser installation and repair",
         "Water tank and motor repair",
+        "Water tank and sump cleaning",
+        "Borewell pump and pipe repair",
         "Concealed pipeline and CPVC plumbing",
         "Drain cleaning and sewer jetting",
         "Septic tank cleaning",

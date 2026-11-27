@@ -183,38 +183,80 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
         "postalCode": "751016",
         "addressCountry": "IN"
       },
-      "geo": { "@type": "GeoCoordinates", "latitude": 20.3248238, "longitude": 85.8196582 },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 20.3248238,
+        "longitude": 85.8196582
+      },
       "hasMap": "https://www.google.com/maps?cid=4373818382391816251",
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
           "opens": "08:00",
           "closes": "22:00"
         }
       ],
       "areaServed": [
-        { "@type": "City", "name": "Bhubaneswar" },
-        { "@type": "Place", "name": "Chandrasekharpur, Bhubaneswar" },
-        { "@type": "Place", "name": "Patia, Bhubaneswar" },
-        { "@type": "Place", "name": "KIIT, Bhubaneswar" },
-        { "@type": "Place", "name": "Infocity, Bhubaneswar" },
-        { "@type": "Place", "name": "Niladri Vihar, Bhubaneswar" },
-        { "@type": "Place", "name": "Sailashree Vihar, Bhubaneswar" },
-        { "@type": "Place", "name": "Jayadev Vihar, Bhubaneswar" },
-        { "@type": "Place", "name": "Nayapalli, Bhubaneswar" }
+        {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Chandrasekharpur, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Patia, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "KIIT, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Infocity, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Niladri Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Sailashree Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Jayadev Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Nayapalli, Bhubaneswar"
+        }
       ],
       "knowsAbout": [
         "Leak and tap repair",
         "Bathroom and kitchen fittings",
         "Geyser installation and repair",
         "Water tank and motor repair",
+        "Water tank and sump cleaning",
+        "Borewell pump and pipe repair",
         "Concealed pipeline and CPVC plumbing",
         "Drain cleaning and sewer jetting",
         "Septic tank cleaning",
         "Bathroom and kitchen plumbing renovation",
         "New house and bathroom plumbing",
-        "Sewerage and drainage works"
+        "Sewerage and drainage works",
+        "Commercial plumbing and maintenance contracts"
       ],
       "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
@@ -226,7 +268,9 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
       "@id": "https://mahapatraplumbing.in/#website",
       "url": "https://mahapatraplumbing.in/",
       "name": "Mahapatra Plumbing Services",
-      "publisher": { "@id": "https://mahapatraplumbing.in/#business" },
+      "publisher": {
+        "@id": "https://mahapatraplumbing.in/#business"
+      },
       "inLanguage": "en-IN"
     },
     {
@@ -237,8 +281,12 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
       "headline": "Plumber in Bhubaneswar for Repairs, Renovation & Septic Cleaning",
       "description": "Plumber in Bhubaneswar for leaks, taps, geysers, drains, septic tanks and bathroom work. 5.0★ on Google. Call or WhatsApp +91 9668875352.",
       "keywords": "plumber in bhubaneswar, plumber bhubaneswar, plumber near me, plumber service in bhubaneswar, plumbing services bhubaneswar, plumber near me home service",
-      "isPartOf": { "@id": "https://mahapatraplumbing.in/#website" },
-      "about": { "@id": "https://mahapatraplumbing.in/#business" },
+      "isPartOf": {
+        "@id": "https://mahapatraplumbing.in/#website"
+      },
+      "about": {
+        "@id": "https://mahapatraplumbing.in/#business"
+      },
       "inLanguage": "en-IN"
     },
     {
@@ -248,27 +296,42 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
         {
           "@type": "Question",
           "name": "Do you offer plumber home service in Bhubaneswar?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. If you searched for a plumber near me home service, we come to your home, flat or office anywhere in Bhubaneswar. The plumber checks the problem and gives you a written estimate before any work starts. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM to book a slot." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. If you searched for a plumber near me home service, we come to your home, flat or office anywhere in Bhubaneswar. The plumber checks the problem and gives you a written estimate before any work starts. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM to book a slot."
+          }
         },
         {
           "@type": "Question",
           "name": "Do you send a plumber outside Chandrasekharpur?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. We serve all of Bhubaneswar from our base at District Center, Chandrasekharpur. Quick repairs are most often in nearby areas like Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli. For other parts of the city, call or WhatsApp +91 9668875352 and we will tell you when a plumber can come." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We serve all of Bhubaneswar from our base at District Center, Chandrasekharpur. Quick repairs are most often in nearby areas like Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli. For other parts of the city, call or WhatsApp +91 9668875352 and we will tell you when a plumber can come."
+          }
         },
         {
           "@type": "Question",
           "name": "Do you take bathroom renovation and septic tank cleaning jobs anywhere in Bhubaneswar?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Bigger jobs are done anywhere in Bhubaneswar. This covers bathroom and kitchen renovation, new house plumbing, sewerage and drainage works, and septic tank cleaning from ₹2,999. For renovation and new plumbing, you get a free site visit and a written estimate before any work starts." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Bigger jobs are done anywhere in Bhubaneswar. This covers bathroom and kitchen renovation, new house plumbing, sewerage and drainage works, and septic tank cleaning from ₹2,999. For renovation and new plumbing, you get a free site visit and a written estimate before any work starts."
+          }
         },
         {
           "@type": "Question",
           "name": "What should I tell you when I book a plumber?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Send your name, area and a short note on the problem, like \"kitchen sink choked\" or \"geyser not heating\". A photo or short video on WhatsApp helps a lot. It tells us which tools and parts to bring, so the plumber comes prepared." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Send your name, area and a short note on the problem, like \"kitchen sink choked\" or \"geyser not heating\". A photo or short video on WhatsApp helps a lot. It tells us which tools and parts to bring, so the plumber comes prepared."
+          }
         },
         {
           "@type": "Question",
           "name": "Do you work for shops, offices, hostels and PGs?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Besides homes and flats, we work for shops, Infocity offices, hostels and PGs near KIIT and Patia, and builders. A GST invoice is available on request, so ask for it when you book. Call or WhatsApp +91 9668875352 with the address and the problem." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Besides homes and flats, we work for shops, Infocity offices, hostels and PGs near KIIT and Patia, and builders. A GST invoice is available on request, so ask for it when you book. Call or WhatsApp +91 9668875352 with the address and the problem."
+          }
         }
       ]
     }

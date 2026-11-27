@@ -237,12 +237,15 @@ Tell us your geyser problem and your area. Call or WhatsApp +91 9668875352, or s
         "Bathroom and kitchen fittings",
         "Geyser installation and repair",
         "Water tank and motor repair",
+        "Water tank and sump cleaning",
+        "Borewell pump and pipe repair",
         "Concealed pipeline and CPVC plumbing",
         "Drain cleaning and sewer jetting",
         "Septic tank cleaning",
         "Bathroom and kitchen plumbing renovation",
         "New house and bathroom plumbing",
-        "Sewerage and drainage works"
+        "Sewerage and drainage works",
+        "Commercial plumbing and maintenance contracts"
       ],
       "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [

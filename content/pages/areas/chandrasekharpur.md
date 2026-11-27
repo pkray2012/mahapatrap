@@ -114,7 +114,7 @@ Yes. We handle common-area work such as overhead tank lines, sump lines, motor l
 
 ### My house in Chandrasekharpur has a sump and an overhead tank. Can you clean and repair both?
 
-Yes. We clean sumps and overhead tanks, and repair the motor, foot valve, float valve and connecting lines. Water motor or pump repair starts at ₹399. Tank cleaning is priced on call or WhatsApp, as it depends on tank size, number of tanks and access. Tell us both jobs together when you book.
+Yes. We clean sumps and overhead tanks, and repair the motor, foot valve, float valve and connecting lines. Water motor or pump repair starts at ₹399. For tank cleaning, call or WhatsApp us for a quote. Tell us both jobs together when you book.
 
 ### Can I get a plumber in Chandrasekharpur today?
 
@@ -149,30 +149,73 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
         "postalCode": "751016",
         "addressCountry": "IN"
       },
-      "geo": { "@type": "GeoCoordinates", "latitude": 20.3248238, "longitude": 85.8196582 },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 20.3248238,
+        "longitude": 85.8196582
+      },
       "hasMap": "https://www.google.com/maps?cid=4373818382391816251",
-      "openingHoursSpecification": [{
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-        "opens": "08:00",
-        "closes": "22:00"
-      }],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      ],
       "areaServed": [
-        { "@type": "City", "name": "Bhubaneswar" },
-        { "@type": "Place", "name": "Chandrasekharpur, Bhubaneswar" },
-        { "@type": "Place", "name": "Patia, Bhubaneswar" },
-        { "@type": "Place", "name": "KIIT, Bhubaneswar" },
-        { "@type": "Place", "name": "Infocity, Bhubaneswar" },
-        { "@type": "Place", "name": "Niladri Vihar, Bhubaneswar" },
-        { "@type": "Place", "name": "Sailashree Vihar, Bhubaneswar" },
-        { "@type": "Place", "name": "Jayadev Vihar, Bhubaneswar" },
-        { "@type": "Place", "name": "Nayapalli, Bhubaneswar" }
+        {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Chandrasekharpur, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Patia, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "KIIT, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Infocity, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Niladri Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Sailashree Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Jayadev Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Nayapalli, Bhubaneswar"
+        }
       ],
       "knowsAbout": [
         "Leak and tap repair",
         "Bathroom and kitchen fittings",
         "Geyser installation and repair",
         "Water tank and motor repair",
+        "Water tank and sump cleaning",
+        "Borewell pump and pipe repair",
         "Concealed pipeline and CPVC plumbing",
         "Drain cleaning and sewer jetting",
         "Septic tank cleaning",
@@ -191,7 +234,9 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
       "@id": "https://mahapatraplumbing.in/#website",
       "url": "https://mahapatraplumbing.in/",
       "name": "Mahapatra Plumbing Services",
-      "publisher": { "@id": "https://mahapatraplumbing.in/#business" },
+      "publisher": {
+        "@id": "https://mahapatraplumbing.in/#business"
+      },
       "inLanguage": "en-IN"
     },
     {
@@ -202,10 +247,19 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
       "headline": "Plumber in Chandrasekharpur, Bhubaneswar",
       "description": "Plumber in Chandrasekharpur and Damana, based at District Center. Flat leaks, flush tanks, sump motors, drains. Call or WhatsApp +91 9668875352.",
       "keywords": "plumber in chandrasekharpur, plumber in damana, plumber in bhubaneswar",
-      "isPartOf": { "@id": "https://mahapatraplumbing.in/#website" },
-      "about": { "@id": "https://mahapatraplumbing.in/#business" },
-      "spatialCoverage": { "@type": "Place", "name": "Chandrasekharpur, Bhubaneswar, Odisha" },
-      "breadcrumb": { "@id": "https://mahapatraplumbing.in/areas/chandrasekharpur/#breadcrumb" },
+      "isPartOf": {
+        "@id": "https://mahapatraplumbing.in/#website"
+      },
+      "about": {
+        "@id": "https://mahapatraplumbing.in/#business"
+      },
+      "spatialCoverage": {
+        "@type": "Place",
+        "name": "Chandrasekharpur, Bhubaneswar, Odisha"
+      },
+      "breadcrumb": {
+        "@id": "https://mahapatraplumbing.in/areas/chandrasekharpur/#breadcrumb"
+      },
       "inLanguage": "en-IN"
     },
     {
@@ -241,7 +295,7 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
           "name": "My house in Chandrasekharpur has a sump and an overhead tank. Can you clean and repair both?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We clean sumps and overhead tanks, and repair the motor, foot valve, float valve and connecting lines. Water motor or pump repair starts at ₹399. Tank cleaning is priced on call or WhatsApp, as it depends on tank size, number of tanks and access. Tell us both jobs together when you book."
+            "text": "Yes. We clean sumps and overhead tanks, and repair the motor, foot valve, float valve and connecting lines. Water motor or pump repair starts at ₹399. For tank cleaning, call or WhatsApp us for a quote. Tell us both jobs together when you book."
           }
         },
         {
@@ -258,8 +312,18 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
       "@type": "BreadcrumbList",
       "@id": "https://mahapatraplumbing.in/areas/chandrasekharpur/#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mahapatraplumbing.in/" },
-        { "@type": "ListItem", "position": 2, "name": "Chandrasekharpur", "item": "https://mahapatraplumbing.in/areas/chandrasekharpur/" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mahapatraplumbing.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Chandrasekharpur",
+          "item": "https://mahapatraplumbing.in/areas/chandrasekharpur/"
+        }
       ]
     }
   ]
@@ -269,5 +333,4 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
 ## Facts to confirm
 - Real job photos from Chandrasekharpur and Damana for the 2 image slots (apartment bathroom leak, house sump motor line).
 - Whether customers may walk in at District Center, or should call before visiting.
-- Whether a starting price for water tank / sump cleaning can be shown (currently "price on call").
 - Common-area work for apartment societies: confirm the team takes building-wide maintenance (copy points to the commercial plumbing page for quotes).

@@ -109,32 +109,73 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
         "postalCode": "751016",
         "addressCountry": "IN"
       },
-      "geo": { "@type": "GeoCoordinates", "latitude": 20.3248238, "longitude": 85.8196582 },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 20.3248238,
+        "longitude": 85.8196582
+      },
       "hasMap": "https://www.google.com/maps?cid=4373818382391816251",
       "openingHoursSpecification": [
         {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
           "opens": "08:00",
           "closes": "22:00"
         }
       ],
       "areaServed": [
-        { "@type": "City", "name": "Bhubaneswar" },
-        { "@type": "Place", "name": "Chandrasekharpur, Bhubaneswar" },
-        { "@type": "Place", "name": "Patia, Bhubaneswar" },
-        { "@type": "Place", "name": "KIIT, Bhubaneswar" },
-        { "@type": "Place", "name": "Infocity, Bhubaneswar" },
-        { "@type": "Place", "name": "Niladri Vihar, Bhubaneswar" },
-        { "@type": "Place", "name": "Sailashree Vihar, Bhubaneswar" },
-        { "@type": "Place", "name": "Jayadev Vihar, Bhubaneswar" },
-        { "@type": "Place", "name": "Nayapalli, Bhubaneswar" }
+        {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Chandrasekharpur, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Patia, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "KIIT, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Infocity, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Niladri Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Sailashree Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Jayadev Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Nayapalli, Bhubaneswar"
+        }
       ],
       "knowsAbout": [
         "Leak and tap repair",
         "Bathroom and kitchen fittings",
         "Geyser installation and repair",
         "Water tank and motor repair",
+        "Water tank and sump cleaning",
+        "Borewell pump and pipe repair",
         "Concealed pipeline and CPVC plumbing",
         "Drain cleaning and sewer jetting",
         "Septic tank cleaning",
@@ -150,10 +191,20 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
         "email": "amareshmohapatra143@gmail.com",
         "contactType": "customer service",
         "areaServed": "IN",
-        "availableLanguage": ["en"],
+        "availableLanguage": [
+          "en"
+        ],
         "hoursAvailable": {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
           "opens": "08:00",
           "closes": "22:00"
         }
@@ -167,7 +218,9 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
       "@id": "https://mahapatraplumbing.in/#website",
       "url": "https://mahapatraplumbing.in/",
       "name": "Mahapatra Plumbing Services",
-      "publisher": { "@id": "https://mahapatraplumbing.in/#business" },
+      "publisher": {
+        "@id": "https://mahapatraplumbing.in/#business"
+      },
       "inLanguage": "en-IN"
     },
     {
@@ -178,10 +231,18 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
       "headline": "Contact Mahapatra Plumbing Services",
       "description": "Plumber Bhubaneswar contact number: call or WhatsApp +91 9668875352. Open daily 8 AM to 10 PM. District Center, Chandrasekharpur. Book a visit online.",
       "keywords": "plumber bhubaneswar contact number, plumber near me contact number, mahapatra plumbing contact",
-      "isPartOf": { "@id": "https://mahapatraplumbing.in/#website" },
-      "about": { "@id": "https://mahapatraplumbing.in/#business" },
-      "mainEntity": { "@id": "https://mahapatraplumbing.in/#business" },
-      "breadcrumb": { "@id": "https://mahapatraplumbing.in/contact/#breadcrumb" },
+      "isPartOf": {
+        "@id": "https://mahapatraplumbing.in/#website"
+      },
+      "about": {
+        "@id": "https://mahapatraplumbing.in/#business"
+      },
+      "mainEntity": {
+        "@id": "https://mahapatraplumbing.in/#business"
+      },
+      "breadcrumb": {
+        "@id": "https://mahapatraplumbing.in/contact/#breadcrumb"
+      },
       "inLanguage": "en-IN"
     },
     {
@@ -191,17 +252,26 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
         {
           "@type": "Question",
           "name": "How can I reach Mahapatra Plumbing Services?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Call or WhatsApp +91 9668875352, any day between 8 AM and 10 PM. Call for urgent problems like a burst pipe. Use WhatsApp when a photo helps or you cannot talk. For non-urgent questions or a GST invoice request, email amareshmohapatra143@gmail.com." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Call or WhatsApp +91 9668875352, any day between 8 AM and 10 PM. Call for urgent problems like a burst pipe. Use WhatsApp when a photo helps or you cannot talk. For non-urgent questions or a GST invoice request, email amareshmohapatra143@gmail.com."
+          }
         },
         {
           "@type": "Question",
           "name": "What details should I share to get a plumbing quote?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Share your name, area and a nearby landmark. Add the type of building and a short note on the problem. A photo or video helps too. Some jobs need a visit before we can price them. Either way, you get a written estimate from Mahapatra Plumbing Services before any work starts." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Share your name, area and a nearby landmark. Add the type of building and a short note on the problem. A photo or video helps too. Some jobs need a visit before we can price them. Either way, you get a written estimate from Mahapatra Plumbing Services before any work starts."
+          }
         },
         {
           "@type": "Question",
           "name": "Can I send photos or videos of the problem on WhatsApp?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the problem and the area around it. This helps us understand the problem before the visit. For hidden or concealed leaks, the plumber still needs to check on site." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the problem and the area around it. This helps us understand the problem before the visit. For hidden or concealed leaks, the plumber still needs to check on site."
+          }
         }
       ]
     },
@@ -209,8 +279,18 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
       "@type": "BreadcrumbList",
       "@id": "https://mahapatraplumbing.in/contact/#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mahapatraplumbing.in/" },
-        { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://mahapatraplumbing.in/contact/" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://mahapatraplumbing.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact",
+          "item": "https://mahapatraplumbing.in/contact/"
+        }
       ]
     }
   ]
