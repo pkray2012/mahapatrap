@@ -104,6 +104,7 @@ word_count: ...
 - Borewell: our team lifts and lowers the submersible pump itself.
 - We fit taps and fittings that customers bought online or from shops.
 - Hidden / concealed leaks: we open only the part of the wall or floor that is needed, and test before closing it.
-- AMC: ₹999 per quarter is for homes only. Commercial AMC (hostels, PGs, offices, hotels, shops, apartment societies): price on request ("Call or WhatsApp us for a quote"). No figure, no "quoted after free site visit" wording for AMC.
+- AMC: no price shown anywhere, homes or commercial (owner, 27 Nov 2026: hide ₹999). Say "price on request" / "Call or WhatsApp us for a quote".
+- (superseded) AMC: ₹999 per quarter is for homes only. Commercial AMC (hostels, PGs, offices, hotels, shops, apartment societies): price on request ("Call or WhatsApp us for a quote"). No figure, no "quoted after free site visit" wording for AMC.
 - No walk-ins at District Center: customers call or WhatsApp first; we come to them.
 - Languages on calls: Odia, Hindi and English (schema availableLanguage: or, hi, en).

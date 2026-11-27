@@ -51,7 +51,7 @@ Commercial plumbing rates in Bhubaneswar (labour charges):
 | Toilet blockage removal | From ₹999 |
 | Water motor / pump repair | From ₹399 |
 | Geyser installation | From ₹699 |
-| AMC check-up (homes) | From ₹999 per quarter |
+| AMC check-up (homes) | Price on request |
 | Commercial AMC (hostels, PGs, offices, shops, hotels) | Price on request |
 | New house / bathroom plumbing (new lines, washroom fit-outs) | Quote after inspection (free site visit + written estimate) |
 | Concealed pipeline repair / reroute | Quote after free site visit + written estimate |
@@ -62,7 +62,7 @@ Parts are extra. Late-night visits, payment and warranty terms are on our [plumb
 
 ## Do you offer plumbing maintenance contracts (AMC) for hotels and offices?
 
-Yes. Mahapatra Plumbing Services offers a plumbing maintenance contract for hotels, offices, hostels, PGs, shops and apartment societies. Home AMC check-ups start from ₹999 per quarter. Commercial AMC is price on request, based on what you want checked. Call or WhatsApp us for a quote.
+Yes. Mahapatra Plumbing Services offers a plumbing maintenance contract for hotels, offices, hostels, PGs, shops and apartment societies. Home and commercial AMC are both price on request, based on what you want checked. Call or WhatsApp us for a quote.
 
 [IMAGE: plumbing-maintenance-overhead-tank-check-bhubaneswar.webp | alt="Plumber checking an overhead tank and motor line on the roof of a commercial building in Bhubaneswar" | inline, after this heading]
 
@@ -117,7 +117,7 @@ It depends on the number of washrooms and floors, the type of work, the pipe mat
 
 ### Do you offer plumbing maintenance contracts (AMC) for hotels and offices?
 
-Yes. We offer a plumbing maintenance contract for hotels, offices, hostels, PGs, shops and apartment societies. Commercial AMC is price on request. Call or WhatsApp us for a quote. We agree what is checked and the visit schedule in writing. Home AMC check-ups start from ₹999 per quarter.
+Yes. We offer a plumbing maintenance contract for hotels, offices, hostels, PGs, shops and apartment societies. Commercial AMC is price on request. Call or WhatsApp us for a quote. We agree what is checked and the visit schedule in writing. Home AMC is also price on request.
 
 ### Can you work around our business hours?
 
@@ -318,7 +318,7 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
           "name": "Do you offer plumbing maintenance contracts (AMC) for hotels and offices?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We offer a plumbing maintenance contract for hotels, offices, hostels, PGs, shops and apartment societies. Commercial AMC is price on request. Call or WhatsApp us for a quote. We agree what is checked and the visit schedule in writing. Home AMC check-ups start from ₹999 per quarter."
+            "text": "Yes. We offer a plumbing maintenance contract for hotels, offices, hostels, PGs, shops and apartment societies. Commercial AMC is price on request. Call or WhatsApp us for a quote. We agree what is checked and the visit schedule in writing. Home AMC is also price on request."
           }
         },
         {

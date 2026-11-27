@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">Mahapatra Plumbing Services</title>
+  <desc id="desc">Single-colour navy logo with a house, letter M, faucet and water drop beside the Mahapatra Plumbing Services wordmark.</desc>
+  <g fill="#092B55">
+    <!-- sweeping outer arc -->
+    <path d="M55 370 C18 260 47 119 162 50 C275 -18 425 3 518 112 C440 36 310 20 207 72 C99 126 58 247 92 349 Z"/>
+    <!-- house roof -->
+    <path d="M105 279 L330 82 L527 250 L476 250 L330 135 L105 332 Z"/>
+    <!-- window -->
+    <rect x="282" y="187" width="31" height="31" rx="3"/>
+    <rect x="322" y="187" width="31" height="31" rx="3"/>
+    <rect x="282" y="227" width="31" height="31" rx="3"/>
+    <rect x="322" y="227" width="31" height="31" rx="3"/>
+    <!-- stylised M / house body -->
+    <path d="M128 292 H220 L293 383 L368 292 H452 V476 H381 V370 L309 458 H278 L205 370 V476 H128 Z"/>
+    <!-- faucet assembly -->
+    <path d="M408 222 C408 203 423 190 442 190 H476 V168 H501 V190 H526 C548 190 564 206 564 228 V267 H535 V239 H477 C459 239 445 230 439 216 H408 Z"/>
+    <rect x="433" y="153" width="75" height="17" rx="8"/>
+    <rect x="464" y="139" width="16" height="28" rx="6"/>
+    <rect x="540" y="258" width="48" height="22" rx="5"/>
+    <rect x="549" y="265" width="30" height="7" rx="3" fill="#FFFFFF"/>
+    <!-- water drop -->
+    <path d="M563 291 C563 291 538 327 538 346 C538 365 550 378 566 378 C583 378 595 365 595 347 C595 329 563 291 563 291 Z"/>
+    <path d="M557 328 C550 340 548 348 553 355" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+    <!-- wave underline -->
+    <path d="M100 480 C188 414 264 424 338 455 C411 486 478 478 558 423 C516 492 429 520 340 491 C252 461 183 450 100 480 Z"/>
+  </g>
+  <!-- wordmark -->
+  <text x="625" y="275" fill="#092B55" font-family="Arial, Helvetica, sans-serif" font-size="151" font-weight="800" letter-spacing="-4">MAHAPATRA</text>
+  <path d="M650 302 H1518 L1487 393 H620 Z" fill="#092B55"/>
+  <text x="1065" y="369" fill="#FFFFFF" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" letter-spacing="5">PLUMBING SERVICES</text>
+  <path d="M603 335 L673 335 L646 357 Z M1529 335 L1590 335 L1553 357 Z" fill="#092B55"/>
+</svg>

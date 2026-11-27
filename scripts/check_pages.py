@@ -253,8 +253,8 @@ def check_page(path):
             "free site visit" in s or "quoted after" in s
         ):
             errors.append(f"AMC tied to free site visit/quote: {sent.strip()[:120]}")
-        if re.search(r"(hostel|pg|office|commercial|shop|hotel|societ)", s) and "999" in s and "home" not in s:
-            errors.append(f"₹999 AMC offered for non-homes: {sent.strip()[:120]}")
+        if ("amc" in s or "quarter" in s or "maintenance" in s) and re.search(r"₹\s?999(?!\d)|\b999 per", s):
+            errors.append(f"AMC price shown (owner: hide ₹999): {sent.strip()[:120]}")
     # ContactPoint languages
     for n in nodes:
         if n.get("@type") == "ContactPoint":

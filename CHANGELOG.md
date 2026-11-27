@@ -4,6 +4,7 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- AMC ₹999 price hidden everywhere (owner): pricing, commercial, KIIT, schema offers, rate card, brief; check script now flags any AMC price. Added owner SVG logos (horizontal navy lockup, colour icon) + header PNG export to brand/final/.
 - Owner answers round 2 applied to all 26 pages: civil work (tiling, plaster, digging, chamber) offered after discussion instead of "plumbing only"; commercial AMC now "price on request" (KIIT, Infocity, Chandrasekharpur, Jayadev Vihar, commercial; new Commercial AMC row + Offer on /pricing/); no walk-ins (about FAQ, contact); Odia/Hindi/English on about and contact, ContactPoint availableLanguage or/hi/en; borewell pump lifted and lowered by our own team; hidden leaks: only the needed part opened and tested before closing (leak, pipeline, Sailashree Vihar); new house per-point rate discussed only over a call. Settled items removed from each page's Facts to confirm. word_count front matter recounted with scripts/check_pages.py.
 - Keyword targeting: "plumber in chandrasekharpur" removed from about, Infocity, Niladri Vihar and Sailashree Vihar keywords; "plumber in patia" removed from KIIT. schema.md section 7 and pricing OfferCatalog synced.
 - Added scripts/check_pages.py (JSON-LD parse, FAQ match, keywords in visible text, title/description length, rate-card prices, banned terms, round-2 rules, word counts).

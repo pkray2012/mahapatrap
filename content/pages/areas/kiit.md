@@ -56,7 +56,7 @@ Most calls from this area are small repairs: leaks, blockages and new fittings. 
 
 ## Is there a maintenance plan for PG and hostel owners?
 
-Yes. Our AMC check-up for homes and flats starts from ₹999 per quarter. For a hostel or PG building, AMC is price on request. Call or WhatsApp us for a quote. Regular checks catch running flushes, slow drains and tank faults before tenants complain.
+Yes. We offer AMC check-ups for homes, flats, hostels and PG buildings. AMC is price on request. Call or WhatsApp us for a quote. Regular checks catch running flushes, slow drains and tank faults before tenants complain.
 
 Searching for a plumber for hostel near KIIT on a regular plan? WhatsApp us the floors and washroom count.
 

@@ -192,8 +192,7 @@ Plus the Plumber node, FAQPage (3–5 area questions) and BreadcrumbList. No sep
       "priceSpecification": { "@type": "PriceSpecification", "minPrice": 399, "priceCurrency": "INR" } },
     { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Septic tank cleaning" },
       "priceSpecification": { "@type": "PriceSpecification", "minPrice": 2999, "priceCurrency": "INR" } },
-    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AMC check-up for homes (per quarter)" },
-      "priceSpecification": { "@type": "PriceSpecification", "minPrice": 999, "priceCurrency": "INR" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AMC check-up for homes (per quarter)" } },
     { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercial AMC (hostels, PGs, offices, shops, hotels)" },
       "priceCurrency": "INR", "description": "Price on request. Call or WhatsApp us for a quote." }
   ]

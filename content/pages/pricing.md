@@ -35,7 +35,7 @@ Rates updated 27 November 2026.
 | [Minor fix (washer, small leak, loose fitting)](/services/leak-and-blockage-repair/) | from ₹249 | Parts extra. |
 | [Geyser service](/services/geyser-installation-and-repair/) | ₹499 | Parts extra. |
 | [Water motor / pump repair](/services/water-tank-and-motor-repair/) | from ₹399 | Parts extra. |
-| AMC check-up (homes) | from ₹999 per quarter | Home check-up. |
+| AMC check-up (homes) | Price on request | Home check-up. Call or WhatsApp us for a quote. |
 | [Commercial AMC (hostels, PGs, offices, shops, hotels)](/services/commercial-plumbing/) | Price on request | Call or WhatsApp us for a quote. |
 
 ### Installations
@@ -355,12 +355,6 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
             "itemOffered": {
               "@type": "Service",
               "name": "AMC check-up for homes (per quarter)"
-            },
-            "priceSpecification": {
-              "@type": "PriceSpecification",
-              "minPrice": 999,
-              "priceCurrency": "INR",
-              "unitText": "per quarter"
             }
           },
           {
@@ -509,4 +503,4 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
 - What decides the visit charge within ₹199–₹349 (distance, job type, time)? The copy only says "ask for the exact visit charge when you call".
 - (Resolved 27 Nov 2026: the 90-day workmanship warranty covers installation and repair jobs only, not cleaning jobs. The page already says this.)
 - Water tank / sump cleaning and borewell pump & pipe repair were added to the rate tables on 27 Nov 2026 as quote-only rows (no figure), per the rate card. Add starting prices later only if the owner decides to show them.
-- What the AMC check-up (from ₹999 per quarter) covers: number of visits, what is checked, and whether labour or parts discounts are included.
+- What the home AMC check-up covers: number of visits, what is checked, and whether labour or parts discounts are included.
