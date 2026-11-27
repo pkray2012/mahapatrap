@@ -3,10 +3,27 @@
   "captured": "2026-11-27",
   "rating": 5.0,
   "reviewCount": 45,
-  "breakdown": {"5": 43, "4": 2, "3": 0, "2": 0, "1": 0},
+  "breakdown": {
+    "5": 43,
+    "4": 2,
+    "3": 0,
+    "2": 0,
+    "1": 0
+  },
   "googleMapsUrl": "https://www.google.com/maps?cid=4373818382391816251",
   "schemaNote": "Show as visible text only. No Review or aggregateRating schema (self-serving review markup is not allowed for LocalBusiness).",
-  "showOn": ["/", "/about/", "/pricing/", "/services/leak-and-blockage-repair/", "/services/pipeline-and-concealed-plumbing/", "/services/bathroom-and-kitchen-fittings/"],
+  "showOn": [
+    "/",
+    "/about/",
+    "/pricing/",
+    "/contact/",
+    "/services/leak-and-blockage-repair/",
+    "/services/pipeline-and-concealed-plumbing/",
+    "/services/bathroom-and-kitchen-fittings/",
+    "/services/bathroom-plumbing-renovation/",
+    "/services/new-bathroom-and-house-plumbing/",
+    "/services/commercial-plumbing/"
+  ],
   "reviews": [
     {
       "name": "Kshirod Mahanta",
@@ -31,6 +48,61 @@
       "when": "about a month before 27 Nov 2026",
       "excerpt": "Their technician arrived right on time, quickly diagnosed the problem, and resolved it efficiently without any hassle. It is hard to find plumbers who are both skilled and polite, but the team here excels at both.",
       "topic": "Bathroom repair"
+    },
+    {
+      "name": "Sridhar Rana",
+      "label": "",
+      "stars": 5,
+      "when": "about 2 weeks before 27 Nov 2026",
+      "excerpt": "Very much satisfied with the quality of work. Plumbing charge was very reasonable. Well behaved and very polite.",
+      "topic": "General plumbing work"
+    },
+    {
+      "name": "Saumya Mishra",
+      "label": "",
+      "stars": 5,
+      "when": "about 4 months before 27 Nov 2026",
+      "excerpt": "Best quality work, well behaved and good communication with each other and discussions regarding works and projects.",
+      "topic": "Project work (new lines in brick walls, per review photos)"
     }
+  ],
+  "pageMatch": {
+    "/services/leak-and-blockage-repair/": [
+      "Kshirod Mahanta",
+      "AK"
+    ],
+    "/services/pipeline-and-concealed-plumbing/": [
+      "AK",
+      "Saumya Mishra"
+    ],
+    "/services/bathroom-and-kitchen-fittings/": [
+      "Kshirod Mahanta",
+      "Kalyan Pradhan"
+    ],
+    "/services/bathroom-plumbing-renovation/": [
+      "Kalyan Pradhan",
+      "AK"
+    ],
+    "/services/new-bathroom-and-house-plumbing/": [
+      "Saumya Mishra",
+      "Sridhar Rana"
+    ],
+    "/services/commercial-plumbing/": [
+      "Saumya Mishra",
+      "Sridhar Rana"
+    ],
+    "default": [
+      "Kshirod Mahanta",
+      "AK",
+      "Kalyan Pradhan",
+      "Sridhar Rana",
+      "Saumya Mishra"
+    ]
+  },
+  "notes": [
+    "Google shows only 5-6 reviews to a signed-out browser; these are all the written reviews visible that way. Most of the 45 ratings may be star-only.",
+    "Excluded: a 4-star review written by Pradipta Kumar Ray (the site's marketer) - not used to avoid a conflict of interest.",
+    "Excluded as too short to be useful: 'Best', 'service was very good', 'Thank God.. it got fixed well.'",
+    "Saumya Mishra excerpt lightly normalised (capitalisation/spacing only)."
   ]
 }
