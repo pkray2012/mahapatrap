@@ -8,7 +8,7 @@ meta_description: "Plumber Bhubaneswar contact number: call or WhatsApp +91 9668
 primary_keyword: plumber bhubaneswar contact number
 secondary_keywords: [plumber near me contact number, mahapatra plumbing contact]
 h1: Contact Mahapatra Plumbing Services
-word_count: 495
+word_count: 496
 ---
 
 # Contact Mahapatra Plumbing Services
@@ -29,7 +29,7 @@ Looking for a plumber Bhubaneswar contact number? Call or WhatsApp Mahapatra Plu
 - **Hours:** Monday to Sunday, 8 AM – 10 PM.
 - **Languages:** Odia, Hindi and English.
 
-Save it as your plumber near me contact number for the next leak.
+Save it as your plumber near me contact number.
 
 ## When can I call Mahapatra Plumbing Services?
 
@@ -63,7 +63,7 @@ Send your area, a landmark, the problem and a photo or short video.
 - **Written estimate before work starts.**
 - **90-day workmanship warranty** on installation and repair jobs.
 - **One number** for calls and WhatsApp.
-- **Local business.** Read [about Mahapatra Plumbing Services](/about/).
+- **Owner-run.** Started in 2021 by Amaresh Mahapatra. Read [about Mahapatra Plumbing Services](/about/).
 
 Dripping tap? See [leak and blockage repair](/services/leak-and-blockage-repair/).
 
@@ -93,6 +93,11 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
       "@id": "https://mahapatraplumbing.in/#business",
       "name": "Mahapatra Plumbing Services",
       "alternateName": "Mahapatra Plumbing",
+      "founder": {
+        "@type": "Person",
+        "name": "Amaresh Mahapatra"
+      },
+      "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",

@@ -8,7 +8,7 @@ meta_description: Plumber in Nayapalli and IRC Village for choked drains, septic
 primary_keyword: plumber in nayapalli
 secondary_keywords: [plumber near irc village bhubaneswar]
 h1: Plumber in Nayapalli & IRC Village, Bhubaneswar
-word_count: 898
+word_count: 889
 ---
 
 <!-- Hero. Accent colour on the words "Nayapalli & IRC Village" in the H1. -->
@@ -27,9 +27,9 @@ Need a plumber in Nayapalli, or a plumber near IRC Village, Bhubaneswar? Mahapat
 
 ## What plumbing jobs come up in Nayapalli and IRC Village homes?
 
-In Nayapalli and IRC Village, we handle drain and septic work: water leaving the house. That means choked bathroom drains, slow toilets, full septic tanks and outside lines that back up. Houses with their own borewell also call us when the pump gives less water or a joint leaks.
+In Nayapalli and IRC Village, we handle drain and septic work: water leaving the house. That means choked bathroom drains, slow toilets, full septic tanks and outside lines that back up. Houses with their own borewell also call us when the pump gives less water or a joint leaks. We take jobs in houses and flats near the ISKCON temple in IRC Village and around Kalinga Stadium.
 
-In a house, water runs a chain: borewell, sump, overhead tank, bathrooms, then chambers to the septic tank. A fault at one point often shows up at another.
+A fault at one point often shows up at another.
 
 - A slow toilet can mean a full septic tank, not a bad flush.
 - A floor trap that gurgles can point to a choked chamber outside.
@@ -91,7 +91,6 @@ All rates: [plumbing rate card](/pricing/).
 - **One number for the whole drain path.** Floor trap, chamber, outside line and septic tank, checked by the same team.
 - **Bigger work quoted on site.** Free site visit and written estimate for concealed pipeline, renovation, new plumbing, sewerage and commercial work.
 - **Rated 5.0★ on Google.** 45 reviews, 43 of them five-star.
-- **Cash, UPI or bank transfer.** GST invoice on request.
 
 ## Areas near Nayapalli
 
@@ -134,6 +133,11 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
       "@id": "https://mahapatraplumbing.in/#business",
       "name": "Mahapatra Plumbing Services",
       "alternateName": "Mahapatra Plumbing",
+      "founder": {
+        "@type": "Person",
+        "name": "Amaresh Mahapatra"
+      },
+      "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
@@ -328,4 +332,3 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
 - Real job photos from Nayapalli or IRC Village for the 2 image slots (outside drain chamber at a house, shared drain stack at an apartment block).
 - That the team repairs the house-to-septic-tank line and inspection chambers in this area (copy routes this work to the sewerage and drainage works page, quoted after a free site visit).
 - Apartment society work in Nayapalli (shared drain stacks): confirm the team takes common-line jobs booked by a society.
-- No local landmarks are named apart from IRC Village. If the owner wants landmarks added (for example a nearby main road or well-known building), please supply ones he is sure of.

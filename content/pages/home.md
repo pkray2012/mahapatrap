@@ -8,7 +8,7 @@ meta_description: Plumber in Bhubaneswar for leaks, taps, geysers, drains, septi
 primary_keyword: plumber in bhubaneswar
 secondary_keywords: [plumber bhubaneswar, plumber near me, plumber service in bhubaneswar, plumbing services bhubaneswar, plumber near me home service]
 h1: Plumber in Bhubaneswar for Repairs, Renovation & Septic Cleaning
-word_count: 1191
+word_count: 1185
 ---
 
 <!-- Hero. Accent colour on the word "Bhubaneswar" in the H1. -->
@@ -35,6 +35,7 @@ By sending, you agree we may use your number to reply on WhatsApp. See our [Priv
 
 | | |
 |---|---|
+| Owner | Amaresh Mahapatra, 10+ years of plumbing experience; business started in 2021 |
 | Base | District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016 (call first; we come to you) |
 | Phone / WhatsApp | +91 9668875352 |
 | Hours | Open daily 8 AM – 10 PM |
@@ -46,7 +47,7 @@ By sending, you agree we may use your number to reply on WhatsApp. See our [Priv
 
 ## What plumbing services do you offer in Bhubaneswar?
 
-Mahapatra Plumbing Services covers plumbing services in Bhubaneswar, from small repairs to big plumbing work. We fix leaks, taps, flush tanks, geysers, motors and choked drains. We also take septic and water tank cleaning, borewell pump and pipe repair, renovation, new house plumbing, sewerage and commercial work. Tap a card for details and prices.
+Mahapatra Plumbing Services covers plumbing services in Bhubaneswar, from small repairs to big plumbing work. We fix leaks, taps, flush tanks, geysers, motors and choked drains. We also take septic and water tank cleaning, borewell pump and pipe repair, renovation, new house plumbing, sewerage and commercial work.
 
 ### Repairs
 
@@ -78,10 +79,10 @@ Free site visit and written estimate for concealed pipeline work, renovation, ne
 - **Visit charge adjusted.** The ₹199–₹349 visit charge is adjusted in your final bill if the work goes ahead.
 - **90-day workmanship warranty** on repair and installation jobs. Parts follow the brand's own warranty.
 - **Good materials.** CPVC, UPVC and PPR pipes.
-- **Local base.** District Center, Chandrasekharpur. Read [about our plumbing company in Bhubaneswar](/about/).
+- **Owner-run, local base.** Started in 2021 by Amaresh Mahapatra, who has 10+ years of plumbing experience. Read [about our plumbing company in Bhubaneswar](/about/).
 - **Easy payment.** Cash, UPI or bank transfer. GST invoice on request.
 - **One number for small and big jobs.** A dripping tap or a full bathroom re-plumb, you call the same team.
-- **Late-night help, on request.** Late-night and early-morning visits are on request, subject to availability, at ₹300 extra. Call +91 9668875352 and we will tell you if a plumber can come.
+- **Late-night help, on request.** Late-night and early-morning visits are on request, subject to availability, at ₹300 extra.
 
 Need a plumber service in Bhubaneswar for a hostel, PG, shop or office? We work for homes, PGs near KIIT, Infocity offices and builders too.
 
@@ -154,7 +155,7 @@ Yes. Besides homes and flats, we work for shops, Infocity offices, hostels and P
 
 ## How do I book a plumber in Bhubaneswar?
 
-Call or WhatsApp +91 9668875352 between 8 AM and 10 PM, any day. To book a plumber online, fill in the form below. It opens WhatsApp with your name, area and problem ready to send. Add a photo of the problem if you can. We reply on WhatsApp to fix a time.
+Call or WhatsApp +91 9668875352 between 8 AM and 10 PM, any day. To book a plumber online, fill in the form below. It opens WhatsApp with your name, area and problem ready to send. We reply on WhatsApp to fix a time.
 
 [CARD LABEL: Book a Visit]
 
@@ -180,6 +181,11 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
       "@id": "https://mahapatraplumbing.in/#business",
       "name": "Mahapatra Plumbing Services",
       "alternateName": "Mahapatra Plumbing",
+      "founder": {
+        "@type": "Person",
+        "name": "Amaresh Mahapatra"
+      },
+      "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",

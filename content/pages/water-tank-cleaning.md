@@ -138,6 +138,11 @@ Yes. We cover plastic overhead tanks, concrete overhead tanks and concrete under
       "@id": "https://mahapatraplumbing.in/#business",
       "name": "Mahapatra Plumbing Services",
       "alternateName": "Mahapatra Plumbing",
+      "founder": {
+        "@type": "Person",
+        "name": "Amaresh Mahapatra"
+      },
+      "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",

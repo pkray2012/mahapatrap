@@ -8,7 +8,7 @@ meta_description: "Sewerage and drainage work in Bhubaneswar: new sewer lines, b
 primary_keyword: sewerage work contractor bhubaneswar
 secondary_keywords: [sewerage work, sewer line repair near me, drainage work bhubaneswar]
 h1: Sewerage & Drainage Works in Bhubaneswar
-word_count: 1244
+word_count: 1246
 ---
 
 # Sewerage & Drainage Works in Bhubaneswar
@@ -79,7 +79,7 @@ Searching for sewer line repair near me in Bhubaneswar? Send a photo or video on
 
 ## Do I need permission to connect to the main sewer line?
 
-Usually, yes. A new connection from your house to the public sewer line generally needs approval from the local authority. Check with them before work starts. Once the connection is approved, we lay the line from your house up to the agreed connection point.
+Yes. In Bhubaneswar, a new connection from your house to the public sewer line needs approval from WATCO (Water Corporation of Odisha). Apply to WATCO before work starts. Once WATCO approves the connection, we lay the line from your house up to the agreed connection point.
 
 ## How a sewerage job works, step by step
 
@@ -146,6 +146,11 @@ To book a site visit, go to our [contact page](/contact/).
       "@id": "https://mahapatraplumbing.in/#business",
       "name": "Mahapatra Plumbing Services",
       "alternateName": "Mahapatra Plumbing",
+      "founder": {
+        "@type": "Person",
+        "name": "Amaresh Mahapatra"
+      },
+      "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
@@ -365,7 +370,6 @@ To book a site visit, go to our [contact page](/contact/).
 ```
 
 ## Facts to confirm
-- Whether the team helps customers with the sewer connection approval, and which authority handles it in Bhubaneswar. The page tells customers to check with "the local authority" and makes no approval claim.
 - Which pipe types and sizes are used for sewer and drain lines (for example UPVC or PVC SWR). The page says "decided at the site visit".
 - Whether the 90-day workmanship warranty covers sewer line laying and repair. The brief says it covers installation and repair jobs, so the page states it; confirm before launch.
 - Whether sewer jetting is offered on request for repeat blockages before a line is replaced. The page links to the drain cleaning page instead.

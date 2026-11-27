@@ -8,7 +8,7 @@ meta_description: Plumber in Patia, Bhubaneswar for flats, apartments and houses
 primary_keyword: plumber in patia
 secondary_keywords: [plumbing services patia]
 h1: Plumber in Patia, Bhubaneswar
-word_count: 884
+word_count: 885
 ---
 
 <!-- Hero. Accent colour on the word "Patia" in the H1. -->
@@ -27,7 +27,7 @@ Looking for a plumber in Patia? Mahapatra Plumbing Services fixes taps, flush ta
 
 ## What plumbing problems do Patia homes usually have?
 
-Patia homes mostly need small fixes: a dripping tap, a flush that keeps running, a choked bathroom floor trap or a leak at the geyser inlet. Apartment blocks add leaks that reach the flat below. Independent houses add sump, motor and overhead tank work.
+Patia homes mostly need small fixes: a dripping tap, a flush that keeps running, a choked bathroom floor trap or a leak at the geyser inlet. Apartment blocks add leaks that reach the flat below. Independent houses add sump, motor and overhead tank work. We take jobs in homes near Patia railway station and the Kanak Durga Temple.
 
 ### Rented flats
 
@@ -50,8 +50,6 @@ Yes. A tenant can call or WhatsApp +91 9668875352 and book the visit. Tell your 
 [CTA: call+whatsapp | location=inline_content]
 
 ## Plumbing services in Patia
-
-These are the plumbing services Patia flats and houses can book with us.
 
 **Small repairs**
 
@@ -139,6 +137,11 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
       "@id": "https://mahapatraplumbing.in/#business",
       "name": "Mahapatra Plumbing Services",
       "alternateName": "Mahapatra Plumbing",
+      "founder": {
+        "@type": "Person",
+        "name": "Amaresh Mahapatra"
+      },
+      "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
@@ -339,5 +342,4 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
 
 ## Facts to confirm
 - Real job photos from Patia for the 3 image slots (rented-flat tap repair, house overhead tank motor line, apartment kitchen sink drain).
-- Whether the owner wants a named Patia landmark added (for example a well-known square or residential colony); none is named on this page to avoid guessing.
 - Pre-rent or pre-purchase plumbing check (added by audit, 27 Nov 2026): confirm a normal visit / inspection can be booked to check a flat before renting or buying, with the visit charge adjusted if repairs go ahead.

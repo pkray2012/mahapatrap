@@ -17,6 +17,9 @@ Checks per page:
      "plumbing only", no free visit "even if you don't go ahead", no AMC
      figure/free visit for commercial AMC, septic partners not mentioned,
      ContactPoint availableLanguage = or, hi, en.
+  9. Owner answers round 3 (27 Nov 2026): no "Mohapatra" spelling outside
+     the email address, no "since 2011"; every Plumber node carries
+     founder Amaresh Mahapatra and foundingDate 2021.
 
 Usage: python3 scripts/check_pages.py [--verbose]
 Exit code 1 if any check fails.
@@ -61,6 +64,8 @@ BANNED = [
     r"plumbing only", r"plumbing work only", r"even if you (don't|do not) go ahead",
     r"(?<!no )(?<!not take )walk[- ]?ins?\b(?!, please)", r"before you visit", r"visit our (office|shop)", r"\bpartners?\b",
     r"your (tile or civil|tile|civil) (mistri|contractor)", r"free even if",
+    # owner answers round 3: owner surname is "Mahapatra" (email address excepted); never "since 2011"
+    r"(?<!amaresh)mohapatra", r"since 2011",
 ]
 DRILL_OK = "We do not drill new borewells."
 
@@ -274,6 +279,13 @@ def check_page(path):
             errors.append(f"AMC tied to free site visit/quote: {sent.strip()[:120]}")
         if ("amc" in s or "quarter" in s or "maintenance" in s) and re.search(r"₹\s?999(?!\d)|\b999 per", s):
             errors.append(f"AMC price shown (owner: hide ₹999): {sent.strip()[:120]}")
+    # 9 round 3: founder + foundingDate on the Plumber node
+    for n in nodes:
+        if n.get("@type") == "Plumber":
+            if (n.get("founder") or {}).get("name") != "Amaresh Mahapatra":
+                errors.append("Plumber founder is not Amaresh Mahapatra")
+            if n.get("foundingDate") != "2021":
+                errors.append("Plumber foundingDate is not 2021")
     # ContactPoint languages
     for n in nodes:
         if n.get("@type") == "ContactPoint":

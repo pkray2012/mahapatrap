@@ -8,7 +8,7 @@ meta_description: Plumber in Jayadev Vihar and Saheed Nagar for shops, offices a
 primary_keyword: plumber in jayadev vihar
 secondary_keywords: [plumber in saheed nagar]
 h1: Plumber in Jayadev Vihar & Saheed Nagar, Bhubaneswar
-word_count: 893
+word_count: 877
 ---
 
 # Plumber in Jayadev Vihar & Saheed Nagar, Bhubaneswar
@@ -25,11 +25,11 @@ Need a plumber in Jayadev Vihar or Saheed Nagar? Mahapatra Plumbing Services fit
 
 ## What plumbing jobs come up in Jayadev Vihar and Saheed Nagar?
 
-These two localities mix busy shopfronts, office floors and family homes, so the calls are mixed too. Shops and offices need washroom taps, flush tanks and pantry sinks put right. Homes want geysers fitted or serviced and worn fittings changed.
+These two localities mix busy shopfronts, office floors and family homes, so the calls are mixed too. We take jobs around Pal Heights Mall and Janata Maidan on Nandankanan Road, and near Maharshi College in Saheed Nagar. Shops and offices need washroom taps, flush tanks and pantry sinks put right. Homes want geysers fitted or serviced and worn fittings changed.
 
 ### Shops and showrooms
 
-A shop often has one small washroom shared by the whole staff. When its flush keeps running, the overhead tank empties fast. We fix the flush kit, tap or basin waste and keep the work inside the washroom. Tell us your opening time when you book, and we plan around it where possible.
+A shop often has one small washroom shared by the whole staff. When its flush keeps running, the overhead tank empties fast. We fix the flush kit, tap or basin waste and keep the work inside the washroom.
 
 ### Office floors and commercial buildings
 
@@ -44,8 +44,6 @@ For houses and flats in Jayadev Vihar and Saheed Nagar, we fit new geysers and s
 ## Do you install and service geysers in Jayadev Vihar?
 
 Yes. We fit new geysers from ₹699 and service existing ones for ₹499. Fitting covers wall mounting, inlet and outlet lines, a pressure release valve check and a leak test. We handle the plumbing side only. If the element or thermostat has failed, we tell you to call an electrician or the brand's service centre.
-
-Bought the geyser from a local shop? We fit it with your connection pipes or ours. Part price shared before fitting.
 
 ## Which fittings can you change in a shop or home?
 
@@ -131,6 +129,11 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
       "@id": "https://mahapatraplumbing.in/#business",
       "name": "Mahapatra Plumbing Services",
       "alternateName": "Mahapatra Plumbing",
+      "founder": {
+        "@type": "Person",
+        "name": "Amaresh Mahapatra"
+      },
+      "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
@@ -329,6 +332,6 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
 
 ## Facts to confirm
 - Real job photos from Jayadev Vihar or Saheed Nagar for the 3 image slots (shop washroom tap, geyser fitting in a flat, office pantry sink).
-- That geyser fitting/service and tap/flush fitting are the main jobs the owner gets from Jayadev Vihar and Saheed Nagar (page angle from page-specs; no local landmarks named, building types used instead).
+- That geyser fitting/service and tap/flush fitting are the main jobs the owner gets from Jayadev Vihar and Saheed Nagar (page angle from page-specs).
 - That visits can be planned around shop and office hours "where possible" (same wording as the commercial plumbing page).
 - Shop washroom FAQ (added by audit, 27 Nov 2026): confirm small jobs (flush kit, tap, basin waste) can usually be done without the shop closing.

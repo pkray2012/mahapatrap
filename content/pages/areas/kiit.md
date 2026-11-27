@@ -8,7 +8,7 @@ meta_description: Plumber near KIIT for hostels, PGs and student flats. Blocked 
 primary_keyword: plumber near kiit
 secondary_keywords: [plumber for hostel near kiit]
 h1: Plumber near KIIT, Bhubaneswar (Hostels, PGs & Homes)
-word_count: 876
+word_count: 884
 ---
 
 <!-- Hero. Accent colour on "KIIT" in the H1. -->
@@ -27,7 +27,7 @@ Need a plumber near KIIT for a hostel, PG or student flat? Mahapatra Plumbing Se
 
 ## What plumbing problems do hostels and PGs near KIIT have?
 
-The same few faults, again and again. When many people share bathrooms, you get choked floor traps, blocked toilets, flush tanks that never stop and taps that drip all night. Overhead tanks also empty faster and need cleaning more often. We fix the fault and tell you why it keeps coming back.
+The same few faults, again and again. When many people share bathrooms, you get choked floor traps, blocked toilets, flush tanks that never stop and taps that drip all night. Overhead tanks also empty faster and need cleaning more often. We fix the fault and tell you why it keeps coming back. We take jobs in hostels, PGs and flats around KIIT Square and near KIMS Hospital.
 
 - **Choked floor traps.** Hair and shampoo sachets settle in the trap, and water stands on the floor.
 - **Running flush tanks.** A worn flush kit runs all night and empties the overhead tank before the morning rush.
@@ -37,7 +37,7 @@ In student flats, a basin leak often goes unnoticed until the wall gets damp.
 
 ## Which plumbing services can you book near KIIT?
 
-Most calls from this area are small repairs: leaks, blockages and new fittings. Bigger jobs, like tank and septic tank cleaning for hostel buildings, are done anywhere in Bhubaneswar. Tap a service for details and rates.
+Most calls from this area are small repairs: leaks, blockages and new fittings. Bigger jobs, like tank and septic tank cleaning for hostel buildings, are done anywhere in Bhubaneswar.
 
 **Repairs and fittings**
 
@@ -134,6 +134,11 @@ Address, email and hours: [contact page](/contact/).
       "@id": "https://mahapatraplumbing.in/#business",
       "name": "Mahapatra Plumbing Services",
       "alternateName": "Mahapatra Plumbing",
+      "founder": {
+        "@type": "Person",
+        "name": "Amaresh Mahapatra"
+      },
+      "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
@@ -335,5 +340,4 @@ Address, email and hours: [contact page](/contact/).
 ## Facts to confirm
 - Water tank and sump cleaning: per owner update, no price figure is shown; the page says "Call or WhatsApp us for a quote."
 - Real job photos from hostels or PGs in the KIIT/Patia area for the 3 image slots (hostel flush tank repair, PG floor trap cleaning, hostel overhead tanks).
-- Whether the owner wants a named landmark (for example KIIT Square) on this page; none is named for now.
 - Whether jobs inside the university campus are taken; the page only mentions private hostels, PGs, student flats and homes in the area.

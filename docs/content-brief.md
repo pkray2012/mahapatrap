@@ -108,3 +108,11 @@ word_count: ...
 - (superseded) AMC: ₹999 per quarter is for homes only. Commercial AMC (hostels, PGs, offices, hotels, shops, apartment societies): price on request ("Call or WhatsApp us for a quote"). No figure, no "quoted after free site visit" wording for AMC.
 - No walk-ins at District Center: customers call or WhatsApp first; we come to them.
 - Languages on calls: Odia, Hindi and English (schema availableLanguage: or, hi, en).
+
+## Owner answers, round 3 (27 Nov 2026) — now fixed facts, override older lines
+- Owner / founder: **Amaresh Mahapatra** (spelled Mahapatra, same as the brand). Never use the "Mohapatra" spelling anywhere, except inside the email address itself (amareshmohapatra143@gmail.com stays as is). This overrides the "Do NOT invent ... owner names" line for the owner only; staff names and team size are still not to be invented.
+- Experience: he worked as a plumber on his own for about 10 years before starting the business. Mahapatra Plumbing Services was started in 2021. Write it as "10+ years of plumbing experience" and "started in 2021", never as "since 2011" (overrides the "years in business" line for these two facts only).
+- Schema: every page's Plumber node (and `schema.md` section 1) carries `"founder": {"@type": "Person", "name": "Amaresh Mahapatra"}` and `"foundingDate": "2021"`.
+- Owner photo slot on /about/: `[IMAGE: amaresh-mahapatra.webp | alt="Amaresh Mahapatra, owner of Mahapatra Plumbing Services, Chandrasekharpur, Bhubaneswar" | about section]`.
+- New sewer connections in Bhubaneswar are approved by WATCO (Water Corporation of Odisha). On the sewerage page, tell customers the connection needs WATCO approval. Keep it neutral: do not claim we get the approval for them.
+- Area landmarks: each area page names 2–3 well-known public landmarks in or right next to the locality (verified list with sources: `docs/research/2026-11-27-area-landmarks.md`). Use them naturally in the intro or local section ("homes near X and Y"), never as a keyword list, never claim we are located at them, and at most one FAQ answer per page may mention a landmark.

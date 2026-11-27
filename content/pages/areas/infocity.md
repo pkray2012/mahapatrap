@@ -8,7 +8,7 @@ meta_description: Plumber in Infocity, Bhubaneswar for office washrooms, pantrie
 primary_keyword: plumber in infocity bhubaneswar
 secondary_keywords: [office plumbing infocity]
 h1: Plumber in Infocity, Bhubaneswar (Offices & Homes)
-word_count: 842
+word_count: 857
 ---
 
 # Plumber in Infocity, Bhubaneswar (Offices & Homes)
@@ -23,7 +23,7 @@ Need a plumber in Infocity Bhubaneswar for a running flush in the office washroo
 
 ## What plumbing problems do Infocity offices and flats call us for?
 
-In Infocity, the usual jobs are in shared washrooms and office pantries. A washroom used by a whole floor wears out flush valves, jet sprays and basin taps faster than a home bathroom. Pantry sinks choke with tea leaves. In nearby flats, it is mostly geysers, kitchen drains and tank lines.
+In Infocity, the usual jobs are in shared washrooms and office pantries. A washroom used by a whole floor wears out flush valves, jet sprays and basin taps faster than a home bathroom. Pantry sinks choke with tea leaves. In nearby flats, it is mostly geysers, kitchen drains and tank lines. We take jobs in offices and flats around Infocity Square and near the Infosys campus.
 
 ### Office plumbing, Infocity washrooms
 
@@ -141,6 +141,11 @@ Keep tea leaves, food bits and oil out of the sink waste, since they settle in t
       "@id": "https://mahapatraplumbing.in/#business",
       "name": "Mahapatra Plumbing Services",
       "alternateName": "Mahapatra Plumbing",
+      "founder": {
+        "@type": "Person",
+        "name": "Amaresh Mahapatra"
+      },
+      "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",

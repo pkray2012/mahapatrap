@@ -8,7 +8,7 @@ meta_description: Plumber in Chandrasekharpur and Damana, based at District Cent
 primary_keyword: plumber in chandrasekharpur
 secondary_keywords: [plumber in damana]
 h1: Plumber in Chandrasekharpur, Bhubaneswar
-word_count: 899
+word_count: 890
 ---
 
 <!-- Hero. Accent colour on the word "Chandrasekharpur" in the H1. -->
@@ -27,7 +27,7 @@ Looking for a plumber in Chandrasekharpur? Mahapatra Plumbing Services is based 
 
 ## Why call a plumber based in Chandrasekharpur?
 
-We are your neighbours. Our base is at District Center, Chandrasekharpur, so the plumber does not cross the city to reach you. That makes it easier to book a short job, like a dripping tap, and to call us back if a repair needs a second look under our 90-day workmanship warranty. Tell us your lane or apartment name when you call.
+We are your neighbours. Our base is at District Center, Chandrasekharpur, so the plumber does not cross the city to reach you. We take jobs in flats and houses around Damana Square and near Kalinga Hospital. That makes it easier to book a short job, like a dripping tap, and to call us back if a repair needs a second look under our 90-day workmanship warranty.
 
 ## What plumbing problems come up in Chandrasekharpur apartments?
 
@@ -92,7 +92,7 @@ See the full list of [plumber charges in Bhubaneswar](/pricing/).
 
 ## Nearby areas we serve
 
-From Chandrasekharpur we also cover [Infocity](/areas/infocity/), [Patia](/areas/patia/), [KIIT](/areas/kiit/), [Niladri Vihar](/areas/niladri-vihar/), [Sailashree Vihar](/areas/sailashree-vihar/), [Jayadev Vihar](/areas/jayadev-vihar/) and [Nayapalli](/areas/nayapalli/), and all of Bhubaneswar. If you need a plumber in Bhubaneswar outside these areas, call and ask.
+From Chandrasekharpur we also cover [Infocity](/areas/infocity/), [Patia](/areas/patia/), [KIIT](/areas/kiit/), [Niladri Vihar](/areas/niladri-vihar/), [Sailashree Vihar](/areas/sailashree-vihar/), [Jayadev Vihar](/areas/jayadev-vihar/) and [Nayapalli](/areas/nayapalli/), and all of Bhubaneswar.
 
 [MAP: google-maps-listing | static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="Get directions" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click]
 
@@ -132,6 +132,11 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
       "@id": "https://mahapatraplumbing.in/#business",
       "name": "Mahapatra Plumbing Services",
       "alternateName": "Mahapatra Plumbing",
+      "founder": {
+        "@type": "Person",
+        "name": "Amaresh Mahapatra"
+      },
+      "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",

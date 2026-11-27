@@ -8,14 +8,14 @@ meta_description: Mahapatra Plumbing Services is a plumbing company in Bhubanesw
 primary_keyword: plumbing company in bhubaneswar
 secondary_keywords: [mahapatra plumbing services]
 h1: About Mahapatra Plumbing Services, Chandrasekharpur
-word_count: 797
+word_count: 774
 ---
 
 # About Mahapatra Plumbing Services, Chandrasekharpur
 
 [BREADCRUMB: Home > About]
 
-Mahapatra Plumbing Services is a local plumbing company in Bhubaneswar. Our base is District Center, Chandrasekharpur, and we serve all of Bhubaneswar. We take small repairs and bigger jobs for homes, flats, hostels, shops and offices. We are rated 5.0★ from 45 Google reviews. Call or WhatsApp +91 9668875352, open daily 8 AM to 10 PM.
+Mahapatra Plumbing Services is a local plumbing company in Bhubaneswar, owned by Amaresh Mahapatra and started in 2021. Our base is District Center, Chandrasekharpur, and we serve all of Bhubaneswar. We are rated 5.0★ from 45 Google reviews. Call or WhatsApp +91 9668875352, open daily 8 AM to 10 PM.
 
 [CTA: call+whatsapp | location=hero]
 
@@ -23,12 +23,14 @@ Mahapatra Plumbing Services is a local plumbing company in Bhubaneswar. Our base
 
 ## Who is Mahapatra Plumbing Services?
 
-Mahapatra Plumbing Services is a plumber in Chandrasekharpur, Bhubaneswar, with a local team based at District Center. Our plumbers come to you. The key facts:
+Mahapatra Plumbing Services is a plumber in Chandrasekharpur, Bhubaneswar. Our plumbers come to you. The key facts:
 
 ### Mahapatra Plumbing Services at a glance
 
 | | |
 |---|---|
+| Owner | Amaresh Mahapatra, 10+ years of plumbing experience |
+| Started | 2021 |
 | Base | District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016 (call first; we come to you) |
 | Phone / WhatsApp | +91 9668875352 |
 | Hours | Open daily 8 AM – 10 PM |
@@ -38,13 +40,19 @@ Mahapatra Plumbing Services is a plumber in Chandrasekharpur, Bhubaneswar, with 
 | Warranty | 90 days on workmanship for installation and repair jobs; parts follow brand warranty |
 | Languages | Odia, Hindi and English |
 
+## Meet Amaresh Mahapatra
+
+Amaresh Mahapatra worked as a plumber on his own for about 10 years. In 2021 he started Mahapatra Plumbing Services in Chandrasekharpur. His 10+ years of plumbing experience shape how we work: check first, written estimate, then the job.
+
+[IMAGE: amaresh-mahapatra.webp | alt="Amaresh Mahapatra, owner of Mahapatra Plumbing Services, Chandrasekharpur, Bhubaneswar" | about section]
+
 ## What work do we do?
 
-We handle everyday plumbing repairs and bigger plumbing jobs anywhere in Bhubaneswar. Here is what that includes:
+We handle everyday repairs and bigger plumbing jobs anywhere in Bhubaneswar:
 
 - **Small repairs:** dripping taps, leaking pipes and running flush tanks. See [leak and blockage repair](/services/leak-and-blockage-repair/).
 - **Fittings:** taps, sinks, flush kits, and washing machine inlet and drain fitting.
-- **Geysers:** installation and service. We fix the plumbing side and tell you if an electrician or the brand's service centre is needed.
+- **Geysers:** installation, service and plumbing-side repairs.
 - **Water supply:** motor and pump repair, borewell pump and pipe repair, and water tank and sump cleaning.
 - **Bigger jobs:** concealed pipelines, bathroom and kitchen renovation, and [septic tank cleaning in Bhubaneswar](/services/septic-tank-cleaning/). We can also handle the tiling, plaster or civil work, after discussing it with you.
 
@@ -76,13 +84,13 @@ All rates, late-night charges and warranty terms are on our [plumbing charges in
 
 ## Who do we work for?
 
-We work for homes, flats, hostels, PGs, shops, offices and builders across Bhubaneswar. Hostels and PGs near KIIT and Patia call for toilets, taps and water tanks.
+We work for homes, flats, hostels, PGs, shops, offices and builders across Bhubaneswar.
 
 For hotels, offices, hostels and shops, see our [commercial plumbing services](/services/commercial-plumbing/).
 
 ## What do customers say about us?
 
-Mahapatra Plumbing Services is rated 5.0★ from 45 Google reviews, and 43 of them are five-star. Customers mention fair pricing, quality work and plumbers who come on time.
+We are rated 5.0★ from 45 Google reviews, and 43 of them are five-star.
 
 [Read our reviews on Google](https://www.google.com/maps?cid=4373818382391816251)
 
@@ -90,7 +98,7 @@ Mahapatra Plumbing Services is rated 5.0★ from 45 Google reviews, and 43 of th
 
 ## Areas we serve
 
-We are based in Chandrasekharpur and serve all of Bhubaneswar. Quick repairs are most often in Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli. We also reach Damana, Saheed Nagar and IRC Village. See our page for a [plumber in Chandrasekharpur and Damana](/areas/chandrasekharpur/).
+We serve all of Bhubaneswar. Quick repairs are most often in Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar and Nayapalli. We also reach Damana, Saheed Nagar and IRC Village. See our page for a [plumber in Chandrasekharpur and Damana](/areas/chandrasekharpur/).
 
 ## About Mahapatra Plumbing Services: FAQs
 
@@ -112,7 +120,7 @@ You can read our reviews on our Google Maps listing. Mahapatra Plumbing Services
 
 [CTA: call+whatsapp | location=faq]
 
-To book a visit, call or WhatsApp +91 9668875352, or use our [contact page](/contact/).
+To book a visit, use our [contact page](/contact/).
 
 ## JSON-LD
 ```json
@@ -124,6 +132,11 @@ To book a visit, call or WhatsApp +91 9668875352, or use our [contact page](/con
       "@id": "https://mahapatraplumbing.in/#business",
       "name": "Mahapatra Plumbing Services",
       "alternateName": "Mahapatra Plumbing",
+      "founder": {
+        "@type": "Person",
+        "name": "Amaresh Mahapatra"
+      },
+      "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
@@ -314,6 +327,6 @@ To book a visit, call or WhatsApp +91 9668875352, or use our [contact page](/con
 ```
 
 ## Facts to confirm
-- Owner name, year the business started and team size, if the owner wants them on the About page. All are left out until confirmed.
+- Team size, if the owner wants it on the About page (left out until confirmed).
 - Any trade registration or GST number the owner wants shown (left out; "GST invoice on request" is stated only as in the brief).
-- Real photos for the three image slots: a plumber outside a home in Chandrasekharpur, a plumber explaining a written estimate, and a kitchen sink repair in Chandrasekharpur.
+- Real photos for the four image slots: Amaresh Mahapatra (owner photo), a plumber outside a home in Chandrasekharpur, a plumber explaining a written estimate, and a kitchen sink repair in Chandrasekharpur.

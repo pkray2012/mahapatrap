@@ -8,7 +8,7 @@ meta_description: Plumber in Niladri Vihar for water motors, sumps, overhead tan
 primary_keyword: plumber in niladri vihar
 secondary_keywords: []
 h1: Plumber in Niladri Vihar, Bhubaneswar
-word_count: 821
+word_count: 833
 ---
 
 # Plumber in Niladri Vihar, Bhubaneswar
@@ -25,7 +25,7 @@ Looking for a plumber in Niladri Vihar? Mahapatra Plumbing Services fixes the wa
 
 ## What plumbing problems come up most in Niladri Vihar houses?
 
-Most homes in Niladri Vihar are independent houses with their own water setup. A motor lifts water from the ground sump to a roof tank. Most calls are about that chain. A motor will not pick up water, a tank overflows, or flow upstairs is weak.
+Most homes in Niladri Vihar are independent houses with their own water setup. A motor lifts water from the ground sump to a roof tank. Most calls are about that chain. A motor will not pick up water, a tank overflows, or flow upstairs is weak. We take jobs in houses near Buddha Jayanti Park and Utkal Hospital.
 
 - **Overhead tank overflowing.** A stuck float valve or no overflow control, so water runs off the roof.
 - **Sump pipe leaks.** Leaks at the sump inlet or on the pipe from the sump to the motor.
@@ -126,6 +126,11 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
       "@id": "https://mahapatraplumbing.in/#business",
       "name": "Mahapatra Plumbing Services",
       "alternateName": "Mahapatra Plumbing",
+      "founder": {
+        "@type": "Person",
+        "name": "Amaresh Mahapatra"
+      },
+      "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",

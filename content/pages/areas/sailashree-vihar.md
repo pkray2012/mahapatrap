@@ -8,7 +8,7 @@ meta_description: "Plumber in Sailashree Vihar, Bhubaneswar for old GI pipe repl
 primary_keyword: plumber in sailashree vihar
 secondary_keywords: []
 h1: Plumber in Sailashree Vihar, Bhubaneswar
-word_count: 900
+word_count: 894
 ---
 
 # Plumber in Sailashree Vihar, Bhubaneswar
@@ -25,7 +25,7 @@ Looking for a plumber in Sailashree Vihar? Mahapatra Plumbing Services works on 
 
 ## Why do older houses in Sailashree Vihar keep leaking?
 
-Older houses in Sailashree Vihar often still run on galvanised iron (GI) water lines. GI rusts from the inside as it ages. The bore narrows, joints weaken and pinhole leaks start inside the walls. You notice it as weak flow, brown water after a gap, or a damp patch that keeps coming back.
+Older houses in Sailashree Vihar often still run on galvanised iron (GI) water lines. GI rusts from the inside as it ages. The bore narrows, joints weaken and pinhole leaks start inside the walls. You notice it as weak flow, brown water after a gap, or a damp patch that keeps coming back. We take jobs in houses near DAV Public School and the Jagannath Temple in Sailashree Vihar.
 
 Other signs in an independent house or duplex:
 
@@ -76,7 +76,6 @@ Every rate is on our page of [plumber charges in Bhubaneswar](/pricing/).
 - **Rated 5.0★ on Google** from 45 reviews, 43 of them five-star.
 - **Written estimate before work starts.** Part price shared before fitting.
 - **90-day workmanship warranty** on installation and repair jobs.
-- **Cash, UPI or bank transfer.** GST invoice on request.
 - **Free site visit** before any GI-to-CPVC or concealed line work.
 - **CPVC, UPVC and PPR pipes**, chosen line by line for an older house.
 
@@ -84,11 +83,11 @@ Every rate is on our page of [plumber charges in Bhubaneswar](/pricing/).
 
 ## Nearby areas we serve
 
-Sailashree Vihar sits close to our base. Need a [plumber in Chandrasekharpur](/areas/chandrasekharpur/) itself? We also cover [Niladri Vihar](/areas/niladri-vihar/), [Patia](/areas/patia/), [KIIT](/areas/kiit/), [Infocity](/areas/infocity/), [Jayadev Vihar](/areas/jayadev-vihar/), [Nayapalli](/areas/nayapalli/) and all of Bhubaneswar.
+Need a [plumber in Chandrasekharpur](/areas/chandrasekharpur/) itself? We also cover [Niladri Vihar](/areas/niladri-vihar/), [Patia](/areas/patia/), [KIIT](/areas/kiit/), [Infocity](/areas/infocity/), [Jayadev Vihar](/areas/jayadev-vihar/), [Nayapalli](/areas/nayapalli/) and all of Bhubaneswar.
 
 [MAP: google-maps-listing | static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="View on Google Maps" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click]
 
-[Get directions to Mahapatra Plumbing Services](https://www.google.com/maps?cid=4373818382391816251) · Address and hours: [contact page](/contact/)
+Address and hours: [contact page](/contact/)
 
 ## Sailashree Vihar plumbing: common questions
 
@@ -120,6 +119,11 @@ Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are b
       "@id": "https://mahapatraplumbing.in/#business",
       "name": "Mahapatra Plumbing Services",
       "alternateName": "Mahapatra Plumbing",
+      "founder": {
+        "@type": "Person",
+        "name": "Amaresh Mahapatra"
+      },
+      "foundingDate": "2021",
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
@@ -314,4 +318,3 @@ Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are b
 - Real job photos from Sailashree Vihar are needed for the 2 image slots (GI-to-CPVC replacement, damp wall from a concealed leak).
 - Confirm GI-to-CPVC replacement can be quoted and done in stages (one bathroom or line at a time), as the FAQ says.
 - Confirm we can reroute new lines (not only replace them inside the wall) when breaking tiles makes little sense.
-- Any Sailashree Vihar landmarks the owner wants named. None are named now. The page describes building types instead.
