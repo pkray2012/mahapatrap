@@ -4,6 +4,7 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Draft copy written (pre-audit) for 15 pages: about, contact, privacy-policy, new house, sewerage, commercial, drain, leak, fittings, motor, pipeline, water tank cleaning, areas Chandrasekharpur, Jayadev Vihar, Niladri Vihar.
 - Water tank cleaning: no price shown anywhere (owner). Ubersuggest business summary updated to current rate card, services and areas (Madanpur and old prices removed).
 - Removed stale Justdial references from 5 written pages' Facts to confirm, tracking-plan outbound_click and design doc sameAs (Justdial skipped).
 - Ubersuggest rank tracking: 68 → 84 keywords (water tank cleaning, borewell, motor, leakage, price list, washing machine drain). Sheet: 19 keyword rows + 2 sitemap rows added.
