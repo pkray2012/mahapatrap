@@ -1,12 +1,25 @@
 import type { APIRoute } from 'astro';
 import { execFileSync } from 'node:child_process';
+import { statSync } from 'node:fs';
+import path from 'node:path';
 import { getPages } from '../lib/content';
 import { SITE } from '../lib/site';
 
 const PRIORITY: Record<string, string> = { home: '1.0', service: '0.9', pricing: '0.8', locality: '0.8', contact: '0.7', about: '0.6', legal: '0.3' };
 
-/** Last git commit date (YYYY-MM-DD) of a content file; falls back to the build date (no git, or uncommitted file). */
-function lastmod(file: string, fallback: string) {
+/** File modification date (YYYY-MM-DD), else the build date. */
+function mtime(rel: string, fallback: string) {
+  try {
+    return statSync(path.join(process.cwd(), rel)).mtime.toISOString().slice(0, 10);
+  } catch {
+    return fallback;
+  }
+}
+
+/** Last git commit date (YYYY-MM-DD) of a content file; falls back to the file's modification date, then the build
+ *  date (no git on the build machine, git error, or a file edited since the last commit). */
+function lastmod(file: string, build: string) {
+  const fallback = mtime(file.replace(/^\//, ''), build);
   try {
     const rel = file.replace(/^\//, '');
     const git = (args: string[]) => execFileSync('git', args, { cwd: process.cwd(), encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).trim();

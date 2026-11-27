@@ -8,7 +8,7 @@ meta_description: Plumber in Patia, Bhubaneswar for flats, apartments and houses
 primary_keyword: plumber in patia
 secondary_keywords: [plumbing services patia]
 h1: Plumber in Patia, Bhubaneswar
-word_count: 887
+word_count: 882
 ---
 
 <!-- Hero. Accent colour on the word "Patia" in the H1. -->
@@ -27,7 +27,7 @@ Looking for a plumber in Patia? Mahapatra Plumbing Services fixes taps, flush ta
 
 ## What plumbing problems do Patia homes usually have?
 
-Patia homes mostly need small fixes: a dripping tap, a flush that keeps running, a choked bathroom floor trap or a leak at the geyser inlet. Apartment blocks add leaks that reach the flat below. Independent houses add sump, motor and overhead tank work. We take jobs in homes near Patia railway station and the Kanak Durga Temple.
+Patia homes mostly need small fixes: a dripping tap, a flush that keeps running, a choked bathroom floor trap or a leak at the geyser inlet. Apartment blocks add leaks that reach the flat below. Independent houses add sump, motor and overhead tank work. We take jobs in homes near Patia railway station.
 
 ### Rented flats
 
@@ -272,7 +272,6 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -294,7 +293,6 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
       "name": "Plumber in Patia, Bhubaneswar | Mahapatra Plumbing Services",
       "headline": "Plumber in Patia, Bhubaneswar",
       "description": "Plumber in Patia, Bhubaneswar for flats, apartments and houses. Taps, flush tanks, drains, geysers, motors. 5.0★ on Google. Call +91 9668875352.",
-      "keywords": "plumber in patia, plumbing services patia",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

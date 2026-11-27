@@ -289,7 +289,6 @@ Tell us which fittings you need and your area. Call or WhatsApp +91 9668875352, 
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -311,7 +310,6 @@ Tell us which fittings you need and your area. Call or WhatsApp +91 9668875352, 
       "name": "Bathroom Fitting Plumber in Bhubaneswar | Mahapatra Plumbing",
       "headline": "Bathroom & Kitchen Fittings Installation in Bhubaneswar",
       "description": "Bathroom fitting plumber in Bhubaneswar for taps, WC, basin, sink and washing machine points. Tap fitting ₹299–₹799 + parts. Call +91 9668875352.",
-      "keywords": "bathroom fitting plumber near me, bathroom fitters, tap installation, kitchen sink repair, toilet installation, sink installation, washing machine inlet and drain fitting",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

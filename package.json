@@ -13,7 +13,8 @@
     "preview": "astro preview",
     "check:links": "node scripts/check_links.mjs",
     "check:size": "node scripts/size_report.mjs",
-    "check:pages": "python3 scripts/check_pages.py"
+    "check:pages": "python3 scripts/check_pages.py",
+    "check": "astro check"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.5",
@@ -24,6 +25,9 @@
     "tailwindcss": "^4.3.5"
   },
   "devDependencies": {
-    "node-html-parser": "^9.0.7"
+    "@astrojs/check": "^0.9.12",
+    "@types/node": "^22.20.7",
+    "node-html-parser": "^9.0.7",
+    "typescript": "^6.0.3"
   }
 }

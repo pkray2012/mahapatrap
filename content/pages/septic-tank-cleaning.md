@@ -8,14 +8,14 @@ meta_description: Septic tank cleaning in Bhubaneswar from ₹2,999 for homes, P
 primary_keyword: septic tank cleaning bhubaneswar
 secondary_keywords: [clean septic tank, sewage tank cleaning, septic tank cleaning services near me, septic tank cleaning services, how often should a septic tank be cleaned]
 h1: Septic & Sewage Tank Cleaning in Bhubaneswar
-word_count: 1167
+word_count: 1164
 ---
 
 # Septic & Sewage Tank Cleaning in Bhubaneswar
 
 [BREADCRUMB: Home > Septic Tank Cleaning]
 
-Mahapatra Plumbing Services arranges septic and sewage tank cleaning anywhere in Bhubaneswar, starting at ₹2,999. We inspect the tank, clean it and check the inlet, outlet and soak pit. The final price depends on tank size and access. Call or WhatsApp +91 9668875352. We are open daily, 8 AM to 10 PM.
+Mahapatra Plumbing Services offers septic and sewage tank cleaning anywhere in Bhubaneswar, starting at ₹2,999. We inspect the tank, clean it and check the inlet, outlet and soak pit. The final price depends on tank size and access. Call or WhatsApp +91 9668875352. We are open daily, 8 AM to 10 PM.
 
 [CTA: call+whatsapp | location=hero]
 
@@ -91,7 +91,7 @@ Do not ask a mistri or helper to go inside. If someone feels dizzy near an open 
 - **Written estimate before work starts.** The price depends on tank size and access, and you know it first.
 - **Outlet and soak pit checked.** We check the pipes and soak pit as part of the job and tell you before any repair.
 - **Any size of building.** Homes, flats, hostels, PGs, shops, offices and builders, anywhere in Bhubaneswar.
-- **Open daily, 8 AM to 10 PM.** Late-night and early-morning visits on request, subject to availability (extra charge may apply).
+- **Open daily, 8 AM to 10 PM.** Late-night and early-morning visits on request, subject to availability (+₹300).
 - **Easy payment.** Cash, UPI or bank transfer. GST invoice on request.
 
 ## Areas we cover for septic tank cleaning
@@ -274,7 +274,6 @@ Clear the area above the tank lid. Move pots, vehicles or stored items. If tiles
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -296,7 +295,6 @@ Clear the area above the tank lid. Move pots, vehicles or stored items. If tiles
       "name": "Septic Tank Cleaning in Bhubaneswar | Mahapatra Plumbing",
       "headline": "Septic & Sewage Tank Cleaning in Bhubaneswar",
       "description": "Septic tank cleaning in Bhubaneswar from ₹2,999 for homes, PGs, apartments and shops. Sewage tanks too. Written estimate first. Call +91 9668875352.",
-      "keywords": "septic tank cleaning bhubaneswar, clean septic tank, sewage tank cleaning, septic tank cleaning services near me, septic tank cleaning services",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

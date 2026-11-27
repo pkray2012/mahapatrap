@@ -47,7 +47,7 @@ bash scripts/lighthouse.sh   # Lighthouse mobile on 6 pages (needs Chrome; CHROM
 
 Edit page copy only in `content/pages/*.md`; the build fails on any unknown `[MARKER]`, a marker left in the HTML, or FAQs that do not match the JSON-LD.
 
-Markers: `[CTA: ...]` Call/WhatsApp buttons (WhatsApp text = front-matter `whatsapp_prefill`), `[IMAGE: file.webp | alt="..." | where]` job photo (see below), `[MAP: ...]` map facade (iframe loads on tap), `[FORM: quick_quote|book_visit ...]` WhatsApp form, `[CARD LABEL: ...]` card label (rendered as a styled paragraph, not a heading), `[BREADCRUMB]` breadcrumb from the BreadcrumbList JSON-LD. Service pages get a Quick Quote card in the hero automatically.
+Markers: `[CTA: ...]` Call/WhatsApp buttons (WhatsApp text = front-matter `whatsapp_prefill`), `[IMAGE: file.webp | alt="..." | where]` job photo (see below), `[MAP: ...]` lazy-loaded Google Maps iframe, `[FORM: quick_quote|book_visit ...]` WhatsApp form, `[CARD LABEL: ...]` card label (rendered as a styled paragraph, not a heading), `[BREADCRUMB]` breadcrumb from the BreadcrumbList JSON-LD. Service pages get a Quick Quote card in the hero automatically.
 
 ## Job photos for the `[IMAGE]` slots
 

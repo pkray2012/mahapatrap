@@ -4,7 +4,7 @@ page_type: service
 whatsapp_prefill: "Hi, I need a quote for Water Tank & Motor Repair in Bhubaneswar [Page: Motor]"
 page_tag: Motor
 meta_title: Water Motor Repair in Bhubaneswar | Mahapatra Plumbing
-meta_description: Water motor repair in Bhubaneswar from ₹399. Pump line leaks, foot valve, float valve and tank overflow fixed. Call +91 9668875352.
+meta_description: Water motor and pump repair in Bhubaneswar from ₹399. Pump line leaks, foot valve, float valve and tank overflow fixed. Call or WhatsApp +91 9668875352.
 primary_keyword: water motor repair near me
 secondary_keywords: [water motor repair in bhubaneswar, motor repair, water pump repair, submersible pump repair, water tank repair, sump pump repair]
 h1: "Water Motor, Pump & Tank Repair in Bhubaneswar"
@@ -293,7 +293,6 @@ Call or WhatsApp +91 9668875352 with the problem and your area, or see all ways 
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -314,8 +313,7 @@ Call or WhatsApp +91 9668875352 with the problem and your area, or see all ways 
       "url": "https://mahapatraplumbing.in/services/water-tank-and-motor-repair/",
       "name": "Water Motor Repair in Bhubaneswar | Mahapatra Plumbing",
       "headline": "Water Motor, Pump & Tank Repair in Bhubaneswar",
-      "description": "Water motor repair in Bhubaneswar from ₹399. Pump line leaks, foot valve, float valve and tank overflow fixed. Call +91 9668875352.",
-      "keywords": "water motor repair near me, water motor repair in bhubaneswar, motor repair, water pump repair, submersible pump repair, water tank repair, sump pump repair",
+      "description": "Water motor and pump repair in Bhubaneswar from ₹399. Pump line leaks, foot valve, float valve and tank overflow fixed. Call or WhatsApp +91 9668875352.",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

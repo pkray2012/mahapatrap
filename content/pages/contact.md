@@ -8,7 +8,7 @@ meta_description: "Plumber Bhubaneswar contact number: call or WhatsApp +91 9668
 primary_keyword: plumber bhubaneswar contact number
 secondary_keywords: [plumber near me contact number, mahapatra plumbing contact]
 h1: Contact Mahapatra Plumbing Services
-word_count: 496
+word_count: 493
 ---
 
 # Contact Mahapatra Plumbing Services
@@ -33,7 +33,7 @@ Save it as your plumber near me contact number.
 
 ## When can I call Mahapatra Plumbing Services?
 
-Call or WhatsApp Mahapatra Plumbing Services any day, 8 AM to 10 PM. Late-night and early-morning visits on request, subject to availability (extra charge may apply). Call +91 9668875352 first and we will tell you if a plumber can come. See [plumber charges in Bhubaneswar](/pricing/).
+Call or WhatsApp Mahapatra Plumbing Services any day, 8 AM to 10 PM. Late-night and early-morning visits on request, subject to availability (+₹300). Call +91 9668875352 first and we will tell you if a plumber can come. See [plumber charges in Bhubaneswar](/pricing/).
 
 ## Can I book a plumber visit without calling?
 
@@ -228,7 +228,6 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -250,7 +249,6 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
       "name": "Plumber Bhubaneswar Contact Number | Mahapatra Plumbing",
       "headline": "Contact Mahapatra Plumbing Services",
       "description": "Plumber Bhubaneswar contact number: call or WhatsApp +91 9668875352. Open daily 8 AM to 10 PM. District Center, Chandrasekharpur. Book a visit online.",
-      "keywords": "plumber bhubaneswar contact number, plumber near me contact number, mahapatra plumbing contact",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

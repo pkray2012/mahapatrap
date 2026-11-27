@@ -8,7 +8,7 @@ meta_description: "Plumber in Sailashree Vihar, Bhubaneswar for old GI pipe repl
 primary_keyword: plumber in sailashree vihar
 secondary_keywords: []
 h1: Plumber in Sailashree Vihar, Bhubaneswar
-word_count: 896
+word_count: 897
 ---
 
 # Plumber in Sailashree Vihar, Bhubaneswar
@@ -54,8 +54,19 @@ If the lines behind the wall are GI, consider [bathroom renovation plumbing](/se
 
 ## Plumbing services in Sailashree Vihar
 
-- **Quick repairs nearby:** [tap, flush tank and pipe leak repair](/services/leak-and-blockage-repair/), choked drains, geyser fitting, motor and tank lines.
-- **Bigger jobs, anywhere in Bhubaneswar:** whole-house re-plumbing, [new bathroom and house plumbing](/services/new-bathroom-and-house-plumbing/), septic tank cleaning and sewerage works.
+**Small repairs**
+
+- [Tap, flush and leak repair](/services/leak-and-blockage-repair/)
+- [Drain cleaning](/services/drain-cleaning-and-sewer-jetting/)
+- [Geyser installation and repair](/services/geyser-installation-and-repair/)
+- [Water motor and tank repair](/services/water-tank-and-motor-repair/)
+
+**Bigger jobs, anywhere in Bhubaneswar**
+
+- [GI-to-CPVC re-plumbing](/services/pipeline-and-concealed-plumbing/)
+- [New bathroom and house plumbing](/services/new-bathroom-and-house-plumbing/)
+- [Septic tank cleaning](/services/septic-tank-cleaning/)
+- [Sewerage and drainage works](/services/sewerage-and-drainage-works/)
 
 ## Starting rates for Sailashree Vihar jobs
 
@@ -85,7 +96,7 @@ Every rate is on our page of [plumber charges in Bhubaneswar](/pricing/).
 
 Need a [plumber in Chandrasekharpur](/areas/chandrasekharpur/) itself? We also cover [Niladri Vihar](/areas/niladri-vihar/), [Patia](/areas/patia/), [KIIT](/areas/kiit/), [Infocity](/areas/infocity/), [Jayadev Vihar](/areas/jayadev-vihar/), [Nayapalli](/areas/nayapalli/) and all of Bhubaneswar.
 
-[MAP: google-maps-listing | static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="View on Google Maps" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click]
+[MAP: google-maps-listing | static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="Get directions" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click]
 
 Address and hours: [contact Mahapatra Plumbing Services](/contact/)
 
@@ -254,7 +265,6 @@ Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are b
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -276,7 +286,6 @@ Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are b
       "name": "Plumber in Sailashree Vihar | Mahapatra Plumbing Services",
       "headline": "Plumber in Sailashree Vihar, Bhubaneswar",
       "description": "Plumber in Sailashree Vihar, Bhubaneswar for old GI pipe replacement, concealed leaks and bathroom upgrades. 5.0★ on Google. Call +91 9668875352.",
-      "keywords": "plumber in sailashree vihar",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

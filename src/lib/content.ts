@@ -94,7 +94,7 @@ export function callButton(page: Page, loc: string, label = `Call ${SITE.phoneDi
   return `<a class="${cls}" href="${SITE.tel}" ${trackAttrs(page, 'call_click', loc)}>${icon('phone')}<span>${esc(label)}</span></a>`;
 }
 export function waButton(page: Page, loc: string, label = 'WhatsApp us', cls = 'btn btn-wa') {
-  return `<a class="${cls}" href="${esc(waLink(page.fm.whatsapp_prefill))}" target="_blank" rel="noopener" ${trackAttrs(page, 'whatsapp_click', loc)}>${icon('wa')}<span>${esc(label)}</span></a>`;
+  return `<a class="${cls}" href="${esc(waLink(readableMsg(page.fm.whatsapp_prefill)))}" target="_blank" rel="noopener" ${trackAttrs(page, 'whatsapp_click', loc)}>${icon('wa')}<span>${esc(label)}</span></a>`;
 }
 
 /** Parse "KEY: a | b=c | d="e f" g" into a head and an attribute map (pipes inside quotes ignored). */
@@ -152,7 +152,7 @@ function renderCta(ctx: Ctx, mk: ReturnType<typeof parseMarker>) {
 // Until a photo exists the marker renders NOTHING (no placeholder box, no caption).
 const PHOTOS = import.meta.glob('/src/assets/photos/*.{webp,jpg,jpeg,png,avif}', { eager: true, import: 'default' }) as Record<string, ImageMetadata>;
 
-async function renderImage(ctx: Ctx, mk: ReturnType<typeof parseMarker>, hero = false) {
+async function renderImage(_ctx: Ctx, mk: ReturnType<typeof parseMarker>, hero = false) {
   const file = mk.head.trim();
   const alt = mk.attrs.alt || '';
   const base = file.replace(/\.[a-z]+$/, '');
@@ -171,16 +171,48 @@ async function renderImage(ctx: Ctx, mk: ReturnType<typeof parseMarker>, hero = 
 }
 
 // ---------- MAP ----------
+// The Google Maps embed is shown directly (no tap-to-load facade). loading="lazy" keeps it off the critical path:
+// the browser fetches it only when it nears the viewport. The box has a fixed CSS height (320 px on phones,
+// 400 px from 768 px), so nothing shifts when the map arrives.
 export function renderMap(page: Page, opts: { button?: string; loc?: string } = {}) {
   const loc = opts.loc || 'inline_content';
   const button = opts.button || 'Get directions';
-  return `<div class="map" data-map>
-<div class="map-canvas" aria-hidden="true"><span class="map-pin">${icon('pin')}</span></div>
+  return `<div class="map">
+<div class="map-canvas"><iframe src="${esc(SITE.mapsEmbed)}" title="Map: ${esc(SITE.name)}, Chandrasekharpur" width="600" height="400" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
 <div class="map-info"><p class="map-title">${esc(SITE.name)}</p><p>${esc(SITE.addressLines.join(', '))}</p>
-<div class="cta-row"><button type="button" class="btn btn-outline" data-map-load data-src="${esc(SITE.mapsEmbed)}" data-page-type="${page.fm.page_type}">${icon('pin')}<span>Show map</span></button><a class="btn btn-blue" href="${SITE.mapsUrl}" target="_blank" rel="noopener" data-track="directions_click" data-cta-location="${loc}" data-page-type="${page.fm.page_type}">${icon('arrow')}<span>${esc(button)}</span></a></div></div></div>`;
+<div class="cta-row"><a class="btn btn-blue" href="${SITE.mapsUrl}" target="_blank" rel="noopener" data-track="directions_click" data-cta-location="${loc}" data-page-type="${page.fm.page_type}">${icon('arrow')}<span>${esc(button)}</span></a></div></div></div>`;
 }
 
 // ---------- FORM ----------
+// The "Use my details to improve ads" box is rendered only when an ads tag that can use it is configured at build
+// time (Meta Pixel directly, or GTM, which receives ads_consent in the dataLayer). Without one it would do nothing.
+const ADS_OPT_IN = Boolean(import.meta.env.PUBLIC_META_PIXEL_ID || import.meta.env.PUBLIC_GTM_ID);
+
+/** Page tag as display text: "NiladriVihar" -> "Niladri Vihar", "NewHouse" -> "New House" (KIIT stays KIIT).
+ *  Only the visible WhatsApp text changes; analytics data-* attributes use the URL slug, not this tag. */
+export const readableTag = (tag: string) => String(tag).replace(/([a-z])([A-Z])/g, '$1 $2');
+/** Readable "[Page: …" tag inside a WhatsApp message. */
+export const readableMsg = (text: string) => text.replace(/\[Page: ([A-Za-z]+)/g, (_m, t: string) => `[Page: ${readableTag(t)}`);
+/** Service name in words for service pages ("Leak & Blockage Repair"), from the WhatsApp prefill or the nav name. */
+export function serviceName(page: Page) {
+  if (page.fm.page_type !== 'service') return '';
+  return page.fm.whatsapp_prefill.match(/quote for (.+?) in Bhubaneswar/)?.[1] || page.navName;
+}
+/** Every form message carries the phone typed in the form and, on service pages, the service in words. */
+function formTemplate(page: Page, tpl: string) {
+  let lines = tpl.split('\n');
+  if (!lines.some((l) => l.includes('{phone}'))) {
+    const at = lines.findIndex((l) => l.includes('{name}'));
+    lines.splice(at + 1, 0, 'Phone: {phone}');
+  }
+  const svc = serviceName(page);
+  if (svc && !lines.some((l) => /^Service:/.test(l))) {
+    const at = lines.findIndex((l) => l.includes('{problem}'));
+    lines.splice(at < 0 ? lines.length : at, 0, `Service: ${svc}`);
+  }
+  return readableMsg(lines.join('\n'));
+}
+
 export function renderForm(page: Page, o: { formId: 'quick_quote' | 'book_visit'; id?: string; submit: string; template: string; loc: string }) {
   const pre = o.formId === 'quick_quote' ? 'qq' : 'bv';
   const id = o.id || (o.formId === 'quick_quote' ? 'quick-quote' : 'book-a-visit');
@@ -188,14 +220,14 @@ export function renderForm(page: Page, o: { formId: 'quick_quote' | 'book_visit'
   const opts = AREA_OPTIONS.map(([v, l]) => `<option${v === selArea ? ' selected' : ''}>${esc(l)}</option>`).join('');
   // Fields have no `name` attribute: if the script has not run, a native submit sends nothing (no personal data
   // in a URL). site.ts reads them by data-f. Phone accepts 10 digits with optional 0 / 91 / +91 and spaces or dashes.
-  return `<form id="${id}" class="wa-form" data-wa-form data-form-id="${o.formId}" ${trackAttrs(page, 'whatsapp_form_submit', o.loc)} data-template="${esc(o.template)}">
+  return `<form id="${id}" class="wa-form" data-wa-form data-form-id="${o.formId}" ${trackAttrs(page, 'whatsapp_form_submit', o.loc)} data-template="${esc(formTemplate(page, o.template))}">
 <div class="fld"><label for="${pre}-name">Name</label><input id="${pre}-name" data-f="name" type="text" autocomplete="name" required maxlength="60"></div>
 <div class="fld"><label for="${pre}-phone">Phone (WhatsApp)</label><input id="${pre}-phone" data-f="phone" type="tel" inputmode="tel" autocomplete="tel" required pattern="[\\s\\-]*(\\+?91|0)?[\\s\\-]*[6-9](?:[\\s\\-]*\\d){9}[\\s\\-]*" title="10-digit mobile number, e.g. 98765 43210" maxlength="20"></div>
 <div class="fld"><label for="${pre}-area">Area</label><select id="${pre}-area" data-f="area" required><option value="">Choose your area</option>${opts}</select></div>
 <div class="fld"><label for="${pre}-problem">Problem</label><textarea id="${pre}-problem" data-f="problem" rows="3" required maxlength="500"></textarea></div>
-<label class="chk"><input type="checkbox" data-f="ads"><span>Use my details to improve ads (optional)</span></label>
+${ADS_OPT_IN ? '<label class="chk"><input type="checkbox" data-f="ads"><span>Use my details to improve ads (optional)</span></label>' : ''}
 <button type="submit" class="btn btn-wa btn-block">${icon('wa')}<span>${esc(o.submit)}</span></button>
-</form><noscript><p class="noscript">Please call <a href="${SITE.tel}">${SITE.phoneDisplay}</a> or <a href="${esc(waLink(page.fm.whatsapp_prefill))}" target="_blank" rel="noopener">WhatsApp us</a>.</p></noscript>`;
+</form><noscript><p class="noscript">Please call <a href="${SITE.tel}">${SITE.phoneDisplay}</a> or <a href="${esc(waLink(readableMsg(page.fm.whatsapp_prefill)))}" target="_blank" rel="noopener">WhatsApp us</a>.</p></noscript>`;
 }
 
 function formFromMarker(ctx: Ctx, mk: ReturnType<typeof parseMarker>) {
@@ -215,7 +247,7 @@ export function quickQuoteCard(page: Page) {
   return `<div class="card form-card"><p class="card-title">Quick Quote on WhatsApp</p><p>Tell us the problem. We reply on WhatsApp.</p>${renderForm(page, {
     formId: 'quick_quote',
     submit: 'Get Quote on WhatsApp',
-    template: `Name: {name}\nArea: {area}\nProblem: {problem}\n[Page: ${page.fm.page_tag} | Form: quick_quote]`,
+    template: `Name: {name}\nPhone: {phone}\nArea: {area}\nProblem: {problem}\n[Page: ${page.fm.page_tag} | Form: quick_quote]`,
     loc: 'quick_quote_form',
   })}<p class="consent">By sending, you agree we may use your number to reply on WhatsApp. See our <a href="/privacy-policy/">Privacy Policy</a>.</p></div>`;
 }
@@ -249,7 +281,7 @@ function linkAttrs(ctx: Ctx, href: string, text: string) {
 const PHONE_TEXT = SITE.phoneDisplay.replace(/\+/g, '\\+');
 /** Wrap "+91 9668875352" in a tracked tel: link wherever it is plain text (never inside an existing link or tag). */
 function linkPhones(ctx: Ctx, html: string) {
-  const loc = ctx.loc === 'faq' ? 'faq' : 'inline_content';
+  const loc = ctx.loc === 'faq' || ctx.loc === 'hero' ? ctx.loc : 'inline_content';
   let inA = 0;
   return html.split(/(<[^>]+>)/).map((part) => {
     if (part.startsWith('<')) {
@@ -395,7 +427,7 @@ export function renderTiers(page: Page) {
   const t = page.fm.page_type;
   const cards = tierData.tiers.map((tier: { name: string; price: string; badge?: string; items: string[] }) => {
     const slug = slugify(tier.name);
-    const text = `Hi, I want to book: ${tier.name} [Page: ${page.fm.page_tag} | Tier: ${tier.name}]`;
+    const text = `Hi, I want to book: ${tier.name} [Page: ${readableTag(page.fm.page_tag)} | Tier: ${tier.name}]`;
     const attrs = `data-track="whatsapp_click" data-cta-location="pricing_table" data-page-type="${t}" data-service="${slug}"${t === 'locality' ? ` data-locality="${page.slug}"` : ''}`;
     const items = tier.items.map((it) => `<li>${icon('check-circle')}<span>${esc(it)}</span></li>`).join('');
     return `<li class="tier${tier.badge ? ' tier-hot' : ''}">${tier.badge ? `<p class="tier-badge">${esc(tier.badge)}</p>` : ''}<div class="tier-top"><p class="tier-name">${esc(tier.name)}</p>${icon('rupee', 'ico tier-ico')}</div><p class="tier-price">${esc(tier.price)}</p><ul class="tier-list">${items}</ul><a class="btn btn-blue btn-block tier-btn" href="${esc(waLink(text))}" target="_blank" rel="noopener" ${attrs}><span>Book Now</span><span class="sr-only">: ${esc(tier.name)}</span>${icon('arrow')}</a></li>`;

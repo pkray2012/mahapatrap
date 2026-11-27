@@ -8,7 +8,7 @@ meta_description: "Bathroom renovation plumbing in Bhubaneswar: GI lines replace
 primary_keyword: bathroom renovation bhubaneswar
 secondary_keywords: [bathroom renovation, bathroom renovation cost, bathroom renovation contractors near me, kitchen renovation bhubaneswar]
 h1: Bathroom Renovation Plumbing in Bhubaneswar (and Kitchens)
-word_count: 1283
+word_count: 1286
 ---
 
 # Bathroom Renovation Plumbing in Bhubaneswar (and Kitchens)
@@ -93,7 +93,7 @@ CPVC handles hot and cold water, so it suits geyser lines. UPVC works well for c
 Searching for bathroom renovation contractors near me? Here is what you get with us:
 
 - **Leak test before tiling**, so problems show up before new tiles go on
-- **Tiling, plaster and civil work on discussion**, so fittings sit at the right level
+- **Tiling, plaster and civil work, after discussing it with you**, so fittings sit at the right level
 - **5.0★ from 45 Google reviews**, with 43 five-star ratings
 - Customers mention fair pricing, quality work, timely service, and kitchen and bathroom fixes
 - **Written estimate before work starts**, so you know the scope upfront
@@ -287,7 +287,6 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -309,7 +308,6 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
       "name": "Bathroom Renovation Plumber Bhubaneswar | Mahapatra Plumbing",
       "headline": "Bathroom Renovation Plumbing in Bhubaneswar (and Kitchens)",
       "description": "Bathroom renovation plumbing in Bhubaneswar: GI lines replaced with CPVC, concealed pipes, leak test before tiling. Free site visit. Call +91 9668875352.",
-      "keywords": "bathroom renovation bhubaneswar, bathroom renovation, bathroom renovation cost, bathroom renovation contractors near me, kitchen renovation bhubaneswar",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

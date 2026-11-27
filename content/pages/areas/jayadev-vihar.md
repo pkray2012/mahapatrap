@@ -4,11 +4,11 @@ page_type: locality
 whatsapp_prefill: "Hi, I need a quote for plumbing work in Jayadev Vihar, Bhubaneswar [Page: JayadevVihar]"
 page_tag: JayadevVihar
 meta_title: Plumber in Jayadev Vihar & Saheed Nagar | Mahapatra Plumbing
-meta_description: Plumber in Jayadev Vihar and Saheed Nagar for shops, offices and homes. Geyser service ₹499, tap fitting from ₹299. Call +91 9668875352.
+meta_description: Plumber in Jayadev Vihar and Saheed Nagar for shops, offices and homes. Geyser service ₹499, tap fitting from ₹299. Call or WhatsApp +91 9668875352.
 primary_keyword: plumber in jayadev vihar
 secondary_keywords: [plumber in saheed nagar]
 h1: Plumber in Jayadev Vihar & Saheed Nagar, Bhubaneswar
-word_count: 879
+word_count: 875
 ---
 
 # Plumber in Jayadev Vihar & Saheed Nagar, Bhubaneswar
@@ -107,7 +107,7 @@ Yes. As a plumber in Saheed Nagar and Jayadev Vihar, we take repairs, fittings a
 
 ### Can you work in my shop's washroom during trading hours?
 
-Yes, for most small jobs. Flush kits, taps and basin waste pipes can usually be changed without closing the shop. If a job needs the water off for longer, we tell you first so you can pick a quieter time. Our hours are 8 AM to 10 PM daily. Late-night and early-morning visits are on request, subject to availability (extra charge may apply).
+Yes, for most small jobs. Flush kits, taps and basin waste pipes can usually be changed without closing the shop. If a job needs the water off for longer, we tell you first so you can pick a quieter time. Our hours are 8 AM to 10 PM daily. Late-night and early-morning visits on request, subject to availability (+₹300).
 
 ### Do you look after plumbing for a whole commercial building?
 
@@ -264,7 +264,6 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -285,8 +284,7 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
       "url": "https://mahapatraplumbing.in/areas/jayadev-vihar/",
       "name": "Plumber in Jayadev Vihar & Saheed Nagar | Mahapatra Plumbing",
       "headline": "Plumber in Jayadev Vihar & Saheed Nagar, Bhubaneswar",
-      "description": "Plumber in Jayadev Vihar and Saheed Nagar for shops, offices and homes. Geyser service ₹499, tap fitting from ₹299. Call +91 9668875352.",
-      "keywords": "plumber in jayadev vihar, plumber in saheed nagar",
+      "description": "Plumber in Jayadev Vihar and Saheed Nagar for shops, offices and homes. Geyser service ₹499, tap fitting from ₹299. Call or WhatsApp +91 9668875352.",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },
@@ -325,7 +323,7 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
           "name": "Can you work in my shop's washroom during trading hours?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, for most small jobs. Flush kits, taps and basin waste pipes can usually be changed without closing the shop. If a job needs the water off for longer, we tell you first so you can pick a quieter time. Our hours are 8 AM to 10 PM daily. Late-night and early-morning visits are on request, subject to availability (extra charge may apply)."
+            "text": "Yes, for most small jobs. Flush kits, taps and basin waste pipes can usually be changed without closing the shop. If a job needs the water off for longer, we tell you first so you can pick a quieter time. Our hours are 8 AM to 10 PM daily. Late-night and early-morning visits on request, subject to availability (+₹300)."
           }
         },
         {

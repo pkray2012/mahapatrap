@@ -8,7 +8,7 @@ meta_description: Plumber in Infocity, Bhubaneswar for office washrooms, pantrie
 primary_keyword: plumber in infocity bhubaneswar
 secondary_keywords: [office plumbing infocity]
 h1: Plumber in Infocity, Bhubaneswar (Offices & Homes)
-word_count: 859
+word_count: 855
 ---
 
 # Plumber in Infocity, Bhubaneswar (Offices & Homes)
@@ -48,7 +48,7 @@ In Infocity, the usual jobs are in shared washrooms and office pantries. A washr
 
 Yes, within our working hours. We start at 8 AM every day, weekends included. Book a slot before your staff arrive, after they leave, or on a holiday, up to 10 PM. Slots depend on the day's bookings, so message us a day ahead when you can.
 
-- Late-night and early-morning visits are on request, subject to availability (extra charge may apply). See [late-night and visit charges](/pricing/).
+- Late-night and early-morning visits on request, subject to availability (+₹300). See [late-night and visit charges](/pricing/).
 
 [CTA: call+whatsapp | location=inline_content]
 
@@ -276,7 +276,6 @@ Keep tea leaves, food bits and oil out of the sink waste, since they settle in t
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -298,7 +297,6 @@ Keep tea leaves, food bits and oil out of the sink waste, since they settle in t
       "name": "Plumber in Infocity, Bhubaneswar | Mahapatra Plumbing",
       "headline": "Plumber in Infocity, Bhubaneswar (Offices & Homes)",
       "description": "Plumber in Infocity, Bhubaneswar for office washrooms, pantries and flats. Flush, tap, drain and motor repairs. Call or WhatsApp +91 9668875352.",
-      "keywords": "plumber in infocity bhubaneswar, office plumbing infocity",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

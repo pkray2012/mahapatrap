@@ -8,7 +8,7 @@ meta_description: Commercial plumbing in Bhubaneswar for hotels, offices, hostel
 primary_keyword: commercial plumbing bhubaneswar
 secondary_keywords: [commercial plumbing services, commercial plumbing near me, commercial plumbing work, plumbing maintenance contract, hotel plumbing services, office plumbing services, hostel and PG plumbing, apartment plumbing maintenance, how much does commercial plumbing cost]
 h1: "Commercial Plumbing in Bhubaneswar: Hotels, Offices, Hostels & Shops"
-word_count: 1189
+word_count: 1185
 ---
 
 # Commercial Plumbing in Bhubaneswar: Hotels, Offices, Hostels & Shops
@@ -71,7 +71,7 @@ Regular check-ups catch small leaks and running flush tanks early. Tell us what 
 
 ## Can you work around our business hours?
 
-Yes, where possible. We are open daily from 8 AM to 10 PM. So we can plan work before a shop opens or after an office closes. Late-night and early-morning visits are on request, subject to availability (extra charge may apply). Tell us your quiet hours when you book.
+Yes, where possible. We are open daily from 8 AM to 10 PM. So we can plan work before a shop opens or after an office closes. Late-night and early-morning visits on request, subject to availability (+₹300). Tell us your quiet hours when you book.
 
 Where the job allows, we work floor by floor, so the rest of the building stays in use. Job time depends on the work. We tell you the expected time with the estimate.
 
@@ -95,7 +95,7 @@ Where the job allows, we work floor by floor, so the rest of the building stays 
 - **90-day workmanship warranty** on installation and repair jobs (not cleaning jobs). Parts follow the brand warranty.
 - **Easy payment.** Cash, UPI or bank transfer. GST invoice on request.
 - **Open daily, 8 AM to 10 PM.**
-- **Owner-run.** Started in 2021 by Amaresh Mahapatra, who has 10+ years of plumbing experience. Read [about Mahapatra Plumbing Services](/about/).
+- **Owner-run.** Started in 2021 by Amaresh Mahapatra, who has 20+ years of plumbing experience. Read [about Mahapatra Plumbing Services](/about/).
 
 ## Commercial plumbing anywhere in Bhubaneswar
 
@@ -280,7 +280,6 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -302,7 +301,6 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
       "name": "Commercial Plumbing in Bhubaneswar | Mahapatra Plumbing",
       "headline": "Commercial Plumbing in Bhubaneswar: Hotels, Offices, Hostels & Shops",
       "description": "Commercial plumbing in Bhubaneswar for hotels, offices, hostels, PGs and shops. Repairs, new lines and maintenance contracts. Call +91 9668875352.",
-      "keywords": "commercial plumbing bhubaneswar, commercial plumbing services, commercial plumbing work, plumbing maintenance contract, hotel plumbing services, office plumbing services",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },
@@ -413,7 +411,7 @@ Yes. We lay new water supply and drain lines, fit washrooms and pantry sinks, an
 ## Facts to confirm
 - Commercial AMC: what a visit covers, how often visits happen, and whether labour or parts discounts are included. The page says commercial AMC is price on request, with the scope and visit schedule agreed in writing.
 - Whether the owner already serves hotels, guest houses, restaurants and cafes (the brief's customer list names homes, flats, hostels, PGs, shops, offices and builders). The page offers the service to these types without claiming past clients.
-- Whether commercial work outside 8 AM to 10 PM (for example after a restaurant closes) carries the same +₹300 late-night extra as homes. The page uses only the standard wording "extra charge may apply" and links to /pricing/.
+- Whether commercial work outside 8 AM to 10 PM (for example after a restaurant closes) carries the same +₹300 late-night extra as homes. (27 Nov 2026: the page now uses the owner's wording "Late-night and early-morning visits on request, subject to availability (+₹300).")
 - Whether the plumber can work floor by floor in hotels, hostels and offices to keep the rest of the building in use (stated as "where the job allows").
 - Names of commercial clients, a commercial job photo set, and any references the owner is willing to show (none are on the page).
 - Whether the ₹199–₹349 visit charge applies to commercial repair calls in the same way as homes (shown in the table as on the rate card).

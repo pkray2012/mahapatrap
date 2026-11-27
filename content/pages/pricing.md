@@ -3,15 +3,15 @@ url: /pricing/
 page_type: pricing
 whatsapp_prefill: "Hi, I need a quote for plumbing work in Bhubaneswar [Page: Pricing]"
 page_tag: Pricing
-meta_title: Plumber Charges in Bhubaneswar 2026 | Mahapatra Plumbing
+meta_title: Plumber Charges in Bhubaneswar | Mahapatra Plumbing
 meta_description: "Plumber charges and price list in Bhubaneswar: visit ₹199–₹349 adjusted in your bill, minor fixes from ₹249, 90-day repair warranty. Call +91 9668875352."
 primary_keyword: plumber charges in bhubaneswar
 secondary_keywords: [plumber visit charge bhubaneswar, plumbing rate list bhubaneswar, plumber price list bhubaneswar, how much does a plumber charge per visit in bhubaneswar]
-h1: "Plumber Charges in Bhubaneswar: 2026 Rate Card"
-word_count: 880
+h1: "Plumber Charges in Bhubaneswar: Rate Card"
+word_count: 878
 ---
 
-# Plumber Charges in Bhubaneswar: 2026 Rate Card
+# Plumber Charges in Bhubaneswar: Rate Card
 
 [BREADCRUMB: Home > Pricing]
 
@@ -23,7 +23,7 @@ Prices below are labour charges. Parts are extra.
 
 [IMAGE: plumber-estimate-bhubaneswar.webp | alt="Mahapatra plumber explaining a written estimate to a homeowner in Bhubaneswar" | after intro]
 
-## Plumber price list in Bhubaneswar (2026)
+## Plumber price list in Bhubaneswar
 
 This plumbing rate list in Bhubaneswar was updated on 27 November 2026. Start with the three common job types, then see the full list.
 
@@ -272,7 +272,6 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ],
@@ -446,10 +445,9 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
       "@type": "WebPage",
       "@id": "https://mahapatraplumbing.in/pricing/#webpage",
       "url": "https://mahapatraplumbing.in/pricing/",
-      "name": "Plumber Charges in Bhubaneswar 2026 | Mahapatra Plumbing",
-      "headline": "Plumber Charges in Bhubaneswar: 2026 Rate Card",
+      "name": "Plumber Charges in Bhubaneswar | Mahapatra Plumbing",
+      "headline": "Plumber Charges in Bhubaneswar: Rate Card",
       "description": "Plumber charges and price list in Bhubaneswar: visit ₹199–₹349 adjusted in your bill, minor fixes from ₹249, 90-day repair warranty. Call +91 9668875352.",
-      "keywords": "plumber charges in bhubaneswar, plumber visit charge bhubaneswar, plumbing rate list bhubaneswar, plumber price list bhubaneswar, how much does a plumber charge per visit in bhubaneswar",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

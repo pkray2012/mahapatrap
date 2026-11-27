@@ -50,7 +50,12 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
     X-Frame-Options = "SAMEORIGIN"
-    Strict-Transport-Security = "max-age=31536000"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+    # Report-only for now: the browser logs violations to the console but blocks nothing. Test with the tracking
+    # IDs switched on (GTM, GA4, Google Ads, Clarity, Meta Pixel, Microsoft UET) before making it enforcing.
+    # 'unsafe-inline' is needed for the inline analytics loader, the Astro module loader and inlined CSS.
+    # wa.me / api.whatsapp.com are plain link navigations and window.open, which CSP does not restrict.
+    Content-Security-Policy-Report-Only = "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://*.googletagmanager.com https://www.google-analytics.com https://*.google-analytics.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://*.clarity.ms https://connect.facebook.net https://bat.bing.com; style-src 'self' 'unsafe-inline' https://www.googletagmanager.com; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com https://*.g.doubleclick.net https://googleads.g.doubleclick.net https://www.google.com https://www.google.co.in https://www.googleadservices.com https://*.clarity.ms https://c.bing.com https://bat.bing.com https://www.facebook.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com https://*.g.doubleclick.net https://www.google.com https://www.googleadservices.com https://*.clarity.ms https://c.bing.com https://bat.bing.com https://www.facebook.com https://connect.facebook.net; frame-src https://www.google.com https://maps.google.com https://www.googletagmanager.com https://td.doubleclick.net https://www.facebook.com; font-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'self' https://wa.me https://api.whatsapp.com; frame-ancestors 'self'"
 
 # --- Caching ---
 # Hashed build assets (logo AVIF/WebP, any future bundles): cache for a year.

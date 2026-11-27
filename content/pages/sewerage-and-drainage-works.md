@@ -8,7 +8,7 @@ meta_description: "Sewerage and drainage work in Bhubaneswar: new sewer lines, b
 primary_keyword: sewerage work contractor bhubaneswar
 secondary_keywords: [sewerage work, sewer line repair near me, drainage work bhubaneswar]
 h1: Sewerage & Drainage Works in Bhubaneswar
-word_count: 1245
+word_count: 1242
 ---
 
 # Sewerage & Drainage Works in Bhubaneswar
@@ -103,7 +103,7 @@ The time depends on the job. We tell you the expected time with the estimate.
 - **5.0★ from 45 Google reviews**, with 43 five-star ratings. Customers mention fair pricing, quality work and timely service.
 - **Written estimate before work starts**, so you know the scope and cost upfront.
 - **90-day workmanship warranty** on installation and repair jobs; parts follow brand warranty.
-- **Open daily, 8 AM to 10 PM.** Late-night and early-morning visits on request, subject to availability (extra charge may apply).
+- **Open daily, 8 AM to 10 PM.** Late-night and early-morning visits on request, subject to availability (+₹300).
 - **Easy payment.** Cash, UPI or bank transfer. GST invoice on request.
 
 ## Sewerage work anywhere in Bhubaneswar
@@ -281,7 +281,6 @@ To book a site visit, [contact Mahapatra Plumbing Services](/contact/).
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -303,7 +302,6 @@ To book a site visit, [contact Mahapatra Plumbing Services](/contact/).
       "name": "Sewerage Work Contractor in Bhubaneswar | Mahapatra Plumbing",
       "headline": "Sewerage & Drainage Works in Bhubaneswar",
       "description": "Sewerage and drainage work in Bhubaneswar: new sewer lines, broken line repair, chamber links. Free site visit, written estimate. Call +91 9668875352.",
-      "keywords": "sewerage work contractor bhubaneswar, sewerage work, sewer line repair near me, drainage work bhubaneswar",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

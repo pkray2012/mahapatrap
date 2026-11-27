@@ -18,7 +18,7 @@ const nav = { 'data-track': 'nav_click', ...ctx };
   <div class="wrap ft-grid">
     <div class="ft-brand">
       <a href="/" class="flex items-center gap-3 mb-4" {...nav} aria-label="Mahapatra Plumbing Services, home">
-        <Image src={footerLogo} width={65} height={56} densities={[1, 2]} format="webp" alt="" loading="lazy" />
+        <Image src={footerLogo} width={65} height={56} densities={[1, 2]} format="webp" alt="" aria-hidden="true" loading="lazy" />
         <span class="font-extrabold text-lg leading-tight text-white">Mahapatra<br />Plumbing Services</span>
       </a>
       <address class="not-italic">
@@ -51,6 +51,6 @@ const nav = { 'data-track': 'nav_click', ...ctx };
     </div>
   </div>
   <div class="border-t border-white/15">
-    <p class="wrap py-4 text-sm">© {year} {SITE.name}, Bhubaneswar.</p>
+    <p class="wrap py-4 text-sm ft-credit"><span>© {year} {SITE.name}, Bhubaneswar</span><span class="ft-sep" aria-hidden="true"> · </span><span class="ft-dev">Developed by <a href="https://hometreeinfotech.com/" target="_blank" rel="noopener" data-track="outbound_click" {...ctx}>Hometree Infotech Pvt Ltd</a></span></p>
   </div>
 </footer>

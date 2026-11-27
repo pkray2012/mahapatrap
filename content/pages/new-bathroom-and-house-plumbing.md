@@ -295,7 +295,6 @@ Yes. You can buy your own pipes and fittings, and we do the plumbing work. The w
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -317,7 +316,6 @@ Yes. You can buy your own pipes and fittings, and we do the plumbing work. The w
       "name": "New House Plumbing Work in Bhubaneswar | Mahapatra Plumbing",
       "headline": "New House & Bathroom Plumbing Work in Bhubaneswar",
       "description": "New house plumbing work in Bhubaneswar: CPVC/UPVC/PPR water lines, drains, tank and motor lines, leak test. Free site visit. Call +91 9668875352.",
-      "keywords": "new house plumbing work, house plumbing work, plumbing contractor, plumbing contractors in bhubaneswar, plumbing work in house construction, new building plumbing work, new bathroom plumbing",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

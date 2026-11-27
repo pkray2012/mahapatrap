@@ -53,6 +53,8 @@ const ld = jsonLd ? JSON.stringify(JSON.parse(jsonLd)).replace(/</g, '\\u003c') 
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
+    <!-- JS off: the WhatsApp forms cannot send, so only the noscript Call / WhatsApp note under each form shows. -->
+    <noscript><style>.wa-form, .form-card .consent { display: none !important; }</style></noscript>
   </head>
   <body data-page-type={t} data-service={t === 'locality' ? undefined : page.slug} data-locality={t === 'locality' ? page.slug : undefined}>
     <Fragment set:html={SPRITE} />

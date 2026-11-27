@@ -267,7 +267,6 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -289,7 +288,6 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
       "name": "Plumber in Chandrasekharpur & Damana | Mahapatra Plumbing",
       "headline": "Plumber in Chandrasekharpur, Bhubaneswar",
       "description": "Plumber in Chandrasekharpur and Damana, based at District Center. Flat leaks, flush tanks, sump motors, drains. Call or WhatsApp +91 9668875352.",
-      "keywords": "plumber in chandrasekharpur, plumber in damana",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

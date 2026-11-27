@@ -8,7 +8,7 @@ meta_description: Borewell service and repair in Bhubaneswar for existing borewe
 primary_keyword: borewell service near me
 secondary_keywords: [borewell repair bhubaneswar, borewell submersible pump, borewell motor repair, submersible pump repair bhubaneswar, borewell pipe fitting]
 h1: "Borewell Service: Pump & Pipe Repair in Bhubaneswar"
-word_count: 1294
+word_count: 1291
 ---
 
 # Borewell Service: Pump & Pipe Repair in Bhubaneswar
@@ -40,9 +40,9 @@ We supply pipes and fittings, or you can bring your own. The part price is share
 
 [IMAGE: borewell-column-pipe-replacement-bhubaneswar.webp | alt="Damaged borewell column pipe being replaced during a borewell repair in Bhubaneswar" | after work list]
 
-## Do you drill new borewells?
+## Can you connect my existing borewell to the tank?
 
-No. We do not drill new borewells. Mahapatra Plumbing Services works on borewells that are already in place. We handle pump lifting, pipes, joints, valves and the line to your tank. If you already have a borewell, we can connect it to your sump or overhead tank.
+Yes. Mahapatra Plumbing Services works on borewells that are already in place. We handle pump lifting, pipes, joints, valves and the line to your tank. If you already have a borewell, we can connect it to your sump or overhead tank.
 
 Building a new house with a borewell? We plan the line to the sump and tanks as part of our [new house plumbing work](/services/new-bathroom-and-house-plumbing/).
 
@@ -131,7 +131,7 @@ Yes. We work on existing borewells in independent houses, apartment blocks, host
 
 ### Should I repair my old borewell or get a new one?
 
-If the pipes, joints or valve are the problem, a repair can bring the water back. If the borewell has gone dry or the water level stays too low, pipe repairs will not help. Mahapatra Plumbing Services checks it and tells you what we find. We do not drill new borewells, so we focus on repairing the one you have.
+If the pipes, joints or valve are the problem, a repair can bring the water back. If the borewell has gone dry or the water level stays too low, pipe repairs will not help. Mahapatra Plumbing Services checks it and tells you what we find. We do not drill new borewells. We focus on repairing the one you have.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -284,7 +284,6 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -306,7 +305,6 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
       "name": "Borewell Service & Repair Bhubaneswar | Mahapatra Plumbing",
       "headline": "Borewell Service: Pump & Pipe Repair in Bhubaneswar",
       "description": "Borewell service and repair in Bhubaneswar for existing borewells. Pump lifting, pipe, joint and valve fixes. Quote after inspection. Call +91 9668875352.",
-      "keywords": "borewell service near me, borewell repair bhubaneswar, borewell submersible pump, borewell motor repair, submersible pump repair bhubaneswar",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },
@@ -328,7 +326,7 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
         "Borewell pipe replacement"
       ],
       "serviceType": "Borewell pump and pipe repair",
-      "description": "Borewell pump and pipe repair on existing borewells anywhere in Bhubaneswar by Mahapatra Plumbing Services, Chandrasekharpur. Submersible pump lifting and lowering, column pipe replacement, joint leaks, non-return valves and the line to the sump or overhead tank. We do not drill new borewells. Quote after inspection. Call or WhatsApp +91 9668875352.",
+      "description": "Borewell pump and pipe repair on existing borewells anywhere in Bhubaneswar by Mahapatra Plumbing Services, Chandrasekharpur. Submersible pump lifting and lowering, column pipe replacement, joint leaks, non-return valves and the line to the sump or overhead tank. We do not drill new borewells. We repair the borewell you already have. Quote after inspection. Call or WhatsApp +91 9668875352.",
       "provider": {
         "@id": "https://mahapatraplumbing.in/#business"
       },
@@ -391,7 +389,7 @@ Tell us the problem and your area. Call or WhatsApp +91 9668875352, or see all w
           "name": "Should I repair my old borewell or get a new one?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "If the pipes, joints or valve are the problem, a repair can bring the water back. If the borewell has gone dry or the water level stays too low, pipe repairs will not help. Mahapatra Plumbing Services checks it and tells you what we find. We do not drill new borewells, so we focus on repairing the one you have."
+            "text": "If the pipes, joints or valve are the problem, a repair can bring the water back. If the borewell has gone dry or the water level stays too low, pipe repairs will not help. Mahapatra Plumbing Services checks it and tells you what we find. We do not drill new borewells. We focus on repairing the one you have."
           }
         }
       ]

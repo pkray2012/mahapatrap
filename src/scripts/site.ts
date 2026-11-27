@@ -1,8 +1,8 @@
 // The only first-party script: tracking helper + delegated click listener, FAQ / pricing events,
-// map facade and the WhatsApp form builder. No personal data ever goes to dataLayer.
+// and the WhatsApp form builder (the Google Map is a plain lazy iframe, no script). No personal data ever goes to dataLayer.
 type P = Record<string, string | undefined>;
 const w = window as any;
-const ALLOWED = ['cta_location', 'page_type', 'service', 'locality', 'form_id', 'lead_channel', 'link_text', 'link_domain', 'question_id', 'percent'];
+const ALLOWED = ['cta_location', 'page_type', 'service', 'locality', 'form_id', 'lead_channel', 'link_text', 'link_domain', 'question_id', 'percent', 'ads_consent'];
 const META_ID = import.meta.env.PUBLIC_META_PIXEL_ID || '';
 const body = document.body.dataset;
 
@@ -65,22 +65,6 @@ if (tables.length && 'IntersectionObserver' in w) {
   tables.forEach((t) => io.observe(t));
 }
 
-// Map facade: the Google Maps iframe loads only after a tap.
-document.querySelectorAll<HTMLButtonElement>('[data-map-load]').forEach((b) =>
-  b.addEventListener('click', () => {
-    const canvas = b.closest('[data-map]')!.querySelector('.map-canvas')!;
-    const f = document.createElement('iframe');
-    f.src = b.dataset.src!;
-    f.title = 'Mahapatra Plumbing Services on Google Maps';
-    f.loading = 'lazy';
-    f.referrerPolicy = 'no-referrer-when-downgrade';
-    f.allowFullscreen = true;
-    canvas.replaceChildren(f);
-    canvas.removeAttribute('aria-hidden');
-    b.remove();
-    pushTrackEvent('map_interaction', { page_type: b.dataset.pageType });
-  }));
-
 // WhatsApp forms: build the message and open wa.me. Typed details go ONLY into the WhatsApp message.
 document.querySelectorAll<HTMLFormElement>('form[data-wa-form]').forEach((f) =>
   f.addEventListener('submit', (e) => {
@@ -89,15 +73,20 @@ document.querySelectorAll<HTMLFormElement>('form[data-wa-form]').forEach((f) =>
     const v = (n: string) => (field(n)?.value || '').trim();
     // Accepts 98765 43210, 09876543210, +91-98765-43210, 91 98765 43210 ...: keep the last 10 digits.
     const phone = v('phone').replace(/\D/g, '').slice(-10);
-    const text = (f.dataset.template || '').replace('{name}', v('name')).replace('{phone}', phone).replace('{area}', v('area')).replace('{problem}', v('problem'));
+    // Function replacers: typed text is inserted literally ("$&" etc. in a message is not a replace pattern).
+    const vals: Record<string, string> = { name: v('name'), phone, area: v('area'), problem: v('problem') };
+    const text = (f.dataset.template || '').replace(/\{(name|phone|area|problem)\}/g, (_m, k: string) => vals[k]);
     // Meta Advanced Matching only if the visitor ticked the box and a Meta Pixel ID is configured.
     // (Values go straight to the Meta Pixel, which hashes them; never to dataLayer / GA4 / Clarity.)
-    const ads = field('ads')?.checked;
+    // The box is rendered only when PUBLIC_META_PIXEL_ID or PUBLIC_GTM_ID is set at build time.
+    const box = field('ads');
+    const ads = Boolean(box?.checked);
     if (ads && META_ID) {
       w.__mpLoad?.();
       w.fbq?.('init', META_ID, { ph: '91' + phone, fn: v('name').split(/\s+/)[0].toLowerCase(), ct: 'bhubaneswar', st: 'od', country: 'in' });
     }
-    fire('whatsapp_form_submit', f.dataset, { form_id: f.dataset.formId });
+    // ads_consent ("true"/"false", no personal data) lets GTM gate ad-matching tags on the visitor's choice.
+    fire('whatsapp_form_submit', f.dataset, { form_id: f.dataset.formId, ...(box ? { ads_consent: String(ads) } : {}) });
     const url = 'https://wa.me/919668875352?text=' + encodeURIComponent(text);
     const win = window.open(url, '_blank');
     if (win) win.opener = null;

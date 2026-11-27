@@ -8,7 +8,7 @@ meta_description: How Mahapatra Plumbing Services, Bhubaneswar, uses your detail
 primary_keyword: privacy policy
 secondary_keywords: []
 h1: Privacy Policy
-word_count: 882
+word_count: 896
 ---
 
 # Privacy Policy
@@ -48,12 +48,13 @@ The site uses small scripts and cookies from these services.
 | Microsoft Advertising (UET) | Measures which Bing ads lead to enquiries | None |
 | Meta Pixel (Facebook and Instagram) | Counts page views, call and WhatsApp taps, and form leads from ads | Only with your choice, see below |
 | WhatsApp (Meta) | Carries your form message and chats to us | The details you type or send |
+| Google Maps | Shows our location map | Your IP address, when the map loads |
 
 You can block or delete cookies in your browser settings. The site still works without them.
 
 ## The optional "Use my details to improve ads" box
 
-Our forms have an optional box: "Use my details to improve ads". It is unticked by default. We use it only if you tick it yourself.
+Our forms may show an optional box: "Use my details to improve ads". It is unticked by default. We use it only if you tick it yourself.
 
 If you tick it, the Meta Pixel sends Meta your phone number, first name, and city, state and country (Bhubaneswar, Odisha, India). These values are scrambled (hashed) in your browser before they leave your device. Meta uses them to match the enquiry to a Facebook or Instagram account, so our ads reach the right people. We never send your address, email or problem description this way.
 
@@ -247,7 +248,6 @@ Mahapatra Plumbing Services, District Center, Chandrasekharpur, Bhubaneswar, Odi
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]

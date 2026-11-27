@@ -269,7 +269,6 @@ Address, email and hours: [contact Mahapatra Plumbing Services](/contact/).
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -291,7 +290,6 @@ Address, email and hours: [contact Mahapatra Plumbing Services](/contact/).
       "name": "Plumber near KIIT for Hostels & PGs | Mahapatra Plumbing",
       "headline": "Plumber near KIIT, Bhubaneswar (Hostels, PGs & Homes)",
       "description": "Plumber near KIIT for hostels, PGs and student flats. Blocked toilets, flush and tap leaks, tank cleaning, AMC. Call or WhatsApp +91 9668875352.",
-      "keywords": "plumber near kiit, plumber for hostel near kiit",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

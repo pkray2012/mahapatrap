@@ -290,7 +290,6 @@ Tell us your geyser problem and your area. Call or WhatsApp +91 9668875352, or s
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -312,7 +311,6 @@ Tell us your geyser problem and your area. Call or WhatsApp +91 9668875352, or s
       "name": "Geyser Repair & Fitting in Bhubaneswar | Mahapatra Plumbing",
       "headline": "Geyser (Water Heater) Repair & Installation in Bhubaneswar",
       "description": "Geyser repair and installation in Bhubaneswar. Fitting from ₹699, service ₹499. Leak and valve fixes, 90-day warranty on repairs. Call +91 9668875352.",
-      "keywords": "geyser repair near me, geyser repair in bhubaneswar, geyser installation bhubaneswar, geyser repair, geyser servicing bhubaneswar, water heater repair",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

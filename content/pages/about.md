@@ -8,7 +8,7 @@ meta_description: Mahapatra Plumbing Services is a plumbing company in Bhubanesw
 primary_keyword: plumbing company in bhubaneswar
 secondary_keywords: [mahapatra plumbing services]
 h1: About Mahapatra Plumbing Services, Chandrasekharpur
-word_count: 780
+word_count: 776
 ---
 
 # About Mahapatra Plumbing Services, Chandrasekharpur
@@ -29,7 +29,7 @@ Mahapatra Plumbing Services is a plumber in Chandrasekharpur, Bhubaneswar. Our p
 
 | | |
 |---|---|
-| Owner | Amaresh Mahapatra, 10+ years of plumbing experience |
+| Owner | Amaresh Mahapatra, 20+ years of plumbing experience |
 | Started | 2021 |
 | Base | District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016 (call first; we come to you) |
 | Phone / WhatsApp | +91 9668875352 |
@@ -42,7 +42,7 @@ Mahapatra Plumbing Services is a plumber in Chandrasekharpur, Bhubaneswar. Our p
 
 ## Meet Amaresh Mahapatra
 
-Amaresh Mahapatra worked as a plumber on his own for about 10 years. In 2021 he started Mahapatra Plumbing Services in Chandrasekharpur. His 10+ years of plumbing experience shape how we work: check first, written estimate, then the job.
+Amaresh Mahapatra worked as a plumber on his own for many years. In 2021 he started Mahapatra Plumbing Services in Chandrasekharpur. His 20+ years of plumbing experience shape how we work: check first, written estimate, then the job.
 
 [IMAGE: amaresh-mahapatra.webp | alt="Amaresh Mahapatra, owner of Mahapatra Plumbing Services, Chandrasekharpur, Bhubaneswar" | about section]
 
@@ -63,7 +63,7 @@ We work with CPVC, UPVC and PPR pipes.
 Every job starts with a check and a written estimate. The part price is shared before fitting. You can pay by cash, UPI or bank transfer, and ask for a GST invoice.
 
 - **Free site visit and written estimate** for concealed pipeline work, renovation, new house plumbing, sewerage works and bigger commercial jobs.
-- **Late-night and early-morning visits** on request, subject to availability (extra charge may apply).
+- **Late-night and early-morning visits** on request, subject to availability (+₹300).
 
 A few starting rates (labour charges):
 
@@ -265,7 +265,6 @@ To book a visit, [contact Mahapatra Plumbing Services](/contact/).
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -287,7 +286,6 @@ To book a visit, [contact Mahapatra Plumbing Services](/contact/).
       "name": "Plumbing Company in Bhubaneswar | Mahapatra Plumbing",
       "headline": "About Mahapatra Plumbing Services, Chandrasekharpur",
       "description": "Mahapatra Plumbing Services is a plumbing company in Bhubaneswar, based in Chandrasekharpur. 5.0★ on Google. Call or WhatsApp +91 9668875352.",
-      "keywords": "plumbing company in bhubaneswar, mahapatra plumbing services",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

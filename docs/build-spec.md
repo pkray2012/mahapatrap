@@ -3,7 +3,7 @@
 ## Stack (owner decision 27 Nov 2026)
 - **Astro** (latest stable), static output (`output: 'static'`), deployed on **Netlify** (free).
 - **Tailwind CSS** compiled at build time (no CDN). Only classes used end up in CSS.
-- **Zero client JavaScript by default.** The only scripts allowed: (1) WhatsApp form builder, (2) map facade (load iframe on tap), (3) tracking helper (`pushTrackEvent`) + deferred tag loader (GTM only when a GTM ID is set; it does not check consent). All inline or tiny module scripts, deferred. No React/Vue/Svelte islands, no jQuery, no icon fonts, no Google Fonts.
+- **Zero client JavaScript by default.** The only scripts allowed: (1) WhatsApp form builder, (2) none for the map (the Google Maps iframe is embedded directly with loading="lazy", changed 27 Nov 2026), (3) tracking helper (`pushTrackEvent`) + deferred tag loader (GTM only when a GTM ID is set; it does not check consent). All inline or tiny module scripts, deferred. No React/Vue/Svelte islands, no jQuery, no icon fonts, no Google Fonts.
 - Icons: inline SVG components (no Lucide CDN).
 - Content source: `content/pages/*.md` and `content/pages/areas/*.md` (front matter + markdown + markers), `content/data/reviews.json`. Never retype page copy into components.
 - `scripts/check_pages.py` must still pass on the content.
@@ -14,7 +14,7 @@
 - Per page: HTML ≤ 60 KB gzip, CSS ≤ 15 KB gzip (one file, inlined if Astro inlines small styles), JS ≤ 10 KB gzip total, no render-blocking third-party requests.
 - System font stack only (`ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Arial, sans-serif`).
 - Images: Astro `<Image>`/`<Picture>` → AVIF + WebP, responsive `srcset`, explicit width/height, `loading="lazy"`; only an image that is actually first on screen on mobile may get `fetchpriority="high"`/eager (none today: the LCP element is the hero text; QA2 27 Nov 2026). Logo: `brand/final/mahapatra-logo-horizontal-navy@2x.png` converted to WebP sized for 2× display (~40–48 px tall in header), plus SVG icon for favicon.
-- Google Map: **facade** (static image or styled placeholder + "Show map" / "Get directions" button). The Google Maps iframe loads only after tap. "Get directions" links to the listing (`https://www.google.com/maps?cid=4373818382391816251`).
+- Google Map: embedded iframe with `loading="lazy"` (320px tall on phones, 400px from 768px), plus an address card and "Get directions" button (owner request, 27 Nov 2026). "Get directions" links to the listing (`https://www.google.com/maps?cid=4373818382391816251`).
 - Tracking scripts (GTM/GA4/Clarity/Ads/Meta/UET) load **after first user interaction or `requestIdleCallback` + 3 s**, and only when their env ID is set. With no IDs set nothing loads.
 - Prefetch: none by default (no link prefetching of all pages).
 
@@ -33,7 +33,7 @@ Global layout on every page:
 ## Markers in the markdown (must be rendered, never shown raw)
 - `[CTA: call+whatsapp | location=hero]` (and other locations) → Call + WhatsApp button pair. WhatsApp link uses the page's front-matter `whatsapp_prefill` (URL-encoded) to `https://wa.me/919668875352?text=...`.
 - `[IMAGE: file.webp | alt="..." | where]` → real photo if `src/assets/photos/<name>.(webp|jpg|jpeg|png|avif)` exists (AVIF + WebP, responsive `srcset`, lazy), else **nothing** (no placeholder box, no caption; QA 27 Nov 2026). No photo gets `fetchpriority="high"`: on mobile the H1 and intro text are always first on screen.
-- `[MAP: google-maps-listing]` → map facade component.
+- `[MAP: google-maps-listing]` → lazy Google Maps iframe + address card.
 - `[BREADCRUMB]` → breadcrumb component (labels from the page's BreadcrumbList JSON-LD).
 - Any other `[...]` marker → fail the build (so nothing raw leaks).
 - Sections `## JSON-LD` and `## Facts to confirm` are **not rendered** as content. The JSON-LD block is injected as `<script type="application/ld+json">` in `<head>` exactly as written.

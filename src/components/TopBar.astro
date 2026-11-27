@@ -6,12 +6,12 @@ interface Props { page: Page }
 const { page } = Astro.props;
 ---
 <aside class="topbar hidden md:block" aria-label="Contact and opening hours">
-  <div class="wrap flex items-center justify-between gap-4 py-1.5">
+  <div class="wrap flex items-center justify-between gap-4 py-0.5">
     <p class="flex items-center gap-5">
-      <a class="inline-flex items-center gap-1.5 min-h-[36px] font-semibold" href={SITE.tel} set:html={`${icon('phone', 'ico w-4 h-4')}<span>${SITE.phoneDisplay}</span>`} {...Object.fromEntries([...trackAttrs(page, 'call_click', 'top_bar').matchAll(/([\w-]+)="([^"]*)"/g)].map((m) => [m[1], m[2]]))} />
+      <a class="inline-flex items-center gap-1.5 min-h-[44px] font-semibold" href={SITE.tel} set:html={`${icon('phone', 'ico w-4 h-4')}<span>${SITE.phoneDisplay}</span>`} {...Object.fromEntries([...trackAttrs(page, 'call_click', 'top_bar').matchAll(/([\w-]+)="([^"]*)"/g)].map((m) => [m[1], m[2]]))} />
       <span class="inline-flex items-center gap-1.5" set:html={`${icon('clock', 'ico w-4 h-4')}<span>${SITE.hours}</span>`} />
       <span class="hidden lg:inline">Serving all of Bhubaneswar</span>
     </p>
-    <Fragment set:html={waButton(page, 'top_bar', 'WhatsApp', 'pill-wa min-h-[32px]')} />
+    <Fragment set:html={waButton(page, 'top_bar', 'WhatsApp', 'pill-wa')} />
   </div>
 </aside>

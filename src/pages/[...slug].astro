@@ -17,6 +17,28 @@ const showReviews = reviews.showOn.includes(page.fm.url);
 const reviewsAt = showReviews ? r.sections.findIndex((s) => /customers say/i.test(s.title)) : -1;
 const hasCard = Boolean(r.heroCard);
 const hasImg = Boolean(r.heroImage);
+// Home only: the old one-page site linked to #services, #why, #pricing, #areas, #testimonials, #faq and #contact
+// (GBP, social profiles, bookmarks). Each alias is an empty target at the top of the matching new section.
+// Matched by pattern, so a reworded heading keeps its alias; an alias that matches nothing is skipped with a warning.
+const OLD_ANCHORS: [string, RegExp][] = [
+  ['services', /^what-.*services|^our-services|^services/],
+  ['why', /^why-/],
+  ['pricing', /rates|pricing|charges/],
+  ['areas', /^which-areas|areas-we-serve/],
+  ['testimonials', /customers-say|reviews/],
+  ['faq', /common-questions|faq/],
+  ['contact', /^how-do-i-book|^book-|^contact/],
+];
+const aliases = new Map<number, string[]>();
+if (page.fm.url === '/') {
+  const taken = new Set(r.sections.map((s) => s.id));
+  for (const [alias, re] of OLD_ANCHORS) {
+    const i = r.sections.findIndex((s) => re.test(s.id));
+    if (i < 0 || taken.has(alias)) { console.warn(`[old anchors] #${alias}: no matching home section`); continue; }
+    taken.add(alias);
+    aliases.set(i, [...(aliases.get(i) || []), alias]);
+  }
+}
 ---
 <Base page={page} title={page.fm.meta_title} description={page.fm.meta_description} canonicalPath={page.fm.url} jsonLd={page.jsonLdText}>
   <section class="hero">
@@ -32,6 +54,7 @@ const hasImg = Boolean(r.heroImage);
   </section>
   {r.sections.map((s, i) => (
     <section id={s.id} class:list={['sec', { 'sec-tint': i % 2 === 0 }]}>
+      {(aliases.get(i) || []).map((a) => <span id={a} class="anchor-alias" />)}
       {s.card ? (
         <div class="wrap md bv">
           <div class="bv-intro">

@@ -4,11 +4,11 @@ page_type: service
 whatsapp_prefill: "Hi, I need a quote for Water Tank Cleaning in Bhubaneswar [Page: TankClean]"
 page_tag: TankClean
 meta_title: Water Tank Cleaning in Bhubaneswar | Mahapatra Plumbing
-meta_description: Water tank cleaning in Bhubaneswar for overhead tanks, underground sumps and apartment tanks. Call or WhatsApp +91 9668875352 for a quote.
+meta_description: Water tank cleaning in Bhubaneswar for homes, apartments and hostels. Overhead tanks and underground sumps. Call or WhatsApp +91 9668875352 for a quote.
 primary_keyword: water tank cleaning bhubaneswar
 secondary_keywords: [water tank cleaning services near me, water tank cleaning services, sump cleaning, overhead tank cleaning, underground sump cleaning, apartment water tank cleaning]
 h1: Water Tank & Sump Cleaning in Bhubaneswar
-word_count: 1168
+word_count: 1200
 ---
 
 # Water Tank & Sump Cleaning in Bhubaneswar
@@ -91,7 +91,7 @@ Motor running dry or tank overflowing? That repair is quoted separately. See our
 - **Easy to book.** Call or WhatsApp us for a quote. You get a written estimate before work starts.
 - **Sump and overhead tanks booked together.** One call or WhatsApp covers every tank in your building.
 - **Any size of building.** Homes, flats, hostels, PGs, shops, offices and builders, anywhere in Bhubaneswar.
-- **Open daily, 8 AM to 10 PM.** Late-night and early-morning visits on request, subject to availability (extra charge may apply).
+- **Open daily, 8 AM to 10 PM.** Late-night and early-morning visits on request, subject to availability (+₹300).
 - **Easy payment.** Cash, UPI or bank transfer. GST invoice on request.
 
 ## Areas we cover for water tank cleaning
@@ -127,6 +127,10 @@ Yes. A stuck float valve, a dripping outlet valve or a loose overflow pipe is a 
 Yes. We cover plastic overhead tanks, concrete overhead tanks and concrete underground sumps. Tell us the tank type, its size in litres and where it sits on the roof or ground. Send a photo on WhatsApp to +91 9668875352. Call or WhatsApp us for a quote.
 
 [CTA: call+whatsapp | location=faq]
+
+## Book water tank cleaning in Bhubaneswar
+
+Tell us how many tanks and sumps you have, their rough size and your area. Call or WhatsApp +91 9668875352, or see all ways to [contact Mahapatra Plumbing Services](/contact/).
 
 ## JSON-LD
 ```json
@@ -273,7 +277,6 @@ Yes. We cover plastic overhead tanks, concrete overhead tanks and concrete under
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -294,8 +297,7 @@ Yes. We cover plastic overhead tanks, concrete overhead tanks and concrete under
       "url": "https://mahapatraplumbing.in/services/water-tank-cleaning/",
       "name": "Water Tank Cleaning in Bhubaneswar | Mahapatra Plumbing",
       "headline": "Water Tank & Sump Cleaning in Bhubaneswar",
-      "description": "Water tank cleaning in Bhubaneswar for overhead tanks, underground sumps and apartment tanks. Call or WhatsApp +91 9668875352 for a quote.",
-      "keywords": "water tank cleaning bhubaneswar, water tank cleaning services near me, water tank cleaning services, sump cleaning, overhead tank cleaning",
+      "description": "Water tank cleaning in Bhubaneswar for homes, apartments and hostels. Overhead tanks and underground sumps. Call or WhatsApp +91 9668875352 for a quote.",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

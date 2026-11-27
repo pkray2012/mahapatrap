@@ -86,6 +86,10 @@
   .topbar { background: var(--color-navy); color: #fff; font-size: .875rem; }
   .topbar a { color: #fff; text-decoration: none; }
   .pill-wa { display: inline-flex; align-items: center; gap: .375rem; background: var(--color-wa); color: var(--color-wa-ink) !important; padding: .25rem .75rem; border-radius: 999px; font-weight: 700; }
+  /* Top bar: 44 px tall tap target, the green pill itself stays 32 px (drawn by ::before, behind the label). */
+  .topbar .pill-wa { position: relative; isolation: isolate; min-height: 44px; background: none; }
+  .topbar .pill-wa::before { content: ""; position: absolute; inset: 6px 0; z-index: -1; border-radius: 999px; background: var(--color-wa); transition: background-color .15s; }
+  .topbar .pill-wa:hover::before { background: var(--color-wa-dark); }
   .site-header { position: sticky; top: 0; z-index: 40; background: #fff; border-bottom: 1px solid var(--color-line); }
   .hdr { position: relative; display: flex; align-items: center; gap: .5rem; height: 4rem; }
   @media (min-width: 768px) { .hdr { height: 72px; } }
@@ -127,7 +131,9 @@
 
   /* Breadcrumb */
   .crumbs ol { display: flex; flex-wrap: wrap; align-items: center; gap: .25rem; font-size: .9375rem; color: var(--color-muted); margin: -.5rem 0 .25rem; }
-  .crumbs li + li::before { content: "/"; margin-right: .25rem; color: #94a3b8; }
+  /* The separator ends the previous item, so a wrapped crumb never starts its line with "/". */
+  .crumbs li:not(:last-child) { display: inline-flex; align-items: center; white-space: nowrap; }
+  .crumbs li:not(:last-child)::after { content: "/"; margin-left: .25rem; color: #94a3b8; }
   /* 44 px tall tap target without pushing the H1 down (the negative list margin absorbs it). */
   .crumb-home { width: 1rem; height: 1rem; margin-right: .3125rem; }
   .crumbs a, .md .crumbs li a:not(.btn) { white-space: nowrap; display: inline-flex; align-items: center; min-height: 44px; padding: 0 .25rem; margin-left: -.25rem; }
@@ -147,6 +153,12 @@
     .hero-grid.no-card:not(:has(.hero-img)) h1 { max-width: 24ch; }
   }
   .hero-text > :last-child { margin-bottom: 0; }
+  /* Phones: the trust chips follow the hero Call / WhatsApp buttons, so the buttons stay on the first screen. */
+  @media (max-width: 479px) {
+    .hero-text { display: flex; flex-direction: column; }
+    .hero-text > .trust { order: 1; margin-bottom: 0; }
+    .hero-text > .cta-row { margin-top: 0; margin-bottom: .25rem; } /* flex: margins no longer collapse */
+  }
   .hero h1 { font-size: clamp(1.75rem, 5.5vw, 2.75rem); letter-spacing: -.01em; margin-bottom: .75rem; }
   @media (min-width: 900px) and (max-width: 1199px) { .hero h1 { font-size: 2.25rem; } }
   .hero-text > p { font-size: 1.0625rem; max-width: 40rem; }
@@ -196,7 +208,7 @@
   .fld input:hover, .fld select:hover, .fld textarea:hover { border-color: var(--color-blue-dark); }
   .fld input:focus, .fld select:focus, .fld textarea:focus { border-color: var(--color-blue-dark); outline: 2px solid var(--color-blue-dark); outline-offset: 0; box-shadow: 0 0 0 5px rgb(10 124 196 / .15); }
   .chk { display: flex; align-items: center; gap: .625rem; min-height: 44px; font-size: 1rem; color: var(--color-muted); cursor: pointer; }
-  .chk input { width: 1.25rem; height: 1.25rem; accent-color: var(--color-blue); }
+  .chk input { flex: none; width: 1.25rem; height: 1.25rem; accent-color: var(--color-blue); }
 
   /* Sections + rendered markdown */
   /* Section rhythm: white / tint alternation. The hero is the first <section>, so the first content section is
@@ -282,7 +294,7 @@
   .contact-list { display: grid; gap: .625rem; max-width: var(--measure); margin: 1rem 0 1.25rem; }
   .contact-list li { display: flex; align-items: flex-start; gap: .75rem; }
   .contact-ico { width: 2.25rem; height: 2.25rem; padding: .5rem; border-radius: .75rem; background: var(--color-tint); color: var(--color-blue); }
-  .contact-list li > span { padding-top: .375rem; }
+  .contact-list li > span { padding-top: .375rem; min-width: 0; overflow-wrap: anywhere; }
 
   /* Why choose us + Pricing: two cards side by side (stacked on phones) */
   .wp-grid { display: grid; gap: 1.25rem; margin: 1.25rem 0 1.5rem; }
@@ -307,7 +319,7 @@
   .tier { position: relative; display: flex; flex-direction: column; background: #fff; border: 1px solid var(--color-line); border-radius: var(--radius-card); padding: 1.5rem 1.25rem 1.25rem; box-shadow: var(--shadow-card); }
   @media (min-width: 1024px) { .tier { padding: 1.75rem 1.75rem 1.5rem; } }
   .tier-hot { border: 2px solid var(--color-blue-dark); box-shadow: var(--shadow-raise); }
-  .md .tier-badge { position: absolute; top: -.8125rem; left: 1.25rem; margin: 0; padding: .125rem .625rem; border-radius: 999px; background: var(--color-orange); color: var(--color-navy); font-size: .8125rem; font-weight: 800; line-height: 1.5rem; letter-spacing: .02em; }
+  .md .tier-badge { position: absolute; top: -.8125rem; left: 1.25rem; margin: 0; padding: .125rem .625rem; border-radius: 999px; background: var(--color-orange); color: var(--color-navy); font-size: .875rem; font-weight: 800; line-height: 1.5rem; letter-spacing: .02em; }
   .tier-top { display: flex; align-items: center; justify-content: space-between; gap: .5rem; }
   .md .tier-name { margin: 0; font-size: 1.125rem; font-weight: 700; color: var(--color-navy); }
   .tier-ico { width: 1.5rem; height: 1.5rem; color: var(--color-blue); }
@@ -327,10 +339,20 @@
   .tbl thead th { background: var(--color-tint); color: var(--color-navy); font-weight: 800; border-bottom: 2px solid var(--color-line); font-size: .9375rem; letter-spacing: .01em; }
   .tbl tbody th { color: var(--color-navy); font-weight: 700; }
   .tbl-kv tbody th { width: 34%; }
+  /* Key-value ("at a glance") tables: from 1024 px they use the full content width with a fixed label column
+     (no half-empty section); on small phones each row is the label line over a left-aligned value. */
+  @media (min-width: 1024px) { .tbl.tbl-kv { max-width: none; } .tbl-kv tbody th { width: 15rem; } }
+  @media (max-width: 479px) {
+    .tbl-kv :is(table, tbody, tr, th, td) { display: block; width: auto; }
+    .tbl-kv tbody tr { padding: .625rem .875rem; border-bottom: 1px solid var(--color-line); }
+    .tbl-kv tbody tr:last-child { border-bottom: 0; }
+    .tbl.tbl-kv tbody :is(th, td) { width: auto; padding: 0; border: 0; text-align: left; }
+    .tbl-kv tbody td { margin-top: .125rem; }
+  }
   /* Rate tables: bold navy prices; in 2-column tables they line up on the right edge. Amounts never split
      (no-break spaces from the renderer); long text prices wrap. */
-  .tbl[data-pricing] td:nth-child(2) { font-weight: 600; color: var(--color-navy); }
-  .tbl[data-pricing]:not(.tbl-3) :is(th, td):nth-child(2) { text-align: right; min-width: 8rem; }
+  .tbl[data-pricing]:not(.tbl-kv) td:nth-child(2) { font-weight: 600; color: var(--color-navy); }
+  .tbl[data-pricing]:not(.tbl-3):not(.tbl-kv) :is(th, td):nth-child(2) { text-align: right; min-width: 8rem; }
   /* 3-column rate tables: fixed columns, so prices and notes line up from table to table (/pricing/). */
   @media (min-width: 600px) {
     .tbl-3[data-pricing] table { table-layout: fixed; }
@@ -346,13 +368,13 @@
     .tbl th, .tbl td { padding: .625rem .75rem; }
     .tbl-kv tbody th { width: 7.5rem; }
     /* Phones: every rate-table row stacks: service, then price, then notes (left-aligned, full width). */
-    .tbl[data-pricing] :is(table, tbody, tr, td) { display: block; }
-    .tbl[data-pricing] thead, .tbl:not([data-pricing]):not(.tbl-kv) thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
-    .tbl[data-pricing] tbody tr { padding: .625rem .875rem; border-bottom: 1px solid var(--color-line); }
-    .tbl[data-pricing] tbody tr:last-child { border-bottom: 0; }
-    .tbl[data-pricing] tbody td { padding: 0; border: 0; min-width: 0; text-align: left; }
-    .tbl[data-pricing] tbody td:nth-child(2) { margin-top: .125rem; font-weight: 700; }
-    .tbl[data-pricing] tbody td:nth-child(3) { margin-top: .125rem; font-size: .9375rem; color: var(--color-muted); }
+    .tbl[data-pricing]:not(.tbl-kv) :is(table, tbody, tr, td) { display: block; }
+    .tbl[data-pricing]:not(.tbl-kv) thead, .tbl:not([data-pricing]):not(.tbl-kv) thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    .tbl[data-pricing]:not(.tbl-kv) tbody tr { padding: .625rem .875rem; border-bottom: 1px solid var(--color-line); }
+    .tbl[data-pricing]:not(.tbl-kv) tbody tr:last-child { border-bottom: 0; }
+    .tbl[data-pricing]:not(.tbl-kv) tbody td { padding: 0; border: 0; min-width: 0; text-align: left; }
+    .tbl[data-pricing]:not(.tbl-kv) tbody td:nth-child(2) { margin-top: .125rem; font-weight: 700; }
+    .tbl[data-pricing]:not(.tbl-kv) tbody td:nth-child(3) { margin-top: .125rem; font-size: .9375rem; color: var(--color-muted); }
     /* Text tables: one block per row, each value under its column label. */
     .tbl:not([data-pricing]):not(.tbl-kv) :is(table, tbody, tr, td) { display: block; width: auto; }
     .tbl:not([data-pricing]):not(.tbl-kv) tbody tr { padding: .5rem 0; border-bottom: 1px solid var(--color-line); }
@@ -381,25 +403,22 @@
   .hero-img .photo { max-width: none; margin: 0; }
   .hero-grid:not(.no-card) .hero-img { max-width: 34rem; }
 
-  /* Map facade */
+  /* Map: Google Maps embed with a fixed-height box (no layout shift): 320 px on phones, 400 px from 768 px. */
   .map { border: 1px solid var(--color-line); border-radius: var(--radius-card); overflow: hidden; background: #fff; max-width: var(--measure-wide); margin: 1rem 0 1.5rem; box-shadow: var(--shadow-card); }
-  .map-canvas { position: relative; aspect-ratio: 16 / 7; display: grid; place-items: center;
+  .map-canvas { position: relative; height: 320px;
     background: linear-gradient(28deg, transparent 47%, #fff 47% 51%, transparent 51%), linear-gradient(-62deg, transparent 58%, #fff 58% 61%, transparent 61%),
       linear-gradient(90deg, transparent 30%, #f7e7cf 30% 32%, transparent 32%), radial-gradient(circle at 75% 30%, #cfe8d6 0 12%, transparent 12.5%), #e4edf6; }
   .map-canvas iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
-  .map-pin { color: #fff; background: var(--color-blue); border-radius: 999px; padding: .625rem; box-shadow: 0 0 0 6px rgb(10 124 196 / .25); }
-  .map-pin .ico { width: 1.75rem; height: 1.75rem; }
+  @media (min-width: 768px) { .map-canvas { height: 400px; } }
   .map-info { padding: 1rem 1.125rem; }
   .map-info .cta-row { margin-bottom: 0; margin-top: .75rem; }
   .map-title { font-weight: 800; color: var(--color-navy); font-size: 1.0625rem; }
   /* From 900 px: picture left, address + buttons right (about half the height of the stacked 16:7 version). */
   @media (min-width: 900px) {
     .map { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); }
-    .map-canvas { aspect-ratio: auto; min-height: 16rem; }
     .map-info { align-self: center; padding: 1.5rem; }
     .map-info .cta-row { flex-direction: column; align-items: stretch; }
   }
-  @media (max-width: 899px) { .map-canvas { aspect-ratio: 3 / 1; } }
 
   /* Reviews */
   .revs-scroll { overflow-x: auto; scroll-snap-type: x mandatory; margin: 1rem 0 0; padding: .25rem .125rem 1rem; border-radius: 1rem; }
@@ -426,6 +445,9 @@
   .rev figcaption { margin-top: auto; font-size: .9375rem; color: var(--color-muted); }
   .rev figcaption strong { color: var(--color-navy); }
 
+  /* Old one-page anchors (#services, #faq …) on the home page: empty targets at the top of a section. */
+  .anchor-alias { display: block; height: 0; }
+
   /* Footer */
   .site-footer { background: var(--color-navy); color: var(--color-on-navy-muted); border-top: 4px solid var(--color-blue); }
   .site-footer h2 { color: var(--color-on-navy); font-size: .9375rem; text-transform: uppercase; letter-spacing: .06em; margin-bottom: .5rem; }
@@ -437,6 +459,11 @@
   .site-footer a:hover, .site-footer a.underline { text-decoration: underline; text-underline-offset: 3px; }
   .site-footer a:hover { color: #fff; }
   .site-footer .ico { color: var(--color-orange); }
+  /* Bottom line: copyright + developer credit (one line from 640 px, two lines on phones). */
+  .ft-credit { color: var(--color-on-navy-muted); }
+  .site-footer .ft-credit a { display: inline; min-height: 0; text-decoration: underline; text-underline-offset: 3px; color: var(--color-on-navy); padding-block: .5rem; }
+  .ft-dev { white-space: nowrap; }
+  @media (max-width: 639px) { .ft-credit > span:not(.ft-sep) { display: block; } .ft-sep { display: none; } }
   .ft-ico { width: 1rem; height: 1rem; margin-right: .5rem; vertical-align: -.125em; display: inline-block; }
   /* Footer: phones one column; 640–1023 brand and Services (2 lists) full width, then Areas | Company;
      from 1024 three even columns: brand | Services | Areas + Company. */

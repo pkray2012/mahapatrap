@@ -11,8 +11,9 @@ Goal: know exactly which page, which button and which service brings every call 
 | `whatsapp_form_submit` | Quick Quote or Book a Visit form opens WhatsApp | form_id, cta_location, page_type, service | Yes |
 | `generate_lead` | Fired together with each of the three events above (one standard lead event for Google Ads / GA4) | lead_channel (call / whatsapp / whatsapp_form), cta_location, service | Yes (primary conversion) |
 | `email_click` | `mailto:` link tapped | cta_location | No |
-| `directions_click` | "Get directions" / Open in Maps tapped: the footer "Get directions" link on every page (cta_location `footer`) and the map facade button (added 27 Nov 2026) | cta_location, page_type, link_domain | No |
-| `map_interaction` | Embedded Google Map clicked | page_type | No |
+| `directions_click` | "Get directions" / Open in Maps tapped: the footer "Get directions" link on every page (cta_location `footer`) and the "Get directions" button beside the map | cta_location, page_type, link_domain | No |
+| `map_interaction` | Retired 27 Nov 2026: the map is now a plain embed, so clicks inside it cannot be tracked | – | – |
+| `ads_consent` (parameter) | Sent with whatsapp_form_submit and generate_lead when the ads box is shown: "true" or "false" | – | No |
 | `pricing_view` | Rate-card table scrolled into view (50% visible) | page_type, service | No |
 | `faq_open` | An FAQ accordion item is opened | question_id, page_type | No |
 | `service_card_click` | A service card is clicked | service, cta_location | No |

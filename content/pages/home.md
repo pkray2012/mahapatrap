@@ -4,7 +4,7 @@ page_type: home
 whatsapp_prefill: "Hi, I need a quote for plumbing work in Bhubaneswar [Page: Home]"
 page_tag: Home
 meta_title: Plumber in Bhubaneswar | Mahapatra Plumbing Services
-meta_description: Plumber in Bhubaneswar for leaks, taps, geysers, drains, septic tanks and bathroom work. 5.0★ on Google. Call or WhatsApp +91 9668875352.
+meta_description: Plumber in Bhubaneswar for leaks, taps, geysers, drains, septic tanks and bathroom work. 5.0★ on Google, open daily. Call or WhatsApp +91 9668875352.
 primary_keyword: plumber in bhubaneswar
 secondary_keywords: [plumber bhubaneswar, plumber near me, plumber service in bhubaneswar, plumbing services bhubaneswar, plumber near me home service]
 h1: Plumber in Bhubaneswar for Repairs, Renovation & Septic Cleaning
@@ -35,7 +35,7 @@ By sending, you agree we may use your number to reply on WhatsApp. See our [Priv
 
 | | |
 |---|---|
-| Owner | Amaresh Mahapatra, 10+ years of plumbing experience; business started in 2021 |
+| Owner | Amaresh Mahapatra, 20+ years of plumbing experience; business started in 2021 |
 | Base | District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016 (call first; we come to you) |
 | Phone / WhatsApp | +91 9668875352 |
 | Hours | Open daily 8 AM – 10 PM |
@@ -82,7 +82,7 @@ Need a plumber service in Bhubaneswar for a hostel, PG, shop or office? We work 
 - **Price first.** Written estimate before work starts.
 - **90-day workmanship warranty** on repair and installation jobs. Parts follow the brand's own warranty.
 - **Good materials.** CPVC, UPVC and PPR pipes.
-- **Owner-run, local base.** Started in 2021 by Amaresh Mahapatra, who has 10+ years of plumbing experience. Read [about our plumbing company in Bhubaneswar](/about/).
+- **Owner-run, local base.** Started in 2021 by Amaresh Mahapatra, who has 20+ years of plumbing experience. Read [about our plumbing company in Bhubaneswar](/about/).
 - **Easy payment.** Cash, UPI or bank transfer. GST invoice on request.
 - **One number for small and big jobs.** A dripping tap or a full bathroom re-plumb, you call the same team.
 
@@ -317,7 +317,6 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -338,8 +337,7 @@ Open daily 8 AM – 10 PM. [Contact Mahapatra Plumbing Services](/contact/)
       "url": "https://mahapatraplumbing.in/",
       "name": "Plumber in Bhubaneswar | Mahapatra Plumbing Services",
       "headline": "Plumber in Bhubaneswar for Repairs, Renovation & Septic Cleaning",
-      "description": "Plumber in Bhubaneswar for leaks, taps, geysers, drains, septic tanks and bathroom work. 5.0★ on Google. Call or WhatsApp +91 9668875352.",
-      "keywords": "plumber in bhubaneswar, plumber bhubaneswar, plumber near me, plumber service in bhubaneswar, plumbing services bhubaneswar, plumber near me home service",
+      "description": "Plumber in Bhubaneswar for leaks, taps, geysers, drains, septic tanks and bathroom work. 5.0★ on Google, open daily. Call or WhatsApp +91 9668875352.",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

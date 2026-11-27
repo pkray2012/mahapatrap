@@ -292,7 +292,6 @@ Call or WhatsApp +91 9668875352. Send a photo, tell us your area, and we will bo
         "Sewerage and drainage works",
         "Commercial plumbing and maintenance contracts"
       ],
-      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
       "sameAs": [
         "https://www.google.com/maps?cid=4373818382391816251"
       ]
@@ -314,7 +313,6 @@ Call or WhatsApp +91 9668875352. Send a photo, tell us your area, and we will bo
       "name": "Concealed Pipe Leak Repair Bhubaneswar | Mahapatra Plumbing",
       "headline": "Concealed Pipeline Repair & CPVC Plumbing in Bhubaneswar",
       "description": "Concealed pipe leakage repair in Bhubaneswar: wall and floor leaks, rerouting, GI to CPVC. Free site visit and written estimate. Call +91 9668875352.",
-      "keywords": "concealed pipe leakage repair, internal pipe leak repair, cpvc pipe fitting, pipeline repair bhubaneswar, cpvc pipework",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

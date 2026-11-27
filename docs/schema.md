@@ -1,5 +1,7 @@
 # Structured data (JSON-LD) with keywords — mahapatraplumbing.in (27 Nov 2026)
 
+> **Update 27 Nov 2026 (owner-approved pre-launch fix):** the `keywords` property has been removed from every JSON-LD block (Plumber, WebPage, AboutPage etc.) in content/pages and from the templates below. Do not add it back. The keyword tables in this file stay as an on-page targeting reference only.
+
 All schema is JSON-LD in `<script type="application/ld+json">`, generated from one data file so names, address, phone, hours and prices never differ between pages. Every page uses `@graph` with stable `@id`s so Google and AI engines see one connected entity.
 
 ## Where keywords go (and where they don't)
@@ -94,7 +96,6 @@ Rules: keywords must also appear in visible page text (natural variants such as 
     "Sewerage and drainage works",
     "Commercial plumbing and maintenance contracts"
   ],
-  "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
   "sameAs": [
     "https://www.google.com/maps?cid=4373818382391816251"
   ]
@@ -118,7 +119,6 @@ Plus a `WebSite` node once (`@id` `https://mahapatraplumbing.in/#website`, `publ
       "url": "https://mahapatraplumbing.in/services/{slug}/",
       "name": "{Meta title}",
       "description": "{Meta description}",
-      "keywords": "{primary}, {secondary 1}, {secondary 2}, {secondary 3}",
       "isPartOf": { "@id": "https://mahapatraplumbing.in/#website" },
       "about": { "@id": "https://mahapatraplumbing.in/services/{slug}/#service" },
       "breadcrumb": { "@id": "https://mahapatraplumbing.in/services/{slug}/#breadcrumb" },
@@ -190,7 +190,6 @@ WebPage `keywords`: `septic tank cleaning bhubaneswar, clean septic tank, sewage
   "@id": "https://mahapatraplumbing.in/areas/{area}/#webpage",
   "url": "https://mahapatraplumbing.in/areas/{area}/",
   "name": "Plumber in {Area}, Bhubaneswar | Mahapatra Plumbing Services",
-  "keywords": "plumber in {area}, plumbing services {area}",
   "about": { "@id": "https://mahapatraplumbing.in/#business" },
   "spatialCoverage": { "@type": "Place", "name": "{Area}, Bhubaneswar, Odisha" },
   "breadcrumb": { "@id": "https://mahapatraplumbing.in/areas/{area}/#breadcrumb" },
