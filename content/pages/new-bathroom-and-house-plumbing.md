@@ -4,20 +4,22 @@ page_type: service
 whatsapp_prefill: "Hi, I need a quote for New House Plumbing in Bhubaneswar [Page: NewHouse]"
 page_tag: NewHouse
 meta_title: New House Plumbing Work in Bhubaneswar | Mahapatra Plumbing
-meta_description: New house plumbing work in Bhubaneswar: CPVC/UPVC/PPR water lines, drains, tank and motor lines, leak test. Free site visit. Call +91 9668875352.
+meta_description: "New house plumbing work in Bhubaneswar: CPVC/UPVC/PPR water lines, drains, tank and motor lines, leak test. Free site visit. Call +91 9668875352."
 primary_keyword: new house plumbing work
 secondary_keywords: [house plumbing work, plumbing contractor, plumbing contractors in bhubaneswar, plumbing contractor near me, plumbing work in house construction, new building plumbing work, new bathroom plumbing, residential plumbing contractor, house plumbing work cost]
 h1: New House & Bathroom Plumbing Work in Bhubaneswar
-word_count: 1295
+word_count: 1283
 ---
 
 # New House & Bathroom Plumbing Work in Bhubaneswar
 
 [BREADCRUMB: Home > New House & Bathroom Plumbing]
 
+**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
+
 Mahapatra Plumbing Services takes on new house plumbing work anywhere in Bhubaneswar. From our base in Chandrasekharpur, we plumb new houses, new floors and new bathrooms. That covers water lines, drainage lines, tank and motor connections, and fitting points. Every job starts with a free site visit and a written estimate. Call or WhatsApp +91 9668875352.
 
-[CTA: call+whatsapp | location=hero | whatsapp_text="Hi, I need a quote for New House Plumbing in Bhubaneswar [Page: NewHouse]"]
+[CTA: call+whatsapp | location=hero]
 
 [IMAGE: new-house-cpvc-water-lines-bhubaneswar.webp | alt="New CPVC water lines laid in the brick walls of a house under construction in Bhubaneswar, before plaster" | hero]
 
@@ -63,7 +65,7 @@ What changes the cost of house plumbing work:
 
 Labour charges shown; parts are extra unless stated. For single repairs and installs, see our [plumbing rate card for Bhubaneswar](/pricing/).
 
-[CTA: call+whatsapp | location=pricing_table | whatsapp_text="Hi, I need a quote for New House Plumbing in Bhubaneswar [Page: NewHouse]"]
+[CTA: call+whatsapp | location=pricing_table]
 
 ## When should the plumber start in a new construction?
 
@@ -91,10 +93,12 @@ As a residential plumbing contractor, we take new building plumbing work for bui
 
 - Written estimate for the job before work starts
 - GST invoice on request
+- Work planned stage by stage with your site engineer and civil team
+- Leak test before plaster and tiling, so walls are closed only on tested lines
 
 Connecting the house drain to the main sewer line or septic tank? See [sewerage and drainage works](/services/sewerage-and-drainage-works/). For motor faults later, see [water tank and motor repair](/services/water-tank-and-motor-repair/).
 
-[CTA: call+whatsapp | location=inline_content | whatsapp_text="Hi, I need a quote for New House Plumbing in Bhubaneswar [Page: NewHouse]"]
+[CTA: call+whatsapp | location=inline_content]
 
 ## Why choose Mahapatra Plumbing Services
 
@@ -105,7 +109,7 @@ Looking for a plumbing contractor near me in Bhubaneswar? Here is what you get w
 - **5.0★ from 45 Google reviews**, with 43 five-star ratings
 - Customers mention fair pricing, quality work, timely service, and kitchen and bathroom fixes
 - **Written estimate before work starts**, so you know the scope upfront
-- **90-day workmanship warranty** on installation work; parts follow brand warranty ([warranty and payment details](/pricing/))
+- **90-day workmanship warranty** on installation and repair jobs; parts follow brand warranty ([warranty and payment details](/pricing/))
 - Pay by cash, UPI or bank transfer; GST invoice on request
 - Open daily 8 AM – 10 PM
 
@@ -123,22 +127,6 @@ Our office is at District Center, Chandrasekharpur. We take new house and new ba
 
 ## Frequently asked questions
 
-### How much does plumbing cost for a new house in Bhubaneswar?
-
-There is no fixed price for new house plumbing. The cost depends on the number of bathrooms, kitchens and floors, the pipe type, concealed or open lines, and the tank and motor setup. Mahapatra Plumbing Services visits the site for free and gives you a written estimate before work starts. Call or WhatsApp +91 9668875352.
-
-### When should I call a plumber while building a house?
-
-Call before the slab is cast and before plastering starts. Pipes that pass through the slab need to be planned early. Concealed water lines go in after brickwork and before plaster. Fittings come last, after tiling. An early free site visit lets us plan the layout with you and your builder.
-
-### Is CPVC or PPR better for new house plumbing?
-
-Both handle hot and cold water, so either suits bathroom and geyser lines. UPVC suits cold water lines only. The right choice depends on your plan, the lines involved and your budget. We suggest the pipe for each line at the free site visit, and the written estimate shows the pipe type.
-
-### Do you take plumbing work for builders?
-
-Yes. Mahapatra Plumbing Services takes new building plumbing work for builders as well as homeowners, anywhere in Bhubaneswar. We work alongside your civil team, so pipes go in at the right stage. You get a written estimate before work starts, and a GST invoice on request.
-
 ### Do you have a per-point rate for house plumbing?
 
 We do not publish a per-point rate. We discuss it only over a call, after we understand your house plan. Two houses with the same number of points can need very different pipe lengths and work. You also get a free site visit and a written estimate for the whole job before work starts.
@@ -147,7 +135,19 @@ We do not publish a per-point rate. We discuss it only over a call, after we und
 
 Yes. We plumb new bathrooms on a new floor or in an extra room. We check where the water line will come from and how the drain will reach the outside line with enough slope. You get a free site visit and a written estimate before work starts.
 
-[CTA: call+whatsapp | location=faq | whatsapp_text="Hi, I need a quote for New House Plumbing in Bhubaneswar [Page: NewHouse]"]
+### Can you plan the plumbing from my house plan before construction?
+
+Yes. Share the floor plan on WhatsApp. At the free site visit, we mark the bathroom, kitchen, tank and motor positions with you and your builder, and plan where pipes pass through the slab. You get a written estimate for the whole job before work starts.
+
+### Do you connect the sump, overhead tank and motor in a new house?
+
+Yes. We lay the inlet, outlet and overflow lines for the sump and overhead tank, and the motor line from the sump to the roof. We plan the line lengths and valves at the free site visit. If the house has an existing borewell, we can connect it to the sump or tank too.
+
+### Can I buy the pipes and fittings myself?
+
+Yes. You can buy your own pipes and fittings, and we do the plumbing work. The written estimate lists what is needed, so you buy the right type and sizes. If we supply any part, the part price is shared before fitting. Parts follow the brand's own warranty.
+
+[CTA: call+whatsapp | location=faq]
 
 ## JSON-LD
 
@@ -163,7 +163,7 @@ Yes. We plumb new bathrooms on a new floor or in an extra room. We check where t
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",
@@ -316,38 +316,6 @@ Yes. We plumb new bathrooms on a new floor or in an extra room. We check where t
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How much does plumbing cost for a new house in Bhubaneswar?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "There is no fixed price for new house plumbing. The cost depends on the number of bathrooms, kitchens and floors, the pipe type, concealed or open lines, and the tank and motor setup. Mahapatra Plumbing Services visits the site for free and gives you a written estimate before work starts. Call or WhatsApp +91 9668875352."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When should I call a plumber while building a house?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Call before the slab is cast and before plastering starts. Pipes that pass through the slab need to be planned early. Concealed water lines go in after brickwork and before plaster. Fittings come last, after tiling. An early free site visit lets us plan the layout with you and your builder."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is CPVC or PPR better for new house plumbing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Both handle hot and cold water, so either suits bathroom and geyser lines. UPVC suits cold water lines only. The right choice depends on your plan, the lines involved and your budget. We suggest the pipe for each line at the free site visit, and the written estimate shows the pipe type."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Do you take plumbing work for builders?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Mahapatra Plumbing Services takes new building plumbing work for builders as well as homeowners, anywhere in Bhubaneswar. We work alongside your civil team, so pipes go in at the right stage. You get a written estimate before work starts, and a GST invoice on request."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Do you have a per-point rate for house plumbing?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -360,6 +328,30 @@ Yes. We plumb new bathrooms on a new floor or in an extra room. We check where t
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes. We plumb new bathrooms on a new floor or in an extra room. We check where the water line will come from and how the drain will reach the outside line with enough slope. You get a free site visit and a written estimate before work starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you plan the plumbing from my house plan before construction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Share the floor plan on WhatsApp. At the free site visit, we mark the bathroom, kitchen, tank and motor positions with you and your builder, and plan where pipes pass through the slab. You get a written estimate for the whole job before work starts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you connect the sump, overhead tank and motor in a new house?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We lay the inlet, outlet and overflow lines for the sump and overhead tank, and the motor line from the sump to the roof. We plan the line lengths and valves at the free site visit. If the house has an existing borewell, we can connect it to the sump or tank too."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I buy the pipes and fittings myself?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. You can buy your own pipes and fittings, and we do the plumbing work. The written estimate lists what is needed, so you buy the right type and sizes. If we supply any part, the part price is shared before fitting. Parts follow the brand's own warranty."
           }
         }
       ]
@@ -390,7 +382,6 @@ Yes. We plumb new bathrooms on a new floor or in an extra room. We check where t
 
 - Building drawings: does the team help with them? Not mentioned on the page.
 - Is the written estimate itemised (per bathroom, per floor or per point)? The page says the per-point rate is discussed only over a call, after understanding the house plan (owner, 27 Nov 2026).
-- Optional typical starting price for new house / new bathroom plumbing, if the owner wants one on the rate card and this page.
 - Does the team place pipes/sleeves at the slab stage, or join only after brickwork? (Page describes stages in general terms.)
 - How is the leak test done (method/equipment)? Page says only "leak test".
 - Does the work cover multi-storey apartment buildings for builders, or mainly houses, extra floors and flats? Any stage-wise payment terms for builders?

@@ -6,7 +6,7 @@ page_tag: Patia
 meta_title: Plumber in Patia, Bhubaneswar | Mahapatra Plumbing Services
 meta_description: Plumber in Patia, Bhubaneswar for flats, apartments and houses. Taps, flush tanks, drains, geysers, motors. 5.0★ on Google. Call +91 9668875352.
 primary_keyword: plumber in patia
-secondary_keywords: [plumbing services patia, plumber in bhubaneswar]
+secondary_keywords: [plumbing services patia]
 h1: Plumber in Patia, Bhubaneswar
 word_count: 884
 ---
@@ -46,6 +46,8 @@ A house in Patia usually has its own sump, motor and overhead tank. When the mot
 ## Can a tenant in Patia book a plumber directly?
 
 Yes. A tenant can call or WhatsApp +91 9668875352 and book the visit. Tell your house owner about the problem first. The plumber gives a written estimate before work starts, so you can send it to the owner on WhatsApp for a go-ahead. A GST invoice is available on request.
+
+[CTA: call+whatsapp | location=inline_content]
 
 ## Plumbing services in Patia
 
@@ -140,7 +142,7 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",
@@ -251,7 +253,7 @@ Yes. We are open every day, Sunday included, from 8 AM to 10 PM. Send a WhatsApp
       "name": "Plumber in Patia, Bhubaneswar | Mahapatra Plumbing Services",
       "headline": "Plumber in Patia, Bhubaneswar",
       "description": "Plumber in Patia, Bhubaneswar for flats, apartments and houses. Taps, flush tanks, drains, geysers, motors. 5.0★ on Google. Call +91 9668875352.",
-      "keywords": "plumber in patia, plumbing services patia, plumber in bhubaneswar",
+      "keywords": "plumber in patia, plumbing services patia",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

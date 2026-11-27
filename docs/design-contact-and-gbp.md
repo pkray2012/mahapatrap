@@ -20,39 +20,9 @@
 - Email amareshmohapatra143@gmail.com as plain text → make mailto
 - Rebuild adds sticky mobile Call + WhatsApp bar; data-track / data-cta-location on every CTA; no personal data to analytics
 
-## Schema (JSON-LD) — sitewide Plumber template
+## Schema (JSON-LD)
 
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "Plumber",
-  "@id": "https://mahapatraplumbing.in/#business",
-  "name": "Mahapatra Plumbing Services",
-  "url": "https://mahapatraplumbing.in/",
-  "telephone": "+91-9668875352",
-  "email": "amareshmohapatra143@gmail.com",
-  "priceRange": "₹199–₹2,999+",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "District Center, Chandrasekharpur",
-    "addressLocality": "Bhubaneswar",
-    "addressRegion": "Odisha",
-    "postalCode": "751016",
-    "addressCountry": "IN"
-  },
-  "geo": { "@type": "GeoCoordinates", "latitude": 20.3248238, "longitude": 85.8196582 },
-  "openingHoursSpecification": [{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-    "opens": "08:00", "closes": "22:00"
-  }],
-  "areaServed": { "@type": "City", "name": "Bhubaneswar" },
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "45" },
-  "sameAs": ["https://www.google.com/maps?cid=4373818382391816251"]
-}
-```
-
-Every page: Plumber + BreadcrumbList. Service pages: + Service (with Offer from the rate card) + FAQPage. Pricing: + OfferCatalog.
+Superseded (27 Nov 2026, round 2 audit): the old Plumber template that stood here is removed. It carried `aggregateRating` (never allowed: the 5.0★ is visible text only), a City-only `areaServed` and the line "Every page: Plumber + BreadcrumbList" (home has no breadcrumb). The single source is `schema.md`: §1 for the Plumber node (areaServed = Bhubaneswar City + the 8 area Places, no aggregateRating), §2–§6 for page graphs. BreadcrumbList goes on every page except home.
 
 ## New logo (supplied 27 Nov 2026, files in `brand/`)
 - Mark: "M" inside a house roofline, tap with water drop on the right, blue wave underneath, orange arc around the left/top

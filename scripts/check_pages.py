@@ -11,6 +11,8 @@ Checks per page:
   6. No banned words / excluded topics in visible text or JSON-LD.
   7. Visible word count is inside the brief range for the page type and
      matches the front-matter word_count (within a small tolerance).
+  0. Front matter parses as YAML (PyYAML safe_load); a parse error fails
+     the page (js-yaml / gray-matter would fail the build).
   8. Owner answers round 2 (27 Nov 2026): no walk-in invitations, no
      "plumbing only", no free visit "even if you don't go ahead", no AMC
      figure/free visit for commercial AMC, septic partners not mentioned,
@@ -23,6 +25,11 @@ import json
 import re
 import sys
 from pathlib import Path
+
+try:
+    import yaml
+except ImportError:  # pragma: no cover
+    sys.exit("PyYAML missing: pip install pyyaml --break-system-packages")
 
 ROOT = Path(__file__).resolve().parent.parent
 PAGES = sorted((ROOT / "content" / "pages").glob("*.md")) + sorted(
@@ -61,19 +68,22 @@ MARKER_RE = re.compile(r"\[(CTA|IMAGE|MAP|FORM|BREADCRUMB|CARD LABEL)[^\]]*\]")
 LINK_RE = re.compile(r"\[([^\]]+)\]\([^)]*\)")
 
 
+class FrontMatterError(ValueError):
+    pass
+
+
 def split_page(text):
     m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.S)
     if not m:
         raise ValueError("no front matter")
     fm_raw, rest = m.group(1), m.group(2)
-    fm = {}
-    for line in fm_raw.splitlines():
-        if ":" in line:
-            k, v = line.split(":", 1)
-            v = v.strip()
-            if len(v) >= 2 and v[0] == v[-1] and v[0] in "\"'":
-                v = v[1:-1]
-            fm[k.strip()] = v
+    try:
+        fm = yaml.safe_load(fm_raw)
+    except yaml.YAMLError as e:
+        raise FrontMatterError(f"front matter is not valid YAML: {' '.join(str(e).split())}")
+    if not isinstance(fm, dict):
+        raise FrontMatterError("front matter is not a YAML mapping")
+    fm = {k: ("" if v is None else v) for k, v in fm.items()}
     body, _, after = rest.partition("\n## JSON-LD")
     jm = re.search(r"```json\n(.*?)\n```", after, re.S)
     json_text = jm.group(1) if jm else None
@@ -206,12 +216,21 @@ def check_page(path):
                 errors.append("WebPage description != meta_description")
 
     # 4 title / description
-    title = fm.get("meta_title", "")
+    for key in ("url", "page_type", "page_tag", "meta_title", "meta_description",
+                "primary_keyword", "h1", "word_count"):
+        if key not in fm:
+            errors.append(f"front matter missing {key}")
+    for key in ("meta_title", "meta_description", "h1", "whatsapp_prefill"):
+        if key in fm and not isinstance(fm[key], str):
+            errors.append(f"front matter {key} is not a string")
+    if "secondary_keywords" in fm and not isinstance(fm["secondary_keywords"], list):
+        errors.append("front matter secondary_keywords is not a list")
+    title = str(fm.get("meta_title", ""))
     if len(title) > 60:
         errors.append(f"meta_title {len(title)} chars > 60")
     if not re.search(r"\| Mahapatra Plumbing( Services)?$", title):
         errors.append("meta_title suffix wrong")
-    desc = fm.get("meta_description", "")
+    desc = str(fm.get("meta_description", ""))
     if len(desc) > 155:
         errors.append(f"meta_description {len(desc)} chars > 155")
     notes.append(f"title {len(title)}c, desc {len(desc)}c")
@@ -269,8 +288,8 @@ def check_page(path):
     if not lo <= wc <= hi:
         errors.append(f"word count {wc} outside {lo}-{hi} ({ptype})")
     try:
-        fm_wc = int(fm.get("word_count", "0"))
-    except ValueError:
+        fm_wc = int(fm.get("word_count", 0))
+    except (TypeError, ValueError):
         fm_wc = 0
     if abs(fm_wc - wc) > WORD_COUNT_TOLERANCE:
         errors.append(f"front-matter word_count {fm_wc} vs counted {wc}")
@@ -284,6 +303,8 @@ def main():
         rel = p.relative_to(ROOT)
         try:
             errors, notes = check_page(p)
+        except FrontMatterError as e:
+            errors, notes = [str(e)], []
         except Exception as e:  # noqa: BLE001
             errors, notes = [f"crash: {e}"], []
         errors = list(dict.fromkeys(errors))

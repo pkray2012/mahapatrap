@@ -12,7 +12,7 @@ Read before writing any page. For the remaining pages, also read `page-specs.md`
 - Big works (renovation, new house plumbing, sewerage, septic tank cleaning): pitch as "anywhere in Bhubaneswar". Small repairs: lean on the nearby areas around Chandrasekharpur, but never say "only".
 - Proof: 5.0★ from 45 Google reviews (43 five-star) — visible text only, never `aggregateRating` in JSON-LD. Review themes customers mention: fair pricing, quality work, timely, kitchen and bathroom fixes. 90-day workmanship warranty on installation and repair jobs only (not cleaning jobs); parts follow brand warranty. Written estimate before work starts. Visit charge ₹199–₹349, adjusted in the final bill if work goes ahead. Payment: cash, UPI, bank transfer; GST invoice on request. Materials: CPVC, UPVC, PPR pipes.
 - Customers: homes, flats, hostels and PGs (KIIT/Patia), shops, offices (Infocity), builders.
-- Prices: only from `rate-card.md`. Do not invent any other price. Quote-only services say "Free site visit and written estimate".
+- Prices: only from `rate-card.md`. Do not invent any other price. Big-work quote-only services (concealed pipeline, renovation, new house, sewerage, commercial) say "Free site visit and written estimate". Other quote-only services say "Call or WhatsApp us for a quote" (water tank cleaning, AMC) or "Quote after inspection" (borewell); no free visit for them (superseded by round 2 owner answers below).
 
 ## Owner answers (27 Nov 2026) — now fixed facts
 - Septic tank cleaning is done with partners. Do NOT mention method, equipment, partners or disposal. Just say we arrange septic tank cleaning anywhere in Bhubaneswar.
@@ -54,10 +54,10 @@ Plain, friendly Indian English for homeowners in Bhubaneswar. Short sentences (u
 - 5–6 FAQs (question + 40–70 word answer). Questions phrased the way people search or ask AI.
 - 3–6 internal links with descriptive anchor text, to pages in `sitemap.md` (related services, pricing, contact, relevant area pages).
 - WhatsApp prefill goes in front matter as `whatsapp_prefill:`, never in body text. Forms use the template from tracking-plan.md §3 with `[Page: {PageTag} | Form: {form_id}]`.
-- Allowed CTA locations: top_bar, header, hero, quick_quote_form, service_card, pricing_table, inline_content, faq, book_visit_form, contact_page, footer, sticky_mobile_bar.
+- Allowed CTA locations: top_bar, header, hero, quick_quote_form, service_card, pricing_table, inline_content, faq, book_visit_form, contact_page, footer, sticky_mobile_bar, floating_whatsapp.
 - Breadcrumb: 2 levels (Home > Page) on every non-home page, shown as `[BREADCRUMB: Home > {Page}]` under the H1 and as BreadcrumbList in JSON-LD. Home has none.
 - "Why choose" block: shared facts plus 2 points specific to that page.
-- CTA placements marked in the copy as `[CTA: call+whatsapp | location=hero]`, `[CTA: ... | location=pricing_table]`, `[CTA: ... | location=inline_content]`, `[CTA: ... | location=faq]`. WhatsApp prefill text given per page: `Hi, I need a quote for {Service} in Bhubaneswar [Page: {PageTag}]`.
+- CTA placements marked in the copy as `[CTA: call+whatsapp | location=hero]`, `[CTA: ... | location=pricing_table]`, `[CTA: ... | location=inline_content]`, `[CTA: ... | location=faq]`. WhatsApp prefill text given per page: `Hi, I need a quote for {Service} in Bhubaneswar [Page: {PageTag}]`; area pages use `Hi, I need a quote for plumbing work in {Area}, Bhubaneswar [Page: {PageTag}]`.
 - Image slots marked `[IMAGE: filename.webp | alt="..." | where]`; 2–4 per page; alt text describes the scene + service + Bhubaneswar. Photos will be real job photos supplied later.
 - Length: service pages 900–1,300 words of visible copy; home 900–1,200; pricing 600–900; area pages 600–900.
 
@@ -69,7 +69,7 @@ Write to `content/pages/{slug}.md` (home = `content/pages/home.md`). Structure:
 url: /services/septic-tank-cleaning/
 page_type: service            # home | service | locality | pricing | about | contact | legal
 whatsapp_prefill: "Hi, I need a quote for {Service} in Bhubaneswar [Page: {PageTag}]"
-page_tag: Septic              # used in WhatsApp [Page: ...] tag and data-service
+page_tag: Septic              # used in the WhatsApp [Page: ...] tag only; data-service = page slug (tracking-plan.md §2)
 meta_title: ...
 meta_description: ...
 primary_keyword: ...

@@ -4,26 +4,28 @@ page_type: service
 page_tag: Renovation
 whatsapp_prefill: "Hi, I need a quote for Bathroom Renovation Plumbing in Bhubaneswar [Page: Renovation]"
 meta_title: Bathroom Renovation Plumber Bhubaneswar | Mahapatra Plumbing
-meta_description: Bathroom renovation plumbing in Bhubaneswar: GI lines replaced with CPVC, concealed pipes, leak test before tiling. Free site visit. Call +91 9668875352.
+meta_description: "Bathroom renovation plumbing in Bhubaneswar: GI lines replaced with CPVC, concealed pipes, leak test before tiling. Free site visit. Call +91 9668875352."
 primary_keyword: bathroom renovation bhubaneswar
 secondary_keywords: [bathroom renovation, bathroom renovation cost, bathroom renovation contractors near me, kitchen renovation bhubaneswar]
 h1: Bathroom Renovation Plumbing in Bhubaneswar (and Kitchens)
-word_count: 1287
+word_count: 1283
 ---
 
 # Bathroom Renovation Plumbing in Bhubaneswar (and Kitchens)
 
 [BREADCRUMB: Home > Bathroom Renovation Plumbing]
 
+**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
+
 Mahapatra Plumbing Services does the plumbing side of bathroom renovation in Bhubaneswar, and kitchens too. From our base in Chandrasekharpur, we replace old GI lines with CPVC, UPVC or PPR pipes, lay concealed lines, fit new fittings and leak-test before tiling. Call or WhatsApp +91 9668875352 for a free site visit.
 
-[CTA: call+whatsapp | location=hero | whatsapp_text="Hi, I need a quote for Bathroom Renovation Plumbing in Bhubaneswar [Page: Renovation]"]
+[CTA: call+whatsapp | location=hero]
 
 [IMAGE: bathroom-renovation-new-cpvc-lines-bhubaneswar.webp | alt="New CPVC water lines laid in a bathroom wall before tiling during a bathroom renovation in Bhubaneswar" | hero]
 
-## What our renovation plumbing covers
+## What does bathroom renovation plumbing cover?
 
-A renovation is the right time to fix what is hidden behind the tiles. We redo the water supply and drainage.
+A renovation is the right time to fix what is hidden behind the tiles. Mahapatra Plumbing Services redoes the water supply and drainage: new pipes, concealed lines, floor traps, fittings and a leak test before tiling. The full list:
 
 - Removing old GI or leaking lines and laying new CPVC, UPVC or PPR pipes
 - Concealed pipework inside walls and floors, planned before tiling
@@ -34,7 +36,7 @@ A renovation is the right time to fix what is hidden behind the tiles. We redo t
 - Kitchen sink, sink drain and RO inlet and outlet points
 - Leak test before the tiles go on
 
-We can also handle the tiling, plaster or civil work, after discussing it with you. Either way, fittings sit at the right level. Planning a kitchen renovation in Bhubaneswar? Kitchens need the sink and RO points planned before the platform is built, so we fix those first.
+We can also handle the tiling, plaster or civil work, after discussing it with you. Planning a kitchen renovation in Bhubaneswar? Kitchens need the sink and RO points planned before the platform is built, so we fix those first.
 
 ## How much does bathroom renovation cost in Bhubaneswar?
 
@@ -55,23 +57,21 @@ Here is how each one changes the cost:
 | Concealed pipeline repair / reroute | Quote after inspection (free site visit + written estimate) |
 | Tap / jet spray / flush kit install | ₹299–₹799 + parts |
 | Geyser installation | From ₹699 |
-| Warranty | 90 days on workmanship; parts follow brand warranty |
+| Warranty | 90 days on workmanship for installation and repair jobs; parts follow brand warranty |
 
 Labour charges shown; parts are extra unless stated. We can supply the fittings, or fit the ones you buy. For single repairs and installs, see our [plumbing rate card for Bhubaneswar](/pricing/).
 
-[CTA: call+whatsapp | location=pricing_table | whatsapp_text="Hi, I need a quote for Bathroom Renovation Plumbing in Bhubaneswar [Page: Renovation]"]
+[CTA: call+whatsapp | location=pricing_table]
 
 ## How long does bathroom plumbing renovation take?
 
-The time depends on three things: the size of the bathroom, how much old pipe comes out, and whether the new lines are concealed or open. Open-line work in one bathroom is quicker than concealed re-plumbing. We discuss the work order with you at the site visit.
+It depends on the job. The size of the bathroom, how much old pipe comes out, and concealed or open lines all change the time. We tell you the expected time with the estimate, after the free site visit. We also agree the work order with you, so plumbing and tiling do not clash.
 
-If another team is doing the tiling or civil work, tell us when they start, so the plumbing stages fit around it. If you are buying fittings yourself, keep them ready before the fitting stage.
+## Replacing old GI pipes during renovation
 
-## Should I replace old GI pipes with CPVC?
+In most older homes, old GI pipes should go. They rust from the inside over the years. That leads to low water pressure, brown water and hidden leaks behind tiles. If tiles are coming off anyway for a bathroom renovation, it is the right time to replace GI with CPVC.
 
-In most older homes, yes. Old GI pipes rust from the inside over the years. That leads to low water pressure, brown water and hidden leaks behind tiles. If tiles are coming off anyway for a bathroom renovation, it is the right time to replace GI with CPVC.
-
-CPVC handles hot and cold water, so it suits geyser lines. UPVC works well for cold lines, and PPR suits both. We suggest the right pipe at the site visit.
+CPVC handles hot and cold water, so it suits geyser lines. UPVC works well for cold lines, and PPR suits both. We suggest the right pipe at the site visit. See [GI to CPVC pipe replacement](/services/pipeline-and-concealed-plumbing/).
 
 [IMAGE: old-gi-pipe-replaced-with-cpvc-bhubaneswar.webp | alt="Rusted old GI pipe removed and replaced with new CPVC pipe during bathroom re-plumbing in Bhubaneswar" | after GI vs CPVC section]
 
@@ -86,7 +86,7 @@ CPVC handles hot and cold water, so it suits geyser lines. UPVC works well for c
 
 [IMAGE: bathroom-pipe-leak-test-bhubaneswar.webp | alt="Plumber checking new bathroom pipes for leaks before tiling in Bhubaneswar" | process section]
 
-[CTA: call+whatsapp | location=inline_content | whatsapp_text="Hi, I need a quote for Bathroom Renovation Plumbing in Bhubaneswar [Page: Renovation]"]
+[CTA: call+whatsapp | location=inline_content]
 
 ## Why choose Mahapatra Plumbing Services
 
@@ -97,11 +97,9 @@ Searching for bathroom renovation contractors near me? Here is what you get with
 - **5.0★ from 45 Google reviews**, with 43 five-star ratings
 - Customers mention fair pricing, quality work, timely service, and kitchen and bathroom fixes
 - **Written estimate before work starts**, so you know the scope upfront
-- **90-day workmanship warranty**; parts follow brand warranty ([warranty and payment details](/pricing/))
+- **90-day workmanship warranty** on installation and repair jobs; parts follow brand warranty ([warranty and payment details](/pricing/))
 - Pay by cash, UPI or bank transfer; GST invoice on request
 - Open daily 8 AM – 10 PM
-
-We work for homes, flats, hostels and PGs, shops, offices and builders across the city.
 
 [IMAGE: renovated-bathroom-new-fittings-bhubaneswar.webp | alt="Renovated bathroom with new mixer, shower, western WC and wash basin fitted by a plumber in Bhubaneswar" | proof section]
 
@@ -113,8 +111,6 @@ Our office is at District Center, Chandrasekharpur. We take renovation work in C
 
 - Building a new home? See [new bathroom and house plumbing](/services/new-bathroom-and-house-plumbing/).
 - Only one new tap or WC? See [bathroom and kitchen fittings](/services/bathroom-and-kitchen-fittings/).
-- Hidden leak in a wall? See [pipeline and concealed plumbing repair](/services/pipeline-and-concealed-plumbing/).
-- Redoing washrooms in a hotel, office or hostel? See [commercial plumbing](/services/commercial-plumbing/).
 - Ready to book? [Contact Mahapatra Plumbing Services](/contact/).
 
 ## Frequently asked questions
@@ -123,9 +119,9 @@ Our office is at District Center, Chandrasekharpur. We take renovation work in C
 
 Yes. We can also handle the tiling, plaster or civil work, after discussing it with you. The plumbing side is ours too: pipes, drains, floor traps, fittings and the leak test. If you prefer your own tile or civil team, we agree pipe and fitting levels with them, so the tiles fit around the fittings.
 
-### Do you take bathroom renovation work outside Chandrasekharpur?
+### Can you change an Indian toilet to a western toilet during renovation?
 
-Yes. Mahapatra Plumbing Services takes bathroom and kitchen renovation plumbing anywhere in Bhubaneswar. That includes Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar, Nayapalli and nearby areas. Our office is in Chandrasekharpur. Call or WhatsApp +91 9668875352 with your area to book a free site visit and written estimate.
+Yes. Changing an Indian WC to a western WC means checking the drain point and often moving it, plus floor work. We do the plumbing, and we can also handle the floor and tiling, after discussing it with you. It is quoted after a free site visit, with a written estimate before work starts.
 
 ### What should I plan before a bathroom renovation starts?
 
@@ -141,9 +137,9 @@ Yes. After the new lines are laid, we run a leak test before the walls and floor
 
 ### Do you also handle kitchen renovation plumbing in Bhubaneswar?
 
-Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kitchen sink and its drain, and add inlet and outlet points for your RO purifier. We fix the points before the platform and tiles go in. You get the same written estimate before work starts, and a 90-day workmanship warranty.
+Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kitchen sink and its drain, and add inlet and outlet points for your RO purifier. We fix the points before the platform and tiles go in. You get the same written estimate before work starts, and a 90-day workmanship warranty on installation and repair jobs.
 
-[CTA: call+whatsapp | location=faq | whatsapp_text="Hi, I need a quote for Bathroom Renovation Plumbing in Bhubaneswar [Page: Renovation]"]
+[CTA: call+whatsapp | location=faq]
 
 ## JSON-LD
 
@@ -159,7 +155,7 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",
@@ -320,10 +316,10 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
         },
         {
           "@type": "Question",
-          "name": "Do you take bathroom renovation work outside Chandrasekharpur?",
+          "name": "Can you change an Indian toilet to a western toilet during renovation?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Mahapatra Plumbing Services takes bathroom and kitchen renovation plumbing anywhere in Bhubaneswar. That includes Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar, Nayapalli and nearby areas. Our office is in Chandrasekharpur. Call or WhatsApp +91 9668875352 with your area to book a free site visit and written estimate."
+            "text": "Yes. Changing an Indian WC to a western WC means checking the drain point and often moving it, plus floor work. We do the plumbing, and we can also handle the floor and tiling, after discussing it with you. It is quoted after a free site visit, with a written estimate before work starts."
           }
         },
         {
@@ -355,7 +351,7 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
           "name": "Do you also handle kitchen renovation plumbing in Bhubaneswar?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kitchen sink and its drain, and add inlet and outlet points for your RO purifier. We fix the points before the platform and tiles go in. You get the same written estimate before work starts, and a 90-day workmanship warranty."
+            "text": "Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kitchen sink and its drain, and add inlet and outlet points for your RO purifier. We fix the points before the platform and tiles go in. You get the same written estimate before work starts, and a 90-day workmanship warranty on installation and repair jobs."
           }
         }
       ]
@@ -387,5 +383,4 @@ Yes. In a kitchen renovation in Bhubaneswar, we lay new water lines, fit the kit
 - Any fitting or sanitaryware brands to name? (None named on the page.)
 - How is the leak test done (method/equipment)? Page now says only "leak test"; no pressure gauge claimed.
 - Geyser points: does the team also do the electrical point for the geyser, or only plumbing?
-- Optional typical starting price for bathroom re-plumbing, to add to the rate card and this page.
 - Real job photos for the 4 image slots (CPVC lines before tiling, GI pipe replaced, leak test, finished bathroom).

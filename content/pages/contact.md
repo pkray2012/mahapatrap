@@ -4,7 +4,7 @@ page_type: contact
 whatsapp_prefill: "Hi, I need a quote for plumbing work in Bhubaneswar [Page: Contact]"
 page_tag: Contact
 meta_title: Plumber Bhubaneswar Contact Number | Mahapatra Plumbing
-meta_description: Plumber Bhubaneswar contact number: call or WhatsApp +91 9668875352. Open daily 8 AM to 10 PM. District Center, Chandrasekharpur. Book a visit online.
+meta_description: "Plumber Bhubaneswar contact number: call or WhatsApp +91 9668875352. Open daily 8 AM to 10 PM. District Center, Chandrasekharpur. Book a visit online."
 primary_keyword: plumber bhubaneswar contact number
 secondary_keywords: [plumber near me contact number, mahapatra plumbing contact]
 h1: Contact Mahapatra Plumbing Services
@@ -63,7 +63,7 @@ Send your area, a landmark, the problem and a photo or short video.
 - **Written estimate before work starts.**
 - **90-day workmanship warranty** on installation and repair jobs.
 - **One number** for calls and WhatsApp.
-- **Photos welcome** before the visit.
+- **Local business.** Read [about Mahapatra Plumbing Services](/about/).
 
 Dripping tap? See [leak and blockage repair](/services/leak-and-blockage-repair/).
 
@@ -73,9 +73,9 @@ Dripping tap? See [leak and blockage repair](/services/leak-and-blockage-repair/
 
 Call or WhatsApp +91 9668875352, any day between 8 AM and 10 PM. Call for urgent problems like a burst pipe. Use WhatsApp when a photo helps or you cannot talk. For non-urgent questions or a GST invoice request, email amareshmohapatra143@gmail.com.
 
-### What details should I share to get a plumbing quote?
+### Can I book a plumber for my parents or my tenant?
 
-Share your name, area and a nearby landmark. Add the type of building and a short note on the problem. A photo or video helps too. Some jobs need a visit before we can price them. Either way, you get a written estimate from Mahapatra Plumbing Services before any work starts.
+Yes. Share the address, the name and number of the person at home, and the problem on WhatsApp to +91 9668875352. We fix the time with them. The plumber gives the written estimate on site before work starts, so they can share it with you for a go-ahead.
 
 ### Can I send photos or videos of the problem on WhatsApp?
 
@@ -96,7 +96,7 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",
@@ -262,10 +262,10 @@ Yes. Send clear photos or a short video to +91 9668875352 on WhatsApp. Show the 
         },
         {
           "@type": "Question",
-          "name": "What details should I share to get a plumbing quote?",
+          "name": "Can I book a plumber for my parents or my tenant?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Share your name, area and a nearby landmark. Add the type of building and a short note on the problem. A photo or video helps too. Some jobs need a visit before we can price them. Either way, you get a written estimate from Mahapatra Plumbing Services before any work starts."
+            "text": "Yes. Share the address, the name and number of the person at home, and the problem on WhatsApp to +91 9668875352. We fix the time with them. The plumber gives the written estimate on site before work starts, so they can share it with you for a go-ahead."
           }
         },
         {

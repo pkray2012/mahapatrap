@@ -8,12 +8,14 @@ meta_description: Water motor repair in Bhubaneswar from ₹399. Pump line leaks
 primary_keyword: water motor repair near me
 secondary_keywords: [water motor repair in bhubaneswar, motor repair, water pump repair, submersible pump repair, water tank repair, sump pump repair]
 h1: "Water Motor, Pump & Tank Repair in Bhubaneswar"
-word_count: 1274
+word_count: 1291
 ---
 
 # Water Motor, Pump & Tank Repair in Bhubaneswar
 
 [BREADCRUMB: Home > Water Tank & Motor Repair]
+
+**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
 
 Mahapatra Plumbing Services in Chandrasekharpur offers water motor repair in Bhubaneswar. We fix motors that run but do not fill the tank, leaking pump lines, faulty foot valves and overflowing overhead tanks. Water motor and pump repair starts from ₹399. Call or WhatsApp +91 9668875352. We are open daily 8 AM to 10 PM.
 
@@ -61,7 +63,7 @@ A motor that runs but does not fill the tank usually has one of five causes. The
 
 An overhead tank overflows when nothing stops the water once it is full. On a line fed from the supply, a stuck or broken float valve is the usual cause. On a motor-filled tank, the motor is left running or the water level controller has failed. A blocked overflow pipe makes it spill over the top.
 
-We fix the float valve, inlet and overflow pipe. For a controller or wiring fault, we tell you if an electrician is needed. A quick fix saves water and stops damp on your roof.
+We fix the float valve, inlet and overflow pipe. For a controller or wiring fault, we tell you if an electrician is needed.
 
 ## How much does water motor repair cost in Bhubaneswar?
 
@@ -78,8 +80,8 @@ Water motor and pump repair with Mahapatra Plumbing Services starts from ₹399 
 Labour charges. Also good to know:
 
 - Visit charge ₹199–₹349, adjusted in the final bill if work goes ahead.
-- Late-night or early-morning visit: ₹300 extra.
-- 90-day workmanship warranty on repair jobs. Parts follow the brand warranty.
+- Late-night or early-morning visit: ₹300 extra, on request, subject to availability.
+- 90-day workmanship warranty on installation and repair jobs. Parts follow the brand warranty.
 - Cash, UPI or bank transfer. GST invoice on request.
 
 See every rate on our [plumber charges in Bhubaneswar](/pricing/) page.
@@ -101,7 +103,6 @@ See every rate on our [plumber charges in Bhubaneswar](/pricing/) page.
 - **90-day workmanship warranty** on repair and installation jobs. Parts follow the brand warranty.
 - **We check the whole line,** from sump to overhead tank, not only the motor.
 - **Clear advice:** we tell you if a motor mechanic or electrician is needed.
-- **For** homes, flats, hostels, PGs, shops and offices.
 
 [CTA: call+whatsapp | location=inline_content]
 
@@ -117,9 +118,9 @@ We visit nearby areas like Chandrasekharpur, Patia, KIIT, Infocity, Niladri Viha
 
 ## Water motor and tank repair FAQs
 
-### How much does water pump repair cost in Bhubaneswar?
+### Why does water flow back into the sump when the motor stops?
 
-Water pump repair by Mahapatra Plumbing Services starts from ₹399 for labour. A small leak or loose joint starts from ₹249. Parts such as a foot valve, non-return valve or pipe are extra, and the part price is shared before fitting. The ₹199–₹349 visit charge is adjusted in the final bill if the work goes ahead.
+That usually means the non-return valve on the delivery line is faulty, or the foot valve is not closing. Water then drains back, and the motor has to refill the line each time. We check both valves and replace the faulty one. Water pump repair starts from ₹399, and parts are extra.
 
 ### Do you repair motor winding and electrical faults?
 
@@ -145,7 +146,7 @@ Check that the switch and MCB are on and the sump has enough water. Make sure ev
 
 ## Book water motor or tank repair
 
-Call or WhatsApp +91 9668875352 with the problem and your area.
+Call or WhatsApp +91 9668875352 with the problem and your area, or see all ways to [contact Mahapatra Plumbing Services](/contact/).
 
 ## JSON-LD
 ```json
@@ -160,7 +161,7 @@ Call or WhatsApp +91 9668875352 with the problem and your area.
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",
@@ -319,10 +320,10 @@ Call or WhatsApp +91 9668875352 with the problem and your area.
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How much does water pump repair cost in Bhubaneswar?",
+          "name": "Why does water flow back into the sump when the motor stops?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Water pump repair by Mahapatra Plumbing Services starts from ₹399 for labour. A small leak or loose joint starts from ₹249. Parts such as a foot valve, non-return valve or pipe are extra, and the part price is shared before fitting. The ₹199–₹349 visit charge is adjusted in the final bill if the work goes ahead."
+            "text": "That usually means the non-return valve on the delivery line is faulty, or the foot valve is not closing. Water then drains back, and the motor has to refill the line each time. We check both valves and replace the faulty one. Water pump repair starts from ₹399, and parts are extra."
           }
         },
         {

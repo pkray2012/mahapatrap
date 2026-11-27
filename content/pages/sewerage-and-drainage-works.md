@@ -4,16 +4,18 @@ page_type: service
 whatsapp_prefill: "Hi, I need a quote for Sewerage & Drainage Works in Bhubaneswar [Page: Sewerage]"
 page_tag: Sewerage
 meta_title: Sewerage Work Contractor in Bhubaneswar | Mahapatra Plumbing
-meta_description: Sewerage and drainage work in Bhubaneswar: new sewer lines, broken line repair, chamber links. Free site visit, written estimate. Call +91 9668875352.
+meta_description: "Sewerage and drainage work in Bhubaneswar: new sewer lines, broken line repair, chamber links. Free site visit, written estimate. Call +91 9668875352."
 primary_keyword: sewerage work contractor bhubaneswar
 secondary_keywords: [sewerage work, sewer line repair near me, drainage work bhubaneswar]
 h1: Sewerage & Drainage Works in Bhubaneswar
-word_count: 1280
+word_count: 1244
 ---
 
 # Sewerage & Drainage Works in Bhubaneswar
 
 [BREADCRUMB: Home > Sewerage & Drainage Works]
+
+**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
 
 Looking for a sewerage work contractor in Bhubaneswar? Mahapatra Plumbing Services lays new sewer and drain lines and repairs broken or sagging ones. We also connect lines to chambers, septic tanks or the main line. We take this work anywhere in Bhubaneswar from our base in Chandrasekharpur. Call or WhatsApp +91 9668875352 for a free site visit.
 
@@ -110,21 +112,17 @@ Our base is at District Center, Chandrasekharpur. We take sewerage and drainage 
 
 ## Sewerage and drainage FAQs
 
-### How much does sewer line work cost in Bhubaneswar?
+### Can you repair or rebuild a broken drain chamber or manhole?
 
-Mahapatra Plumbing Services quotes sewer line work after a free site visit. No two lines are the same. The cost depends on the line length, depth, what covers it, and the number of chamber connections. You get a written estimate before work starts. Call or WhatsApp +91 9668875352 to book the visit.
+Yes. If a chamber is broken, too low or keeps overflowing, we can repair or rebuild it, after discussing it with you. We also join the lines into it at the right slope. Chamber work is quoted after a free site visit, with a written estimate before work starts.
 
-### How do I know if my sewer line is broken or sagging?
+### Can you connect my house drain to a new septic tank?
 
-Watch for a sewage smell in the compound and wet or sinking soil along the line. Another sign is slow drains in all bathrooms at once. Backflow at the lowest floor trap is another sign. If the same line blocks again soon after cleaning, the pipe may be broken or sagging. A site visit confirms it.
+Yes. We lay the line from the house to the new septic tank with the right slope, and add chambers where the line turns. We run water through the line before it is closed. You get a free site visit and a written estimate before work starts. Call or WhatsApp +91 9668875352.
 
-### Do I need permission to connect my house to the main sewer line?
+### Can you lay a rainwater drain line from the roof and courtyard?
 
-A new connection to the public sewer line generally needs approval from the local authority. Check with them before any digging starts. Once you have approval, Mahapatra Plumbing Services lays the line from your house to the agreed connection point.
-
-### Is sewerage work the same as drain cleaning?
-
-No. Drain cleaning clears a blockage in a line that is otherwise fine. Sewerage work repairs, replaces or lays the line itself. If a line keeps blocking, the pipe may be broken or laid without enough slope. We check first and tell you which job you need before any work starts.
+Yes. We lay drain lines for roof and courtyard rainwater outlets, sized and sloped so water does not stand. Where possible, we keep rainwater out of the septic tank line, so the tank does not fill faster. The work is quoted after a free site visit and written estimate.
 
 ### Can you divert a sewer line when I extend my house?
 
@@ -151,7 +149,7 @@ To book a site visit, go to our [contact page](/contact/).
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",
@@ -304,34 +302,26 @@ To book a site visit, go to our [contact page](/contact/).
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How much does sewer line work cost in Bhubaneswar?",
+          "name": "Can you repair or rebuild a broken drain chamber or manhole?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Mahapatra Plumbing Services quotes sewer line work after a free site visit. No two lines are the same. The cost depends on the line length, depth, what covers it, and the number of chamber connections. You get a written estimate before work starts. Call or WhatsApp +91 9668875352 to book the visit."
+            "text": "Yes. If a chamber is broken, too low or keeps overflowing, we can repair or rebuild it, after discussing it with you. We also join the lines into it at the right slope. Chamber work is quoted after a free site visit, with a written estimate before work starts."
           }
         },
         {
           "@type": "Question",
-          "name": "How do I know if my sewer line is broken or sagging?",
+          "name": "Can you connect my house drain to a new septic tank?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Watch for a sewage smell in the compound and wet or sinking soil along the line. Another sign is slow drains in all bathrooms at once. Backflow at the lowest floor trap is another sign. If the same line blocks again soon after cleaning, the pipe may be broken or sagging. A site visit confirms it."
+            "text": "Yes. We lay the line from the house to the new septic tank with the right slope, and add chambers where the line turns. We run water through the line before it is closed. You get a free site visit and a written estimate before work starts. Call or WhatsApp +91 9668875352."
           }
         },
         {
           "@type": "Question",
-          "name": "Do I need permission to connect my house to the main sewer line?",
+          "name": "Can you lay a rainwater drain line from the roof and courtyard?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A new connection to the public sewer line generally needs approval from the local authority. Check with them before any digging starts. Once you have approval, Mahapatra Plumbing Services lays the line from your house to the agreed connection point."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is sewerage work the same as drain cleaning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "No. Drain cleaning clears a blockage in a line that is otherwise fine. Sewerage work repairs, replaces or lays the line itself. If a line keeps blocking, the pipe may be broken or laid without enough slope. We check first and tell you which job you need before any work starts."
+            "text": "Yes. We lay drain lines for roof and courtyard rainwater outlets, sized and sloped so water does not stand. Where possible, we keep rainwater out of the septic tank line, so the tank does not fill faster. The work is quoted after a free site visit and written estimate."
           }
         },
         {

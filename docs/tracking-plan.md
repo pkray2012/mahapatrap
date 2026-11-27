@@ -31,7 +31,7 @@ Every CTA is a real `<a>` tag (no JavaScript-only buttons), so GTM "Just Links" 
    data-service="geyser-installation-and-repair"
    data-page-type="service">Call Now</a>
 
-<a href="https://wa.me/919668875352?text=Hi%2C%20I%20need%20a%20quote%20for%20Geyser%20Installation%20in%20Bhubaneswar%20%5BPage%3A%20Geyser%5D"
+<a href="https://wa.me/919668875352?text=Hi%2C%20I%20need%20a%20quote%20for%20Geyser%20Installation%20%26%20Repair%20in%20Bhubaneswar%20%5BPage%3A%20Geyser%5D"
    data-track="whatsapp_click"
    data-cta-location="sticky_mobile_bar"
    data-service="geyser-installation-and-repair"
@@ -41,15 +41,16 @@ Every CTA is a real `<a>` tag (no JavaScript-only buttons), so GTM "Just Links" 
 Allowed `data-cta-location` values (fixed list, used in reports):
 `top_bar`, `header`, `hero`, `quick_quote_form`, `service_card`, `pricing_table`, `inline_content`, `faq`, `book_visit_form`, `contact_page`, `footer`, `sticky_mobile_bar`, `floating_whatsapp`.
 
-Allowed `data-page-type` values: `home`, `service`, `locality`, `pricing`, `about`, `contact`.
+Allowed `data-page-type` values: `home`, `service`, `locality`, `pricing`, `about`, `contact`, `legal` (privacy policy).
 
-`data-service` = page slug (e.g. `septic-tank-cleaning`, `bathroom-plumbing-renovation`); `data-locality` on locality pages (e.g. `patia`).
+`data-service` = page slug (e.g. `septic-tank-cleaning`, `bathroom-plumbing-renovation`); `data-locality` on locality pages (e.g. `patia`). The front-matter `page_tag` feeds only the WhatsApp `[Page: ...]` tag, not `data-service`.
 
 ## 3. WhatsApp source tags
 
 Every WhatsApp link and both forms pre-fill a message that ends with a page tag, so a lead in the WhatsApp inbox can be matched to the page and button:
 
-- Button: `Hi, I need a quote for {Service} in Bhubaneswar [Page: {PageTag}]`
+- Button (service pages): `Hi, I need a quote for {Service} in Bhubaneswar [Page: {PageTag}]`, with {Service} = the page name, e.g. "Geyser Installation & Repair"
+- Button (area pages): `Hi, I need a quote for plumbing work in {Area}, Bhubaneswar [Page: {PageTag}]` (KIIT: "near KIIT, Bhubaneswar")
 - Form: `Name: {name}\nArea: {area}\nProblem: {problem}\n[Page: {PageTag} | Form: {form_id}]`
 
 The form's typed name, phone, area and problem go **only** into the WhatsApp message, never into analytics.

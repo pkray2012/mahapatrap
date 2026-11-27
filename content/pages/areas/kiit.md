@@ -1,14 +1,14 @@
 ---
 url: /areas/kiit/
 page_type: locality
-whatsapp_prefill: "Hi, I need a quote for plumbing work near KIIT in Bhubaneswar [Page: KIIT]"
+whatsapp_prefill: "Hi, I need a quote for plumbing work near KIIT, Bhubaneswar [Page: KIIT]"
 page_tag: KIIT
 meta_title: Plumber near KIIT for Hostels & PGs | Mahapatra Plumbing
 meta_description: Plumber near KIIT for hostels, PGs and student flats. Blocked toilets, flush and tap leaks, tank cleaning, AMC. Call or WhatsApp +91 9668875352.
 primary_keyword: plumber near kiit
 secondary_keywords: [plumber for hostel near kiit]
 h1: Plumber near KIIT, Bhubaneswar (Hostels, PGs & Homes)
-word_count: 874
+word_count: 876
 ---
 
 <!-- Hero. Accent colour on "KIIT" in the H1. -->
@@ -21,7 +21,7 @@ Need a plumber near KIIT for a hostel, PG or student flat? Mahapatra Plumbing Se
 
 [CTA: call+whatsapp | location=hero]
 
-**5.0★ from 45 Google reviews** · **Written estimate before work starts** · **90-day workmanship warranty on repairs** · **Open daily 8 AM – 10 PM**
+**5.0★ from 45 Google reviews** · **Written estimate before work starts** · **90-day workmanship warranty on repairs and installations** · **Open daily 8 AM – 10 PM**
 
 [IMAGE: plumber-near-kiit-hostel-flush-tank-repair.webp | alt="Plumber repairing a running flush tank in a hostel bathroom near KIIT, Bhubaneswar" | hero, beside the intro]
 
@@ -137,7 +137,7 @@ Address, email and hours: [contact page](/contact/).
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",

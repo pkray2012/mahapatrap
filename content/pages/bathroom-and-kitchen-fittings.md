@@ -8,16 +8,18 @@ meta_description: Bathroom fitting plumber in Bhubaneswar for taps, WC, basin, s
 primary_keyword: bathroom fitting plumber near me
 secondary_keywords: [bathroom fitters, tap installation, kitchen sink repair, toilet installation, sink installation, washing machine inlet and drain fitting]
 h1: Bathroom & Kitchen Fittings Installation in Bhubaneswar
-word_count: 1279
+word_count: 1285
 ---
 
 # Bathroom & Kitchen Fittings Installation in Bhubaneswar
 
 [BREADCRUMB: Home > Bathroom & Kitchen Fittings]
 
-Mahapatra Plumbing Services is a bathroom fitting plumber in Chandrasekharpur, Bhubaneswar. We fit taps, mixers, showers, jet sprays, wash basins, western and Indian WCs, flush tanks, kitchen sinks and washing machine points. Tap, jet spray and flush kit fitting costs ₹299–₹799 plus parts. Call or WhatsApp +91 9668875352. We are open daily 8 AM to 10 PM.
+**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
 
-[CTA: call+whatsapp | location=hero | whatsapp_text="Hi, I need a quote for Bathroom & Kitchen Fittings in Bhubaneswar [Page: Fittings]"]
+Mahapatra Plumbing Services is a bathroom fitting plumber in Chandrasekharpur, Bhubaneswar. We fit taps, mixers, showers and jet sprays. We also fit wash basins, western and Indian WCs, flush tanks, kitchen sinks and washing machine points. Tap, jet spray and flush kit fitting costs ₹299–₹799 plus parts. Call or WhatsApp +91 9668875352. We are open daily 8 AM to 10 PM.
+
+[CTA: call+whatsapp | location=hero]
 
 [IMAGE: bathroom-tap-mixer-installation-bhubaneswar.webp | alt="Plumber fitting a new wall mixer and shower in a bathroom in Bhubaneswar" | hero]
 
@@ -54,14 +56,14 @@ Tap installation in Bhubaneswar by Mahapatra Plumbing Services costs ₹299–�
 Also good to know:
 
 - Visit charge ₹199–₹349, adjusted in the final bill if work goes ahead.
-- Late-night or early-morning visit: ₹300 extra.
+- Late-night or early-morning visit: ₹300 extra, on request, subject to availability.
 - Written estimate before work starts.
-- 90-day workmanship warranty. Parts follow the brand warranty.
+- 90-day workmanship warranty on installation and repair jobs. Parts follow the brand warranty.
 - Cash, UPI or bank transfer. GST invoice on request.
 
 See every rate and the warranty terms on our [plumbing rate card for Bhubaneswar](/pricing/).
 
-[CTA: call+whatsapp | location=pricing_table | whatsapp_text="Hi, I need a quote for Bathroom & Kitchen Fittings in Bhubaneswar [Page: Fittings]"]
+[CTA: call+whatsapp | location=pricing_table]
 
 ## Can you fit bathroom fittings I bought online?
 
@@ -73,23 +75,22 @@ Before you buy a western WC, check whether your drain needs a floor or wall outl
 
 Yes. We install wash basins and western toilets in homes, flats, hostels, PGs, shops and offices across Bhubaneswar. For toilet installation, we fix the WC to the floor, connect the outlet to the drain and fit the flush tank and its water line. For a basin, we fit the tap, waste pipe and bottle trap.
 
-We also fit Indian WCs. If the drain point has to move, or you are changing an Indian WC to a western WC, the job needs floor work. We can also handle the floor and tiling work, after discussing it with you. We see the site first and give you a written estimate.
+We also fit Indian WCs. Moving a drain point, or changing an Indian WC to a western WC, needs floor work. We can also handle the floor and tiling work, after discussing it with you, with a written estimate first.
 
 [IMAGE: western-wc-wash-basin-installation-bhubaneswar.webp | alt="Newly installed western toilet and wash basin with angle valves in a flat in Bhubaneswar" | after toilet and basin section]
 
 ## Kitchen sink installation and repair
 
-We fit new kitchen sinks and fix old ones. Sink installation covers the sink, the sink tap, the waste coupling and the waste pipe to the drain. For kitchen sink repair, we fix leaks under the sink, loose taps and worn waste pipes.
+We fit new kitchen sinks and fix old ones. Sink installation covers the sink, tap, waste coupling and waste pipe. For kitchen sink repair, we fix leaks, loose taps and worn waste pipes.
 
-### Washing machine inlet and drain fitting
+## How do you fit a washing machine inlet and drain pipe?
 
-A washing machine needs two plumbing points: a water inlet with its own tap, and a drain for the waste water. Our washing machine inlet and drain fitting covers:
+A washing machine needs a water inlet tap at the right height and a drain pipe that runs to a floor trap or the sink waste. Mahapatra Plumbing Services fits both. We also fix drain hoses that spill or back up. The inlet tap fitting costs ₹299–₹799 plus parts, and the part price is shared before fitting.
+
+Our washing machine inlet and drain fitting covers:
 
 - **Inlet point and tap:** a tap at the right height for the machine's inlet hose
 - **Drain fitting:** taking the drain pipe to a floor trap or the sink waste
-- **Spills from the drain hose:** fixing water that spills or backs up where the hose meets the drain
-
-Spills usually mean the hose is loose, sits too low, or the drain cannot take the flow.
 
 [IMAGE: washing-machine-inlet-drain-fitting-bhubaneswar.webp | alt="Washing machine water inlet tap and drain pipe fitted to a floor trap in a home in Bhubaneswar" | washing machine section]
 
@@ -101,7 +102,7 @@ Spills usually mean the hose is loose, sits too low, or the drain cannot take th
 - **Your fittings or ours:** we fit what you bought, or supply the parts. Part price shared before fitting.
 - **Size check before you buy:** send a photo on WhatsApp and we tell you what fits your point.
 
-[CTA: call+whatsapp | location=inline_content | whatsapp_text="Hi, I need a quote for Bathroom & Kitchen Fittings in Bhubaneswar [Page: Fittings]"]
+[CTA: call+whatsapp | location=inline_content]
 
 ## Areas we cover for fitting work
 
@@ -111,9 +112,9 @@ Dripping tap or running flush rather than a new fitting? See [tap, flush and pip
 
 ## Bathroom and kitchen fittings FAQs
 
-### Can you fix a kitchen sink that leaks from underneath?
+### Do you install bath and washroom fittings of any brand?
 
-Yes. A leak under a kitchen sink usually comes from a loose waste coupling, a cracked waste pipe or a worn tap connector. Mahapatra Plumbing Services finds the source and fixes it. A minor fix starts from ₹249 for labour. If a part needs changing, we tell you the part price before fitting.
+Yes. We fit bath and washroom fittings of the brand you choose. Send a photo on WhatsApp before you buy, so we can check the sizes match your points. The fitting itself follows its brand warranty. Our installation work carries the 90-day workmanship warranty on installation and repair jobs.
 
 ### What is an angle valve and do I need one?
 
@@ -133,9 +134,9 @@ Yes. We fit a water inlet point with a valve for the RO purifier, and a drain po
 
 ### Do you do fitting work for hostels, PGs and offices?
 
-Yes. Mahapatra Plumbing Services fits taps, WCs, basins and sinks in hostels and PGs near KIIT and Patia, offices in Infocity, shops and homes. We can fit several items in one booking. Call or WhatsApp +91 9668875352 with the list of fittings, and we give you a written estimate before work starts.
+Yes. Mahapatra Plumbing Services fits taps, WCs, basins and sinks in hostels and PGs near KIIT and Patia, offices in Infocity, shops and homes. Call or WhatsApp +91 9668875352 with the list of fittings, and we give you a written estimate before work starts.
 
-[CTA: call+whatsapp | location=faq | whatsapp_text="Hi, I need a quote for Bathroom & Kitchen Fittings in Bhubaneswar [Page: Fittings]"]
+[CTA: call+whatsapp | location=faq]
 
 ## Book a fitting job
 
@@ -156,7 +157,7 @@ Tell us which fittings you need and your area. Call or WhatsApp +91 9668875352, 
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",
@@ -316,10 +317,10 @@ Tell us which fittings you need and your area. Call or WhatsApp +91 9668875352, 
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Can you fix a kitchen sink that leaks from underneath?",
+          "name": "Do you install bath and washroom fittings of any brand?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. A leak under a kitchen sink usually comes from a loose waste coupling, a cracked waste pipe or a worn tap connector. Mahapatra Plumbing Services finds the source and fixes it. A minor fix starts from ₹249 for labour. If a part needs changing, we tell you the part price before fitting."
+            "text": "Yes. We fit bath and washroom fittings of the brand you choose. Send a photo on WhatsApp before you buy, so we can check the sizes match your points. The fitting itself follows its brand warranty. Our installation work carries the 90-day workmanship warranty on installation and repair jobs."
           }
         },
         {
@@ -359,7 +360,7 @@ Tell us which fittings you need and your area. Call or WhatsApp +91 9668875352, 
           "name": "Do you do fitting work for hostels, PGs and offices?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Mahapatra Plumbing Services fits taps, WCs, basins and sinks in hostels and PGs near KIIT and Patia, offices in Infocity, shops and homes. We can fit several items in one booking. Call or WhatsApp +91 9668875352 with the list of fittings, and we give you a written estimate before work starts."
+            "text": "Yes. Mahapatra Plumbing Services fits taps, WCs, basins and sinks in hostels and PGs near KIIT and Patia, offices in Infocity, shops and homes. Call or WhatsApp +91 9668875352 with the list of fittings, and we give you a written estimate before work starts."
           }
         }
       ]

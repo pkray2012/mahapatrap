@@ -1,14 +1,14 @@
 ---
 url: /areas/niladri-vihar/
 page_type: locality
-whatsapp_prefill: "Hi, I need a quote for plumbing work in Niladri Vihar in Bhubaneswar [Page: NiladriVihar]"
+whatsapp_prefill: "Hi, I need a quote for plumbing work in Niladri Vihar, Bhubaneswar [Page: NiladriVihar]"
 page_tag: NiladriVihar
 meta_title: Plumber in Niladri Vihar, Bhubaneswar | Mahapatra Plumbing
-meta_description: Plumber in Niladri Vihar for water motors, sumps, overhead tanks, borewell pumps, leaks and taps. Open 8 AM–10 PM. Call or WhatsApp +91 9668875352.
+meta_description: Plumber in Niladri Vihar for water motors, sumps, overhead tanks, borewell pipes, leaks and taps. Open 8 AM–10 PM. Call or WhatsApp +91 9668875352.
 primary_keyword: plumber in niladri vihar
 secondary_keywords: []
 h1: Plumber in Niladri Vihar, Bhubaneswar
-word_count: 885
+word_count: 821
 ---
 
 # Plumber in Niladri Vihar, Bhubaneswar
@@ -31,17 +31,19 @@ Most homes in Niladri Vihar are independent houses with their own water setup. A
 - **Sump pipe leaks.** Leaks at the sump inlet or on the pipe from the sump to the motor.
 - **Roof and outside pipes.** Lines left in sun and rain crack at the joints.
 
-## Why does my motor run but the overhead tank not fill?
+## Why is the water flow weak upstairs in my Niladri Vihar house?
 
-Usually the pump is not getting water, or the water is escaping before the roof. Common causes are an air lock, a low sump, a leaking suction pipe, a faulty foot valve or a worn pump. A plumber checks each point from the sump to the tank inlet before replacing anything.
+In a house fed by a roof tank, upstairs flow depends on the downtake pipe and its valves. A half-closed valve, an air pocket, a choked line or scale inside old pipes can reduce it. We trace the line from tank to tap and tell you what needs changing.
 
-Switch the motor off if it runs dry, as it can heat up and get damaged. Then send us a short video on WhatsApp. See [water motor and pump repair](/services/water-tank-and-motor-repair/) for the checks.
+If the motor runs but the tank stays empty, see [water motor and pump repair](/services/water-tank-and-motor-repair/).
 
 [IMAGE: overhead-tank-float-valve-niladri-vihar.webp | alt="Plumber fitting a float valve inside a rooftop overhead tank at a Niladri Vihar house, Bhubaneswar" | beside the motor section]
 
-## Do you repair borewell pumps in Niladri Vihar?
+## Do you work on borewell pumps and pipes in Niladri Vihar?
 
-Yes, on existing borewells. We repair the pump and pipes of a borewell that is already there. Borewell pump and pipe repair is quoted after inspection, and the part price is shared before fitting. Details are on our [borewell pump and pipe repair](/services/borewell-pump-and-pipe-repair/) page.
+Yes, on existing borewells. Our team lifts and lowers the submersible pump, replaces column pipes and fixes joints and valves. Motor rewinding and electrical faults are referred to a motor mechanic or electrician. The work is quoted after inspection, and the part price is shared before fitting. See our [borewell service in Bhubaneswar](/services/borewell-pump-and-pipe-repair/).
+
+[CTA: call+whatsapp | location=inline_content]
 
 ## Services for Niladri Vihar homes
 
@@ -67,7 +69,7 @@ Labour charges, parts extra.
 | Water motor / pump repair | from ₹399 |
 | Minor fix (washer, small leak, loose fitting) | from ₹249 |
 
-The full rate list, late-night charges and payment options are on our [pricing page](/pricing/).
+The full rate list, late-night charges and payment options are on our page of [plumber charges in Bhubaneswar](/pricing/).
 
 [CTA: call+whatsapp | location=pricing_table]
 
@@ -94,13 +96,9 @@ We also work nearby. See our pages for a [plumber in Chandrasekharpur](/areas/ch
 
 Yes. Niladri Vihar is close to our base at District Center, Chandrasekharpur. It is one of the nearby areas we cover for small repairs. A dripping tap, a running flush tank or a loose fitting is all fine. Call or WhatsApp +91 9668875352 between 8 AM and 10 PM and we will fix a time.
 
-### My overhead tank overflows every time the motor runs. Can you stop it?
+### Can you replace cracked pipes on my roof?
 
-Yes. Usually the float valve is stuck or missing. Sometimes no one is home to switch the motor off. We check the tank inlet and the float valve and repair or replace what is needed. You get a written estimate before work starts.
-
-### Why is the water flow weak on the first floor of my house?
-
-In a house fed by a roof tank, flow depends on the downtake pipe and its valves. A half-closed valve, an air pocket, a choked line or scale inside old pipes can reduce it. We trace the line from tank to tap and tell you what needs changing.
+Yes. Roof and outside lines left in sun and rain often crack at the joints. We replace the cracked section with CPVC, UPVC or PPR pipe and check every joint for leaks. A small joint repair starts from ₹249. Longer runs get a written estimate before work starts.
 
 ### I am adding a floor to my house. Can you extend the tank and motor lines?
 
@@ -131,7 +129,7 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",
@@ -240,7 +238,8 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
       "@id": "https://mahapatraplumbing.in/areas/niladri-vihar/#webpage",
       "url": "https://mahapatraplumbing.in/areas/niladri-vihar/",
       "name": "Plumber in Niladri Vihar, Bhubaneswar | Mahapatra Plumbing",
-      "description": "Plumber in Niladri Vihar for water motors, sumps, overhead tanks, borewell pumps, leaks and taps. Open 8 AM–10 PM. Call or WhatsApp +91 9668875352.",
+      "headline": "Plumber in Niladri Vihar, Bhubaneswar",
+      "description": "Plumber in Niladri Vihar for water motors, sumps, overhead tanks, borewell pipes, leaks and taps. Open 8 AM–10 PM. Call or WhatsApp +91 9668875352.",
       "keywords": "plumber in niladri vihar",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
@@ -271,18 +270,10 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
         },
         {
           "@type": "Question",
-          "name": "My overhead tank overflows every time the motor runs. Can you stop it?",
+          "name": "Can you replace cracked pipes on my roof?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Usually the float valve is stuck or missing. Sometimes no one is home to switch the motor off. We check the tank inlet and the float valve and repair or replace what is needed. You get a written estimate before work starts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is the water flow weak on the first floor of my house?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "In a house fed by a roof tank, flow depends on the downtake pipe and its valves. A half-closed valve, an air pocket, a choked line or scale inside old pipes can reduce it. We trace the line from tank to tap and tell you what needs changing."
+            "text": "Yes. Roof and outside lines left in sun and rain often crack at the joints. We replace the cracked section with CPVC, UPVC or PPR pipe and check every joint for leaks. A small joint repair starts from ₹249. Longer runs get a written estimate before work starts."
           }
         },
         {

@@ -4,18 +4,20 @@ page_type: service
 whatsapp_prefill: "Hi, I need a quote for Geyser Installation & Repair in Bhubaneswar [Page: Geyser]"
 page_tag: Geyser
 meta_title: Geyser Repair & Fitting in Bhubaneswar | Mahapatra Plumbing
-meta_description: Geyser repair and installation in Bhubaneswar. Fitting from ₹699, geyser service ₹499. Leak, valve and scale fixes, 90-day warranty. Call +91 9668875352.
+meta_description: Geyser repair and installation in Bhubaneswar. Fitting from ₹699, service ₹499. Leak and valve fixes, 90-day warranty on repairs. Call +91 9668875352.
 primary_keyword: geyser repair in bhubaneswar
 secondary_keywords: [geyser installation bhubaneswar, geyser repair near me, geyser repair, geyser servicing bhubaneswar, water heater repair, how much does geyser installation cost in bhubaneswar]
-h1: "Geyser Repair & Installation in Bhubaneswar"
-word_count: 1277
+h1: "Geyser (Water Heater) Repair & Installation in Bhubaneswar"
+word_count: 1294
 ---
 
-# Geyser Repair & Installation in Bhubaneswar
+# Geyser (Water Heater) Repair & Installation in Bhubaneswar
 
 [BREADCRUMB: Home > Geyser Repair & Installation]
 
-Need your geyser repaired in Bhubaneswar? Mahapatra Plumbing Services in Chandrasekharpur offers geyser repair in Bhubaneswar for leaking, noisy and low-flow geysers, and installs new ones. Geyser installation starts from ₹699 and a geyser service costs ₹499. Call or WhatsApp +91 9668875352. We are open daily 8 AM to 10 PM.
+**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
+
+Mahapatra Plumbing Services in Chandrasekharpur offers geyser repair in Bhubaneswar for leaking, noisy and low-flow geysers (water heaters), and installs new ones. Geyser installation starts from ₹699 and a geyser service costs ₹499. Call or WhatsApp +91 9668875352. We are open daily 8 AM to 10 PM.
 
 [CTA: call+whatsapp | location=hero]
 
@@ -28,7 +30,7 @@ We handle the plumbing side: fitting, pipes, valves, leaks and scale. We do not 
 Our geyser installation covers:
 
 - **Wall mounting:** We fix the geyser firmly on a strong wall at a safe height.
-- **Inlet and outlet connections:** We connect the cold water inlet and the hot water outlet to your bathroom lines.
+- **Inlet and outlet connections:** We connect the cold water inlet and the hot water outlet to your bathroom lines with geyser connection pipes.
 - **Pressure release valve check:** We check that the safety valve is fitted and working. It lets out extra pressure.
 - **Leak test:** We fill the tank and check every joint before we leave.
 
@@ -73,8 +75,8 @@ Geyser installation in Bhubaneswar by Mahapatra Plumbing Services starts from �
 These are labour charges. Also good to know:
 
 - Visit charge ₹199–₹349, adjusted in the final bill if work goes ahead.
-- Late-night or early-morning visit: ₹300 extra.
-- 90-day workmanship warranty. Parts follow the brand warranty.
+- Late-night or early-morning visit: ₹300 extra, on request, subject to availability.
+- 90-day workmanship warranty on installation and repair jobs. Parts follow the brand warranty.
 - Cash, UPI or bank transfer. GST invoice on request.
 
 See every rate on our [plumber charges in Bhubaneswar](/pricing/) page.
@@ -84,8 +86,6 @@ See every rate on our [plumber charges in Bhubaneswar](/pricing/) page.
 ## How often should a geyser be serviced?
 
 Service your geyser once a year, ideally in October or November before winter starts. If your home uses borewell or hard water, get it serviced every six months. A service checks the pressure release valve, catches small leaks early and removes scale where the model allows. A geyser service with Mahapatra Plumbing Services costs ₹499.
-
-Most homes use the geyser most from December to February, so book a service before then.
 
 Get it checked sooner if it pops, heats slowly or leaves a damp patch on the wall.
 
@@ -158,7 +158,7 @@ Tell us your geyser problem and your area. Call or WhatsApp +91 9668875352, or s
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",
@@ -267,8 +267,8 @@ Tell us your geyser problem and your area. Call or WhatsApp +91 9668875352, or s
       "@id": "https://mahapatraplumbing.in/services/geyser-installation-and-repair/#webpage",
       "url": "https://mahapatraplumbing.in/services/geyser-installation-and-repair/",
       "name": "Geyser Repair & Fitting in Bhubaneswar | Mahapatra Plumbing",
-      "headline": "Geyser Repair & Installation in Bhubaneswar",
-      "description": "Geyser repair and installation in Bhubaneswar. Fitting from ₹699, geyser service ₹499. Leak, valve and scale fixes, 90-day warranty. Call +91 9668875352.",
+      "headline": "Geyser (Water Heater) Repair & Installation in Bhubaneswar",
+      "description": "Geyser repair and installation in Bhubaneswar. Fitting from ₹699, service ₹499. Leak and valve fixes, 90-day warranty on repairs. Call +91 9668875352.",
       "keywords": "geyser repair near me, geyser repair in bhubaneswar, geyser installation bhubaneswar, geyser repair, geyser servicing bhubaneswar, water heater repair",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"

@@ -8,18 +8,18 @@ meta_description: Plumber in Bhubaneswar for leaks, taps, geysers, drains, septi
 primary_keyword: plumber in bhubaneswar
 secondary_keywords: [plumber bhubaneswar, plumber near me, plumber service in bhubaneswar, plumbing services bhubaneswar, plumber near me home service]
 h1: Plumber in Bhubaneswar for Repairs, Renovation & Septic Cleaning
-word_count: 1154
+word_count: 1191
 ---
 
 <!-- Hero. Accent colour on the word "Bhubaneswar" in the H1. -->
 
 # Plumber in Bhubaneswar for Repairs, Renovation & Septic Cleaning
 
-Need a plumber in Bhubaneswar today? Mahapatra Plumbing Services fixes leaks, taps, geysers, motors and blocked drains in homes, flats and offices. We are based at District Center, Chandrasekharpur, and serve all of Bhubaneswar. Call or WhatsApp +91 9668875352, open daily 8 AM to 10 PM.
+Need a plumber in Bhubaneswar (BBSR)? Mahapatra Plumbing Services fixes leaks, taps, geysers, motors and blocked drains in homes, flats and offices. We are based at District Center, Chandrasekharpur, and serve all of Bhubaneswar. Call or WhatsApp +91 9668875352, open daily 8 AM to 10 PM.
 
 [CTA: call+book_visit | location=hero | call="Call Now" tel:+919668875352 | book_visit="Book a Visit" #book-a-visit]
 
-**5.0★ from 45 Google reviews** · **90-day workmanship warranty** · **Written estimate before work starts** · **Open daily 8 AM – 10 PM**
+**5.0★ from 45 Google reviews** · **90-day workmanship warranty on installation and repair jobs** · **Written estimate before work starts** · **Open daily 8 AM – 10 PM**
 
 [IMAGE: plumber-in-bhubaneswar-fixing-kitchen-tap.webp | alt="Mahapatra Plumbing Services plumber fixing a kitchen tap in a Bhubaneswar flat" | hero, beside the Quick Quote card]
 
@@ -31,9 +31,22 @@ Tell us the problem. We reply on WhatsApp.
 
 By sending, you agree we may use your number to reply on WhatsApp. See our [Privacy Policy](/privacy-policy/).
 
+## Mahapatra Plumbing Services at a glance
+
+| | |
+|---|---|
+| Base | District Center, Chandrasekharpur, Bhubaneswar, Odisha 751016 (call first; we come to you) |
+| Phone / WhatsApp | +91 9668875352 |
+| Hours | Open daily 8 AM – 10 PM |
+| Areas | All of Bhubaneswar, from Chandrasekharpur and Patia to Nayapalli |
+| Google rating | 5.0★ from 45 reviews (43 five-star) |
+| Visit charge | ₹199–₹349, adjusted in the final bill if work goes ahead |
+| Warranty | 90 days on workmanship for installation and repair jobs; parts follow brand warranty |
+| Languages | Odia, Hindi and English |
+
 ## What plumbing services do you offer in Bhubaneswar?
 
-Mahapatra Plumbing Services covers plumbing services in Bhubaneswar, from small repairs to big jobs. We fix leaks, taps, flush tanks, geysers, motors and choked drains. We also take septic and water tank cleaning, borewell pump repair, renovation, new house plumbing, sewerage and commercial work. Tap a card for details and prices.
+Mahapatra Plumbing Services covers plumbing services in Bhubaneswar, from small repairs to big plumbing work. We fix leaks, taps, flush tanks, geysers, motors and choked drains. We also take septic and water tank cleaning, borewell pump and pipe repair, renovation, new house plumbing, sewerage and commercial work. Tap a card for details and prices.
 
 ### Repairs
 
@@ -54,7 +67,7 @@ Mahapatra Plumbing Services covers plumbing services in Bhubaneswar, from small 
 - **[Borewell Pump & Pipe Repair](/services/borewell-pump-and-pipe-repair/)**: Pump and pipe repair on existing borewells. Quote after inspection.
 - **[Commercial Plumbing](/services/commercial-plumbing/)**: Hotels, offices, hostels, PGs and shops.
 
-Renovation, new plumbing, sewerage and bigger commercial jobs get a free site visit and written estimate.
+Free site visit and written estimate for concealed pipeline work, renovation, new house plumbing, sewerage works and bigger commercial jobs.
 
 [IMAGE: bathroom-plumbing-renovation-bhubaneswar.webp | alt="Bathroom plumbing renovation with new CPVC lines and fittings in a Bhubaneswar home" | services section, beside "Bigger jobs anywhere in Bhubaneswar"]
 
@@ -65,10 +78,10 @@ Renovation, new plumbing, sewerage and bigger commercial jobs get a free site vi
 - **Visit charge adjusted.** The ₹199–₹349 visit charge is adjusted in your final bill if the work goes ahead.
 - **90-day workmanship warranty** on repair and installation jobs. Parts follow the brand's own warranty.
 - **Good materials.** CPVC, UPVC and PPR pipes.
-- **Local base.** District Center, Chandrasekharpur.
+- **Local base.** District Center, Chandrasekharpur. Read [about our plumbing company in Bhubaneswar](/about/).
 - **Easy payment.** Cash, UPI or bank transfer. GST invoice on request.
 - **One number for small and big jobs.** A dripping tap or a full bathroom re-plumb, you call the same team.
-- **Late-night help, on request.** We are open daily from 8 AM to 10 PM. Late-night and early-morning visits are on request, subject to availability, at ₹300 extra. Call +91 9668875352 and we will tell you if a plumber can come. While you wait, close the main valve and switch off the geyser and motor.
+- **Late-night help, on request.** Late-night and early-morning visits are on request, subject to availability, at ₹300 extra. Call +91 9668875352 and we will tell you if a plumber can come.
 
 Need a plumber service in Bhubaneswar for a hostel, PG, shop or office? We work for homes, PGs near KIIT, Infocity offices and builders too.
 
@@ -103,9 +116,7 @@ We serve all of Bhubaneswar from our base at District Center, Chandrasekharpur. 
 - [Plumber in Jayadev Vihar](/areas/jayadev-vihar/) (and Saheed Nagar)
 - [Plumber in Nayapalli](/areas/nayapalli/) (and IRC Village)
 
-And all of Bhubaneswar. Save our number as "Plumber Bhubaneswar" for the next leak.
-
-**Hours:** Monday to Sunday, 8 AM – 10 PM. Late-night and early-morning visits on request, subject to availability (extra charge may apply).
+And all of Bhubaneswar.
 
 [MAP: google-maps-listing | static preview of the Google Maps listing (CID 4373818382391816251), live map loads on tap | button="View on Google Maps" | link=https://www.google.com/maps?cid=4373818382391816251 | track=directions_click]
 
@@ -113,7 +124,7 @@ And all of Bhubaneswar. Save our number as "Plumber Bhubaneswar" for the next le
 
 We are rated 5.0★ from 45 Google reviews, 43 of them five-star. Customers most often mention fair pricing, quality work and plumbers who come on time.
 
-Kitchen and bathroom fixes come up often in the reviews. [Read our reviews on Google](https://www.google.com/maps?cid=4373818382391816251).
+[Read our reviews on Google](https://www.google.com/maps?cid=4373818382391816251).
 
 [IMAGE: plumber-bhubaneswar-bathroom-flush-tank-repair.webp | alt="Plumber repairing a bathroom flush tank for a customer in Bhubaneswar" | reviews section]
 
@@ -143,7 +154,7 @@ Yes. Besides homes and flats, we work for shops, Infocity offices, hostels and P
 
 ## How do I book a plumber in Bhubaneswar?
 
-Call or WhatsApp +91 9668875352 between 8 AM and 10 PM, any day. Or fill in the form below. It opens WhatsApp with your name, area and problem ready to send. Add a photo of the problem if you can. We reply on WhatsApp to fix a time.
+Call or WhatsApp +91 9668875352 between 8 AM and 10 PM, any day. To book a plumber online, fill in the form below. It opens WhatsApp with your name, area and problem ready to send. Add a photo of the problem if you can. We reply on WhatsApp to fix a time.
 
 [CARD LABEL: Book a Visit]
 
@@ -172,7 +183,7 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",
@@ -343,6 +354,5 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
 ```
 
 ## Facts to confirm
-- Whether a typical starting price for bathroom re-plumbing or new house plumbing can be shown (rate card lists them as quote-only).
 - Real job photos needed for the 3 image slots (kitchen tap repair, bathroom renovation, flush tank repair).
 - Real review excerpts (with the reviewer's permission) for the "What our customers say" section.

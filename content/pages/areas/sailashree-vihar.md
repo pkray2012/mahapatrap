@@ -8,7 +8,7 @@ meta_description: "Plumber in Sailashree Vihar, Bhubaneswar for old GI pipe repl
 primary_keyword: plumber in sailashree vihar
 secondary_keywords: []
 h1: Plumber in Sailashree Vihar, Bhubaneswar
-word_count: 898
+word_count: 900
 ---
 
 # Plumber in Sailashree Vihar, Bhubaneswar
@@ -40,7 +40,7 @@ It starts with a free site visit. The plumber traces where your GI lines run, fr
 
 CPVC takes hot and cold water, so it suits geyser lines. UPVC or PPR can also work for cold lines. Job time depends on the work. We tell you the expected time with the estimate. Read more on [concealed pipeline repair and CPVC plumbing](/services/pipeline-and-concealed-plumbing/).
 
-## How do you fix a concealed leak behind bathroom tiles?
+## Is the damp wall in my Sailashree Vihar house a pipe leak?
 
 First we check that the damp comes from a pipe, not from roof seepage or a shared wall. We close taps and outlets and see whether the line holds water. Then we show you where the wall or floor needs opening. We open only that part, and test the line before closing it. No tile is broken until you agree. The repair is quoted after a free site visit.
 
@@ -123,7 +123,7 @@ Yes. Re-plumbing an older house, adding a bathroom or plumbing a new floor are b
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",

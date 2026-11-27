@@ -6,9 +6,9 @@ page_tag: Chandrasekharpur
 meta_title: Plumber in Chandrasekharpur & Damana | Mahapatra Plumbing
 meta_description: Plumber in Chandrasekharpur and Damana, based at District Center. Flat leaks, flush tanks, sump motors, drains. Call or WhatsApp +91 9668875352.
 primary_keyword: plumber in chandrasekharpur
-secondary_keywords: [plumber in damana, plumber in bhubaneswar]
+secondary_keywords: [plumber in damana]
 h1: Plumber in Chandrasekharpur, Bhubaneswar
-word_count: 898
+word_count: 899
 ---
 
 <!-- Hero. Accent colour on the word "Chandrasekharpur" in the H1. -->
@@ -27,7 +27,7 @@ Looking for a plumber in Chandrasekharpur? Mahapatra Plumbing Services is based 
 
 ## Why call a plumber based in Chandrasekharpur?
 
-Because we are your neighbours. Our base is at District Center, Chandrasekharpur, so the plumber does not cross the city to reach you. That makes it easier to book a short job, like a dripping tap, and to call us back if something needs a second look under the 90-day warranty. Tell us your lane or apartment name when you call.
+We are your neighbours. Our base is at District Center, Chandrasekharpur, so the plumber does not cross the city to reach you. That makes it easier to book a short job, like a dripping tap, and to call us back if a repair needs a second look under our 90-day workmanship warranty. Tell us your lane or apartment name when you call.
 
 ## What plumbing problems come up in Chandrasekharpur apartments?
 
@@ -135,7 +135,7 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",
@@ -246,7 +246,7 @@ It depends on the day's bookings. Call or WhatsApp +91 9668875352 between 8 AM a
       "name": "Plumber in Chandrasekharpur & Damana | Mahapatra Plumbing",
       "headline": "Plumber in Chandrasekharpur, Bhubaneswar",
       "description": "Plumber in Chandrasekharpur and Damana, based at District Center. Flat leaks, flush tanks, sump motors, drains. Call or WhatsApp +91 9668875352.",
-      "keywords": "plumber in chandrasekharpur, plumber in damana, plumber in bhubaneswar",
+      "keywords": "plumber in chandrasekharpur, plumber in damana",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },

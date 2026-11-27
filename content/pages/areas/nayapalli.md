@@ -4,11 +4,11 @@ page_type: locality
 whatsapp_prefill: "Hi, I need a quote for plumbing work in Nayapalli, Bhubaneswar [Page: Nayapalli]"
 page_tag: Nayapalli
 meta_title: Plumber in Nayapalli & IRC Village | Mahapatra Plumbing
-meta_description: Plumber in Nayapalli and IRC Village for choked drains, septic tanks, borewell pumps and bigger jobs. Call or WhatsApp +91 9668875352.
+meta_description: Plumber in Nayapalli and IRC Village for choked drains, septic tanks, borewell pipes and bigger jobs. Call or WhatsApp +91 9668875352.
 primary_keyword: plumber in nayapalli
 secondary_keywords: [plumber near irc village bhubaneswar]
 h1: Plumber in Nayapalli & IRC Village, Bhubaneswar
-word_count: 899
+word_count: 898
 ---
 
 <!-- Hero. Accent colour on the words "Nayapalli & IRC Village" in the H1. -->
@@ -17,7 +17,7 @@ word_count: 899
 
 [BREADCRUMB: Home > Nayapalli]
 
-Need a plumber in Nayapalli, or a plumber near IRC Village, Bhubaneswar? Mahapatra Plumbing Services clears choked drains, arranges septic tank cleaning, repairs borewell pumps and takes on bigger plumbing jobs in houses and apartments here. We are based at District Center, Chandrasekharpur. Call or WhatsApp +91 9668875352, open daily 8 AM to 10 PM.
+Need a plumber in Nayapalli, or a plumber near IRC Village, Bhubaneswar? Mahapatra Plumbing Services clears choked drains, arranges septic tank cleaning, fixes borewell pipes and pump lines, and takes on bigger plumbing jobs in houses and apartments here. We are based at District Center, Chandrasekharpur. Call or WhatsApp +91 9668875352, open daily 8 AM to 10 PM.
 
 [CTA: call+whatsapp | location=hero]
 
@@ -29,7 +29,7 @@ Need a plumber in Nayapalli, or a plumber near IRC Village, Bhubaneswar? Mahapat
 
 In Nayapalli and IRC Village, we handle drain and septic work: water leaving the house. That means choked bathroom drains, slow toilets, full septic tanks and outside lines that back up. Houses with their own borewell also call us when the pump gives less water or a joint leaks.
 
-In a house, water runs a chain: borewell, sump, overhead tank, bathrooms, then chambers to the septic tank. A fault at one point often shows up at another. We trace it first.
+In a house, water runs a chain: borewell, sump, overhead tank, bathrooms, then chambers to the septic tank. A fault at one point often shows up at another.
 
 - A slow toilet can mean a full septic tank, not a bad flush.
 - A floor trap that gurgles can point to a choked chamber outside.
@@ -49,9 +49,9 @@ A full tank needs [septic tank cleaning](/services/septic-tank-cleaning/). A bro
 
 ## Can you fix a borewell pump or pipe at my house in IRC Village?
 
-Yes, on existing borewells. Our team lifts and lowers the submersible pump, replace column pipes, fix leaking joints and the non-return valve, and repair the line to your sump or tank. You get a quote after inspection. The part price is shared before fitting.
+Yes, on existing borewells. Our team lifts and lowers the submersible pump, replaces column pipes, fixes leaking joints and the non-return valve, and repairs the line to your sump or tank. You get a quote after inspection. The part price is shared before fitting.
 
-For an electrical motor fault, we tell you if a motor mechanic or electrician is needed. See [borewell pump and pipe repair](/services/borewell-pump-and-pipe-repair/).
+Motor rewinding and electrical faults are referred to a motor mechanic or electrician. See [borewell pump and pipe repair](/services/borewell-pump-and-pipe-repair/).
 
 ## Plumbing services for Nayapalli and IRC Village
 
@@ -89,7 +89,7 @@ All rates: [plumbing rate card](/pricing/).
 ## Why choose Mahapatra Plumbing Services in Nayapalli
 
 - **One number for the whole drain path.** Floor trap, chamber, outside line and septic tank, checked by the same team.
-- **Bigger work quoted on site.** Free site visit and written estimate for renovation, new plumbing and sewerage work.
+- **Bigger work quoted on site.** Free site visit and written estimate for concealed pipeline, renovation, new plumbing, sewerage and commercial work.
 - **Rated 5.0★ on Google.** 45 reviews, 43 of them five-star.
 - **Cash, UPI or bank transfer.** GST invoice on request.
 
@@ -137,7 +137,7 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",
@@ -247,7 +247,7 @@ Open daily 8 AM – 10 PM. [Contact page](/contact/)
       "url": "https://mahapatraplumbing.in/areas/nayapalli/",
       "name": "Plumber in Nayapalli & IRC Village | Mahapatra Plumbing",
       "headline": "Plumber in Nayapalli & IRC Village, Bhubaneswar",
-      "description": "Plumber in Nayapalli and IRC Village for choked drains, septic tanks, borewell pumps and bigger jobs. Call or WhatsApp +91 9668875352.",
+      "description": "Plumber in Nayapalli and IRC Village for choked drains, septic tanks, borewell pipes and bigger jobs. Call or WhatsApp +91 9668875352.",
       "keywords": "plumber in nayapalli, plumber near irc village bhubaneswar",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"

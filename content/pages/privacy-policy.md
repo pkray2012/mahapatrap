@@ -108,6 +108,118 @@ Mahapatra Plumbing Services, District Center, Chandrasekharpur, Bhubaneswar, Odi
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Plumber",
+      "@id": "https://mahapatraplumbing.in/#business",
+      "name": "Mahapatra Plumbing Services",
+      "alternateName": "Mahapatra Plumbing",
+      "url": "https://mahapatraplumbing.in/",
+      "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
+      "image": "https://mahapatraplumbing.in/images/og-default.webp",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
+      "telephone": "+91-9668875352",
+      "email": "amareshmohapatra143@gmail.com",
+      "priceRange": "₹199–₹2,999+",
+      "currenciesAccepted": "INR",
+      "paymentAccepted": "Cash, UPI, Bank transfer",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "District Center, Chandrasekharpur",
+        "addressLocality": "Bhubaneswar",
+        "addressRegion": "Odisha",
+        "postalCode": "751016",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 20.3248238,
+        "longitude": 85.8196582
+      },
+      "hasMap": "https://www.google.com/maps?cid=4373818382391816251",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "08:00",
+          "closes": "22:00"
+        }
+      ],
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Chandrasekharpur, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Patia, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "KIIT, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Infocity, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Niladri Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Sailashree Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Jayadev Vihar, Bhubaneswar"
+        },
+        {
+          "@type": "Place",
+          "name": "Nayapalli, Bhubaneswar"
+        }
+      ],
+      "knowsAbout": [
+        "Leak and tap repair",
+        "Bathroom and kitchen fittings",
+        "Geyser installation and repair",
+        "Water tank and motor repair",
+        "Water tank and sump cleaning",
+        "Borewell pump and pipe repair",
+        "Concealed pipeline and CPVC plumbing",
+        "Drain cleaning and sewer jetting",
+        "Septic tank cleaning",
+        "Bathroom and kitchen plumbing renovation",
+        "New house and bathroom plumbing",
+        "Sewerage and drainage works",
+        "Commercial plumbing and maintenance contracts"
+      ],
+      "keywords": "plumber in bhubaneswar, plumbing services bhubaneswar, plumber near me, plumber in chandrasekharpur, septic tank cleaning bhubaneswar, bathroom renovation bhubaneswar, geyser repair bhubaneswar",
+      "sameAs": [
+        "https://www.google.com/maps?cid=4373818382391816251"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://mahapatraplumbing.in/#website",
+      "url": "https://mahapatraplumbing.in/",
+      "name": "Mahapatra Plumbing Services",
+      "inLanguage": "en-IN",
+      "publisher": {
+        "@id": "https://mahapatraplumbing.in/#business"
+      }
+    },
+    {
       "@type": "WebPage",
       "@id": "https://mahapatraplumbing.in/privacy-policy/#webpage",
       "url": "https://mahapatraplumbing.in/privacy-policy/",

@@ -4,16 +4,18 @@ page_type: service
 whatsapp_prefill: "Hi, I need a quote for Leak & Blockage Repair in Bhubaneswar [Page: Leak]"
 page_tag: Leak
 meta_title: Pipe Leak & Tap Repair in Bhubaneswar | Mahapatra Plumbing
-meta_description: Pipe leakage repair in Bhubaneswar for dripping taps, running flush tanks and toilet leaks. Minor fix from ₹249, 90-day warranty. Call +91 9668875352.
+meta_description: Pipe leakage repair in Bhubaneswar for dripping taps, running flushes and toilet leaks. Minor fix from ₹249, 90-day repair warranty. Call +91 9668875352.
 primary_keyword: pipe leakage repair in bhubaneswar
 secondary_keywords: [pipe leakage repair near me, tap repair, toilet repair, flush tank repair, toilet seat repair, water leakage, seepage in wall, how much does tap repair cost in bhubaneswar]
 h1: "Tap, Flush & Pipe Leak Repair in Bhubaneswar"
-word_count: 1298
+word_count: 1203
 ---
 
 # Tap, Flush & Pipe Leak Repair in Bhubaneswar
 
 [BREADCRUMB: Home > Leak & Blockage Repair]
+
+**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
 
 Mahapatra Plumbing Services in Chandrasekharpur offers pipe leakage repair in Bhubaneswar for dripping taps, running flush tanks, leaking toilets and loose fittings. A minor fix starts from ₹249. Tap, jet spray or flush kit fitting costs ₹299–₹799 plus parts. Call or WhatsApp +91 9668875352. We are open daily 8 AM to 10 PM.
 
@@ -43,14 +45,12 @@ Tap repair in Bhubaneswar with Mahapatra Plumbing Services starts from ₹249. T
 |---|---|
 | Minor fix (washer, small leak, loose fitting) | from ₹249 |
 | Tap / jet spray / flush kit install | ₹299–₹799 + parts |
-| Drain unclogging (sink / floor trap) | from ₹349 |
-| Toilet blockage removal | from ₹999 |
 | Concealed pipeline repair / reroute | Quote after free site visit + written estimate |
 
 Also good to know:
 
 - Visit charge ₹199–₹349, adjusted in the final bill if work goes ahead.
-- Late-night or early-morning visit: ₹300 extra.
+- Late-night or early-morning visit: ₹300 extra, on request, subject to availability.
 - We supply parts, or you can give us your own. Part price shared before fitting.
 - 90-day workmanship warranty on repair and installation. Not on blockage clearing.
 - Cash, UPI or bank transfer. GST invoice on request.
@@ -74,21 +74,13 @@ For a new toilet or wash basin, see our [bathroom and kitchen fittings](/service
 
 [IMAGE: flush-tank-repair-bhubaneswar.webp | alt="Plumber fitting a new flush kit inside a toilet flush tank in Bhubaneswar" | after flush tank section]
 
-## How do I find a hidden water leak at home?
+## Hidden leak inside a wall or floor?
 
-Close every tap in the house and switch off the motor. Note the water level in the overhead tank, then check it again after an hour or two. If the level drops with no tap open, there is a hidden water leakage somewhere. Next, look for damp patches, seepage in the wall or a wet floor near bathrooms.
+If a damp patch or seepage in the wall keeps coming back, or your overhead tank drops with every tap closed, the leak may be inside a wall or floor. Our [concealed pipe leakage repair](/services/pipeline-and-concealed-plumbing/) service finds and fixes it, with a free site visit and written estimate.
 
-Signs of a hidden leak:
+## Why is my toilet leaking at the base?
 
-- **Damp patches or seepage:** Wet marks or peeling paint on a wall next to a bathroom or kitchen.
-- **Wet floor tiles:** Tiles that stay damp, or water coming up through the joints.
-- **Sound of running water:** Water flowing when every tap is closed.
-
-We check the taps, joints and fittings you can see. If the leak looks to be inside a wall or floor, we tell you. Our [concealed pipeline repair](/services/pipeline-and-concealed-plumbing/) service handles it, with a free site visit and written estimate. We open only the part of the wall or floor needed, and test before closing it.
-
-## Toilet repair: leaks around the pan and loose seats
-
-Water around the base of a western toilet usually means the pan connection or its seal has failed. It can also come from a leaking flush pipe or angle valve. We find which joint is leaking and reseal or replace it.
+Water around the base of a western toilet usually means the pan connection or its seal has failed. It can also come from a leaking flush pipe or angle valve. Mahapatra Plumbing Services finds which joint is leaking and reseals or replaces it. This toilet repair starts from ₹249 as a minor fix.
 
 For a loose or broken toilet seat, toilet seat repair is often a quick fix. We tighten the hinges or fit a new seat cover. The seat cover is a part, so its price is shared before fitting.
 
@@ -112,22 +104,6 @@ Looking for pipe leakage repair near me around Chandrasekharpur? Call or send a 
 
 ## Leak repair FAQs
 
-### How much does tap repair cost in Bhubaneswar?
-
-At Mahapatra Plumbing Services, tap repair starts from ₹249 for a minor fix like a new washer or a tightened joint. If the tap needs replacing, fitting costs ₹299–₹799 plus the tap. We share the part price before fitting. You get a written estimate before work starts. Call or WhatsApp +91 9668875352.
-
-### Why is my flush tank running all the time?
-
-A flush tank usually keeps running for one of three reasons. The outlet seal is worn, the float is set too high or the inlet valve does not shut. Water then flows into the pan all the time. We check the tank and replace the worn part or the flush kit. Flush kit fitting costs ₹299–₹799 plus parts.
-
-### How do I find a hidden water leak at home?
-
-Close all taps and switch off the motor. Note the overhead tank level, then check it again after an hour or two. If it has dropped, there is a hidden leak. Look for damp patches, seepage on walls, wet floor tiles or the sound of running water. Then call us to check the visible joints and fittings.
-
-### Why is there water around the base of my toilet?
-
-Water around the base of a toilet usually comes from a failed pan connection or seal. It can also come from a leaking flush pipe, angle valve or tank seal. We find the leaking joint and reseal or replace it. Minor fixes start from ₹249.
-
 ### Should I repair a dripping tap or replace it?
 
 Repair the tap if the drip comes from a worn washer or a loose joint. That is a minor fix from ₹249. Replace it if the body is cracked, the handle is stiff or it keeps leaking after repairs. We tell you which makes sense. We supply the new tap or fit one you bought.
@@ -135,6 +111,22 @@ Repair the tap if the drip comes from a worn washer or a loose joint. That is a 
 ### Is a small water leakage worth fixing quickly?
 
 Yes. A dripping tap or running flush wastes water every hour. A leak near a wall can cause seepage and peeling paint over time. Fixing it early is usually a minor job. Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352 with a photo.
+
+### Why is my commode leaking?
+
+A leaking commode (western toilet) usually has a worn flush valve seal, a loose inlet connection or a failed pan connector at the base. Water running into the pan points to the flush tank. Water on the floor points to the pan connection. We find the leaking joint and fix it. Minor fixes start from ₹249.
+
+### Can you fix a leaking jet spray or health faucet?
+
+Yes. A jet spray usually leaks at the hose, the holder or the angle valve behind it. We tighten or replace the hose or valve. A minor fix starts from ₹249, and a new jet spray set is fitted for ₹299–₹799 plus parts. We share the part price before fitting.
+
+### Can you repair a loose or broken toilet seat?
+
+Yes. A loose seat usually needs its hinge bolts tightened or replaced. A cracked seat needs a new seat cover. Toilet seat repair is a minor fix from ₹249. The new seat cover is a part, so we share its price before fitting. Send a photo of the seat on WhatsApp first.
+
+### Can you fix a kitchen sink that leaks from underneath?
+
+Yes. A leak under a kitchen sink usually comes from a loose waste coupling, a cracked waste pipe or a worn tap connector. Mahapatra Plumbing Services finds the source and fixes it. A minor fix starts from ₹249 for labour. If a part needs changing, we tell you the part price before fitting.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -155,7 +147,7 @@ Tell us what is leaking and your area. Call or WhatsApp +91 9668875352, or see a
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",
@@ -265,7 +257,7 @@ Tell us what is leaking and your area. Call or WhatsApp +91 9668875352, or see a
       "url": "https://mahapatraplumbing.in/services/leak-and-blockage-repair/",
       "name": "Pipe Leak & Tap Repair in Bhubaneswar | Mahapatra Plumbing",
       "headline": "Tap, Flush & Pipe Leak Repair in Bhubaneswar",
-      "description": "Pipe leakage repair in Bhubaneswar for dripping taps, running flush tanks and toilet leaks. Minor fix from ₹249, 90-day warranty. Call +91 9668875352.",
+      "description": "Pipe leakage repair in Bhubaneswar for dripping taps, running flushes and toilet leaks. Minor fix from ₹249, 90-day repair warranty. Call +91 9668875352.",
       "keywords": "pipe leakage repair near me, pipe leakage repair in bhubaneswar, tap repair, toilet repair, flush tank repair, toilet seat repair, water leakage",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
@@ -328,38 +320,6 @@ Tell us what is leaking and your area. Call or WhatsApp +91 9668875352, or see a
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How much does tap repair cost in Bhubaneswar?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "At Mahapatra Plumbing Services, tap repair starts from ₹249 for a minor fix like a new washer or a tightened joint. If the tap needs replacing, fitting costs ₹299–₹799 plus the tap. We share the part price before fitting. You get a written estimate before work starts. Call or WhatsApp +91 9668875352."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is my flush tank running all the time?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "A flush tank usually keeps running for one of three reasons. The outlet seal is worn, the float is set too high or the inlet valve does not shut. Water then flows into the pan all the time. We check the tank and replace the worn part or the flush kit. Flush kit fitting costs ₹299–₹799 plus parts."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How do I find a hidden water leak at home?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Close all taps and switch off the motor. Note the overhead tank level, then check it again after an hour or two. If it has dropped, there is a hidden leak. Look for damp patches, seepage on walls, wet floor tiles or the sound of running water. Then call us to check the visible joints and fittings."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Why is there water around the base of my toilet?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Water around the base of a toilet usually comes from a failed pan connection or seal. It can also come from a leaking flush pipe, angle valve or tank seal. We find the leaking joint and reseal or replace it. Minor fixes start from ₹249."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Should I repair a dripping tap or replace it?",
           "acceptedAnswer": {
             "@type": "Answer",
@@ -372,6 +332,38 @@ Tell us what is leaking and your area. Call or WhatsApp +91 9668875352, or see a
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes. A dripping tap or running flush wastes water every hour. A leak near a wall can cause seepage and peeling paint over time. Fixing it early is usually a minor job. Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352 with a photo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my commode leaking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A leaking commode (western toilet) usually has a worn flush valve seal, a loose inlet connection or a failed pan connector at the base. Water running into the pan points to the flush tank. Water on the floor points to the pan connection. We find the leaking joint and fix it. Minor fixes start from ₹249."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you fix a leaking jet spray or health faucet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A jet spray usually leaks at the hose, the holder or the angle valve behind it. We tighten or replace the hose or valve. A minor fix starts from ₹249, and a new jet spray set is fitted for ₹299–₹799 plus parts. We share the part price before fitting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you repair a loose or broken toilet seat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A loose seat usually needs its hinge bolts tightened or replaced. A cracked seat needs a new seat cover. Toilet seat repair is a minor fix from ₹249. The new seat cover is a part, so we share its price before fitting. Send a photo of the seat on WhatsApp first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you fix a kitchen sink that leaks from underneath?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A leak under a kitchen sink usually comes from a loose waste coupling, a cracked waste pipe or a worn tap connector. Mahapatra Plumbing Services finds the source and fixes it. A minor fix starts from ₹249 for labour. If a part needs changing, we tell you the part price before fitting."
           }
         }
       ]
@@ -399,10 +391,10 @@ Tell us what is leaking and your area. Call or WhatsApp +91 9668875352, or see a
 ```
 
 ## Facts to confirm
-- Leak detection method: the copy says we check visible taps, joints and fittings and tell the customer if the leak looks to be inside a wall or floor. Confirm how the team finds hidden leaks, and whether any leak-detection equipment is used (none is claimed on the page).
+- Hidden leaks now point to the concealed pipeline page (owner of the hidden-leak question). Confirm whether any leak-detection equipment is used there (none is claimed).
 - Confirm the team retests the repaired joint, tap or flush before leaving (used in the "Why choose" block and the flush tank answer).
 - Toilet seat repair: confirm the team tightens hinges and fits new seat covers, and that this is billed as a minor fix (from ₹249) plus the seat price.
-- Toilet base leaks: confirm the team reseals or replaces western toilet pan connections and seals, and whether this is a minor fix or quoted separately.
+- Toilet base and commode leaks: confirm the team reseals or replaces western toilet pan connections and seals as a minor fix (the page and FAQs say "from ₹249").
 - Hard-water deposits in taps, jet sprays and showers: confirm cleaning or replacing aerators and shower heads is covered under the minor fix.
 - Does the team do any waterproofing or seepage treatment on walls? The page only mentions seepage as a sign of a leak and does not offer waterproofing.
 - Real job photos needed for the 3 image slots (tap washer repair in a flat, flush kit fitting, toilet pan reseal in Patia).

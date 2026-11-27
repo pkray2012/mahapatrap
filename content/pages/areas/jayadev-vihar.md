@@ -8,7 +8,7 @@ meta_description: Plumber in Jayadev Vihar and Saheed Nagar for shops, offices a
 primary_keyword: plumber in jayadev vihar
 secondary_keywords: [plumber in saheed nagar]
 h1: Plumber in Jayadev Vihar & Saheed Nagar, Bhubaneswar
-word_count: 882
+word_count: 893
 ---
 
 # Plumber in Jayadev Vihar & Saheed Nagar, Bhubaneswar
@@ -49,7 +49,7 @@ Bought the geyser from a local shop? We fit it with your connection pipes or our
 
 ## Which fittings can you change in a shop or home?
 
-We change taps, mixers, showers, jet sprays, flush kits, wash basins, sinks and angle valves. Tap, jet spray and flush kit fitting costs ₹299–₹799 plus parts. We bring parts, or fit the ones you bought yourself. You get the part price before fitting, and the work carries a 90-day workmanship warranty.
+We change taps, mixers, showers, jet sprays, flush kits, wash basins, sinks and angle valves. Tap, jet spray and flush kit fitting costs ₹299–₹799 plus parts. We bring parts, or fit the ones you bought yourself. You get the part price before fitting, and the fitting work carries our 90-day workmanship warranty on installation and repair jobs.
 
 ## Plumbing services in Jayadev Vihar and Saheed Nagar
 
@@ -109,7 +109,7 @@ Yes. As a plumber in Saheed Nagar and Jayadev Vihar, we take repairs, fittings a
 
 ### Can you work in my shop's washroom during trading hours?
 
-Yes, for most small jobs. Flush kits, taps and basin waste pipes can usually be changed without closing the shop. If a job needs the water off for longer, we tell you first so you can pick a quieter time. Our hours are 8 AM to 10 PM daily. Visits outside them are on request, at extra charge.
+Yes, for most small jobs. Flush kits, taps and basin waste pipes can usually be changed without closing the shop. If a job needs the water off for longer, we tell you first so you can pick a quieter time. Our hours are 8 AM to 10 PM daily. Late-night and early-morning visits are on request, subject to availability (extra charge may apply).
 
 ### Do you look after plumbing for a whole commercial building?
 
@@ -134,7 +134,7 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",
@@ -284,7 +284,7 @@ Yes. A leak at the inlet or outlet joint is a plumbing fault, and we fix it. The
           "name": "Can you work in my shop's washroom during trading hours?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, for most small jobs. Flush kits, taps and basin waste pipes can usually be changed without closing the shop. If a job needs the water off for longer, we tell you first so you can pick a quieter time. Our hours are 8 AM to 10 PM daily. Visits outside them are on request, at extra charge."
+            "text": "Yes, for most small jobs. Flush kits, taps and basin waste pipes can usually be changed without closing the shop. If a job needs the water off for longer, we tell you first so you can pick a quieter time. Our hours are 8 AM to 10 PM daily. Late-night and early-morning visits are on request, subject to availability (extra charge may apply)."
           }
         },
         {

@@ -8,12 +8,14 @@ meta_description: Water tank cleaning in Bhubaneswar for overhead tanks, undergr
 primary_keyword: water tank cleaning bhubaneswar
 secondary_keywords: [water tank cleaning services near me, water tank cleaning services, sump cleaning, overhead tank cleaning, underground sump cleaning, apartment water tank cleaning]
 h1: Water Tank & Sump Cleaning in Bhubaneswar
-word_count: 1137
+word_count: 1168
 ---
 
 # Water Tank & Sump Cleaning in Bhubaneswar
 
 [BREADCRUMB: Home > Water Tank & Sump Cleaning]
+
+**5.0★ from 45 Google reviews** · **Call or WhatsApp +91 9668875352** · **Open daily 8 AM – 10 PM** · **Written estimate before work starts**
 
 Mahapatra Plumbing Services offers water tank cleaning in Bhubaneswar for overhead tanks, underground sumps and apartment tanks. We cover homes, flats, hostels, offices and shops anywhere in the city. Call or WhatsApp us for a quote on +91 9668875352. We are open daily, 8 AM to 10 PM.
 
@@ -21,9 +23,9 @@ Mahapatra Plumbing Services offers water tank cleaning in Bhubaneswar for overhe
 
 [IMAGE: water-tank-cleaning-bhubaneswar.webp | alt="Overhead water tank on the roof of a house booked for water tank cleaning in Bhubaneswar" | hero]
 
-## How do I book water tank cleaning for an apartment?
+## Booking for an apartment, hostel or office
 
-Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352. Share the number of sumps and overhead tanks, their rough size and where they sit. Pick a day that suits the residents, because every flat shares the same tanks. Call or WhatsApp us for a quote.
+Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352. Share the number of sumps and overhead tanks, their rough size and where they sit. Pick a day that suits the residents, because every flat shares the same tanks.
 
 Share these details when you book:
 
@@ -52,18 +54,24 @@ The main signs are muddy or yellowish water, a bad smell from the taps, and sand
 
 Sand can also block a jet spray or shower head. Yellow or reddish water can also come from iron in borewell water or from old pipes. If the water stays coloured after the tanks are cleaned, ask us to check the pipeline.
 
-## Tanks we cover
+## Water tank cleaning at a glance
 
 [IMAGE: underground-sump-cleaning-bhubaneswar.webp | alt="Open underground sump lid in a house courtyard before sump cleaning in Bhubaneswar" | inline, after this heading]
 
-- **Overhead tanks.** Plastic and concrete tanks on the roof.
-- **Underground sumps.** Concrete sumps under the parking, courtyard or staircase.
-- **Apartment tanks.** Large shared sumps and several overhead tanks in apartment blocks.
-- **Business tanks.** Hostels, PGs, hotels, offices, shops and restaurants.
+| | |
+|---|---|
+| Tanks we clean | Plastic and concrete overhead tanks, underground concrete sumps, and shared apartment tanks |
+| Who books it | Homes, flats, apartment societies, hostels, PGs, hotels, offices, shops and restaurants |
+| Where | Anywhere in Bhubaneswar, from our base at District Center, Chandrasekharpur |
+| How to book | Call or WhatsApp +91 9668875352 with the number, size and location of your tanks, plus a photo of each lid |
+| Price | Shared after you send the tank details; written estimate before work starts |
+| Booking hours | Open daily 8 AM – 10 PM |
+| Payment | Cash, UPI or bank transfer; GST invoice on request |
+| Warranty | Our 90-day workmanship warranty covers installation and repair jobs, not cleaning |
 
 ## Can you clean the underground sump and overhead tank together?
 
-Yes. You can book underground sump cleaning and overhead tank cleaning together. Tell us how many tanks you have and where they sit. Call or WhatsApp us for a quote. The time depends on the job, and we tell you the expected time when you book.
+Yes. You can book underground sump cleaning and overhead tank cleaning together. Tell us how many tanks you have and where they sit. You get one written estimate for all of them. The time depends on the job, and we tell you the expected time when you book.
 
 The sump feeds the overhead tank through the motor. A dirty sump can send dirt straight back into a clean overhead tank.
 
@@ -98,25 +106,21 @@ We offer water tank cleaning anywhere in Bhubaneswar, including Chandrasekharpur
 
 ## Water tank cleaning FAQs
 
-### What details should I share when booking water tank cleaning?
-
-Share the number of tanks, the size of each tank and where it sits, on the roof or underground. Tell us if a lid is under tiles or hard to open. A photo of each tank and lid on WhatsApp helps. Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352 for a quote.
-
-### How often should a water tank be cleaned?
-
-Most homes in Bhubaneswar should get the overhead tank and sump cleaned at least twice a year. Clean them sooner if the water turns muddy, smells, or leaves sand in buckets. Clean after the monsoon too, because rainwater and mud can enter a sump with a loose lid.
-
-### Can you clean the underground sump and overhead tank together?
-
-Yes. You can book sump cleaning and overhead tank cleaning together in a single booking. Tell us how many tanks you have and where they are. Call or WhatsApp us for a quote. The time depends on the job, and we tell you the expected time when you book.
-
 ### Do you clean water tanks for apartments and hostels?
 
-Yes. We offer water tank cleaning for apartments, hostels, PGs, hotels, offices and shops anywhere in Bhubaneswar. Share the number of sumps and overhead tanks, their rough size and a day that suits the residents. Call or WhatsApp us for a quote. For regular building plumbing, ask about our commercial plumbing services.
+Yes. We offer water tank cleaning for apartments, hostels, PGs, hotels, offices and shops anywhere in Bhubaneswar. Share the number of sumps and overhead tanks, their rough size and a day that suits the residents. You get a written estimate before work starts. For regular building plumbing, ask about our commercial plumbing services.
 
-### Why does the water from my tank look muddy or smell bad?
+### Should I clean the sump after muddy supply water or borewell sand?
 
-Muddy water usually means sand and silt have settled in the sump or overhead tank. A bad smell often comes from slime growing on the tank walls or a loose lid letting in dirt. Cleaning the tank usually helps. If the water stays coloured after cleaning, the pipes may need a check.
+Yes, once the supply runs clear again. Silt settles at the bottom of the sump and is pushed back up each time the motor runs. Clean the sump and the overhead tank together, so dirt is not pumped back into a clean tank. Call or WhatsApp +91 9668875352 with the number and size of your tanks.
+
+### How do I keep my water tank clean for longer?
+
+Keep every lid closed and fix a broken lid quickly. Clean the sump and the overhead tank together. Repair overflow and leaking pipes, so dirt and insects cannot enter. Book a cleaning after the monsoon, and sooner if the water turns muddy, smells or leaves sand in the bucket.
+
+### Can you also fix a stuck float valve or leaking tank pipe?
+
+Yes. A stuck float valve, a dripping outlet valve or a loose overflow pipe is a repair job, not part of the cleaning. Tell us about it when you book, so we can check it during the same booking. Repairs are quoted separately, and the part price is shared before fitting.
 
 ### Do you clean plastic water tanks as well as concrete sumps?
 
@@ -137,7 +141,7 @@ Yes. We cover plastic overhead tanks, concrete overhead tanks and concrete under
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",
@@ -285,42 +289,34 @@ Yes. We cover plastic overhead tanks, concrete overhead tanks and concrete under
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "What details should I share when booking water tank cleaning?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Share the number of tanks, the size of each tank and where it sits, on the roof or underground. Tell us if a lid is under tiles or hard to open. A photo of each tank and lid on WhatsApp helps. Call or WhatsApp Mahapatra Plumbing Services on +91 9668875352 for a quote."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How often should a water tank be cleaned?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most homes in Bhubaneswar should get the overhead tank and sump cleaned at least twice a year. Clean them sooner if the water turns muddy, smells, or leaves sand in buckets. Clean after the monsoon too, because rainwater and mud can enter a sump with a loose lid."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Can you clean the underground sump and overhead tank together?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. You can book sump cleaning and overhead tank cleaning together in a single booking. Tell us how many tanks you have and where they are. Call or WhatsApp us for a quote. The time depends on the job, and we tell you the expected time when you book."
-          }
-        },
-        {
-          "@type": "Question",
           "name": "Do you clean water tanks for apartments and hostels?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We offer water tank cleaning for apartments, hostels, PGs, hotels, offices and shops anywhere in Bhubaneswar. Share the number of sumps and overhead tanks, their rough size and a day that suits the residents. Call or WhatsApp us for a quote. For regular building plumbing, ask about our commercial plumbing services."
+            "text": "Yes. We offer water tank cleaning for apartments, hostels, PGs, hotels, offices and shops anywhere in Bhubaneswar. Share the number of sumps and overhead tanks, their rough size and a day that suits the residents. You get a written estimate before work starts. For regular building plumbing, ask about our commercial plumbing services."
           }
         },
         {
           "@type": "Question",
-          "name": "Why does the water from my tank look muddy or smell bad?",
+          "name": "Should I clean the sump after muddy supply water or borewell sand?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Muddy water usually means sand and silt have settled in the sump or overhead tank. A bad smell often comes from slime growing on the tank walls or a loose lid letting in dirt. Cleaning the tank usually helps. If the water stays coloured after cleaning, the pipes may need a check."
+            "text": "Yes, once the supply runs clear again. Silt settles at the bottom of the sump and is pushed back up each time the motor runs. Clean the sump and the overhead tank together, so dirt is not pumped back into a clean tank. Call or WhatsApp +91 9668875352 with the number and size of your tanks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I keep my water tank clean for longer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Keep every lid closed and fix a broken lid quickly. Clean the sump and the overhead tank together. Repair overflow and leaking pipes, so dirt and insects cannot enter. Book a cleaning after the monsoon, and sooner if the water turns muddy, smells or leaves sand in the bucket."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you also fix a stuck float valve or leaking tank pipe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A stuck float valve, a dripping outlet valve or a loose overflow pipe is a repair job, not part of the cleaning. Tell us about it when you book, so we can check it during the same booking. Repairs are quoted separately, and the part price is shared before fitting."
           }
         },
         {
@@ -361,4 +357,4 @@ Yes. We cover plastic overhead tanks, concrete overhead tanks and concrete under
 - The recommended cleaning interval. The page says "at least twice a year" for homes (common general guidance); confirm or change.
 - Whether customers should store water before the cleaning (the prep list asks them to keep some in buckets). The page states no duration.
 - Whether apartment and commercial bookings can be scheduled around water supply timings or on specific days (the page only asks customers to suggest a day that suits residents).
-- Spec deviations: the page-specs cost question "How much does water tank cleaning cost in Bhubaneswar?" was replaced (per owner) with "How do I book water tank cleaning for an apartment?" (H2) and "What details should I share when booking water tank cleaning?" (FAQ). Page-specs also asks for "Can you clean the underground sump and overhead tank in one visit?", but "in one visit" is a banned phrase in content-brief.md. The question is phrased as "...together?" instead.
+- Spec deviations: by owner rule there is no cost H2 or cost FAQ on this page. Booking details sit in the non-question H2 "Booking for an apartment, hostel or office" and the "at a glance" table. Page-specs asks for "...in one visit?", a banned phrase; the H2 uses "...together?" instead.

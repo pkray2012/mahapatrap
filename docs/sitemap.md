@@ -14,9 +14,9 @@ Full keyword matrix (76 keywords, one primary keyword per page): https://claude.
 | /services/new-bathroom-and-house-plumbing/ | New Bathroom & House Plumbing | Big work | new house plumbing work | High |
 | /services/sewerage-and-drainage-works/ | Sewerage & Drainage Works | Big work | sewerage work contractor bhubaneswar | Medium |
 | /services/commercial-plumbing/ | Commercial Plumbing (hotels, offices, hostels, shops) | Big work | commercial plumbing bhubaneswar | High |
-| /services/geyser-installation-and-repair/ | Geyser Installation & Repair | Repair | geyser repair near me | High |
+| /services/geyser-installation-and-repair/ | Geyser Installation & Repair | Repair | geyser repair in bhubaneswar | High |
 | /services/drain-cleaning-and-sewer-jetting/ | Drain Cleaning & Sewer Jetting | Repair | drain cleaning bhubaneswar | High |
-| /services/leak-and-blockage-repair/ | Leak & Blockage Repair | Repair | pipe leakage repair near me | High |
+| /services/leak-and-blockage-repair/ | Leak & Blockage Repair | Repair | pipe leakage repair in bhubaneswar | High |
 | /services/bathroom-and-kitchen-fittings/ | Bathroom & Kitchen Fittings | Repair | bathroom fitting plumber near me | Medium |
 | /services/water-tank-and-motor-repair/ | Water Tank & Motor Repair | Repair | water motor repair near me | Medium |
 | /services/pipeline-and-concealed-plumbing/ | Pipeline & Concealed Plumbing | Repair | concealed pipe leakage repair | Medium |
@@ -39,7 +39,7 @@ Rules
 - Locality pages target "plumber in {area}" for small repair works near Chandrasekharpur and link to service pages. Big-work pages say "all of Bhubaneswar".
 - Areas = exactly the areas listed on the current website (Chandrasekharpur, Patia, Niladri Vihar, Sailashree Vihar, KIIT, Infocity, Jayadev Vihar, Nayapalli) + "Entire Bhubaneswar" for big works. Madanpur is not used.
 - Commercial Plumbing added 27 Nov 2026 (India: 'commercial plumbing' 140/mo, 'commercial plumbing services' 50/mo; Bhubaneswar volume not measurable). New-house page also targets 'house plumbing work' (India 590/mo) and 'plumbing contractor' (India 590/mo). 26 pages total after 27 Nov keyword research (water tank cleaning + borewell added).
-- Septic tank cleaning was added as a 10th service page after research (~490 searches/month, low difficulty).
+- Septic tank cleaning was added as a service page after research (~490 searches/month, low difficulty). Current totals: 13 service pages, 8 area pages, 26 pages (incl. home, pricing, about, contact, privacy).
 
 ## Service area wording (confirmed 27 Nov 2026)
 - Every page states: "Serving all of Bhubaneswar". Area pages and the home areas list name the 8 areas above, then "and all of Bhubaneswar".
@@ -62,8 +62,8 @@ AEO (answer engines, Google AI Overviews)
 - ₹ price table for that service from the rate card
 - 5–6 FAQs per page + FAQPage schema
 GEO (generative engines: ChatGPT, Gemini, Perplexity)
-- Same entity facts on every page: Mahapatra Plumbing Services · District Center, Chandrasekharpur, Bhubaneswar 751016 · +91 9668875352 · Mon–Sun 8 AM–10 PM · 5.0★ (45 Google reviews) · 90-day workmanship warranty
-- Concrete proof: prices, warranty, materials (CPVC/UPVC/PPR), areas, typical job times; no vague claims
+- Same entity facts on every page: Mahapatra Plumbing Services · District Center, Chandrasekharpur, Bhubaneswar 751016 · +91 9668875352 · Mon–Sun 8 AM–10 PM · 5.0★ (45 Google reviews) · 90-day workmanship warranty on installation and repair jobs
+- Concrete proof: prices, warranty scope, materials (CPVC/UPVC/PPR), areas; no vague claims. Never state job durations (owner rule): "depends on the job; we tell you the expected time with the estimate"
 - Plumber + Service + FAQPage + BreadcrumbList JSON-LD; crawlable HTML tables (no images of text)
 - Before deploy: keyword volume check + independent sub-agent audit of SEO, AEO and GEO for every page
 - 27 Nov 2026 keyword research (`docs/research/2026-11-27-keyword-universe.md`), owner answers: water tank/sump cleaning YES (own page), borewell pump and pipe work YES (own page, no drilling), washing machine inlet/drain fitting YES (section on fittings page), solar water heater NO, gas pipeline NO, Rasulgarh/Baramunda area pages NO, plumbing rate per point NO price shown.

@@ -1,4 +1,4 @@
-# Page specs for the remaining 21 pages (Phase 2)
+# Page specs for all 26 pages (Phase 2; synced to the pages after the round 2 audits, 27 Nov 2026)
 
 Each writer reads `content-brief.md` first, then its own entry here. Already written (use as style reference, do not duplicate their questions): `content/pages/home.md`, `pricing.md`, `septic-tank-cleaning.md`, `bathroom-plumbing-renovation.md`, `geyser-installation-and-repair.md`.
 
@@ -10,13 +10,13 @@ Title rule: ≤60 characters, ends "| Mahapatra Plumbing" (or "| Mahapatra Plumb
 - url /about/ · page_type about · page_tag About · file content/pages/about.md
 - primary: plumbing company in bhubaneswar · secondary: plumber in chandrasekharpur, mahapatra plumbing services
 - H1: About Mahapatra Plumbing Services, Chandrasekharpur
-- Content: who we are (local team based at District Center, Chandrasekharpur), what we do (10 services, small repairs and bigger jobs), how we work (written estimate first, part price shared before fitting, 90-day warranty on installation and repair jobs, cash/UPI/bank transfer, GST invoice on request), who we work for (homes, flats, hostels/PGs, shops, offices, builders), areas, Google rating 5.0★ (45 reviews) with link to the Google Maps listing. No owner name, years, team size or history (not confirmed). 500–800 words. JSON-LD: Plumber, WebSite, AboutPage (instead of WebPage, with keywords), BreadcrumbList. 3–4 FAQs owned by About ("Where is Mahapatra Plumbing Services located?", "Do you have a shop I can visit?" → answer: our base is District Center, Chandrasekharpur; we work on site; call before visiting) — add "do you have a shop" to Facts to confirm.
+- Content: who we are (local team based at District Center, Chandrasekharpur) plus an "at a glance" fact table (base, phone, hours, areas, rating, visit charge, warranty scope, languages), what we do (13 services, small repairs and bigger jobs), how we work (written estimate first, part price shared before fitting, 90-day warranty on installation and repair jobs, cash/UPI/bank transfer, GST invoice on request), who we work for (homes, flats, hostels/PGs, shops, offices, builders), areas, Google rating 5.0★ (45 reviews) with link to the Google Maps listing. No owner name, years, team size or history (not confirmed). 500–800 words. JSON-LD: Plumber, WebSite, AboutPage (instead of WebPage, with keywords), BreadcrumbList. 3–4 FAQs owned by About (small and big jobs, languages on calls, same business as "Mahapatra Plumbing", where to read reviews). Location and "can I visit" are owned by Contact (no walk-ins: call or WhatsApp first, we come to you).
 
 ### contact
 - url /contact/ · page_type contact · page_tag Contact · file content/pages/contact.md
 - primary: plumber bhubaneswar contact number · secondary: plumber near me contact number, mahapatra plumbing contact
 - H1: Contact Mahapatra Plumbing Services
-- Content: phone/WhatsApp (tap to call), email (mailto), address, hours + late-night wording, [FORM: book_visit] (cta_location=book_visit_form, Form template from tracking-plan.md, consent line, unticked ad checkbox), [MAP: google-maps-listing] with "Get directions" link https://www.google.com/maps?cid=4373818382391816251, what to send on WhatsApp (photo/video, area). 300–500 words. JSON-LD: Plumber, WebSite, ContactPage (keywords), BreadcrumbList. 3 FAQs owned by Contact (best way to reach, what details to send, can I send photos).
+- Content: phone/WhatsApp (tap to call), email (mailto), address, hours + late-night wording, [FORM: book_visit] (cta_location=book_visit_form, Form template from tracking-plan.md, consent line, unticked ad checkbox), [MAP: google-maps-listing] with "Get directions" link https://www.google.com/maps?cid=4373818382391816251, what to send on WhatsApp (photo/video, area). 300–500 words. JSON-LD: Plumber, WebSite, ContactPage (keywords), BreadcrumbList. 3 FAQs owned by Contact (best way to reach, booking for someone else, can I send photos). "What details to share when booking" is owned by Home.
 
 ### privacy-policy
 - url /privacy-policy/ · page_type legal · page_tag Privacy · file content/pages/privacy-policy.md
@@ -29,7 +29,7 @@ Title rule: ≤60 characters, ends "| Mahapatra Plumbing" (or "| Mahapatra Plumb
 - url /services/new-bathroom-and-house-plumbing/ · page_tag NewHouse
 - primary: new house plumbing work · secondary: house plumbing work, plumbing contractor (in Bhubaneswar), plumbing contractors in bhubaneswar, plumbing contractor near me (once), plumbing work in house construction, new building plumbing work, bathroom house plumbing work, new bathroom plumbing, residential plumbing contractor; AEO: house plumbing work cost (answer what decides the cost, no number)
 - H1: New House & Bathroom Plumbing Work in Bhubaneswar
-- Scope: full plumbing for new houses, new floors, new bathrooms and kitchens: water supply lines (CPVC/UPVC/PPR), drainage lines, overhead tank and sump connections, motor line, fitting points, leak test before tiling/plaster; for homeowners and builders. Quote after free site visit; no price. Do not claim civil work or drawings. Questions: "How much does plumbing cost for a new house in Bhubaneswar?" (no number; what decides it), "When should the plumber start in a new construction?", "Which pipes are better for a new house: CPVC, UPVC or PPR?". Links: renovation, pipeline-and-concealed-plumbing, water-tank-and-motor-repair, sewerage-and-drainage-works, contact.
+- Scope: full plumbing for new houses, new floors, new bathrooms and kitchens: water supply lines (CPVC/UPVC/PPR), drainage lines, overhead tank and sump connections, motor line, fitting points, leak test before tiling/plaster; for homeowners and builders. Quote after free site visit; no price. Civil work: "We can also handle the tiling, plaster or civil work, after discussing it with you." Do not claim drawings. Questions: "How much does plumbing cost for a new house in Bhubaneswar?" (no number; what decides it), "When should the plumber start in a new construction?", "Which pipes are better for a new house: CPVC, UPVC or PPR?". Links: renovation, pipeline-and-concealed-plumbing, water-tank-and-motor-repair, sewerage-and-drainage-works, contact.
 
 ### sewerage-and-drainage-works
 - url /services/sewerage-and-drainage-works/ · page_tag Sewerage
@@ -41,7 +41,7 @@ Title rule: ≤60 characters, ends "| Mahapatra Plumbing" (or "| Mahapatra Plumb
 - url /services/commercial-plumbing/ · page_tag Commercial · file content/pages/commercial-plumbing.md
 - primary: commercial plumbing bhubaneswar · secondary: commercial plumbing services, commercial plumbing near me (once), commercial plumbing work, plumbing maintenance contract, hotel plumbing services, office plumbing services, hostel and PG plumbing, apartment plumbing maintenance; AEO: how much does commercial plumbing cost (no number; what decides it)
 - H1: Commercial Plumbing in Bhubaneswar: Hotels, Offices, Hostels & Shops
-- Scope: plumbing for businesses anywhere in Bhubaneswar — hotels and guest houses, offices (Infocity), hostels and PGs (KIIT/Patia), shops, restaurants and cafes, apartment societies, small commercial buildings. Work: urgent repairs (leaks, blocked toilets and drains, flush and tap faults across many washrooms), overhead tank/sump and motor lines, geyser fitting in rooms, pantry and kitchen lines, new lines and washroom fit-outs, regular maintenance visits. AMC: homes from ₹999 per quarter (rate card); commercial AMC quoted after a free site visit based on number of washrooms/floors. GST invoice on request. Work timed around business hours where possible; late-night visits on request (+₹300) — link to /pricing/ rather than restating. Do not claim client names, numbers of buildings, response times or dedicated teams. Questions: "How much does commercial plumbing cost in Bhubaneswar?", "Do you offer plumbing maintenance contracts (AMC) for hotels and offices?", "Can you work around our business hours?". Links: drain-cleaning, new-bathroom-and-house-plumbing, water-tank-and-motor-repair, areas/infocity, areas/kiit, pricing, contact.
+- Scope: plumbing for businesses anywhere in Bhubaneswar — hotels and guest houses, offices (Infocity), hostels and PGs (KIIT/Patia), shops, restaurants and cafes, apartment societies, small commercial buildings. Work: urgent repairs (leaks, blocked toilets and drains, flush and tap faults across many washrooms), overhead tank/sump and motor lines, geyser fitting in rooms, pantry and kitchen lines, new lines and washroom fit-outs, regular maintenance visits. AMC (homes and commercial): price on request, "Call or WhatsApp us for a quote". No figure, no free-visit wording. Do not show the home AMC row on this page. GST invoice on request. Work timed around business hours where possible; late-night visits on request (+₹300) — link to /pricing/ rather than restating. Do not claim client names, numbers of buildings, response times or dedicated teams. Questions: "How much does commercial plumbing cost in Bhubaneswar?", "Do you offer plumbing maintenance contracts (AMC) for hotels and offices?", "Can you work around our business hours?". Links: drain-cleaning, new-bathroom-and-house-plumbing, water-tank-and-motor-repair, areas/infocity, areas/kiit, pricing, contact.
 
 ## Service pages — repairs (nearby areas around Chandrasekharpur + all of Bhubaneswar)
 
@@ -53,13 +53,13 @@ Title rule: ≤60 characters, ends "| Mahapatra Plumbing" (or "| Mahapatra Plumb
 
 ### leak-and-blockage-repair
 - url /services/leak-and-blockage-repair/ · page_tag Leak
-- primary: pipe leakage repair near me (use once naturally; H1 uses "Tap, Flush & Pipe Leak Repair in Bhubaneswar") · secondary: tap repair near me, toilet repair near me, flush tank repair near me, toilet seat repair near me, water leakage detection services near me (use variants without repeating "near me")
-- Prices: minor fix from ₹249; tap/jet spray/flush kit install ₹299–₹799 + parts. Questions: "How much does tap repair cost in Bhubaneswar?", "Why is my flush tank running all the time?", "How do I find a hidden water leak at home?". Links: pipeline-and-concealed-plumbing, bathroom-and-kitchen-fittings, drain-cleaning, pricing, areas/patia.
+- primary: pipe leakage repair in bhubaneswar ("pipe leakage repair near me" once naturally; H1 uses "Tap, Flush & Pipe Leak Repair in Bhubaneswar") · secondary: tap repair near me, toilet repair near me, flush tank repair near me, toilet seat repair near me, water leakage detection services near me (use variants without repeating "near me")
+- Prices: minor fix from ₹249; tap/jet spray/flush kit install ₹299–₹799 + parts. Questions: "How much does tap repair cost in Bhubaneswar?", "Why is my flush tank running all the time?", "Why is my toilet leaking at the base?". Hidden leaks: a short non-question pointer to the pipeline page (pipeline owns that question). Links: pipeline-and-concealed-plumbing, bathroom-and-kitchen-fittings, drain-cleaning, pricing, areas/patia.
 
 ### bathroom-and-kitchen-fittings
 - url /services/bathroom-and-kitchen-fittings/ · page_tag Fittings
 - primary: bathroom fitting plumber near me (once naturally; H1 "Bathroom & Kitchen Fittings Installation in Bhubaneswar") · secondary: bathroom fitters, tap installation, kitchen sink repair near me, toilet installation, sink installation, washing machine inlet and drain fitting
-- Scope: single-item installs: taps, mixers, showers, jet spray, wash basin, western/Indian WC, flush tank, sink, RO inlet/outlet, washing machine inlet and drain (outlet) fitting, angle valves. Give washing machine fitting its own short H3 section (research: 'washer drain plumbing' 90/mo): water inlet point + tap, drain pipe to floor trap or sink waste, fixing water spilling from the drain hose. No gas pipe work. Price: ₹299–₹799 + parts for tap/jet spray/flush kit; others quote at visit. We supply parts or fit yours. Questions: "How much does tap installation cost in Bhubaneswar?", "Can you fit bathroom fittings I bought online?", "Do you install wash basins and western toilets?". Links: renovation (whole bathroom), leak repair, geyser, pricing, areas/infocity.
+- Scope: single-item installs: taps, mixers, showers, jet spray, wash basin, western/Indian WC, flush tank, sink, RO inlet/outlet, washing machine inlet and drain (outlet) fitting, angle valves. Give washing machine fitting its own question H2 ("How do you fit a washing machine inlet and drain pipe?") (research: 'washer drain plumbing' 90/mo): water inlet point + tap, drain pipe to floor trap or sink waste, fixing water spilling from the drain hose. No gas pipe work. Price: ₹299–₹799 + parts for tap/jet spray/flush kit; others quote at visit. We supply parts or fit yours. Questions: "How much does tap installation cost in Bhubaneswar?", "Can you fit bathroom fittings I bought online?", "Do you install wash basins and western toilets?". Links: renovation (whole bathroom), leak repair, geyser, pricing, areas/infocity.
 
 ### water-tank-and-motor-repair
 - url /services/water-tank-and-motor-repair/ · page_tag Motor
@@ -70,7 +70,7 @@ Title rule: ≤60 characters, ends "| Mahapatra Plumbing" (or "| Mahapatra Plumb
 - url /services/pipeline-and-concealed-plumbing/ · page_tag Pipeline
 - primary: concealed pipe leakage repair · secondary: internal pipe leak repair, cpvc pipe fitting, pipeline repair bhubaneswar
 - H1: Concealed Pipeline Repair & CPVC Plumbing in Bhubaneswar
-- Scope: leaks inside walls/floors, damp patches, rerouting, replacing old GI with CPVC/UPVC/PPR, new lines. Free site visit + written estimate. No leak-detection equipment claims. Questions: "How much does concealed pipe leakage repair cost in Bhubaneswar?", "How do I know a pipe is leaking inside the wall?", "Should I replace GI pipes with CPVC?" (renovation page already asks a similar question — phrase this one about leaking/old lines in an existing house, not renovation). Links: renovation, leak repair, new-house plumbing, pricing, areas/sailashree-vihar.
+- Scope: leaks inside walls/floors, damp patches, rerouting, replacing old GI with CPVC/UPVC/PPR, new lines. Free site visit + written estimate. No leak-detection equipment claims. Questions: "How much does concealed pipe leakage repair cost in Bhubaneswar?", "How do I find a hidden water leak in a wall or floor?" (pipeline owns hidden-leak / water leak detection), "Should I replace GI pipes with CPVC?" (renovation page already asks a similar question — phrase this one about leaking/old lines in an existing house, not renovation). Links: renovation, leak repair, new-house plumbing, pricing, areas/sailashree-vihar.
 
 ### water-tank-cleaning (NEW page, added 27 Nov 2026 after keyword research)
 - url /services/water-tank-cleaning/ · page_tag TankClean · page_type service · Big work + repair: all of Bhubaneswar, homes, apartments and businesses
@@ -78,14 +78,14 @@ Title rule: ≤60 characters, ends "| Mahapatra Plumbing" (or "| Mahapatra Plumb
 - H1: Water Tank & Sump Cleaning in Bhubaneswar
 - Research: 'water tank cleaning' 140/mo, 'water tank cleaning services near me' 90/mo, Google autocomplete 'water tank cleaning services in bhubaneswar price list' and '...near patia bhubaneswar'. Low competition (SD 9–32).
 - Scope: overhead tanks (plastic/Sintex-type and concrete), underground sumps, apartment tanks. Price: owner decision, NO price mention at all (no figure, no cost H2). Just "Call or WhatsApp us for a quote." Do not describe the cleaning method, chemicals, machines or disposal; do not say who does the work. No warranty (cleaning job). Add to Facts to confirm: price per tank, whether the owner wants the method described.
-- Questions: "What does water tank cleaning include?", "How often should a water tank be cleaned?", "Can you clean the underground sump and overhead tank in one visit?" (answer without promising a time; say both can be booked together). Links: water-tank-and-motor-repair, septic-tank-cleaning, commercial-plumbing, pricing, areas/patia.
+- Questions: "How often should a water tank be cleaned?", "What are the signs your water tank needs cleaning?", "Can you clean the underground sump and overhead tank together?" (answer without promising a time). No cost H2 or cost FAQ. "Call or WhatsApp us for a quote" at most 3 times. Links: water-tank-and-motor-repair, septic-tank-cleaning, commercial-plumbing, pricing, areas/patia.
 
 ### borewell-pump-and-pipe-repair (NEW page, added 27 Nov 2026 after keyword research)
 - url /services/borewell-pump-and-pipe-repair/ · page_tag Borewell · page_type service · all of Bhubaneswar
 - primary: borewell service near me (once naturally) · secondary: borewell repair bhubaneswar, borewell submersible pump, borewell motor repair, submersible pump repair near me, borewell pipe fitting
-- H1: Borewell Pump & Pipe Repair in Bhubaneswar
+- H1: Borewell Service: Pump & Pipe Repair in Bhubaneswar (title: "Borewell Service & Repair Bhubaneswar | Mahapatra Plumbing")
 - Research: 'borewell service near me' 260/mo (SD 9), 'borewell submersible pump' 40/mo, 'submersible pump repair near me' 30/mo.
-- Scope: plumbing side of existing borewells only: lifting and lowering the submersible pump, column/riser pipe replacement, pipe joint and connection leaks, non-return valve, borewell line to sump or overhead tank, low water flow checks. We do NOT drill new borewells. Say clearly: "We do not drill new borewells." Motor rewinding/electrical faults: say we check and tell you if a motor mechanic or electrician is needed (same rule as motor page). Price: NOT on the rate card. Say quote after inspection, part prices shared before fitting. Warranty 90 days on repair/installation workmanship.
+- Scope: plumbing side of existing borewells only: lifting and lowering the submersible pump, column/riser pipe replacement, pipe joint and connection leaks, non-return valve, borewell line to sump or overhead tank, low water flow checks. We do NOT drill new borewells. Say clearly: "We do not drill new borewells." Do not refer customers to a drilling contractor. Motor rewinding/electrical faults: say we check and tell you if a motor mechanic or electrician is needed (same rule as motor page). Price: NOT on the rate card. Say quote after inspection, part prices shared before fitting. Warranty 90 days on repair/installation workmanship.
 - Questions: "How much does borewell pump repair cost in Bhubaneswar?", "Why is my borewell giving less water?", "Do you drill new borewells?" (answer: no, we work on existing borewells). Links: water-tank-and-motor-repair, pipeline-and-concealed-plumbing, new-bathroom-and-house-plumbing, pricing, areas/nayapalli.
 
 ## Area pages (small repairs nearby; mention big works anywhere in Bhubaneswar)
@@ -93,27 +93,27 @@ Title rule: ≤60 characters, ends "| Mahapatra Plumbing" (or "| Mahapatra Plumb
 Rules for all 8: follow "Area pages" in content-brief.md (≥60% unique). 600–900 words. Structure: answer-first intro (plumber in {area}, District Center Chandrasekharpur base, phone) → common jobs in this area (tied to its building types) → services list linking to service pages (repairs first, then bigger jobs anywhere in Bhubaneswar) → small price highlights (3 rows max, link to /pricing/) → nearby areas linking to the other area pages → [MAP: google-maps-listing] + "Get directions" → 4–5 area-specific FAQs (not pricing-owned questions). JSON-LD: Plumber, WebSite, WebPage (keywords, spatialCoverage), FAQPage, BreadcrumbList (Home > {Area}). Only use landmarks you are confident exist in that area; if unsure, describe building types instead of naming places. page_type locality.
 
 ### areas/chandrasekharpur
-- url /areas/chandrasekharpur/ · page_tag Chandrasekharpur · keywords: plumber in chandrasekharpur, plumber in damana, plumber in bhubaneswar
+- url /areas/chandrasekharpur/ · page_tag Chandrasekharpur · keywords: plumber in chandrasekharpur, plumber in damana
 - H1: Plumber in Chandrasekharpur, Bhubaneswar · Angle: home base (District Center); apartments and houses; Damana nearby.
 
 ### areas/patia
-- url /areas/patia/ · page_tag Patia · keywords: plumber in patia, plumbing services patia, plumber in bhubaneswar
+- url /areas/patia/ · page_tag Patia · keywords: plumber in patia, plumbing services patia
 - H1: Plumber in Patia, Bhubaneswar · Angle: houses, rented flats and apartments in Patia; link to KIIT page for hostels.
 
 ### areas/kiit
-- url /areas/kiit/ · page_tag KIIT · keywords: plumber near kiit, plumber for hostel near kiit, plumber in patia
-- H1: Plumber near KIIT, Bhubaneswar (Hostels, PGs & Homes) · Angle: hostels, PGs, student flats; many bathrooms, frequent blockages and flush/tap leaks; AMC from ₹999 per quarter for owners.
+- url /areas/kiit/ · page_tag KIIT · keywords: plumber near kiit, plumber for hostel near kiit
+- H1: Plumber near KIIT, Bhubaneswar (Hostels, PGs & Homes) · Angle: hostels, PGs, student flats; many bathrooms, frequent blockages and flush/tap leaks; AMC price on request for owners.
 
 ### areas/infocity
-- url /areas/infocity/ · page_tag Infocity · keywords: plumber in infocity bhubaneswar, office plumbing infocity, plumber in chandrasekharpur
+- url /areas/infocity/ · page_tag Infocity · keywords: plumber in infocity bhubaneswar, office plumbing infocity
 - H1: Plumber in Infocity, Bhubaneswar (Offices & Homes) · Angle: offices, pantries, washrooms, apartments; work timed around office hours (do not promise after-hours beyond the late-night policy).
 
 ### areas/niladri-vihar
-- url /areas/niladri-vihar/ · page_tag NiladriVihar · keywords: plumber in niladri vihar, plumber in chandrasekharpur
+- url /areas/niladri-vihar/ · page_tag NiladriVihar · keywords: plumber in niladri vihar
 - H1: Plumber in Niladri Vihar, Bhubaneswar · Angle: independent houses with overhead tanks and sumps, motor lines.
 
 ### areas/sailashree-vihar
-- url /areas/sailashree-vihar/ · page_tag SailashreeVihar · keywords: plumber in sailashree vihar, plumber in chandrasekharpur
+- url /areas/sailashree-vihar/ · page_tag SailashreeVihar · keywords: plumber in sailashree vihar
 - H1: Plumber in Sailashree Vihar, Bhubaneswar · Angle: older houses needing GI-to-CPVC replacement, concealed leaks, bathroom upgrades.
 
 ### areas/jayadev-vihar

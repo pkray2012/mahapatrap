@@ -34,4 +34,4 @@ Others: Lokanath Home Services 4.7★ (166), Saroj Sai 4.9★ (263), Pk plumbing
 - Mahapatra does septic tank cleaning → septic/sewage is a priority page (~460 searches/month)
 - Service area: the site states "entire Bhubaneswar" for all work
 - SEO focus: big and new works (bathroom & kitchen renovation, new bathroom & house plumbing, sewerage & drainage, septic tank cleaning) target city-wide keywords; small repair works target nearby-locality keywords around Chandrasekharpur (e.g. "plumber in chandrasekharpur", "plumber in patia", "plumber near kiit")
-- Locality pages: 6 near Chandrasekharpur (Chandrasekharpur, Patia, Niladri Vihar, Sailashree Vihar, Jayadev Vihar, Nayapalli). Madanpur is not targeted anywhere on the site (owner decision, 27 Nov 2026).
+- Locality pages: 8 area pages (Chandrasekharpur, Patia, KIIT, Infocity, Niladri Vihar, Sailashree Vihar, Jayadev Vihar, Nayapalli), per sitemap.md. Site total: 26 pages, 13 of them service pages. Madanpur is not targeted anywhere on the site (owner decision, 27 Nov 2026).

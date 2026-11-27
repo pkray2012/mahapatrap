@@ -4,11 +4,11 @@ page_type: pricing
 whatsapp_prefill: "Hi, I need a quote for plumbing work in Bhubaneswar [Page: Pricing]"
 page_tag: Pricing
 meta_title: Plumber Charges in Bhubaneswar 2026 | Mahapatra Plumbing
-meta_description: "Plumber charges in Bhubaneswar: visit ₹199–₹349 adjusted in your bill, minor fixes from ₹249, 90-day warranty. Call +91 9668875352."
+meta_description: "Plumber charges and price list in Bhubaneswar: visit ₹199–₹349 adjusted in your bill, minor fixes from ₹249, 90-day repair warranty. Call +91 9668875352."
 primary_keyword: plumber charges in bhubaneswar
-secondary_keywords: [plumber visit charge bhubaneswar, plumbing rate list bhubaneswar, how much does a plumber charge per visit in bhubaneswar]
+secondary_keywords: [plumber visit charge bhubaneswar, plumbing rate list bhubaneswar, plumber price list bhubaneswar, how much does a plumber charge per visit in bhubaneswar]
 h1: "Plumber Charges in Bhubaneswar: 2026 Rate Card"
-word_count: 895
+word_count: 891
 ---
 
 # Plumber Charges in Bhubaneswar: 2026 Rate Card
@@ -23,9 +23,9 @@ Prices below are labour charges. Parts are extra.
 
 [IMAGE: plumber-estimate-bhubaneswar.webp | alt="Mahapatra plumber explaining a written estimate to a homeowner in Bhubaneswar" | after intro]
 
-## Plumbing rate list in Bhubaneswar (2026)
+## Plumber price list in Bhubaneswar (2026)
 
-Rates updated 27 November 2026.
+This plumbing rate list in Bhubaneswar was updated on 27 November 2026.
 
 ### Small repairs
 
@@ -35,7 +35,7 @@ Rates updated 27 November 2026.
 | [Minor fix (washer, small leak, loose fitting)](/services/leak-and-blockage-repair/) | from ₹249 | Parts extra. |
 | [Geyser service](/services/geyser-installation-and-repair/) | ₹499 | Parts extra. |
 | [Water motor / pump repair](/services/water-tank-and-motor-repair/) | from ₹399 | Parts extra. |
-| AMC check-up (homes) | Price on request | Home check-up. |
+| AMC check-up (homes) | Price on request | Call or WhatsApp us for a quote. |
 | [Commercial AMC (hostels, PGs, offices, shops, hotels)](/services/commercial-plumbing/) | Price on request | Call or WhatsApp us for a quote. |
 
 ### Installations
@@ -73,7 +73,7 @@ Rates updated 27 November 2026.
 
 ## How much does a plumber charge per visit in Bhubaneswar?
 
-A plumber visit from Mahapatra Plumbing Services costs ₹199–₹349. If you go ahead with the work, this visit charge is adjusted in the final bill, so you pay it only once. Late-night or early-morning visits cost ₹300 extra. Ask for the exact visit charge when you call +91 9668875352.
+A plumber visit from Mahapatra Plumbing Services costs ₹199–₹349. If you go ahead with the work, this visit charge is adjusted in the final bill, so you pay it only once. Late-night or early-morning visits cost ₹300 extra, subject to availability.
 
 The plumber visit charge in Bhubaneswar covers the trip and the inspection.
 
@@ -85,7 +85,7 @@ No. The prices on this rate card are labour charges only. Taps, pipes, flush kit
 
 ## Why do bigger jobs need a site visit first?
 
-Bathroom renovation, new house plumbing and sewerage lines differ in every building. Pipe length, walls and fittings change the cost. So we visit the site for free and give you a written estimate before work starts. The same applies to concealed pipeline repair.
+Bathroom renovation, new house plumbing, sewerage lines, concealed pipeline repair and bigger commercial jobs differ in every building. Pipe length, walls and fittings change the cost. So we visit the site for free and give you a written estimate before work starts. Small repairs have the ₹199–₹349 visit charge instead.
 
 [CTA: call+whatsapp | location=inline_content]
 
@@ -109,11 +109,11 @@ At Mahapatra Plumbing Services, the visit charge is ₹199–₹349. Minor fixes
 
 ### Do I pay the visit charge if I go ahead with the repair?
 
-You pay it only once. When you go ahead with the work, the ₹199–₹349 visit charge is adjusted in your final bill. If you decide not to go ahead after the inspection, you pay only the visit charge. Either way, you get the price before any work starts.
+You pay it only once. When you go ahead with the work, the ₹199–₹349 visit charge is adjusted in your final bill. If you decide not to go ahead after the inspection, you pay only the visit charge.
 
-### How much does it cost to unclog a toilet or drain in Bhubaneswar?
+### How do I get the exact price before the plumber starts?
 
-At Mahapatra Plumbing Services, a blocked sink or floor trap starts at ₹349. Toilet blockage removal starts at ₹999. The ₹199–₹349 visit charge is adjusted in the final bill if the work goes ahead. You get the price before work starts. Call or WhatsApp +91 9668875352.
+Send a photo or short video of the problem on WhatsApp to +91 9668875352. We tell you which rate on this list applies. At the visit, the plumber checks the problem and gives you a written estimate before any work starts. Part prices are shared before fitting. Renovation, new house and sewerage jobs get a free site visit.
 
 ### Is there an extra charge for a late-night plumber in Bhubaneswar?
 
@@ -125,7 +125,7 @@ Yes. Repair and installation jobs by Mahapatra Plumbing Services carry a 90-day 
 
 ### Do you give a GST invoice for plumbing work?
 
-Yes, a GST invoice is available on request. You can pay by cash, UPI or bank transfer. This helps shops, offices, hostels and PGs that need a proper bill for their accounts. Just ask for the GST invoice when you book or before the job is closed.
+Yes, a GST invoice is available on request. You can pay by cash, UPI or bank transfer. Just ask for the GST invoice when you book or before the job is closed.
 
 [CTA: call+whatsapp | location=faq]
 
@@ -143,7 +143,7 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
       "url": "https://mahapatraplumbing.in/",
       "logo": "https://mahapatraplumbing.in/images/logo-horizontal.png",
       "image": "https://mahapatraplumbing.in/images/og-default.webp",
-      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty.",
+      "description": "Local plumber in Chandrasekharpur serving all of Bhubaneswar: leak and tap repair, geyser installation, drain cleaning, septic tank cleaning, bathroom renovation and new house plumbing. Written estimate before work, 90-day workmanship warranty on installation and repair jobs.",
       "telephone": "+91-9668875352",
       "email": "amareshmohapatra143@gmail.com",
       "priceRange": "₹199–₹2,999+",
@@ -354,8 +354,10 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "AMC check-up for homes (per quarter)"
-            }
+              "name": "AMC check-up for homes"
+            },
+            "priceCurrency": "INR",
+            "description": "Price on request. Call or WhatsApp us for a quote."
           },
           {
             "@type": "Offer",
@@ -406,8 +408,8 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
       "url": "https://mahapatraplumbing.in/pricing/",
       "name": "Plumber Charges in Bhubaneswar 2026 | Mahapatra Plumbing",
       "headline": "Plumber Charges in Bhubaneswar: 2026 Rate Card",
-      "description": "Plumber charges in Bhubaneswar: visit ₹199–₹349 adjusted in your bill, minor fixes from ₹249, 90-day warranty. Call +91 9668875352.",
-      "keywords": "plumber charges in bhubaneswar, plumber visit charge bhubaneswar, plumbing rate list bhubaneswar, how much does a plumber charge per visit in bhubaneswar",
+      "description": "Plumber charges and price list in Bhubaneswar: visit ₹199–₹349 adjusted in your bill, minor fixes from ₹249, 90-day repair warranty. Call +91 9668875352.",
+      "keywords": "plumber charges in bhubaneswar, plumber visit charge bhubaneswar, plumbing rate list bhubaneswar, plumber price list bhubaneswar, how much does a plumber charge per visit in bhubaneswar",
       "isPartOf": {
         "@id": "https://mahapatraplumbing.in/#website"
       },
@@ -440,15 +442,15 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
           "name": "Do I pay the visit charge if I go ahead with the repair?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You pay it only once. When you go ahead with the work, the ₹199–₹349 visit charge is adjusted in your final bill. If you decide not to go ahead after the inspection, you pay only the visit charge. Either way, you get the price before any work starts."
+            "text": "You pay it only once. When you go ahead with the work, the ₹199–₹349 visit charge is adjusted in your final bill. If you decide not to go ahead after the inspection, you pay only the visit charge."
           }
         },
         {
           "@type": "Question",
-          "name": "How much does it cost to unclog a toilet or drain in Bhubaneswar?",
+          "name": "How do I get the exact price before the plumber starts?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "At Mahapatra Plumbing Services, a blocked sink or floor trap starts at ₹349. Toilet blockage removal starts at ₹999. The ₹199–₹349 visit charge is adjusted in the final bill if the work goes ahead. You get the price before work starts. Call or WhatsApp +91 9668875352."
+            "text": "Send a photo or short video of the problem on WhatsApp to +91 9668875352. We tell you which rate on this list applies. At the visit, the plumber checks the problem and gives you a written estimate before any work starts. Part prices are shared before fitting. Renovation, new house and sewerage jobs get a free site visit."
           }
         },
         {
@@ -472,7 +474,7 @@ Yes, a GST invoice is available on request. You can pay by cash, UPI or bank tra
           "name": "Do you give a GST invoice for plumbing work?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, a GST invoice is available on request. You can pay by cash, UPI or bank transfer. This helps shops, offices, hostels and PGs that need a proper bill for their accounts. Just ask for the GST invoice when you book or before the job is closed."
+            "text": "Yes, a GST invoice is available on request. You can pay by cash, UPI or bank transfer. Just ask for the GST invoice when you book or before the job is closed."
           }
         }
       ]
