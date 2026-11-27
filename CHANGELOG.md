@@ -4,6 +4,7 @@ All changes to mahapatraplumbing.in are recorded here, newest first.
 
 ## 2026-11-27
 
+- Reviews grid: added a rating summary card (5.0★, 45 reviews, Read all reviews + Leave a review links) as the last card so the grid is always full (5+1 = 6, 2+1 = 3); separate button removed. axe 0 violations.
 - Design polish pass (CSS/components only, no copy changes; docs/audits/2026-11-27-design-polish.md): colour tokens in one place, white / #EAF2FA section alternation with orange H2 accent, header "Get a Quote" now navy outline (Call is the only filled primary) + current-page nav state, header logo 54 px on desktop (re-exported 2×), blue focus ring (orange on navy), form borders 3.44:1, Book a Visit form beside its text on desktop, 2-column checklists and side-by-side map card on desktop, zebra rate tables with right-aligned prices, one card style with hover/open states, footer in 2-column lists on phones and wider first column on desktop, reduced-motion respected.
 - Logo fix (owner approved): orange arrows beside the PLUMBING SERVICES ribbon redrawn as clean, equal triangles with equal gaps (were jagged, unequal, one touching the ribbon). Header logo re-exported, site rebuilt.
 - Logo fix: letter holes in A, P, A, R, A were filled because each counter was drawn twice in the owner's SVG (even-odd fill cancelled them). Removed 8 duplicate subpaths, re-exported header PNG, rebuilt site.

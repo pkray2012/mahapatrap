@@ -281,7 +281,18 @@
   .revs-scroll { overflow-x: auto; scroll-snap-type: x mandatory; margin: 1rem 0 0; padding: .25rem .125rem 1rem; border-radius: 1rem; }
   .revs { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(16rem, 85%); gap: 1rem; }
   .swipe-hint { font-size: .9375rem; font-weight: 600; color: var(--color-muted); margin: -.25rem 0 1rem; }
-  @media (min-width: 768px) { .revs-scroll { overflow: visible; } .revs { grid-auto-flow: row; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); } }
+  @media (min-width: 768px) { .revs-scroll { overflow: visible; } .revs { grid-auto-flow: row; grid-template-columns: repeat(2, minmax(0, 1fr)); } .rev-cta-wide { grid-column: 1 / -1; } .rev-cta-wide .rev-cta-inner { flex-direction: row; flex-wrap: wrap; column-gap: 1.5rem; } }
+  @media (min-width: 1024px) { .rev-cta-wide .rev-cta-inner { flex-direction: column; } }
+  @media (min-width: 1024px) { .revs { grid-template-columns: repeat(3, minmax(0, 1fr)); } .rev-cta-wide { grid-column: auto; } }
+  .rev-cta { background: var(--color-tint); border-color: var(--color-line); text-align: center; align-items: center; }
+  .rev-cta::before { content: none; }
+  .rev-cta-inner { display: flex; flex-direction: column; gap: .75rem; align-items: center; justify-content: center; height: 100%; }
+  .rev-cta .stars { justify-content: center; }
+  .rev-score { font-size: 2.75rem; font-weight: 800; line-height: 1; color: var(--color-navy); margin: 0; }
+  .rev-score span { color: var(--color-orange); margin-left: .125rem; }
+  .rev-count { font-weight: 600; color: var(--color-navy); margin: 0; }
+  .rev-cta .btn { align-self: center; }
+  .rev-write { font-weight: 600; color: var(--color-blue-dark); text-decoration: underline; text-underline-offset: 3px; display: inline-flex; align-items: center; min-height: 44px; justify-content: center; }
   .rev { scroll-snap-align: start; display: flex; flex-direction: column; gap: .5rem; }
   .stars { display: flex; gap: .125rem; color: var(--color-orange); }
   .stars .ico { width: 1.125rem; height: 1.125rem; }
